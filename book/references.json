@@ -768,5 +768,27 @@
     "type": "Revisión por pares; no es un nuevo estudio experimental",
     "verified": true,
     "note": "Verificado el 18-10-2026 en Cambridge University Press y repositorio institucional UWA: Quantitative Plant Biology 6:e6, 27-02-2025. Se usa para orientación y contexto; resultados concretos se atribuyen a estudios originales. No se copian ni adaptan figuras."
+  },
+  {
+    "id": "V01",
+    "title": "Mechanism of auxin perception by the TIR1 ubiquitin ligase",
+    "authors": "Tan et al.",
+    "year": 2007,
+    "url": "https://www.nature.com/articles/nature05731",
+    "doi": "10.1038/nature05731",
+    "type": "artículo primario estructural y mecanístico",
+    "verified": true,
+    "note": "Verificados título, DOI, año y resumen en Nature y PubMed 17410169 el 18-10-2026. Se utiliza el principio de auxina como pegamento molecular; la lámina no reconstruye geometría o coordenadas estructurales."
+  },
+  {
+    "id": "V02",
+    "title": "Reporters for sensitive and quantitative measurement of auxin response",
+    "authors": "Liao et al.",
+    "year": 2015,
+    "url": "https://www.nature.com/articles/nmeth.3279",
+    "doi": "10.1038/nmeth.3279",
+    "type": "artículo primario de reporteros vegetales",
+    "verified": true,
+    "note": "Verificados registro de Nature Methods, PubMed 25643149 y texto accesible en PMC4344836 el 18-10-2026. La página primaria indica una corrección de 29-10-2015. R2D2 se describe como lectura semicuantitativa de entrada; la ilustración usa un sensor y una referencia conceptuales, sin calibración ni reconstrucción experimental."
   }
 ]

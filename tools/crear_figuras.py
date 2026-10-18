@@ -200,5 +200,8 @@ ax[0].set_title('Un ciclo de razonamiento')
 ax[1].barh(['Datos','Estructura','Parámetros','Algoritmo'],[.8,.9,.5,.3],color=['#167d9a','#d87826','#238674','#8262a3']);ax[1].set(xlabel='Magnitud ilustrativa, sin medida empírica',title='Incertidumbres diferentes',xlim=(0,1))
 save(fig,'f26_investigar','Del resultado numérico a una conclusión defendible',['c00','c31','c33','c34','c35','c37'],'A: cada predicción debe conectarse con una pregunta, supuestos y pruebas. B: esquema cualitativo de fuentes de incertidumbre; las alturas son arbitrarias y no comparan riesgos reales. Un ajuste excelente no elimina errores de estructura, observación o extrapolación.',['investigación','reproducibilidad','IA','validación'])
 
-(OUT.parent.parent/'figures.json').write_text(json.dumps(META,ensure_ascii=False,indent=2),encoding='utf8')
+catalog=OUT.parent.parent/'figures.json'
+mechanisms=[f for f in json.loads(catalog.read_text(encoding='utf8')) if f.get('kind')=='mechanism'] if catalog.exists() else []
+for f in META:f['kind']='model'
+catalog.write_text(json.dumps(META+mechanisms,ensure_ascii=False,indent=2),encoding='utf8')
 print('Figuras originales:',len(META))

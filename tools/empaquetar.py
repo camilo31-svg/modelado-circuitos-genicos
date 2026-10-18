@@ -18,7 +18,7 @@ manifest['icons']=[dict(src=f'assets/icon-{n}.png',sizes=f'{n}x{n}',type='image/
 for name in ['crear_figuras.py','construir_libro.py','crear_cuadernos.py','validar_material.py','empaquetar.py']:
     src=BASE/'work'/name
     if src.exists() and src.resolve()!=(TOOLS/name).resolve():shutil.copy2(src,TOOLS/name)
-(TOOLS/'requirements-build.txt').write_text('numpy>=2.0,<3\nscipy>=1.14,<2\nmatplotlib>=3.9,<4\nreportlab>=4,<5\npypdf>=5,<7\nmarkdown>=3.7,<4\nbeautifulsoup4>=4.12,<5\npillow>=11,<13\n',encoding='utf8')
+(TOOLS/'requirements-build.txt').write_text('numpy>=2.0,<3\nscipy>=1.14,<2\nmatplotlib>=3.9,<4\nreportlab>=4,<5\npypdf>=5,<7\nmarkdown>=3.7,<4\nbeautifulsoup4>=4.12,<5\npillow>=11,<13\nnbformat>=5,<6\n',encoding='utf8')
 versions=['# Entorno validado el 18-10-2026; no sustituye requirements.txt.','Python=='+platform.python_version()]
 for pkg in ['numpy','scipy','matplotlib','reportlab','pypdf','markdown','beautifulsoup4','pillow']:
     versions.append(pkg+'=='+importlib.metadata.version(pkg))
@@ -42,7 +42,7 @@ version=digest.hexdigest()[:14]
 sw=r'''const VERSION="__VERSION__";
 const PREFIX='atlas-circuitos:'+self.registration.scope+':';
 const CACHE=PREFIX+VERSION;
-const CORE=['./','index.html','style.css','app.js','chapters.json','figures.json','references.json','meta.json','assets.json','manifest.webmanifest','assets/icon.svg'];
+const CORE=['./','index.html','style.css','molecules.css','app.js','chapters.json','figures.json','references.json','meta.json','assets.json','manifest.webmanifest','assets/icon.svg'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith(PREFIX)&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
 self.addEventListener('fetch',event=>{

@@ -1,12 +1,13 @@
 {
   "chapters": 38,
-  "words": 32965,
-  "figures": 26,
+  "words": 34803,
+  "figures": 38,
+  "mechanisms": 12,
   "equations": 210,
   "unique_equations": 208,
-  "references": 70,
+  "references": 72,
   "notebooks": 10,
-  "edition": "1.0",
+  "edition": "1.1",
   "review_date": "2026-10-18",
   "parts": [
     "I · Matemáticas desde cero",
@@ -16,5 +17,5 @@
     "V · Plantas y literatura",
     "VI · De estudiante a investigador"
   ],
-  "pages": 169
+  "pages": 191
 }

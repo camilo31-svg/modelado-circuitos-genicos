@@ -16,7 +16,8 @@
     ],
     "png": "assets/figures/f01_unidades.png",
     "svg": "assets/figures/f01_unidades.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f02_calculo",
@@ -36,7 +37,8 @@
     ],
     "png": "assets/figures/f02_calculo.png",
     "svg": "assets/figures/f02_calculo.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f03_exponencial",
@@ -54,7 +56,8 @@
     ],
     "png": "assets/figures/f03_exponencial.png",
     "svg": "assets/figures/f03_exponencial.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f04_escalas",
@@ -71,7 +74,8 @@
     ],
     "png": "assets/figures/f04_escalas.png",
     "svg": "assets/figures/f04_escalas.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f05_gen",
@@ -90,7 +94,8 @@
     ],
     "png": "assets/figures/f05_gen.png",
     "svg": "assets/figures/f05_gen.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f06_numerica",
@@ -108,7 +113,8 @@
     ],
     "png": "assets/figures/f06_numerica.png",
     "svg": "assets/figures/f06_numerica.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f07_hill",
@@ -126,7 +132,8 @@
     ],
     "png": "assets/figures/f07_hill.png",
     "svg": "assets/figures/f07_hill.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f08_feedback",
@@ -144,7 +151,8 @@
     ],
     "png": "assets/figures/f08_feedback.png",
     "svg": "assets/figures/f08_feedback.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f09_toggle",
@@ -162,7 +170,8 @@
     ],
     "png": "assets/figures/f09_toggle.png",
     "svg": "assets/figures/f09_toggle.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f10_represilador",
@@ -179,7 +188,8 @@
     ],
     "png": "assets/figures/f10_represilador.png",
     "svg": "assets/figures/f10_represilador.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f11_logica",
@@ -197,7 +207,8 @@
     ],
     "png": "assets/figures/f11_logica.png",
     "svg": "assets/figures/f11_logica.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f12_retrasos",
@@ -215,7 +226,8 @@
     ],
     "png": "assets/figures/f12_retrasos.png",
     "svg": "assets/figures/f12_retrasos.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f13_espacio",
@@ -234,7 +246,8 @@
     ],
     "png": "assets/figures/f13_espacio.png",
     "svg": "assets/figures/f13_espacio.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f14_probabilidad",
@@ -252,7 +265,8 @@
     ],
     "png": "assets/figures/f14_probabilidad.png",
     "svg": "assets/figures/f14_probabilidad.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f15_ssa",
@@ -270,7 +284,8 @@
     ],
     "png": "assets/figures/f15_ssa.png",
     "svg": "assets/figures/f15_ssa.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f16_rafagas",
@@ -288,7 +303,8 @@
     ],
     "png": "assets/figures/f16_rafagas.png",
     "svg": "assets/figures/f16_rafagas.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f17_observacion",
@@ -306,7 +322,8 @@
     ],
     "png": "assets/figures/f17_observacion.png",
     "svg": "assets/figures/f17_observacion.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f18_ajuste",
@@ -324,7 +341,8 @@
     ],
     "png": "assets/figures/f18_ajuste.png",
     "svg": "assets/figures/f18_ajuste.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f19_identificabilidad",
@@ -342,7 +360,8 @@
     ],
     "png": "assets/figures/f19_identificabilidad.png",
     "svg": "assets/figures/f19_identificabilidad.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f20_auxina",
@@ -361,7 +380,8 @@
     ],
     "png": "assets/figures/f20_auxina.png",
     "svg": "assets/figures/f20_auxina.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f21_raices",
@@ -380,7 +400,8 @@
     ],
     "png": "assets/figures/f21_raices.png",
     "svg": "assets/figures/f21_raices.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f22_memoria",
@@ -398,7 +419,8 @@
     ],
     "png": "assets/figures/f22_memoria.png",
     "svg": "assets/figures/f22_memoria.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f23_reloj",
@@ -416,7 +438,8 @@
     ],
     "png": "assets/figures/f23_reloj.png",
     "svg": "assets/figures/f23_reloj.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f24_recursos",
@@ -435,7 +458,8 @@
     ],
     "png": "assets/figures/f24_recursos.png",
     "svg": "assets/figures/f24_recursos.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f25_incertidumbre",
@@ -454,7 +478,8 @@
     ],
     "png": "assets/figures/f25_incertidumbre.png",
     "svg": "assets/figures/f25_incertidumbre.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
   },
   {
     "id": "f26_investigar",
@@ -477,6 +502,671 @@
     ],
     "png": "assets/figures/f26_investigar.png",
     "svg": "assets/figures/f26_investigar.svg",
-    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos.",
+    "kind": "model"
+  },
+  {
+    "id": "m01_expresion",
+    "code": "M01",
+    "title": "Del ADN a la proteína",
+    "chapters": [
+      "c09"
+    ],
+    "caption": "Cuatro procesos convierten una descripción biológica en balances. La transcripción produce ARN usando ADN como molde; la exportación cambia el compartimento del ARN; la traducción produce proteína usando ARN; el recambio elimina moléculas de la especie representada. Los moldes no se consumen por el mero hecho de producir una copia. La imagen incluye contexto vegetal y separa núcleo y citoplasma. Cada máquina molecular tiene una forma ilustrativa: su dibujo identifica una función, no reproduce una estructura atómica ni una proporción real de tamaños.",
+    "alt": "Cuatro paneles planos muestran polimerasa y ADN con ARN naciente, paso del ARN por un poro nuclear, ribosoma traduciendo un ARN intacto y dos rutas separadas de degradación de ARN y proteína. El ADN se dibuja como doble hélice; ARN y proteína se distinguen por forma y color.",
+    "tags": [
+      "transcripción",
+      "exportación",
+      "traducción",
+      "ARN",
+      "proteína",
+      "ribosoma",
+      "polimerasa",
+      "núcleo"
+    ],
+    "kind": "mechanism",
+    "panels": [
+      {
+        "label": "A",
+        "title": "Transcripción",
+        "text": "La polimerasa recorre el ADN y sintetiza ARN. En el balance del ARN entra una tasa de producción. Que aparezca una molécula nueva de ARN no significa que desaparezca el ADN utilizado como molde."
+      },
+      {
+        "label": "B",
+        "title": "Exportación",
+        "text": "El ARN atraviesa la envoltura nuclear. Si modelas ARN nuclear y citoplasmático por separado, el mismo transporte resta cantidad al primero y añade al segundo. Si solo conservas un estado total, ese intercambio interno se cancela."
+      },
+      {
+        "label": "C",
+        "title": "Traducción",
+        "text": "El ribosoma produce una cadena proteica mientras utiliza el ARN. Un ARN puede participar repetidamente. Por eso la producción de proteína no lleva automáticamente una pérdida equivalente de ARN en su ecuación."
+      },
+      {
+        "label": "D",
+        "title": "Recambio",
+        "text": "Nucleasas y proteasoma representan rutas diferentes. El ARN y la proteína tienen tasas de pérdida propias. Desaparecer del estado contado no significa que la materia deje de existir: pasa a fragmentos que este modelo puede omitir."
+      }
+    ],
+    "section": "### Leer la lámina M01: de cada flecha a un término\n\nSeñala primero los objetos que contarás: ARN y proteína. Después recorre las flechas y pregunta qué estado aumenta o disminuye. Transcribir añade ARN; traducir añade proteína; degradar resta la especie correspondiente. La identidad de la máquina que realiza el proceso no obliga a introducirla como variable: puedes mantenerla implícita si su disponibilidad permanece aproximadamente constante.\n\nEl modelo de dos estados de este capítulo agrupa varios pasos. Si la exportación tarda tanto como la producción o la pérdida, añade estados nuclear y citoplasmático. Antes de hacerlo, decide si los datos pueden distinguirlos. Más dibujo molecular no exige siempre más parámetros.\n\n**Compruébalo:** si duplicas la velocidad de traducción sin cambiar la síntesis ni la pérdida de ARN, aumenta la proteína estacionaria del modelo, mientras el ARN conserva su equilibrio. Añadir un término de consumo de ARN por cada proteína producida cambiaría esa predicción y necesitaría otro mecanismo.",
+    "refs": [],
+    "limitation": "El dibujo es una selección de pasos eucariotas; no representa procesamiento completo del ARN, todas las rutas de recambio ni parámetros de una célula concreta.",
+    "png": "assets/figures/m01_expresion_plana.png",
+    "source": "Ilustración docente original generada con la herramienta integrada de imágenes y revisada para comprobar relaciones, etiquetas y correspondencia con el modelo. Estilo plano; formas y tamaños esquemáticos.",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "sha256": "ef0ef6c14a0a1945ee3b1b24e7f66cfeb529163e8185a5d071e6dd86d8076a25"
+  },
+  {
+    "id": "m02_promotores",
+    "code": "M02",
+    "title": "Cómo se regula un promotor",
+    "chapters": [
+      "c16"
+    ],
+    "caption": "La regulación modifica la probabilidad o la tasa de iniciar transcripción. Se comparan un promotor disponible, un ejemplo de represión por ocupación que dificulta el acceso de la polimerasa y un ejemplo de activación por reclutamiento. El recuadro inferior muestra unión y disociación de un represor al ADN. Las arquitecturas son conceptuales y alternativas: no todos los promotores usan el mismo mecanismo ni la misma geometría. Una barra de inhibición es una relación reguladora, mientras las dos flechas opuestas describen procesos reversibles de unión.",
+    "alt": "Tres paneles muestran ADN con promotor, operador y gen; un dímero represor unido que dificulta la transcripción; y un activador que contacta con una polimerasa. Un recuadro inferior distingue represor libre y unido mediante flechas reversibles. Proteínas y ADN usan formas planas y colores consistentes.",
+    "tags": [
+      "promotor",
+      "operador",
+      "represión",
+      "activación",
+      "unión reversible",
+      "Hill",
+      "ocupación",
+      "ADN"
+    ],
+    "kind": "mechanism",
+    "panels": [
+      {
+        "label": "A",
+        "title": "Promotor disponible",
+        "text": "El promotor es una región del ADN y no una molécula separada del gen. La figura deja disponible el acceso de la maquinaria. Una producción basal distinta de cero permite representar fuga de expresión."
+      },
+      {
+        "label": "B",
+        "title": "Represión",
+        "text": "El represor unido dificulta una etapa de la transcripción en esta arquitectura conceptual. La barra perpendicular significa reducción de una tasa. No significa que la proteína corte o destruya el ADN."
+      },
+      {
+        "label": "C",
+        "title": "Activación",
+        "text": "El activador favorece el reclutamiento de la polimerasa en este ejemplo. La salida depende también de la disponibilidad de maquinaria y de otros estados del promotor; la presencia del activador no garantiza una tasa ilimitada."
+      },
+      {
+        "label": "Recuadro",
+        "title": "Unión reversible",
+        "text": "Represor libre más sitio disponible pueden formar un complejo y disociarse después. Son dos procesos con constantes diferentes. Si sus tiempos son rápidos frente a los demás, puedes aproximar la ocupación mediante una relación de equilibrio."
+      }
+    ],
+    "section": "### Leer la lámina M02: ocupación no es producción\n\nImagina cien copias de un sitio regulador. La fracción ocupada describe cuántas están unidas a un regulador, no cuántos ARN aparecen por hora. Para obtener una tasa de producción necesitas asociar a cada estado del promotor una actividad transcripcional. Esa segunda decisión conecta el dibujo con la función reguladora.\n\nLas flechas reversibles requieren dos constantes si representas explícitamente el complejo. Una aproximación rápida puede reunirlas en una constante de disociación. El exponente de una curva de Hill ajustada no prueba por sí solo que exista exactamente el dímero que aparece como ejemplo en el dibujo [D07].\n\n**Compruébalo:** si solo aumentas el número de sitios de unión, podrías reducir el regulador libre sin cambiar el total. Para interpretar una curva, aclara si su entrada es proteína libre, total o una señal proporcional a una de ellas.",
+    "refs": [
+      "D07"
+    ],
+    "limitation": "Se muestran mecanismos posibles de regulación, no una arquitectura universal. El dibujo del dímero no identifica la estequiometría a partir de una curva ajustada.",
+    "png": "assets/figures/m02_promotores_planos.png",
+    "source": "Ilustración docente original generada con la herramienta integrada de imágenes y revisada para comprobar relaciones, etiquetas y correspondencia con el modelo. Estilo plano; formas y tamaños esquemáticos.",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "sha256": "66b130194bef635b37df8122e4aaf3d3dcbc1a1ba8e8c16634c4d4bc7b41e5aa"
+  },
+  {
+    "id": "m03_interruptor",
+    "code": "M03",
+    "title": "Un interruptor de dos genes",
+    "chapters": [
+      "c13"
+    ],
+    "caption": "Cada gen produce un represor que inhibe al otro gen: A reprime B y B reprime A. Las flechas grises describen expresión; las conexiones de color terminadas en barra representan regulación. Los dos estados inferiores ilustran abundancias relativas opuestas. La flecha de perturbación entre estados indica que una intervención puede cambiar la cuenca de atracción bajo determinadas condiciones; no representa una reacción reversible entre proteínas A y B. La represión mutua proporciona una arquitectura para estudiar memoria, pero sus tasas y no linealidades determinan si aparecen realmente dos equilibrios estables.",
+    "alt": "Dos cassettes de ADN producen ARN y represores de colores distintos. El represor A se conecta mediante una inhibición al promotor B y el represor B al promotor A. Debajo se comparan estados conceptuales A alto/B bajo y B alto/A bajo, con ARN y proteínas correspondientes.",
+    "tags": [
+      "interruptor",
+      "toggle",
+      "bistabilidad",
+      "memoria",
+      "represión mutua",
+      "cuenca",
+      "promotor"
+    ],
+    "kind": "mechanism",
+    "panels": [
+      {
+        "label": "Circuito",
+        "title": "Dos inhibiciones cruzadas",
+        "text": "Empieza en la proteína A y sigue su línea hasta el promotor B. Repite desde B hasta el promotor A. Cerrar estas dos relaciones crea una realimentación positiva efectiva: A reduce a quien la reprime."
+      },
+      {
+        "label": "Estado A",
+        "title": "A alto y B bajo",
+        "text": "Con abundante A, la producción de B puede quedar reducida. Si B es escaso, disminuye su represión sobre A. El dibujo resume ese razonamiento; la estabilidad se comprueba resolviendo los balances y examinando perturbaciones."
+      },
+      {
+        "label": "Estado B",
+        "title": "B alto y A bajo",
+        "text": "La configuración opuesta puede sostenerse si los parámetros permiten un segundo equilibrio estable. No basta con intercambiar los colores: pérdidas, fuga, afinidades y asimetrías cambian la existencia y posición de los estados."
+      },
+      {
+        "label": "Perturbación",
+        "title": "Cambiar de cuenca",
+        "text": "Una perturbación suficientemente grande puede desplazar el estado a otra región de atracción. Una perturbación pequeña puede desaparecer. Esa distinción conecta memoria, nulclinas y estabilidad, sin convertir la flecha central en una reacción química."
+      }
+    ],
+    "section": "### Leer la lámina M03: una flecha de inhibición no elimina moléculas\n\nCuando A reprime B, se modifica la producción de B. La proteína B que ya existía puede seguir presente hasta perderse por degradación o dilución. Por eso debes distinguir una tasa regulada de producción de una tasa de pérdida. Bajar el promotor no equivale a borrar instantáneamente el estado.\n\nEn el modelo reducido del capítulo, las concentraciones de proteína condensan etapas de ARN y traducción. Los ribosomas de la lámina ayudan a recordar esas etapas omitidas; no añaden parámetros nuevos hasta que decides representarlas explícitamente.\n\nEl caso publicado del interruptor motivó el estudio de esta arquitectura [D01], pero la lámina y los cálculos son docentes. **Compruébalo:** plantea una condición inicial casi simétrica y otra muy asimétrica. Explica por qué observar dos trayectorias distintas durante un tiempo corto no demuestra todavía dos estados estacionarios estables.",
+    "refs": [
+      "D01"
+    ],
+    "limitation": "Los estados son conceptuales. La topología por sí sola no demuestra bistabilidad, ni la flecha central especifica un método experimental de conmutación.",
+    "png": "assets/figures/m03_interruptor_plano_v2.png",
+    "source": "Ilustración docente original generada con la herramienta integrada de imágenes y revisada para comprobar relaciones, etiquetas y correspondencia con el modelo. Estilo plano; formas y tamaños esquemáticos.",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "sha256": "b6a81398293e302ce26555bd98f962697bf90236c1bbc304f79f718fd870276f"
+  },
+  {
+    "id": "m04_oscilador",
+    "code": "M04",
+    "title": "Represión en ciclo",
+    "chapters": [
+      "c14"
+    ],
+    "caption": "Las tres relaciones se muestran por separado para evitar ambigüedad: C reprime A, A reprime B y B reprime C. Un represor de un panel es el producto de otro panel del mismo circuito. Las flechas grises representan el flujo de expresión y su reducción total cuando hay menos ARN; no describen una inhibición directa del ribosoma por el represor. El gráfico inferior es cualitativo y muestra fases distintas, sin datos ni valores de período. Para producir oscilaciones persistentes hacen falta condiciones dinámicas adicionales que se analizan con las ecuaciones.",
+    "alt": "Tres paneles muestran un represor unido al promotor de su gen diana y la producción de ARN y proteína de ese gen. Las relaciones son C sobre A, A sobre B y B sobre C. Debajo hay curvas cualitativas desfasadas de las proteínas A, B y C.",
+    "tags": [
+      "represilador",
+      "oscilador",
+      "represión",
+      "ciclo",
+      "fase",
+      "retraso",
+      "proteína"
+    ],
+    "kind": "mechanism",
+    "panels": [
+      {
+        "label": "A",
+        "title": "C reprime A",
+        "text": "La proteína C reduce la transcripción de A. El ARN A y la proteína A que ya existen conservan sus propias dinámicas de pérdida. La reducción de traducción total en el esquema es consecuencia de disponer de menos ARN A."
+      },
+      {
+        "label": "B",
+        "title": "A reprime B",
+        "text": "A actúa como regulador del segundo módulo. Reutilizar el mismo color en paneles distintos indica la misma especie del modelo. No significa que una sola molécula esté a la vez en dos posiciones."
+      },
+      {
+        "label": "C",
+        "title": "B reprime C",
+        "text": "La tercera relación cierra un lazo negativo. La recuperación de un módulo depende de cuánto tarda en perderse su represor. Esta secuencia ayuda a razonar sobre demoras, pero no sustituye el análisis de estabilidad."
+      },
+      {
+        "label": "Gráfico",
+        "title": "Respuesta conceptual",
+        "text": "Las curvas ilustran amplitud, período y desfase. Su forma no procede de un ajuste ni de una simulación con parámetros declarados. Para medir esas propiedades usa las trayectorias calculadas y comprueba que persisten tras el transitorio."
+      }
+    ],
+    "section": "### Leer la lámina M04: el circuito guarda tiempo en sus especies\n\nRecorre las relaciones en orden. Cuando C reduce A, el efecto no llega instantáneamente a todas las variables. El ARN y la proteína tienen tiempos propios; una proteína puede seguir reprimiendo aunque haya cambiado su producción. Esa persistencia aporta parte de la dinámica que un diagrama de conexiones no muestra.\n\nLos modelos pueden representar ARN y proteínas por separado o condensarlos en menos estados. No atribuyas a las curvas cualitativas de la lámina un período físico. El gráfico numérico del capítulo sí corresponde al modelo y a sus parámetros declarados.\n\nEl represilador original y sus desarrollos posteriores son casos de referencia [D02] [D03]. **Compruébalo:** simula una versión con menor no linealidad y explica si las oscilaciones se mantienen o se amortiguan. Un anillo de tres represiones no garantiza por sí mismo un ciclo límite.",
+    "refs": [
+      "D02",
+      "D03"
+    ],
+    "limitation": "Los paneles son relaciones del mismo circuito, no tres experimentos independientes. Las curvas inferiores son un esquema cualitativo sin escala temporal.",
+    "png": "assets/figures/m04_oscilador_plano_v2.png",
+    "source": "Ilustración docente original generada con la herramienta integrada de imágenes y revisada para comprobar relaciones, etiquetas y correspondencia con el modelo. Estilo plano; formas y tamaños esquemáticos.",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "sha256": "b6ac15d7a6800d0f0c3914ea6d0528e2b8b59ea109a9a0b9cd44bc993ec86d1d"
+  },
+  {
+    "id": "m05_rafagas",
+    "code": "M05",
+    "title": "Por qué aparecen ráfagas",
+    "chapters": [
+      "c21"
+    ],
+    "caption": "El estado del promotor y el número de ARN son variables diferentes. Un promotor que cambia entre estados de baja y alta actividad puede originar períodos de producción agrupada. La abundancia observada depende además de la pérdida del ARN y de la dinámica de proteína. Las tres células inferiores recuerdan que una población puede contener estados distintos aun compartiendo condiciones. La trayectoria dibujada es un esquema cualitativo: los tramos y descensos condensan eventos y no constituyen una realización exacta del algoritmo de Gillespie ni datos medidos.",
+    "alt": "Dos estados de promotor, inactivo y activo, se conectan con activación e inactivación. Una trayectoria conceptual alinea el estado del promotor con cambios del ARN. Tres células muestran cantidades diferentes de ARN y proteína, usando las mismas formas y colores para cada especie.",
+    "tags": [
+      "ráfagas",
+      "ruido",
+      "promotor",
+      "ON",
+      "OFF",
+      "ARN",
+      "Gillespie",
+      "variación celular"
+    ],
+    "kind": "mechanism",
+    "panels": [
+      {
+        "label": "A",
+        "title": "Promotor inactivo",
+        "text": "El estado OFF representa baja actividad dentro de este modelo. El represor dibujado es un mecanismo posible para visualizarlo. No todos los modelos telegráficos requieren identificar un represor concreto ni asumir producción exactamente nula."
+      },
+      {
+        "label": "B",
+        "title": "Promotor activo",
+        "text": "Durante ON se producen más ARN por unidad de tiempo. Las constantes de cambio de estado describen probabilidades de transición por tiempo, no una agenda regular de encendido. Una población permite observar muchas historias distintas."
+      },
+      {
+        "label": "C",
+        "title": "Trayectoria esquemática",
+        "text": "La producción agrupada se ilustra después de períodos ON. Los descensos bruscos resumen varias pérdidas en una escala de dibujo. En una SSA de nacimientos y muertes simples, cada reacción cambia el conteo en una sola molécula."
+      },
+      {
+        "label": "D",
+        "title": "Variación entre células",
+        "text": "ARN, proteína y señal fluorescente responden con tiempos distintos. No deduzcas un promotor ON a partir de una fotografía brillante. Una sola imagen tampoco permite separar ruido intrínseco, variación de contexto y error instrumental."
+      }
+    ],
+    "section": "### Leer la lámina M05: tres niveles que no debes confundir\n\nEl promotor tiene un estado discreto; los ARN tienen un conteo; la proteína o su fluorescencia tienen otra dinámica. Un cambio del primer nivel modifica las probabilidades de producción del segundo. La observación del tercero puede llegar después y estar filtrada por maduración y pérdida.\n\nLa lámina permite seguir la idea de una ráfaga, pero no estimar tasas leyendo el ancho de sus bloques. Para estimarlas necesitas datos y un modelo de observación. Las simulaciones SSA del capítulo anterior conservan eventos y tiempos explícitos.\n\nLos estudios de ruido celular ofrecen un marco para distinguir fuentes de variación [I03]. **Compruébalo:** compara un sistema de síntesis constante y otro con promotor telegráfico que tengan la misma media. Sus histogramas o correlaciones temporales pueden diferir aunque el promedio coincida. La media por sí sola no identifica el mecanismo.",
+    "refs": [
+      "I02",
+      "I03"
+    ],
+    "limitation": "La trayectoria es cualitativa y condensada; no permite leer tasas, conteos precisos ni duraciones de una simulación exacta.",
+    "png": "assets/figures/m05_rafagas_planas.png",
+    "source": "Ilustración docente original generada con la herramienta integrada de imágenes y revisada para comprobar relaciones, etiquetas y correspondencia con el modelo. Estilo plano; formas y tamaños esquemáticos.",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "sha256": "524c90068a11e9118f8a4b8fed77fbfa21cb9a3324a6aa38a86f9364d32f548d"
+  },
+  {
+    "id": "m06_auxina",
+    "code": "M06",
+    "title": "Auxina: una señal que reduce el sensor",
+    "chapters": [
+      "c26"
+    ],
+    "caption": "Un reportero portador de un degrón DII puede perder señal cuando aumenta la entrada de auxina. La ilustración conecta reconocimiento por TIR1/AFB dentro del sistema SCF, marcado con ubiquitina y degradación del sustrato por el proteasoma. La auxina favorece la asociación receptor-sustrato; no corta por sí misma el reportero. La referencia roja se mantiene constante por hipótesis para comparar la señal relativa. Un cociente sensor/referencia disminuye en este ejemplo; invertir el cociente invierte también su dirección de cambio. Las formas moleculares y el contraste entre células son conceptuales.",
+    "alt": "Cuatro paneles muestran un sensor DII abundante y una referencia, reconocimiento dependiente de auxina en el complejo SCF, marcado y degradación del reportero, y dos células con distinta señal verde pero referencia roja comparable. La auxina ocupa conceptualmente la interfaz entre receptor y sustrato.",
+    "tags": [
+      "auxina",
+      "DII",
+      "TIR1",
+      "AFB",
+      "SCF",
+      "ubiquitina",
+      "proteasoma",
+      "referencia",
+      "sensor",
+      "R2D2"
+    ],
+    "kind": "mechanism",
+    "panels": [
+      {
+        "label": "A",
+        "title": "Sensor y referencia",
+        "text": "El sensor une una lectura visible a un elemento sensible a degradación. La referencia proporciona otra señal para normalizar ciertas variaciones compartidas. Que ambas estén presentes no garantiza que todos los errores se cancelen."
+      },
+      {
+        "label": "B",
+        "title": "Reconocimiento dependiente de auxina",
+        "text": "La auxina puede favorecer la interacción entre receptor y sustrato como pegamento molecular. La lámina resume ese principio de reconocimiento, sin reconstruir geometría, afinidades ni un complejo estructural concreto [V01]."
+      },
+      {
+        "label": "C",
+        "title": "Marcado y degradación",
+        "text": "El sistema de ubiquitinación prepara el sustrato para su recambio. El reportero marcado pasa a degradación; el receptor y la ligasa no se representan como sustratos consumidos en ese mismo paso. Se omiten enzimas y ciclos auxiliares."
+      },
+      {
+        "label": "D",
+        "title": "Lectura relativa",
+        "text": "Más auxina reduce aquí el verde del sensor frente a la referencia roja supuestamente estable. DII/referencia baja; referencia/DII sube. Antes de comparar estudios o imágenes, identifica qué cociente se calculó y cómo se restó el fondo."
+      }
+    ],
+    "section": "### Leer la lámina M06: una pérdida también puede ser una entrada\n\nSigue la señal desde la auxina hasta el instrumento. La entrada favorece reconocimiento y recambio; el estado del sensor disminuye y después cambia la lectura. El signo negativo de la respuesta visual no significa que falte señalización. Es parte del diseño de un sensor basado en degradación.\n\nEl principio de pegamento molecular se apoya en estudios de percepción de auxina [V01]. Los sensores ratiométricos distinguen entrada hormonal y respuesta transcripcional y requieren interpretar la dirección del cociente [V02]. La lámina no reproduce ninguno de esos experimentos.\n\nEn la ecuación didáctica del capítulo, la entrada modifica una tasa efectiva de pérdida. Esa simplificación no representa por separado receptor, complejos y ubiquitinación. **Compruébalo:** si cambia la cantidad de receptor manteniendo la misma auxina, ¿podría cambiar la lectura? Sí: el instrumento biológico forma parte del mecanismo y su calibración depende del contexto.",
+    "refs": [
+      "P02",
+      "V01",
+      "V02"
+    ],
+    "limitation": "La referencia estable y la pérdida efectiva son supuestos del ejemplo. El esquema no proporciona una calibración de auxina ni estructuras moleculares exactas.",
+    "png": "assets/figures/m06_auxina_plana.png",
+    "source": "Ilustración docente original generada con la herramienta integrada de imágenes y revisada para comprobar relaciones, etiquetas y correspondencia con el modelo. Estilo plano; formas y tamaños esquemáticos.",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "sha256": "b9b04a9c7fd50f8b57d32e34044fd77522a9bac394099e58c5b583ab07add2b5"
+  },
+  {
+    "id": "m07_raiz",
+    "code": "M07",
+    "title": "De dos señales a un patrón en la raíz",
+    "chapters": [
+      "c27"
+    ],
+    "caption": "Una raíz se representa como un tejido de células con posición e identidad. La entrada A ocupa un dominio longitudinal y la entrada B una banda transversal. Una operación AND selecciona su intersección. El acercamiento celular muestra dos reguladores necesarios para favorecer una salida de expresión. Estos dominios y esta implementación son ejemplos conceptuales, no imágenes de raíces medidas ni reconstrucciones de un circuito publicado. El tamaño de una región coloreada no indica directamente concentración ni intensidad. El esquema ayuda a distinguir lógica dentro de una célula de geometría entre células.",
+    "alt": "Una raíz esquemática muestra paredes, núcleos, epidermis, corteza, estela, meristemo y zona de elongación. Dos dominios de entrada se superponen y generan una salida localizada. Un panel amplía una célula con dos reguladores, promotor y maquinaria de transcripción.",
+    "tags": [
+      "raíz",
+      "plantas",
+      "AND",
+      "lógica espacial",
+      "promotor",
+      "tejido",
+      "célula",
+      "dominio"
+    ],
+    "kind": "mechanism",
+    "panels": [
+      {
+        "label": "A",
+        "title": "Un tejido organizado",
+        "text": "Las células ocupan posiciones y tienen vecinas. La cofia protege el extremo; el meristemo y la elongación se distinguen de manera esquemática. Un modelo espacial necesita decidir qué geometría y qué tipos celulares conservar."
+      },
+      {
+        "label": "B",
+        "title": "Dominios de entrada",
+        "text": "A y B representan señales o actividades definidas por el modelo, no necesariamente moléculas que difundan. Un dominio puede proceder de identidad celular, desarrollo o una entrada externa. Su definición debe separarse de su intensidad."
+      },
+      {
+        "label": "C",
+        "title": "Intersección lógica",
+        "text": "AND selecciona las posiciones donde coinciden ambas condiciones. En una implementación continua necesitas funciones de respuesta y umbrales. Una frontera de color nítida en el dibujo no demuestra una frontera bioquímica infinitamente precisa."
+      },
+      {
+        "label": "D",
+        "title": "Mecanismo intracelular",
+        "text": "Dos reguladores favorecen aquí una salida en el promotor. La hebra verde representa ARN del reportero de forma esquemática; la producción de la proteína se agrupa como salida posterior. Otras implementaciones pueden realizar la misma lógica mediante mecanismos diferentes."
+      }
+    ],
+    "section": "### Leer la lámina M07: dónde y cuánto son preguntas distintas\n\nEmpieza por la identidad de cada entrada. Si A es una condición de tipo celular y B una condición de zona, su intersección define posiciones. Si son concentraciones, necesitas además especificar a partir de qué valores cuentan como activas. Mezclar ambas interpretaciones produce modelos difíciles de contrastar.\n\nEl trabajo sobre circuitos que reprograman raíces muestra el interés de combinar expresión y organización del tejido [P04]. Esta lámina usa dominios inventados para practicar ese razonamiento. No atribuye a sus colores una morfología experimental concreta.\n\n**Compruébalo:** representa diez células, asigna A a tres y B a cuatro, y calcula la intersección. Después suaviza los umbrales con funciones de Hill. Explica qué nuevas medidas harían falta para predecir la intensidad de la salida y no solo su localización.",
+    "refs": [
+      "P04",
+      "P13"
+    ],
+    "limitation": "La anatomía, los dominios y el mecanismo AND son esquemáticos. No se predice una arquitectura radicular real a partir de estos colores.",
+    "png": "assets/figures/m07_raiz_plana.png",
+    "source": "Ilustración docente original generada con la herramienta integrada de imágenes y revisada para comprobar relaciones, etiquetas y correspondencia con el modelo. Estilo plano; formas y tamaños esquemáticos.",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "sha256": "2452d82549682c1e1ef057a00a8091dff06739eefad68fe8b1dc69c8fe49dd3b"
+  },
+  {
+    "id": "m08_memoria",
+    "code": "M08",
+    "title": "Una exposición que deja memoria en el ADN",
+    "chapters": [
+      "c28"
+    ],
+    "caption": "El registro conceptual modifica el ADN durante una exposición y conserva esa configuración cuando termina el pulso. Antes del registro, un elemento STOP separa el promotor de la salida. La recombinación entre sitios adecuados puede separar ese fragmento y dejar el promotor conectado al reportero. Hay un sitio residual en cada producto del esquema. La persistencia representada es la del estado del ADN; la cantidad de proteína sigue cambiando por producción y pérdida. Este ejemplo de excisión enseña una posibilidad de memoria y no reconstruye el diseño concreto de un artículo.",
+    "alt": "Antes del pulso, un STOP flanqueado por dos sitios de igual orientación interrumpe una cassette de expresión. Una recombinasa aproxima los sitios. Después aparecen ADN principal registrado y un fragmento circular separado, cada uno con un sitio residual. Al terminar el pulso continúa la expresión desde la configuración registrada.",
+    "tags": [
+      "memoria",
+      "recombinasa",
+      "excisión",
+      "ADN",
+      "pulso",
+      "registro",
+      "STOP",
+      "reportero",
+      "plantas"
+    ],
+    "kind": "mechanism",
+    "panels": [
+      {
+        "label": "A",
+        "title": "Antes del pulso",
+        "text": "Los dos sitios flanquean el elemento que se separará y se representan con igual orientación. Las formas triangulares son símbolos de sitios, no secuencias. La actividad del promotor queda funcionalmente bloqueada por STOP en este ejemplo."
+      },
+      {
+        "label": "B",
+        "title": "Durante el pulso",
+        "text": "La recombinasa aproxima sitios y cataliza el cambio de configuración. El dibujo de ADN curvado explica contacto entre regiones; no representa una estructura precisa del complejo ni especifica condiciones experimentales."
+      },
+      {
+        "label": "C",
+        "title": "ADN registrado",
+        "text": "El STOP está fuera de la ruta principal de expresión. Se muestran un producto principal y un fragmento circular, con un sitio residual en cada uno. Los productos y su posible reacción inversa dependen del sistema concreto."
+      },
+      {
+        "label": "D",
+        "title": "Después del pulso",
+        "text": "La exposición ha terminado, pero el ADN conserva el registro según los supuestos del ejemplo. La proteína no queda congelada: si continúa transcribiéndose y traduciéndose, su abundancia responde al balance entre síntesis y pérdida."
+      }
+    ],
+    "section": "### Leer la lámina M08: recuerda el estado correcto\n\nLa variable de memoria puede ser discreta: ADN sin registrar o ADN registrado. El reportero es otra variable. Tras un cambio de ADN, la señal puede tardar en aparecer porque necesita ARN, traducción y maduración. Por eso una fotografía poco brillante no demuestra necesariamente ausencia de registro.\n\nLa excisión dibujada se usa como ejemplo para separar almacenamiento y lectura. Los circuitos de memoria vegetal publicados ofrecen casos de reprogramación persistente [P05], pero no debes atribuirles automáticamente la arquitectura exacta de esta lámina.\n\n**Compruébalo:** imagina que el registro se conserva, pero el promotor del reportero se silencia después. El estado del ADN y la lectura dejarían de coincidir. Añade una variable de accesibilidad o una observación independiente antes de concluir que la memoria se borró. La irreversibilidad es una propiedad que se justifica para un sistema y una escala de tiempo, no para cualquier recombinación.",
+    "refs": [
+      "P05"
+    ],
+    "limitation": "La persistencia depende de las propiedades del sistema y de la escala temporal. No toda recombinación es irreversible ni toda expresión persistente demuestra un cambio de ADN.",
+    "png": "assets/figures/m08_memoria_plana_v2.png",
+    "source": "Ilustración docente original generada con la herramienta integrada de imágenes y revisada para comprobar relaciones, etiquetas y correspondencia con el modelo. Estilo plano; formas y tamaños esquemáticos.",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "sha256": "ea2ddc0ca57e594c84f38149e9d53cd95ac2e624ddccf1a6457d156ec472a9a7"
+  },
+  {
+    "id": "m09_medicion",
+    "code": "M09",
+    "title": "De proteína a señal medida",
+    "chapters": [
+      "c22"
+    ],
+    "caption": "La lectura de un reportero reúne pasos biológicos y ópticos. La síntesis produce proteína que puede necesitar maduración del cromóforo antes de emitir fluorescencia. La luz de excitación y la de emisión cumplen funciones distintas. La imagen final incorpora detector, fondo y procesamiento además del estado del reportero. Las formas de barril y los trazos interiores son símbolos de una proteína fluorescente, no una estructura ni una fórmula química exactas. La pantalla es ilustrativa y no contiene microscopía experimental. La cantidad total de proteína no equivale automáticamente a la señal registrada.",
+    "alt": "Cuatro paneles muestran traducción, proteína con cromóforo inmaduro y maduro, excitación y emisión, y medición de una célula vegetal mediante óptica y detector. El esquema distingue reportero y fondo y recuerda que una fracción de la proteína puede no emitir todavía.",
+    "tags": [
+      "maduración",
+      "fluorescencia",
+      "cromóforo",
+      "reportero",
+      "detector",
+      "fondo",
+      "medición",
+      "proteína"
+    ],
+    "kind": "mechanism",
+    "panels": [
+      {
+        "label": "A",
+        "title": "Síntesis",
+        "text": "La traducción produce una cadena proteica. Contar moléculas sintetizadas no garantiza que todas contribuyan inmediatamente a la lectura fluorescente. El ribosoma es maquinaria reutilizable; no representa un producto químico intermedio fabricado a partir del ARN."
+      },
+      {
+        "label": "B",
+        "title": "Maduración",
+        "text": "El reportero cambia de estado funcional hasta que su cromóforo puede emitir. Plegamiento y maduración no son conceptos intercambiables. El esquema agrupa etapas que pueden necesitar condiciones o tiempos diferentes."
+      },
+      {
+        "label": "C",
+        "title": "Emisión",
+        "text": "La excitación proporciona luz y la emisión es parte de la respuesta óptica. Los colores distinguen funciones y no especifican longitudes de onda. La ganancia del detector o una saturación pueden cambiar la relación entre moléculas y lectura."
+      },
+      {
+        "label": "D",
+        "title": "Medición",
+        "text": "La señal registrada combina reportero, fondo y adquisición. Los cloroplastos aportan contexto vegetal y recuerdan posibles componentes ópticos del tejido, cuya contribución depende del canal. La pantalla es una ilustración; sus puntos no son datos."
+      }
+    ],
+    "section": "### Leer la lámina M09: del estado escondido al número observado\n\nEl modelo puede distinguir proteína inmadura y madura. La observación se define después: por ejemplo, proporcional a la fracción madura más un fondo. Estimar una tasa del circuito usando solo fluorescencia exige reconocer que ambos modelos, proceso y medición, intervienen.\n\nLa caracterización de tiempos de maduración muestra por qué el reportero necesita atención propia [I04]. No transfieras un tiempo de una especie o condición a otra sin justificarlo. Tampoco deduzcas una estructura molecular de las formas dibujadas.\n\n**Compruébalo:** si dos reporteros tienen la misma producción total y distinta maduración, pueden mostrar curvas de fluorescencia diferentes. Antes de añadir un retraso al promotor para explicar esa diferencia, prueba si el modelo del reportero basta. Cambiar una ganancia altera alturas; cambiar una maduración puede alterar también la forma temporal.",
+    "refs": [
+      "I04"
+    ],
+    "limitation": "Los dibujos ópticos y moleculares no están a escala. No fijan espectros, geometría instrumental, tiempos de maduración ni un modelo universal de fondo.",
+    "png": "assets/figures/m09_medicion_plana.png",
+    "source": "Ilustración docente original generada con la herramienta integrada de imágenes y revisada para comprobar relaciones, etiquetas y correspondencia con el modelo. Estilo plano; formas y tamaños esquemáticos.",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "sha256": "6f86ddde69cc174db6d2903195f2b41823107638e46936af1f95a30fe6bc992f"
+  },
+  {
+    "id": "m10_recursos",
+    "code": "M10",
+    "title": "Los circuitos comparten la célula",
+    "chapters": [
+      "c32"
+    ],
+    "caption": "Dos módulos pueden acoplarse aunque no exista una flecha reguladora directa entre sus genes. Los primeros paneles ilustran competencia por ribosomas y una redistribución de capacidad hacia un módulo con mayor demanda. El contexto celular conecta síntesis, energía y crecimiento de forma cualitativa. El último panel presenta otro mecanismo: un regulador puede quedar unido a sitios de ADN y cambiar su fracción libre. Competencia de recursos y carga sobre un regulador son hipótesis diferentes, con variables e intervenciones distintas. No se deducen tasas ni efectos universales a partir del número de iconos.",
+    "alt": "Dos ARN comparten ribosomas; un aumento de demanda de B coincide conceptualmente con menor salida A. Una viñeta celular relaciona energía, síntesis y crecimiento. Otra muestra un regulador libre o unido a varios sitios de ADN, distinguiendo secuestro por unión y competencia de traducción.",
+    "tags": [
+      "recursos",
+      "ribosomas",
+      "competencia",
+      "carga",
+      "retroactividad",
+      "regulador libre",
+      "sitios de unión"
+    ],
+    "kind": "mechanism",
+    "panels": [
+      {
+        "label": "A",
+        "title": "Recursos compartidos",
+        "text": "Los ribosomas participan en la traducción de ARN distintos. Mantener su capacidad implícita puede servir en un régimen de baja demanda. Si esta cambia mucho, una constante de traducción fija puede dejar de describir el sistema."
+      },
+      {
+        "label": "B",
+        "title": "Competencia",
+        "text": "La demanda del módulo B puede redistribuir capacidad y cambiar A sin reprimir su promotor directamente. La imagen es una posibilidad mecanística, no una ley que determine siempre el signo o la magnitud de todos los efectos."
+      },
+      {
+        "label": "C",
+        "title": "Contexto celular",
+        "text": "Energía, síntesis y crecimiento se relacionan. La viñeta de crecimiento es genérica y no representa la división de una célula vegetal. Decidir qué relaciones incluir exige datos y una pregunta, no copiar todos los objetos del dibujo."
+      },
+      {
+        "label": "D",
+        "title": "Carga del regulador",
+        "text": "Un regulador se reparte entre libre y unido. Añadir sitios puede alterar el regulador disponible y, con ello, la respuesta de otro módulo. Esa unión no es el mismo proceso que repartir ribosomas entre dos ARN."
+      }
+    ],
+    "section": "### Leer la lámina M10: busca el acoplamiento que no está dibujado entre genes\n\nSi al añadir un módulo cambia otro, identifica primero qué comparten. Puede ser maquinaria, energía, crecimiento o un regulador que se une a nuevos sitios. Dibujar una represión directa para explicar cualquier anticorrelación confundiría esos mecanismos.\n\nLos estudios de capacidad celular y retroactividad permiten formular preguntas distintas [I08] [I07]. Un modelo de recursos puede conservar un conjunto limitado de maquinaria; un modelo de carga puede conservar regulador total y distinguir sus complejos. Sus parámetros no son intercambiables.\n\n**Compruébalo:** mide conceptualmente ARN A y proteína A al aumentar demanda B. Si cambia proteína A sin una caída proporcional del ARN, considera una limitación posterior a la transcripción. Esa observación todavía no prueba un único mecanismo, pero ayuda a diseñar una comparación informativa.",
+    "refs": [
+      "I07",
+      "I08"
+    ],
+    "limitation": "Las cantidades de objetos son cualitativas. La viñeta genérica de crecimiento no describe anatomía vegetal ni determina el coste de un circuito concreto.",
+    "png": "assets/figures/m10_recursos_plano.png",
+    "source": "Ilustración docente original generada con la herramienta integrada de imágenes y revisada para comprobar relaciones, etiquetas y correspondencia con el modelo. Estilo plano; formas y tamaños esquemáticos.",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "sha256": "2caac238cc9b8963b0dbd070b0d0a359a34eea028eb588b34a002f9324b6d064"
+  },
+  {
+    "id": "m11_comunicacion",
+    "code": "M11",
+    "title": "De una célula a un tejido",
+    "chapters": [
+      "c18"
+    ],
+    "caption": "Una señal móvil conecta balances de células vecinas. Se distinguen pared, membrana y un paso intercelular ilustrativo mediante plasmodesmo. La movilidad depende de la especie y del contexto: no toda proteína cruza estos canales. En una descripción discreta, producción y pérdida actúan en cada célula mientras el intercambio añade a una lo que resta a otra. La fila inferior muestra un patrón cualitativo cerca de una fuente. Ni la geometría del poro ni la abundancia dibujada permiten obtener una permeabilidad o una concentración real sin medidas adicionales.",
+    "alt": "Dos células vegetales se relacionan por un paso entre paredes. Un acercamiento esquemático distingue señal móvil y una estructura asociada al retículo endoplasmático. Otros paneles muestran producción, intercambio y pérdida en una cadena, y un patrón colectivo decreciente desde una fuente.",
+    "tags": [
+      "tejido",
+      "plasmodesmo",
+      "transporte",
+      "intercambio",
+      "pared celular",
+      "membrana",
+      "difusión",
+      "conservación"
+    ],
+    "kind": "mechanism",
+    "panels": [
+      {
+        "label": "A",
+        "title": "Vecindad",
+        "text": "Dos células tienen estados propios y comparten una interfaz. La pared y la membrana no son la misma estructura. Un modelo de concentración debe considerar también volúmenes, superficies o una tasa efectiva que resuma esas relaciones."
+      },
+      {
+        "label": "B",
+        "title": "Intercambio",
+        "text": "Se representa de forma simplificada un paso citoplasmático asociado a un plasmodesmo y una estructura derivada del retículo. La señal no se dibuja cruzando directamente pared sólida. La geometría es conceptual y no sirve para inferir ultrastructura o tamaño de exclusión."
+      },
+      {
+        "label": "C",
+        "title": "Tres balances",
+        "text": "La producción aumenta la especie en una célula, el recambio la elimina del estado contado y el intercambio la redistribuye. Al sumar cantidades de todas las células, los términos internos de intercambio deben cancelarse si el sistema está cerrado."
+      },
+      {
+        "label": "D",
+        "title": "Patrón colectivo",
+        "text": "Una fuente y la combinación de movimiento y pérdida pueden generar un perfil. La altura del gradiente dibujado no es una medición. Para predecir el perfil necesitas tasas, condiciones iniciales, fronteras y una geometría justificadas."
+      }
+    ],
+    "section": "### Leer la lámina M11: conserva materia al cambiar de escala\n\nCuenta una molécula que salga de la célula izquierda y entre en la derecha. El intercambio no ha creado una molécula nueva. En cantidades, el mismo flujo entra y sale con signos opuestos. En concentraciones aparecen los volúmenes correspondientes: sumar concentraciones sin considerar tamaños distintos puede violar esa comprobación.\n\nEl paso biológico ilustrado ayuda a recordar que el término de transporte necesita un mecanismo y un rango de validez. Un grafo de células puede ser suficiente antes de usar un tejido continuo. Los modelos de patrones y transporte ofrecen ejemplos de por qué la escala importa [D10] [D11].\n\n**Compruébalo:** apaga producción y pérdida en una cadena cerrada. Si tu implementación cambia la cantidad total, revisa flujos y fronteras antes de interpretar el patrón. Una distribución visualmente suave puede ocultar un balance incorrecto.",
+    "refs": [
+      "D10",
+      "D11"
+    ],
+    "limitation": "La movilidad y la permeabilidad son hipótesis por comprobar. El plasmodesmo es esquemático; no representa transporte universal de proteínas ni una reconstrucción ultrastructural.",
+    "png": "assets/figures/m11_comunicacion_plana.png",
+    "source": "Ilustración docente original generada con la herramienta integrada de imágenes y revisada para comprobar relaciones, etiquetas y correspondencia con el modelo. Estilo plano; formas y tamaños esquemáticos.",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "sha256": "920355eaf4684a2b00794627b2645dfbccc6056cfb56d71755e981b3491ddd23"
+  },
+  {
+    "id": "m12_feedback",
+    "code": "M12",
+    "title": "Una proteína que regula su propio gen",
+    "chapters": [
+      "c12"
+    ],
+    "caption": "Una proteína puede modificar la expresión de su propio gen. En la autorrepresión reduce una tasa de producción; en la autoactivación favorece una etapa reguladora. Los lazos no convierten ARN en ribosomas: las flechas grises agrupan etapas y maquinaria reutilizable. Los gráficos inferiores son cualitativos y no comparan circuitos calibrados ni normalizados al mismo equilibrio. La intersección de producción y pérdida define un candidato a equilibrio; su estabilidad depende de cómo cambia el balance alrededor. Un lazo positivo no garantiza memoria, y un lazo negativo no garantiza la misma mejora dinámica en cualquier contexto.",
+    "alt": "Dos cassettes ilustran una proteína que regresa a su propio promotor: un represor termina en barra de inhibición y un activador en flecha de activación. Se muestran ARN y maquinaria de traducción. Dos gráficos esquemáticos explican respuesta temporal e intersección de tasas de producción y pérdida.",
+    "tags": [
+      "autorrepresión",
+      "autoactivación",
+      "feedback",
+      "retroalimentación",
+      "producción",
+      "pérdida",
+      "equilibrio"
+    ],
+    "kind": "mechanism",
+    "panels": [
+      {
+        "label": "A",
+        "title": "Autorrepresión",
+        "text": "El represor producido por el gen reduce la actividad del mismo promotor. El término afectado es producción, no una destrucción instantánea de todas las proteínas. El ARN y la proteína conservan sus tiempos de respuesta."
+      },
+      {
+        "label": "B",
+        "title": "Autoactivación",
+        "text": "El producto del gen favorece su propia producción en esta arquitectura conceptual. La unión del activador y el reclutamiento de maquinaria se resumen gráficamente. Fuga, saturación y pérdida siguen siendo necesarias para predecir estados y transitorios."
+      },
+      {
+        "label": "Gráfico izquierdo",
+        "title": "Respuesta temporal",
+        "text": "Las curvas solo ilustran que dos sistemas pueden responder de modo diferente. Sus alturas finales no son iguales y no se declararon parámetros. No permiten concluir cuál responde más rápido bajo una comparación controlada."
+      },
+      {
+        "label": "Gráfico derecho",
+        "title": "Balance de tasas",
+        "text": "Producción y pérdida se igualan en una intersección. A ambos lados observa cuál domina para deducir el sentido del cambio. Para hablar de bistabilidad necesitas varios equilibrios adecuados y comprobar su estabilidad, no solo reconocer una curva saturante."
+      }
+    ],
+    "section": "### Leer la lámina M12: el signo orienta; las tasas deciden\n\nSigue el lazo desde el producto del gen hasta el promotor y lee el extremo: barra para inhibición, flecha para activación. Después separa los procesos que faltan en el lazo visual. Transcripción, traducción y pérdida pueden introducir escalas temporales diferentes aun con el mismo signo regulador.\n\nUna comparación justa requiere decir qué se mantiene: misma salida, misma pérdida, misma cantidad de recursos u otro criterio. El estudio de autorregulación negativa ayuda a formular esa comparación [D04]. Los dos gráficos esquemáticos de esta lámina no la realizan; los análisis numéricos del capítulo sí declaran supuestos y parámetros.\n\n**Compruébalo:** coloca el estado ligeramente por debajo y por encima de una intersección de tasas. Describe hacia dónde se mueve en cada caso. Ese argumento te acerca más a la estabilidad que decidir que una retroalimentación positiva «debe» tener dos estados.",
+    "refs": [
+      "D04"
+    ],
+    "limitation": "Las curvas son cualitativas y no establecen una comparación de velocidad ni una condición de bistabilidad. Las flechas entre etapas no representan conversión de ARN en maquinaria.",
+    "png": "assets/figures/m12_feedback_plano.png",
+    "source": "Ilustración docente original generada con la herramienta integrada de imágenes y revisada para comprobar relaciones, etiquetas y correspondencia con el modelo. Estilo plano; formas y tamaños esquemáticos.",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "sha256": "703fb433e66b86b47463e90ac48965ec374fe100c3f2a495e916a323a2cc1f7d"
   }
 ]

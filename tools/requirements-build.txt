@@ -6,3 +6,4 @@ pypdf>=5,<7
 markdown>=3.7,<4
 beautifulsoup4>=4.12,<5
 pillow>=11,<13
+nbformat>=5,<6

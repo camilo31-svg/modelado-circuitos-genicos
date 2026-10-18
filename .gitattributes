@@ -1,0 +1,9 @@
+# Preservar exactamente los bytes de los libros y recursos descargables.
+*.pdf binary
+*.epub binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.woff binary
+*.woff2 binary

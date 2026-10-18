@@ -1,0 +1,173 @@
+{
+  "tool": "image_gen.imagegen integrado; sin API propia",
+  "style": "Ilustración científica plana, con contornos y sombreado limitado; sin realismo atomístico.",
+  "date": "2026-10-18",
+  "originals": true,
+  "figures": [
+    {
+      "code": "M01",
+      "file": "assets/figures/m01_expresion_plana.png",
+      "sha256": "ef0ef6c14a0a1945ee3b1b24e7f66cfeb529163e8185a5d071e6dd86d8076a25",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "editorial_brief": "Cuatro procesos convierten una descripción biológica en balances. La transcripción produce ARN usando ADN como molde; la exportación cambia el compartimento del ARN; la traducción produce proteína usando ARN; el recambio elimina moléculas de la especie representada. Los moldes no se consumen por el mero hecho de producir una copia. La imagen incluye contexto vegetal y separa núcleo y citoplasma. Cada máquina molecular tiene una forma ilustrativa: su dibujo identifica una función, no reproduce una estructura atómica ni una proporción real de tamaños.",
+      "constraints": "El dibujo es una selección de pasos eucariotas; no representa procesamiento completo del ARN, todas las rutas de recambio ni parámetros de una célula concreta."
+    },
+    {
+      "code": "M02",
+      "file": "assets/figures/m02_promotores_planos.png",
+      "sha256": "66b130194bef635b37df8122e4aaf3d3dcbc1a1ba8e8c16634c4d4bc7b41e5aa",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "editorial_brief": "La regulación modifica la probabilidad o la tasa de iniciar transcripción. Se comparan un promotor disponible, un ejemplo de represión por ocupación que dificulta el acceso de la polimerasa y un ejemplo de activación por reclutamiento. El recuadro inferior muestra unión y disociación de un represor al ADN. Las arquitecturas son conceptuales y alternativas: no todos los promotores usan el mismo mecanismo ni la misma geometría. Una barra de inhibición es una relación reguladora, mientras las dos flechas opuestas describen procesos reversibles de unión.",
+      "constraints": "Se muestran mecanismos posibles de regulación, no una arquitectura universal. El dibujo del dímero no identifica la estequiometría a partir de una curva ajustada."
+    },
+    {
+      "code": "M03",
+      "file": "assets/figures/m03_interruptor_plano_v2.png",
+      "sha256": "b6a81398293e302ce26555bd98f962697bf90236c1bbc304f79f718fd870276f",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "editorial_brief": "Cada gen produce un represor que inhibe al otro gen: A reprime B y B reprime A. Las flechas grises describen expresión; las conexiones de color terminadas en barra representan regulación. Los dos estados inferiores ilustran abundancias relativas opuestas. La flecha de perturbación entre estados indica que una intervención puede cambiar la cuenca de atracción bajo determinadas condiciones; no representa una reacción reversible entre proteínas A y B. La represión mutua proporciona una arquitectura para estudiar memoria, pero sus tasas y no linealidades determinan si aparecen realmente dos equilibrios estables.",
+      "constraints": "Los estados son conceptuales. La topología por sí sola no demuestra bistabilidad, ni la flecha central especifica un método experimental de conmutación."
+    },
+    {
+      "code": "M04",
+      "file": "assets/figures/m04_oscilador_plano_v2.png",
+      "sha256": "b6ac15d7a6800d0f0c3914ea6d0528e2b8b59ea109a9a0b9cd44bc993ec86d1d",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "editorial_brief": "Las tres relaciones se muestran por separado para evitar ambigüedad: C reprime A, A reprime B y B reprime C. Un represor de un panel es el producto de otro panel del mismo circuito. Las flechas grises representan el flujo de expresión y su reducción total cuando hay menos ARN; no describen una inhibición directa del ribosoma por el represor. El gráfico inferior es cualitativo y muestra fases distintas, sin datos ni valores de período. Para producir oscilaciones persistentes hacen falta condiciones dinámicas adicionales que se analizan con las ecuaciones.",
+      "constraints": "Los paneles son relaciones del mismo circuito, no tres experimentos independientes. Las curvas inferiores son un esquema cualitativo sin escala temporal."
+    },
+    {
+      "code": "M05",
+      "file": "assets/figures/m05_rafagas_planas.png",
+      "sha256": "524c90068a11e9118f8a4b8fed77fbfa21cb9a3324a6aa38a86f9364d32f548d",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "editorial_brief": "El estado del promotor y el número de ARN son variables diferentes. Un promotor que cambia entre estados de baja y alta actividad puede originar períodos de producción agrupada. La abundancia observada depende además de la pérdida del ARN y de la dinámica de proteína. Las tres células inferiores recuerdan que una población puede contener estados distintos aun compartiendo condiciones. La trayectoria dibujada es un esquema cualitativo: los tramos y descensos condensan eventos y no constituyen una realización exacta del algoritmo de Gillespie ni datos medidos.",
+      "constraints": "La trayectoria es cualitativa y condensada; no permite leer tasas, conteos precisos ni duraciones de una simulación exacta."
+    },
+    {
+      "code": "M06",
+      "file": "assets/figures/m06_auxina_plana.png",
+      "sha256": "b9b04a9c7fd50f8b57d32e34044fd77522a9bac394099e58c5b583ab07add2b5",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "editorial_brief": "Un reportero portador de un degrón DII puede perder señal cuando aumenta la entrada de auxina. La ilustración conecta reconocimiento por TIR1/AFB dentro del sistema SCF, marcado con ubiquitina y degradación del sustrato por el proteasoma. La auxina favorece la asociación receptor-sustrato; no corta por sí misma el reportero. La referencia roja se mantiene constante por hipótesis para comparar la señal relativa. Un cociente sensor/referencia disminuye en este ejemplo; invertir el cociente invierte también su dirección de cambio. Las formas moleculares y el contraste entre células son conceptuales.",
+      "constraints": "La referencia estable y la pérdida efectiva son supuestos del ejemplo. El esquema no proporciona una calibración de auxina ni estructuras moleculares exactas."
+    },
+    {
+      "code": "M07",
+      "file": "assets/figures/m07_raiz_plana.png",
+      "sha256": "2452d82549682c1e1ef057a00a8091dff06739eefad68fe8b1dc69c8fe49dd3b",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "editorial_brief": "Una raíz se representa como un tejido de células con posición e identidad. La entrada A ocupa un dominio longitudinal y la entrada B una banda transversal. Una operación AND selecciona su intersección. El acercamiento celular muestra dos reguladores necesarios para favorecer una salida de expresión. Estos dominios y esta implementación son ejemplos conceptuales, no imágenes de raíces medidas ni reconstrucciones de un circuito publicado. El tamaño de una región coloreada no indica directamente concentración ni intensidad. El esquema ayuda a distinguir lógica dentro de una célula de geometría entre células.",
+      "constraints": "La anatomía, los dominios y el mecanismo AND son esquemáticos. No se predice una arquitectura radicular real a partir de estos colores."
+    },
+    {
+      "code": "M08",
+      "file": "assets/figures/m08_memoria_plana_v2.png",
+      "sha256": "ea2ddc0ca57e594c84f38149e9d53cd95ac2e624ddccf1a6457d156ec472a9a7",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "editorial_brief": "El registro conceptual modifica el ADN durante una exposición y conserva esa configuración cuando termina el pulso. Antes del registro, un elemento STOP separa el promotor de la salida. La recombinación entre sitios adecuados puede separar ese fragmento y dejar el promotor conectado al reportero. Hay un sitio residual en cada producto del esquema. La persistencia representada es la del estado del ADN; la cantidad de proteína sigue cambiando por producción y pérdida. Este ejemplo de excisión enseña una posibilidad de memoria y no reconstruye el diseño concreto de un artículo.",
+      "constraints": "La persistencia depende de las propiedades del sistema y de la escala temporal. No toda recombinación es irreversible ni toda expresión persistente demuestra un cambio de ADN."
+    },
+    {
+      "code": "M09",
+      "file": "assets/figures/m09_medicion_plana.png",
+      "sha256": "6f86ddde69cc174db6d2903195f2b41823107638e46936af1f95a30fe6bc992f",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "editorial_brief": "La lectura de un reportero reúne pasos biológicos y ópticos. La síntesis produce proteína que puede necesitar maduración del cromóforo antes de emitir fluorescencia. La luz de excitación y la de emisión cumplen funciones distintas. La imagen final incorpora detector, fondo y procesamiento además del estado del reportero. Las formas de barril y los trazos interiores son símbolos de una proteína fluorescente, no una estructura ni una fórmula química exactas. La pantalla es ilustrativa y no contiene microscopía experimental. La cantidad total de proteína no equivale automáticamente a la señal registrada.",
+      "constraints": "Los dibujos ópticos y moleculares no están a escala. No fijan espectros, geometría instrumental, tiempos de maduración ni un modelo universal de fondo."
+    },
+    {
+      "code": "M10",
+      "file": "assets/figures/m10_recursos_plano.png",
+      "sha256": "2caac238cc9b8963b0dbd070b0d0a359a34eea028eb588b34a002f9324b6d064",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "editorial_brief": "Dos módulos pueden acoplarse aunque no exista una flecha reguladora directa entre sus genes. Los primeros paneles ilustran competencia por ribosomas y una redistribución de capacidad hacia un módulo con mayor demanda. El contexto celular conecta síntesis, energía y crecimiento de forma cualitativa. El último panel presenta otro mecanismo: un regulador puede quedar unido a sitios de ADN y cambiar su fracción libre. Competencia de recursos y carga sobre un regulador son hipótesis diferentes, con variables e intervenciones distintas. No se deducen tasas ni efectos universales a partir del número de iconos.",
+      "constraints": "Las cantidades de objetos son cualitativas. La viñeta genérica de crecimiento no describe anatomía vegetal ni determina el coste de un circuito concreto."
+    },
+    {
+      "code": "M11",
+      "file": "assets/figures/m11_comunicacion_plana.png",
+      "sha256": "920355eaf4684a2b00794627b2645dfbccc6056cfb56d71755e981b3491ddd23",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "editorial_brief": "Una señal móvil conecta balances de células vecinas. Se distinguen pared, membrana y un paso intercelular ilustrativo mediante plasmodesmo. La movilidad depende de la especie y del contexto: no toda proteína cruza estos canales. En una descripción discreta, producción y pérdida actúan en cada célula mientras el intercambio añade a una lo que resta a otra. La fila inferior muestra un patrón cualitativo cerca de una fuente. Ni la geometría del poro ni la abundancia dibujada permiten obtener una permeabilidad o una concentración real sin medidas adicionales.",
+      "constraints": "La movilidad y la permeabilidad son hipótesis por comprobar. El plasmodesmo es esquemático; no representa transporte universal de proteínas ni una reconstrucción ultrastructural."
+    },
+    {
+      "code": "M12",
+      "file": "assets/figures/m12_feedback_plano.png",
+      "sha256": "703fb433e66b86b47463e90ac48965ec374fe100c3f2a495e916a323a2cc1f7d",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "editorial_brief": "Una proteína puede modificar la expresión de su propio gen. En la autorrepresión reduce una tasa de producción; en la autoactivación favorece una etapa reguladora. Los lazos no convierten ARN en ribosomas: las flechas grises agrupan etapas y maquinaria reutilizable. Los gráficos inferiores son cualitativos y no comparan circuitos calibrados ni normalizados al mismo equilibrio. La intersección de producción y pérdida define un candidato a equilibrio; su estabilidad depende de cómo cambia el balance alrededor. Un lazo positivo no garantiza memoria, y un lazo negativo no garantiza la misma mejora dinámica en cualquier contexto.",
+      "constraints": "Las curvas son cualitativas y no establecen una comparación de velocidad ni una condición de bistabilidad. Las flechas entre etapas no representan conversión de ARN en maquinaria."
+    }
+  ],
+  "preserved_exact_prompts": [
+    {
+      "id": "m08",
+      "filename": "m08_memoria_plana_v2.png",
+      "reference": "m08_memoria_plana.png",
+      "prompt": "Use case: scientific-educational. Original clean scientific textbook illustration in the spirit of a BioRender diagram. FLAT 2D with only restrained soft shading, smooth colored domain shapes and crisp outlines. NO photorealistic rendering, NO atomistic protein surfaces, NO bumpy texture, NO busy background. White background and ample whitespace. Proteins are recognizable asymmetric multi-lobed shapes, not generic circles; DNA simplified double helix; RNA flexible strand; organelles recognizable cartoons. Navy/teal/purple/ochre palette, clear reaction arrows and inhibition bars, large legible Spanish labels. Landscape 3:2 high resolution, no logos or copied assets. Shapes, counts and distances are schematic, not measured.EDIT ONLY panel C of the supplied image. Preserve ALL text, layout, colors, other panels and flat style. Scientific correction: after excision of a STOP cassette between two sites, there is ONE residual recombination site on the main linear DNA and ONE residual site on the excised circular DNA, not two on the circle. In panel C REMOVE the right-hand purple triangular site on the excised circle and replace that short segment with ordinary blue double-helix DNA. KEEP the one purple triangular site on the left of STOP in the circle and keep STOP. KEEP the single purple residual site on the main linear DNA. Exactly two sites total across both DNA products. Do not change the two flanking sites in panel A or panel B. Keep panel D unchanged."
+    },
+    {
+      "id": "m09",
+      "filename": "m09_medicion_plana.png",
+      "reference": null,
+      "prompt": "Use case: scientific-educational. Original clean scientific textbook illustration in the spirit of a BioRender diagram. FLAT 2D with only restrained soft shading, smooth colored domain shapes and crisp outlines. NO photorealistic rendering, NO atomistic protein surfaces, NO bumpy texture, NO busy background. White background and ample whitespace. Proteins are recognizable asymmetric multi-lobed shapes, not generic circles; DNA simplified double helix; RNA flexible strand; organelles recognizable cartoons. Navy/teal/purple/ochre palette, clear reaction arrows and inhibition bars, large legible Spanish labels. Landscape 3:2 high resolution, no logos or copied assets. Shapes, counts and distances are schematic, not measured.Title 'De proteína a señal medida'. Four clear panels A–D, 2x2. A 'Síntesis': schematic ribosome on intact RNA makes a polypeptide chain, label 'Proteína recién sintetizada'. B 'Maduración': a folded pale-grey barrel-shaped fluorescent protein with an internal immature chromophore becomes the SAME folded barrel now teal with a bright internal chromophore; directional arrow, label 'Tiempo de maduración'. Do not imply all maturation is merely folding. C 'Emisión': one excitation beam enters a green mature fluorescent protein and a differently colored emission ray exits toward a simple detector, labels 'Excitación', 'Emisión', 'Proteína madura'. D 'Medición': a simple plant cell with nucleus, green reporter and a few schematic chloroplasts is imaged by an objective lens and detector; conceptual screen with signal plus background, labels 'Reportero', 'Fondo', 'Detector'. No fake experimental microscopy, no measured values. Footer 'La señal no es la cantidad total de proteína'. Do not use ultra-realistic molecular surfaces."
+    },
+    {
+      "id": "m10",
+      "filename": "m10_recursos_plano.png",
+      "reference": null,
+      "prompt": "Use case: scientific-educational. Original clean scientific textbook illustration in the spirit of a BioRender diagram. FLAT 2D with only restrained soft shading, smooth colored domain shapes and crisp outlines. NO photorealistic rendering, NO atomistic protein surfaces, NO bumpy texture, NO busy background. White background and ample whitespace. Proteins are recognizable asymmetric multi-lobed shapes, not generic circles; DNA simplified double helix; RNA flexible strand; organelles recognizable cartoons. Navy/teal/purple/ochre palette, clear reaction arrows and inhibition bars, large legible Spanish labels. Landscape 3:2 high resolution, no logos or copied assets. Shapes, counts and distances are schematic, not measured.Title 'Los circuitos comparten la célula'. Four educational panels A–D in 2x2. A 'Recursos compartidos': a pool of identifiable two-subunit ribosomes near TWO different RNA strands, teal RNA A and purple RNA B, some ribosomes translate each, producing matching folded proteins. Label 'Ribosomas', 'ARN A', 'ARN B'. B 'Competencia': high demand from RNA B recruits many ribosomes while RNA A has fewer, fewer teal A proteins and many purple B proteins; label 'Demanda de B', 'Salida de A'. Do not draw direct transcriptional repression between genes. C 'Carga celular': simple cutaway cell with expression machinery, ATP-like energy symbols and protein production; a schematic growth arrow, labels 'Energía', 'Síntesis', 'Crecimiento'; arrows indicate qualitative coupling only. D 'Carga del regulador': teal transcription-factor proteins partition between free regulators and regulators bound to several distinct DNA operator segments; label 'Regulador libre', 'Sitios de unión', 'Regulador unido'. It is binding sequestration, not ribosome competition. Footer 'Competencia y retroactividad son mecanismos distintos'. Keep flat shapes and no numerical data."
+    },
+    {
+      "id": "m11",
+      "filename": "m11_comunicacion_plana.png",
+      "reference": null,
+      "prompt": "Use case: scientific-educational. Original clean scientific textbook illustration in the spirit of a BioRender diagram. FLAT 2D with only restrained soft shading, smooth colored domain shapes and crisp outlines. NO photorealistic rendering, NO atomistic protein surfaces, NO bumpy texture, NO busy background. White background and ample whitespace. Proteins are recognizable asymmetric multi-lobed shapes, not generic circles; DNA simplified double helix; RNA flexible strand; organelles recognizable cartoons. Navy/teal/purple/ochre palette, clear reaction arrows and inhibition bars, large legible Spanish labels. Landscape 3:2 high resolution, no logos or copied assets. Shapes, counts and distances are schematic, not measured.Title 'De una célula a un tejido'. Four panels A–D in 2x2, flat scientific schematic. A 'Vecindad': TWO adjacent plant cells, thick shared cell wall and distinct plasma membranes, nucleus in each, local teal signal production in left cell. Label 'Pared celular', 'Membrana', 'Núcleo'. B 'Intercambio': close-up of a plasmodesma channel crossing the shared wall, showing a continuous plasma-membrane-lined pore and a small central ER-derived tube; a few teal mobile protein symbols pass through the cytoplasmic sleeve around the central tube, not through the solid cell wall or the central ER tube. Label 'Plasmodesmo', 'Señal móvil'. No claim every protein can pass. C 'Tres balances': three simple adjacent cells with local production arrows from RNA/ribosome, exchange arrows between neighbors, and loss/degradation arrows inside cells; label 'Producción', 'Intercambio', 'Pérdida'. Exchange arrows conserve the represented molecules. D 'Patrón colectivo': a row of 6–8 plant cells, abundant signal near a source and progressively less away; same colored asymmetrical proteins throughout. Labels 'Fuente', 'Tejido'. Footer 'La movilidad es una hipótesis que hay que comprobar'. No measured concentrations or true anatomy claim."
+    },
+    {
+      "id": "m12",
+      "filename": "m12_feedback_plano.png",
+      "reference": null,
+      "prompt": "Use case: scientific-educational. Original clean scientific textbook illustration in the spirit of a BioRender diagram. FLAT 2D with only restrained soft shading, smooth colored domain shapes and crisp outlines. NO photorealistic rendering, NO atomistic protein surfaces, NO bumpy texture, NO busy background. White background and ample whitespace. Proteins are recognizable asymmetric multi-lobed shapes, not generic circles; DNA simplified double helix; RNA flexible strand; organelles recognizable cartoons. Navy/teal/purple/ochre palette, clear reaction arrows and inhibition bars, large legible Spanish labels. Landscape 3:2 high resolution, no logos or copied assets. Shapes, counts and distances are schematic, not measured.Title 'Una proteína que regula su propio gen'. Two main upper panels A and B plus two lower conceptual graphs. A 'Autorrepresión': one continuous DNA cassette, promoter and gene; RNA synthesis followed by ribosome translation into a purple folded repressor. One clear purple feedback line starts at the PRODUCED protein and ends in an inhibition T-bar at the SAME promoter. Label 'Promotor', 'ARN', 'Represor'. B 'Autoactivación': separate conceptual cassette with RNA, ribosome and produced teal activator; teal feedback line starts at produced activator and ends in an ACTIVATION ARROWHEAD at its own promoter, where protein binding recruits polymerase. Label 'Activador'. Lower left 'Respuesta temporal': smooth qualitative response curves approaching a plateau, axes 'Tiempo', 'Abundancia'. Lower right 'Balance de tasas': nonlinear saturating production curve and straight loss line, axes 'Estado', 'Tasa', labels 'Producción', 'Pérdida'. No numerical ticks or measured data and do not claim guaranteed bistability or universal faster response. Footer 'El signo y las tasas cambian la dinámica'. Clear flat protein domains, no atomistic surfaces."
+    }
+  ],
+  "note": "Las especificaciones de las primeras ocho láminas se documentan mediante su resumen editorial y límites; las revisiones y generaciones finales conservadas en archivo incluyen su prompt completo. Los originales descartados se preservan en work y no se publican."
+}

@@ -63,20 +63,20 @@
   ],
   "epub": {
     "xml_files_valid": 44,
-    "internal_links_valid": 318,
-    "manifest_items": 278,
+    "internal_links_valid": 330,
+    "manifest_items": 290,
     "note": "Validación estructural XML y vínculos; no es una certificación EPUBCheck externa."
   },
   "pdf": {
-    "pages": 169,
+    "pages": 191,
     "searchable_text": true,
     "embedded_fonts": true,
     "empty_pages": []
   },
   "scope": "Pruebas analíticas, conservación, SSA y estimación en test_modelos.py; scripts de prácticas; estructura EPUB; PDF. Revisión experta independiente completa pendiente.",
   "revision_visual": {
-    "paginas_recorridas": 169,
-    "detalle": "Recorrido visual completo de la maquetación; glifos Unicode y dos delimitadores corregidos, con nueva inspección de las páginas afectadas."
+    "paginas_recorridas": 191,
+    "detalle": "Recorrido visual de la edición 1.1 en hojas de contacto y ampliaciones de las nuevas láminas; revisión de lectura y leyendas."
   },
   "app_pruebas_ui": {
     "viewport_movil": 390,
@@ -84,7 +84,20 @@
     "figura_ampliada_y_enlaces": true,
     "notas_y_avance": true,
     "simulador": true,
-    "sin_conexion": "Descarga de recursos y recarga con servidor HTTP detenido; búsqueda y figuras cargadas; simulador operativo. Verificado por interfaz de navegador."
+    "sin_conexion": "Descarga de recursos y recarga con servidor HTTP detenido; búsqueda y figuras cargadas; simulador operativo. Verificado por interfaz de navegador.",
+    "edicion_1_1": {
+      "filtro_molecular": "12 láminas; búsqueda ubiquitina devuelve M06.",
+      "busqueda_paneles": "La frase «los errores se cancelen» encuentra M06 desde el buscador global.",
+      "movil": "Viewport 390 × 844; sin desbordamiento horizontal; modal y leyenda legibles.",
+      "sin_conexion": "309 recursos descargados tras un reintento. Servidor HTTP detenido; recarga, búsqueda memoria y ampliación M08 comprobadas.",
+      "consola": "Sin errores durante la revisión con conexión."
+    }
   },
-  "notebooks_validos": 10
+  "notebooks_validos": 10,
+  "laminas": {
+    "count": 12,
+    "style": "Ilustración científica plana con sombreado limitado",
+    "files_and_hashes_valid": true,
+    "caption_and_panel_guide": true
+  }
 }
