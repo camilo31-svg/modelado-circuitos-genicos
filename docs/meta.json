@@ -1,0 +1,20 @@
+{
+  "chapters": 38,
+  "words": 32965,
+  "figures": 26,
+  "equations": 210,
+  "unique_equations": 208,
+  "references": 70,
+  "notebooks": 10,
+  "edition": "1.0",
+  "review_date": "2026-10-18",
+  "parts": [
+    "I · Matemáticas desde cero",
+    "II · Del mecanismo al programa",
+    "III · Dinámica de circuitos",
+    "IV · Ruido, datos e inferencia",
+    "V · Plantas y literatura",
+    "VI · De estudiante a investigador"
+  ],
+  "pages": 169
+}

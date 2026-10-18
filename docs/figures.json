@@ -1,0 +1,482 @@
+[
+  {
+    "id": "f01_unidades",
+    "title": "Cantidad, concentración y volumen",
+    "chapters": [
+      "c01",
+      "c25"
+    ],
+    "caption": "A: diez unidades de cantidad permanecen constantes; con V/V0=exp(0,2t), la concentración cae por dilución. B: a 1 nM, el número esperado es 602,214 por pL, usando el valor exacto de Avogadro. Un valor esperado fraccionario no es una molécula partida.",
+    "alt": "Cantidad, concentración y volumen. A: diez unidades de cantidad permanecen constantes; con V/V0=exp(0,2t), la concentración cae por dilución. B: a 1 nM, el número esperado es 602,214 por pL, usando el valor exacto de Avogadro. Un valor esperado fraccionario no es una molécula partida.",
+    "tags": [
+      "unidades",
+      "volumen",
+      "dilución",
+      "Avogadro"
+    ],
+    "png": "assets/figures/f01_unidades.png",
+    "svg": "assets/figures/f01_unidades.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f02_calculo",
+    "title": "Derivar y acumular",
+    "chapters": [
+      "c03",
+      "c05",
+      "c06"
+    ],
+    "caption": "A: f(x)=x² y su tangente en x=3, con pendiente 6. La tangente aproxima localmente, no en todo el dominio. B: integrar la tasa 2t entre 0 y 6 produce 36 unidades; la tasa cambia mientras la cantidad se acumula. Los ejes son ejemplos abstractos.",
+    "alt": "Derivar y acumular. A: f(x)=x² y su tangente en x=3, con pendiente 6. La tangente aproxima localmente, no en todo el dominio. B: integrar la tasa 2t entre 0 y 6 produce 36 unidades; la tasa cambia mientras la cantidad se acumula. Los ejes son ejemplos abstractos.",
+    "tags": [
+      "derivada",
+      "integral",
+      "pendiente",
+      "área"
+    ],
+    "png": "assets/figures/f02_calculo.png",
+    "svg": "assets/figures/f02_calculo.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f03_exponencial",
+    "title": "Tasas, logaritmos y semividas",
+    "chapters": [
+      "c02",
+      "c04"
+    ],
+    "caption": "Tres pérdidas de primer orden: x/x0=exp(-delta t). A: la misma fracción se pierde en intervalos iguales. B: una escala logarítmica convierte cada exponencial en recta. Las semividas son 6,93; 3,47 y 1,73 h. Una recta semilogarítmica puede apoyar este modelo dentro de su rango medido.",
+    "alt": "Tasas, logaritmos y semividas. Tres pérdidas de primer orden: x/x0=exp(-delta t). A: la misma fracción se pierde en intervalos iguales. B: una escala logarítmica convierte cada exponencial en recta. Las semividas son 6,93; 3,47 y 1,73 h. Una recta semilogarítmica puede apoyar este modelo dentro de su rango medido.",
+    "tags": [
+      "logaritmo",
+      "semivida",
+      "exponencial"
+    ],
+    "png": "assets/figures/f03_exponencial.png",
+    "svg": "assets/figures/f03_exponencial.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f04_escalas",
+    "title": "Adimensionalizar para comparar",
+    "chapters": [
+      "c07"
+    ],
+    "caption": "A: respuestas con producción alfa y pérdida delta diferentes. B: dividir concentración por alfa/delta y tiempo por 1/delta colapsa las curvas para x0=0. Esto muestra una forma común de ecuación; no demuestra que distintos organismos tengan mecanismos idénticos.",
+    "alt": "Adimensionalizar para comparar. A: respuestas con producción alfa y pérdida delta diferentes. B: dividir concentración por alfa/delta y tiempo por 1/delta colapsa las curvas para x0=0. Esto muestra una forma común de ecuación; no demuestra que distintos organismos tengan mecanismos idénticos.",
+    "tags": [
+      "adimensionalización",
+      "escala",
+      "álgebra"
+    ],
+    "png": "assets/figures/f04_escalas.png",
+    "svg": "assets/figures/f04_escalas.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f05_gen",
+    "title": "Del ARN a la proteína",
+    "chapters": [
+      "c08",
+      "c09"
+    ],
+    "caption": "Modelo original: dm/dt=4-m; dp/dt=3m-0,2p; ambos estados empiezan en cero. Las líneas discontinuas indican m*=4 y p*=60. El ARN se acerca antes al equilibrio; la proteína integra una señal que todavía está cambiando. No se representan mediciones experimentales.",
+    "alt": "Del ARN a la proteína. Modelo original: dm/dt=4-m; dp/dt=3m-0,2p; ambos estados empiezan en cero. Las líneas discontinuas indican m*=4 y p*=60. El ARN se acerca antes al equilibrio; la proteína integra una señal que todavía está cambiando. No se representan mediciones experimentales.",
+    "tags": [
+      "ARN",
+      "proteína",
+      "balance",
+      "Python"
+    ],
+    "png": "assets/figures/f05_gen.png",
+    "svg": "assets/figures/f05_gen.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f06_numerica",
+    "title": "Error, estabilidad y positividad",
+    "chapters": [
+      "c10"
+    ],
+    "caption": "A: para dx/dt=-x, Euler multiplica por 1-h. h=1,8 es estable pero alterna de signo; h=2,2 es inestable. El proceso real permanece positivo. B: el error global disminuye aproximadamente de forma lineal al refinar el paso. Esta figura separa estabilidad numérica, exactitud y sentido físico.",
+    "alt": "Error, estabilidad y positividad. A: para dx/dt=-x, Euler multiplica por 1-h. h=1,8 es estable pero alterna de signo; h=2,2 es inestable. El proceso real permanece positivo. B: el error global disminuye aproximadamente de forma lineal al refinar el paso. Esta figura separa estabilidad numérica, exactitud y sentido físico.",
+    "tags": [
+      "Euler",
+      "estabilidad",
+      "solver",
+      "error"
+    ],
+    "png": "assets/figures/f06_numerica.png",
+    "svg": "assets/figures/f06_numerica.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f07_hill",
+    "title": "Funciones de regulación y saturación",
+    "chapters": [
+      "c16"
+    ],
+    "caption": "A: con K=1, todas las curvas de activación pasan por 0,5; n modifica la pendiente. B: represión con n=2 y varios K. Estas son relaciones fenomenológicas de entrada y salida: un ajuste de Hill no identifica por sí solo la estequiometría ni genera memoria.",
+    "alt": "Funciones de regulación y saturación. A: con K=1, todas las curvas de activación pasan por 0,5; n modifica la pendiente. B: represión con n=2 y varios K. Estas son relaciones fenomenológicas de entrada y salida: un ajuste de Hill no identifica por sí solo la estequiometría ni genera memoria.",
+    "tags": [
+      "Hill",
+      "Michaelis",
+      "cooperatividad",
+      "saturación"
+    ],
+    "png": "assets/figures/f07_hill.png",
+    "svg": "assets/figures/f07_hill.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f08_feedback",
+    "title": "Retroalimentación y equilibrio",
+    "chapters": [
+      "c11",
+      "c12"
+    ],
+    "caption": "Autorrepresión dx/dt=10/(1+x)-x. El equilibrio positivo es (-1+sqrt(41))/2. A: comparación normalizada con un sistema sin feedback ajustado a la misma salida estacionaria y pérdida. B: producción y pérdida se cruzan una vez. La mejora dinámica depende del criterio de comparación y de los supuestos.",
+    "alt": "Retroalimentación y equilibrio. Autorrepresión dx/dt=10/(1+x)-x. El equilibrio positivo es (-1+sqrt(41))/2. A: comparación normalizada con un sistema sin feedback ajustado a la misma salida estacionaria y pérdida. B: producción y pérdida se cruzan una vez. La mejora dinámica depende del criterio de comparación y de los supuestos.",
+    "tags": [
+      "retroalimentación",
+      "equilibrio",
+      "autorrepresión"
+    ],
+    "png": "assets/figures/f08_feedback.png",
+    "svg": "assets/figures/f08_feedback.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f09_toggle",
+    "title": "Biestabilidad y cuencas de atracción",
+    "chapters": [
+      "c13"
+    ],
+    "caption": "Modelo original adimensional: dx/dt=10/(1+z²)-x y dz/dt=10/(1+x²)-z. A: las nulclinas se cruzan tres veces; las trayectorias ilustran cuencas diferentes. B: condiciones iniciales opuestas alcanzan dos salidas persistentes. No es una reconstrucción cuantitativa del experimento de Gardner.",
+    "alt": "Biestabilidad y cuencas de atracción. Modelo original adimensional: dx/dt=10/(1+z²)-x y dz/dt=10/(1+x²)-z. A: las nulclinas se cruzan tres veces; las trayectorias ilustran cuencas diferentes. B: condiciones iniciales opuestas alcanzan dos salidas persistentes. No es una reconstrucción cuantitativa del experimento de Gardner.",
+    "tags": [
+      "toggle",
+      "bistabilidad",
+      "memoria",
+      "nulclina"
+    ],
+    "png": "assets/figures/f09_toggle.png",
+    "svg": "assets/figures/f09_toggle.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f10_represilador",
+    "title": "Oscilaciones persistentes en un anillo",
+    "chapters": [
+      "c14"
+    ],
+    "caption": "Anillo reducido dx_i/dt=30/(1+x_previa³)-x_i, con estado inicial (0,1;2;5). A: tres variables oscilan desfasadas. B: proyección de la órbita final. Tiempo y estados son adimensionales; la figura no pretende reproducir amplitudes o períodos de un artículo. Hay que comprobar persistencia y convergencia numérica.",
+    "alt": "Oscilaciones persistentes en un anillo. Anillo reducido dx_i/dt=30/(1+x_previa³)-x_i, con estado inicial (0,1;2;5). A: tres variables oscilan desfasadas. B: proyección de la órbita final. Tiempo y estados son adimensionales; la figura no pretende reproducir amplitudes o períodos de un artículo. Hay que comprobar persistencia y convergencia numérica.",
+    "tags": [
+      "represilador",
+      "oscilación",
+      "fase"
+    ],
+    "png": "assets/figures/f10_represilador.png",
+    "svg": "assets/figures/f10_represilador.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f11_logica",
+    "title": "Pulsos, lógica y dinámica",
+    "chapters": [
+      "c15"
+    ],
+    "caption": "A: ejemplo incoherente: una entrada escalón activa salida y una rama lenta que la reprime. La salida presenta un máximo pero no vuelve exactamente al basal; pulso y adaptación perfecta son conceptos distintos. B: tabla AND ideal. Un circuito bioquímico necesita umbrales y márgenes para aproximarla.",
+    "alt": "Pulsos, lógica y dinámica. A: ejemplo incoherente: una entrada escalón activa salida y una rama lenta que la reprime. La salida presenta un máximo pero no vuelve exactamente al basal; pulso y adaptación perfecta son conceptos distintos. B: tabla AND ideal. Un circuito bioquímico necesita umbrales y márgenes para aproximarla.",
+    "tags": [
+      "feedforward",
+      "adaptación",
+      "AND",
+      "lógica"
+    ],
+    "png": "assets/figures/f11_logica.png",
+    "svg": "assets/figures/f11_logica.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f12_retrasos",
+    "title": "Retraso puro y etapas intermedias",
+    "chapters": [
+      "c17"
+    ],
+    "caption": "A: respuesta de primer orden que empieza tras un retraso fijo. B: tres etapas con tasa 2/h tras una entrada en t=2 h. Una cadena reparte tiempos de tránsito y suaviza; un retraso puro desplaza una señal. Son hipótesis distintas y requieren algoritmos y condiciones iniciales diferentes.",
+    "alt": "Retraso puro y etapas intermedias. A: respuesta de primer orden que empieza tras un retraso fijo. B: tres etapas con tasa 2/h tras una entrada en t=2 h. Una cadena reparte tiempos de tránsito y suaviza; un retraso puro desplaza una señal. Son hipótesis distintas y requieren algoritmos y condiciones iniciales diferentes.",
+    "tags": [
+      "retraso",
+      "híbrido",
+      "evento",
+      "cadena"
+    ],
+    "png": "assets/figures/f12_retrasos.png",
+    "svg": "assets/figures/f12_retrasos.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f13_espacio",
+    "title": "Un tejido como red de células",
+    "chapters": [
+      "c18",
+      "c25"
+    ],
+    "caption": "Cadena de 40 células de igual volumen, pérdida 0,4/h, producción 3 u.a./h en las células 5–9 y bordes sin flujo. A: intercambio 0,8/h. B: perfiles en t=20 h para distintas tasas de intercambio. Modelo conceptual de transporte, sin calibración vegetal ni identificación con auxina real.",
+    "alt": "Un tejido como red de células. Cadena de 40 células de igual volumen, pérdida 0,4/h, producción 3 u.a./h en las células 5–9 y bordes sin flujo. A: intercambio 0,8/h. B: perfiles en t=20 h para distintas tasas de intercambio. Modelo conceptual de transporte, sin calibración vegetal ni identificación con auxina real.",
+    "tags": [
+      "difusión",
+      "tejido",
+      "grafo",
+      "espacio"
+    ],
+    "png": "assets/figures/f13_espacio.png",
+    "svg": "assets/figures/f13_espacio.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f14_probabilidad",
+    "title": "Contar eventos y medir variación",
+    "chapters": [
+      "c19"
+    ],
+    "caption": "A: distribuciones Poisson con varianza igual a la media. B: densidad normal estándar; la probabilidad es un área y la franja de una desviación típica contiene aproximadamente el 68,3%. No se debe asignar densidad a un punto como si fuera su probabilidad.",
+    "alt": "Contar eventos y medir variación. A: distribuciones Poisson con varianza igual a la media. B: densidad normal estándar; la probabilidad es un área y la franja de una desviación típica contiene aproximadamente el 68,3%. No se debe asignar densidad a un punto como si fuera su probabilidad.",
+    "tags": [
+      "probabilidad",
+      "Poisson",
+      "normal",
+      "varianza"
+    ],
+    "png": "assets/figures/f14_probabilidad.png",
+    "svg": "assets/figures/f14_probabilidad.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f15_ssa",
+    "title": "Gillespie frente al balance medio",
+    "chapters": [
+      "c20"
+    ],
+    "caption": "Nacimiento 5 moléculas/h, muerte 0,5 por molécula y hora, estado inicial cero. A: tres trayectorias SSA y media exacta. B: 300 estados finales y referencia Poisson(10), cercana al límite estacionario. Las semillas van de 0 a 299; la variación entre trayectorias es parte del modelo.",
+    "alt": "Gillespie frente al balance medio. Nacimiento 5 moléculas/h, muerte 0,5 por molécula y hora, estado inicial cero. A: tres trayectorias SSA y media exacta. B: 300 estados finales y referencia Poisson(10), cercana al límite estacionario. Las semillas van de 0 a 299; la variación entre trayectorias es parte del modelo.",
+    "tags": [
+      "Gillespie",
+      "SSA",
+      "CME",
+      "estocástico"
+    ],
+    "png": "assets/figures/f15_ssa.png",
+    "svg": "assets/figures/f15_ssa.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f16_rafagas",
+    "title": "Un promotor telegráfico",
+    "chapters": [
+      "c21"
+    ],
+    "caption": "Simulación original: kon=0,15/h, koff=0,4/h, producción en ON=14 moléculas/h, pérdida=0,4/h, semilla 7. A: estado del promotor. B: abundancia discreta del producto. La persistencia del estado ON genera ráfagas; una fluctuación correlacionada no equivale a errores independientes de medición.",
+    "alt": "Un promotor telegráfico. Simulación original: kon=0,15/h, koff=0,4/h, producción en ON=14 moléculas/h, pérdida=0,4/h, semilla 7. A: estado del promotor. B: abundancia discreta del producto. La persistencia del estado ON genera ráfagas; una fluctuación correlacionada no equivale a errores independientes de medición.",
+    "tags": [
+      "ráfaga",
+      "promotor",
+      "ruido",
+      "telegráfico"
+    ],
+    "png": "assets/figures/f16_rafagas.png",
+    "svg": "assets/figures/f16_rafagas.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f17_observacion",
+    "title": "Un modelo del proceso y otro de la medida",
+    "chapters": [
+      "c22"
+    ],
+    "caption": "Producción 5 u.a./h, maduración 0,4/h y pérdida 0,1/h. A: proteína total y madura. B: y=1,5·madura+8+error normal de desviación 1,5, semilla 9. Los puntos son sintéticos. Ganancia, fondo y cinética del reportero pueden confundirse con parámetros del circuito.",
+    "alt": "Un modelo del proceso y otro de la medida. Producción 5 u.a./h, maduración 0,4/h y pérdida 0,1/h. A: proteína total y madura. B: y=1,5·madura+8+error normal de desviación 1,5, semilla 9. Los puntos son sintéticos. Ganancia, fondo y cinética del reportero pueden confundirse con parámetros del circuito.",
+    "tags": [
+      "reportero",
+      "fluorescencia",
+      "maduración",
+      "medición"
+    ],
+    "png": "assets/figures/f17_observacion.png",
+    "svg": "assets/figures/f17_observacion.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f18_ajuste",
+    "title": "Estimación y comprobación del ajuste",
+    "chapters": [
+      "c23"
+    ],
+    "caption": "Datos sintéticos de alfa=8 u.a./h, delta=0,4/h y x0=0, más errores gaussianos independientes de desviación 1 (semilla 2026). Ajuste en logparámetros para mantener positividad. A: curva y puntos. B: residuos. Recuperar la verdad simulada comprueba el procedimiento; no valida un sistema experimental.",
+    "alt": "Estimación y comprobación del ajuste. Datos sintéticos de alfa=8 u.a./h, delta=0,4/h y x0=0, más errores gaussianos independientes de desviación 1 (semilla 2026). Ajuste en logparámetros para mantener positividad. A: curva y puntos. B: residuos. Recuperar la verdad simulada comprueba el procedimiento; no valida un sistema experimental.",
+    "tags": [
+      "estimación",
+      "likelihood",
+      "residuo",
+      "mínimos cuadrados"
+    ],
+    "png": "assets/figures/f18_ajuste.png",
+    "svg": "assets/figures/f18_ajuste.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f19_identificabilidad",
+    "title": "Predecir una salida no identifica todos los parámetros",
+    "chapters": [
+      "c24"
+    ],
+    "caption": "A: observar solo x*=20 admite todas las parejas alfa=20·delta; el mapa muestra el error de equilibrio. B: tres parejas con el mismo cociente producen transitorios diferentes desde cero. Para estimarlas, la observación temporal debe tener resolución y precisión suficientes; más puntos redundantes no garantizan información nueva.",
+    "alt": "Predecir una salida no identifica todos los parámetros. A: observar solo x*=20 admite todas las parejas alfa=20·delta; el mapa muestra el error de equilibrio. B: tres parejas con el mismo cociente producen transitorios diferentes desde cero. Para estimarlas, la observación temporal debe tener resolución y precisión suficientes; más puntos redundantes no garantizan información nueva.",
+    "tags": [
+      "identificabilidad",
+      "sensibilidad",
+      "parámetro",
+      "diseño"
+    ],
+    "png": "assets/figures/f19_identificabilidad.png",
+    "svg": "assets/figures/f19_identificabilidad.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f20_auxina",
+    "title": "Leer un sensor de degradación",
+    "chapters": [
+      "c26"
+    ],
+    "caption": "Ejemplo conceptual dS/dt=p-(0,1+0,02a)S, con tiempo en minutos y entrada a en unidades arbitrarias. A: lectura estacionaria normalizada r. B: inversión a=5(1/r-1). Cerca del fondo, pequeños errores en r causan errores grandes en a. No constituye una calibración de DII ni R2D2.",
+    "alt": "Leer un sensor de degradación. Ejemplo conceptual dS/dt=p-(0,1+0,02a)S, con tiempo en minutos y entrada a en unidades arbitrarias. A: lectura estacionaria normalizada r. B: inversión a=5(1/r-1). Cerca del fondo, pequeños errores en r causan errores grandes en a. No constituye una calibración de DII ni R2D2.",
+    "tags": [
+      "auxina",
+      "sensor",
+      "DII",
+      "plantas",
+      "calibración"
+    ],
+    "png": "assets/figures/f20_auxina.png",
+    "svg": "assets/figures/f20_auxina.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f21_raices",
+    "title": "De la lógica a un patrón de tejido",
+    "chapters": [
+      "c27"
+    ],
+    "caption": "A: entradas binarias artificiales en 12 células; una intersección selecciona un dominio y AND NOT excluye otro. B: producto de dos funciones de Hill de entradas espaciales opuestas. Es una ilustración del razonamiento espacial, no una reproducción de los circuitos o morfologías del artículo de Brophy.",
+    "alt": "De la lógica a un patrón de tejido. A: entradas binarias artificiales en 12 células; una intersección selecciona un dominio y AND NOT excluye otro. B: producto de dos funciones de Hill de entradas espaciales opuestas. Es una ilustración del razonamiento espacial, no una reproducción de los circuitos o morfologías del artículo de Brophy.",
+    "tags": [
+      "raíz",
+      "lógica espacial",
+      "AND",
+      "Brophy",
+      "plantas"
+    ],
+    "png": "assets/figures/f21_raices.png",
+    "svg": "assets/figures/f21_raices.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f22_memoria",
+    "title": "Memoria persistente y registro probabilístico",
+    "chapters": [
+      "c28"
+    ],
+    "caption": "Modelo de registro irreversible con tasa 0,6/h durante una exposición. A: pulso de 3 horas y probabilidad acumulada 1-exp(-tasa·duración). B: duración y fracción registrada. Es una población de estados con probabilidad de cambio, no una concentración continua de ADN ni una reconstrucción del artículo de memoria vegetal.",
+    "alt": "Memoria persistente y registro probabilístico. Modelo de registro irreversible con tasa 0,6/h durante una exposición. A: pulso de 3 horas y probabilidad acumulada 1-exp(-tasa·duración). B: duración y fracción registrada. Es una población de estados con probabilidad de cambio, no una concentración continua de ADN ni una reconstrucción del artículo de memoria vegetal.",
+    "tags": [
+      "memoria",
+      "recombinasa",
+      "probabilidad",
+      "plantas"
+    ],
+    "png": "assets/figures/f22_memoria.png",
+    "svg": "assets/figures/f22_memoria.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f23_reloj",
+    "title": "Período, fase y sincronización",
+    "chapters": [
+      "c29"
+    ],
+    "caption": "A: dos sinusoides ilustrativas de períodos 24 y 26 h; la fase diverge. B: un modelo de fase dphi/dt=0,1-0,3 sin(phi) puede bloquearse donde se cruzan las curvas, con estabilidad dependiente de la pendiente. Son ejemplos matemáticos, sin pretender reconstruir el reloj molecular de Arabidopsis.",
+    "alt": "Período, fase y sincronización. A: dos sinusoides ilustrativas de períodos 24 y 26 h; la fase diverge. B: un modelo de fase dphi/dt=0,1-0,3 sin(phi) puede bloquearse donde se cruzan las curvas, con estabilidad dependiente de la pendiente. Son ejemplos matemáticos, sin pretender reconstruir el reloj molecular de Arabidopsis.",
+    "tags": [
+      "circadiano",
+      "reloj",
+      "fase",
+      "Arabidopsis"
+    ],
+    "png": "assets/figures/f23_reloj.png",
+    "svg": "assets/figures/f23_reloj.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f24_recursos",
+    "title": "Carga y acoplamiento invisible",
+    "chapters": [
+      "c30",
+      "c32"
+    ],
+    "caption": "A: relaciones originales de salida frente a demanda: lineal y saturante r/(1+0,3r). B: reparto ilustrativo de un recurso normalizado entre A, un competidor y fondo. Un módulo puede alterar otro sin enlace regulador directo. No es un ajuste a datos de crecimiento ni una ley universal.",
+    "alt": "Carga y acoplamiento invisible. A: relaciones originales de salida frente a demanda: lineal y saturante r/(1+0,3r). B: reparto ilustrativo de un recurso normalizado entre A, un competidor y fondo. Un módulo puede alterar otro sin enlace regulador directo. No es un ajuste a datos de crecimiento ni una ley universal.",
+    "tags": [
+      "carga",
+      "retroactividad",
+      "recursos",
+      "control"
+    ],
+    "png": "assets/figures/f24_recursos.png",
+    "svg": "assets/figures/f24_recursos.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f25_incertidumbre",
+    "title": "Parámetros correlacionados y bandas",
+    "chapters": [
+      "c23",
+      "c24"
+    ],
+    "caption": "Cien conjuntos sintéticos con errores normales de desviación 1 y verdad (8;0,4); semilla 21. A: estimaciones. B: cuantiles puntuales de las curvas ajustadas. La banda refleja variación del ajuste bajo este modelo, no un intervalo de predicción de nuevas lecturas ni incertidumbre estructural o garantía simultánea.",
+    "alt": "Parámetros correlacionados y bandas. Cien conjuntos sintéticos con errores normales de desviación 1 y verdad (8;0,4); semilla 21. A: estimaciones. B: cuantiles puntuales de las curvas ajustadas. La banda refleja variación del ajuste bajo este modelo, no un intervalo de predicción de nuevas lecturas ni incertidumbre estructural o garantía simultánea.",
+    "tags": [
+      "bootstrap",
+      "incertidumbre",
+      "intervalo",
+      "Bayes"
+    ],
+    "png": "assets/figures/f25_incertidumbre.png",
+    "svg": "assets/figures/f25_incertidumbre.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  },
+  {
+    "id": "f26_investigar",
+    "title": "Del resultado numérico a una conclusión defendible",
+    "chapters": [
+      "c00",
+      "c31",
+      "c33",
+      "c34",
+      "c35",
+      "c37"
+    ],
+    "caption": "A: cada predicción debe conectarse con una pregunta, supuestos y pruebas. B: esquema cualitativo de fuentes de incertidumbre; las alturas son arbitrarias y no comparan riesgos reales. Un ajuste excelente no elimina errores de estructura, observación o extrapolación.",
+    "alt": "Del resultado numérico a una conclusión defendible. A: cada predicción debe conectarse con una pregunta, supuestos y pruebas. B: esquema cualitativo de fuentes de incertidumbre; las alturas son arbitrarias y no comparan riesgos reales. Un ajuste excelente no elimina errores de estructura, observación o extrapolación.",
+    "tags": [
+      "investigación",
+      "reproducibilidad",
+      "IA",
+      "validación"
+    ],
+    "png": "assets/figures/f26_investigar.png",
+    "svg": "assets/figures/f26_investigar.svg",
+    "source": "Simulación o esquema didáctico original; parámetros ilustrativos."
+  }
+]

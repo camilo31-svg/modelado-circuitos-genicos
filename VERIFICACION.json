@@ -1,0 +1,90 @@
+{
+  "scripts": [
+    {
+      "file": "01_python.py",
+      "exit_code": 0,
+      "output": "Equilibrio esperado: 10.0",
+      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\01_python.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend(); plt.show()"
+    },
+    {
+      "file": "02_balances.py",
+      "exit_code": 0,
+      "output": "Estado final: [ 4.         59.97484016] Equilibrio: [4, 60]",
+      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\02_balances.py:17: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()"
+    },
+    {
+      "file": "03_hill.py",
+      "exit_code": 0,
+      "output": "f(K)= 0.5",
+      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\03_hill.py:17: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()"
+    },
+    {
+      "file": "04_toggle.py",
+      "exit_code": 0,
+      "output": "[9, 0.1] -> [9.899 0.101]\n[0.1, 9] -> [0.101 9.899]\n[3, 2.9] -> [9.899 0.101]",
+      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\04_toggle.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()"
+    },
+    {
+      "file": "05_oscilador.py",
+      "exit_code": 0,
+      "output": "Amplitud final: 20.634864918004567",
+      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\05_oscilador.py:17: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()"
+    },
+    {
+      "file": "06_gillespie.py",
+      "exit_code": 0,
+      "output": "",
+      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\06_gillespie.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()"
+    },
+    {
+      "file": "07_ajuste.py",
+      "exit_code": 0,
+      "output": "alfa, delta ajustados: [8.06587234 0.40398369]",
+      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\07_ajuste.py:24: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.tight_layout();plt.show()"
+    },
+    {
+      "file": "08_plantas.py",
+      "exit_code": 0,
+      "output": "Suma intercambio: -2.220446049250313e-16",
+      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\08_plantas.py:19: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.show()"
+    },
+    {
+      "file": "09_incertidumbre.py",
+      "exit_code": 0,
+      "output": "Cuantiles 2,5/50/97,5%: [[7.23584351 0.35791146]\n [7.93220496 0.39790665]\n [9.12355549 0.46218842]]",
+      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\09_incertidumbre.py:22: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.xlabel('alfa (u.a./h)');plt.ylabel('delta (1/h)');plt.show()"
+    },
+    {
+      "file": "10_reportero.py",
+      "exit_code": 0,
+      "output": "Equilibrio esperado inmadura=10, madura=40",
+      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\10_reportero.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()"
+    }
+  ],
+  "epub": {
+    "xml_files_valid": 44,
+    "internal_links_valid": 318,
+    "manifest_items": 278,
+    "note": "Validación estructural XML y vínculos; no es una certificación EPUBCheck externa."
+  },
+  "pdf": {
+    "pages": 169,
+    "searchable_text": true,
+    "embedded_fonts": true,
+    "empty_pages": []
+  },
+  "scope": "Pruebas analíticas, conservación, SSA y estimación en test_modelos.py; scripts de prácticas; estructura EPUB; PDF. Revisión experta independiente completa pendiente.",
+  "revision_visual": {
+    "paginas_recorridas": 169,
+    "detalle": "Recorrido visual completo de la maquetación; glifos Unicode y dos delimitadores corregidos, con nueva inspección de las páginas afectadas."
+  },
+  "app_pruebas_ui": {
+    "viewport_movil": 390,
+    "busqueda_texto_y_figuras": true,
+    "figura_ampliada_y_enlaces": true,
+    "notas_y_avance": true,
+    "simulador": true,
+    "sin_conexion": "Descarga de recursos y recarga con servidor HTTP detenido; búsqueda y figuras cargadas; simulador operativo. Verificado por interfaz de navegador."
+  },
+  "notebooks_validos": 10
+}

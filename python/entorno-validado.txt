@@ -1,0 +1,10 @@
+# Entorno validado el 18-10-2026; no sustituye requirements.txt.
+Python==3.12.10
+numpy==2.4.3
+scipy==1.18.1
+matplotlib==3.10.8
+reportlab==5.0.1
+pypdf==6.21.1
+markdown==3.11.1
+beautifulsoup4==4.15.0
+pillow==12.1.1

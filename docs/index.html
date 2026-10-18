@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#164b43"><meta name="description" content="Aprende modelado matemático de circuitos génicos desde cero. Libro, figuras, Python y biología sintética de plantas.">
+  <title>Circuitos · Atlas de modelado génico</title>
+  <link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon-180.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+  <header class="topbar">
+    <button id="menu" class="icon-button mobile-only" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <a class="brand" href="#/inicio"><span class="brand-mark" aria-hidden="true">◌</span> circuitos<span class="brand-tag">ATLAS</span></a>
+    <a class="search-launch" href="#/buscar"><span>Buscar una idea, una ecuación, una figura…</span><kbd>/</kbd></a>
+    <button id="theme" class="icon-button" aria-label="Cambiar tema claro u oscuro" title="Cambiar tema">◐</button>
+    <a class="top-download" href="downloads/modelado-circuitos-genicos.pdf" download>Libro PDF ↗</a>
+  </header>
+  <div class="shell">
+    <aside id="sidebar" aria-label="Navegación del atlas">
+      <p class="eyebrow">TU CUADERNO DE CAMPO</p>
+      <nav class="primary-nav"><a href="#/inicio" data-nav="inicio">⌂ <span>Vista general</span></a><a href="#/ruta" data-nav="ruta">≋ <span>Ruta de aprendizaje</span></a><a href="#/figuras" data-nav="figuras">▧ <span>Atlas de figuras</span></a><a href="#/practicas" data-nav="practicas">⌘ <span>Prácticas en Python</span></a><a href="#/simulador" data-nav="simulador">↝ <span>Explorar un modelo</span></a><a href="#/bibliografia" data-nav="bibliografia">↗ <span>Fuentes y artículos</span></a><a href="#/notas" data-nav="notas">▤ <span>Mis notas</span></a></nav>
+      <div class="sidebar-progress"><div><span>Tu avance de lectura</span><strong id="progress-label">0 / 38</strong></div><progress id="progress" value="0" max="38"></progress><small>Guardado en este dispositivo</small></div>
+      <div id="chapter-nav" class="chapter-nav"></div>
+      <div class="offline-box"><span class="eyebrow">LLEVA EL ATLAS CONTIGO</span><p>Lecciones y figuras, también sin conexión.</p><button class="button small secondary" id="offline">Descargar para leer sin conexión</button><p id="offline-status" class="fine" role="status"></p></div>
+      <p class="sidebar-foot">Edición 1.0 · octubre de 2026<br/><a href="https://github.com/camilo31-svg/modelado-circuitos-genicos" target="_blank" rel="noopener">Código y materiales ↗</a></p>
+    </aside>
+    <main id="main" tabindex="-1"><div class="loading">Abriendo el atlas…</div></main>
+  </div>
+  <nav class="bottom-nav" aria-label="Accesos móviles"><a href="#/inicio">⌂<span>Inicio</span></a><a href="#/ruta">≋<span>Aprender</span></a><a href="#/figuras">▧<span>Figuras</span></a><a href="#/buscar">⌕<span>Buscar</span></a></nav>
+  <dialog id="figure-dialog" aria-label="Figura ampliada"><button class="dialog-close icon-button" aria-label="Cerrar figura">✕</button><div id="figure-detail"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript>Activa JavaScript para usar la app, o descarga <a href="downloads/modelado-circuitos-genicos.pdf">el libro PDF</a> y <a href="downloads/modelado-circuitos-genicos.epub">el EPUB</a>.</noscript>
+  <script src="app.js" defer></script>
+</body>
+</html>
