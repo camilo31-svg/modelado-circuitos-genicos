@@ -17,7 +17,7 @@ from circuitos import *
 """
 labs=[
 ('01_python','Python y tu primera curva',
-'''Aprende a ejecutar celdas, usar arrays y etiquetar ejes. Los valores son inventados para aprender. Predice primero: ¿qué ocurre al duplicar la producción? Capítulos 02, 03, 08. El número de capítulo del libro es el índice mostrado en la app; los IDs internos empiezan en c00.''',
+'''Aprende a ejecutar celdas, usar arrays y etiquetar ejes. Los valores son inventados para aprender. Predice primero: ¿qué ocurre al duplicar la producción? Lecciones de EDO y programación. La numeración visible se consulta en la app; los identificadores internos se conservan al revisar contenidos.''',
 '''tiempo = np.linspace(0, 20, 101)
 proteina = primer_orden(tiempo, alfa=4, delta=.4)
 print('Equilibrio esperado:', 4/.4)
@@ -27,7 +27,7 @@ plt.xlabel('Tiempo (h)'); plt.ylabel('Concentración (u.a.)')
 plt.legend(); plt.show()''',
 '''Prueba alfa=0 y x0=10. Solución: la curva decae exponencialmente; con alfa=8 el equilibrio es 20 y el tiempo característico sigue siendo 2,5 h. Comprueba que no has cambiado delta al cambiar alfa.'''),
 ('02_balances','ARN y proteína: dos escalas',
-'''Integra dos balances, compara estados y revisa unidades. Alfa: u.a. ARN/h; dm: 1/h; beta: u.a. proteína/(u.a. ARN h); dp: 1/h. Capítulos c06 y c09.''',
+'''Integra dos balances, compara estados y revisa unidades. Alfa: u.a. ARN/h; dm: 1/h; beta: u.a. proteína/(u.a. ARN h); dp: 1/h. Lecciones edo y c09.''',
 '''t=np.linspace(0,40,401)
 y=integrar(gen,[0,0],t)
 print('Estado final:',y[:,-1], 'Equilibrio: [4, 60]')

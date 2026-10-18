@@ -1,88 +1,68 @@
 # Modelado matemático de circuitos génicos
 
-Atlas de estudio en español, desde las matemáticas iniciales hasta modelos de circuitos, inferencia y biología sintética de plantas. Edición 1.1; corte de la selección bibliográfica: **18 de octubre de 2026**.
+**Edición 2.0 — consulta bibliográfica hasta el 19 de octubre de 2026.**
 
-- 38 capítulos, unas 35.000 palabras de lecciones, además de las lecturas visuales y 210 ecuaciones.
-- Libro PDF de 191 páginas y EPUB refluible.
-- 38 figuras originales: 26 gráficos y esquemas (PNG/SVG) y 12 láminas moleculares planas (PNG de alta resolución).
-- 10 cuadernos Jupyter y sus scripts Python equivalentes.
-- 72 entradas bibliográficas con enlaces, DOI cuando existe y notas de verificación.
-- App adaptable a móvil: búsqueda conjunta de lecciones, figuras y fuentes, notas, marcadores, progreso, simulador y descarga para lectura sin conexión.
+Recorrido en español que da por conocidas derivadas e integrales y empieza directamente en ecuaciones diferenciales. Se han retirado las lecciones previas de aritmética, funciones, exponenciales y cálculo elemental. El foco es derivar modelos, entender sus supuestos, analizar dinámica, programar, inferir parámetros y evaluar evidencia, con atención especial a plantas.
 
-## Abrir el material
+- 34 capítulos y unas 64,998 palabras de lecciones, además de leyendas y lecturas por paneles.
+- PDF de 287 páginas y EPUB refluible con las mismas lecciones.
+- 49 figuras: 25 gráficos y esquemas previos pertinentes, 12 láminas moleculares planas y 12 figuras científicas nuevas de cuatro paneles.
+- 22 cuadernos Jupyter y scripts equivalentes; modelos básicos y avanzados.
+- 89 referencias utilizadas, notas de consulta, BibTeX y mapa de fuentes por sección.
+- App móvil con categorías, índice interno de capítulo, fuentes, búsqueda de texto y figuras, notas, progreso, simulador y lectura sin conexión.
 
-[App y GitHub Pages](https://camilo31-svg.github.io/modelado-circuitos-genicos/)
+[Abrir la app](https://camilo31-svg.github.io/modelado-circuitos-genicos/) · [PDF](docs/downloads/modelado-circuitos-genicos.pdf) · [EPUB](docs/downloads/modelado-circuitos-genicos.epub)
 
-[Libro PDF](docs/downloads/modelado-circuitos-genicos.pdf) · [Libro EPUB](docs/downloads/modelado-circuitos-genicos.epub)
+## Recorrido
 
-La app y los libros tienen las mismas lecciones. Las nuevas láminas M01–M12 incluyen leyenda, lectura por paneles, límites del esquema y relación con las ecuaciones. En el atlas de figuras puedes filtrar por «Láminas moleculares» y abrir la versión de alta resolución. Empieza por el capítulo 00 y usa la ruta del capítulo 37. Los temas avanzados son una puerta hacia cursos de posgrado, lectura de artículos y trabajo de investigación con revisión especializada.
+1. EDO: soluciones lineales y por tramos, balances, estequiometría, conservación, escalas, reducción, Python y cinética de regulación.
+2. Dinámica no lineal: Jacobianos, cuencas, bifurcaciones, Goodwin, represilador, doble retroalimentación, feedforward, retrasos, control integral, recursos, osciladores acoplados y reacción–difusión.
+3. Ruido e inferencia: ecuación maestra, Gillespie, ráfagas y momentos, observación, sensibilidad, verosimilitud, Bayes, perfiles e identificabilidad.
+4. Plantas: contexto y variación, sensores de auxina, lógica espacial, memoria, reloj de Arabidopsis e interruptor vegetal de 2025.
+5. Investigación: cascadas y modificación multisito, metabolismo y otros niveles, inferencia de redes, software reproducible y proyectos con soluciones.
+
+El archivo aportado de Ingalls se identifica como versión de autor fechada el 23-12-2015, con 406 páginas PDF, diferenciada de la edición impresa de 2013. Es la referencia A01. No se incluye ese PDF en el repositorio. Las explicaciones, números, ejercicios y figuras del atlas son propios; cuando se explica un artículo se distingue resultado publicado y desarrollo docente. Las notas bibliográficas indican si se consultó resumen, texto, metadatos o documentación. La selección no se presenta como una revisión sistemática exhaustiva ni sustituye revisión experta independiente.
 
 ## Ejecutar las prácticas
 
-Instala Python 3.12 o posterior desde su distribución oficial. Desde esta carpeta, crea un entorno e instala las dependencias. En Windows PowerShell:
+Con Python 3.12 o posterior, desde esta carpeta en PowerShell:
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\python.exe -m pip install -r python\requirements.txt
-.venv\Scripts\python.exe python\cuadernos\01_python.py
-.venv\Scripts\python.exe -m unittest discover -s python -p test_modelos.py
+.venv\Scripts\python.exe python\cuadernos\11_union.py
+.venv\Scripts\python.exe -m unittest discover -s python -p "test*.py"
 .venv\Scripts\python.exe -m jupyterlab python\cuadernos
 ```
 
-En Linux o macOS:
+En Linux/macOS, usa `.venv/bin/python` y separadores `/`. Los cuadernos se entregan sin salidas precalculadas para que el lector las produzca; los scripts se ejecutan en la validación. Los parámetros son docentes y no están calibrados a los artículos. El móvil permite leer y usar el simulador; para ejecutar Python utiliza un entorno Jupyter compatible.
 
-```bash
-python3 -m venv .venv
-.venv/bin/python -m pip install -r python/requirements.txt
-.venv/bin/python python/cuadernos/01_python.py
-.venv/bin/python -m unittest discover -s python -p test_modelos.py
-.venv/bin/python -m jupyterlab python/cuadernos
-```
+## Reconstruir libros y figuras
 
-Los cuadernos se ejecutan desde `python/cuadernos/` o `python/`. Los scripts resuelven el módulo con su propia ubicación y también pueden ejecutarse desde la raíz del repositorio. Conserva la carpeta `python` completa: un cuaderno aislado necesita `circuitos.py`.
+Instala además `tools/requirements-build.txt`. Los datos canónicos están en `book/chapters.json`, `book/references.json`, `book/visuals.json` y `book/edition.json`; `book/source/` expone los capítulos en Markdown. El constructor utiliza los JSON canónicos.
 
-Se incluyen instrucciones y resultados esperados en cada práctica. Los cuadernos se entregan sin salidas precalculadas para que puedas producirlas; los diez scripts se han ejecutado durante la validación. `VERIFICACION.json` registra sus resultados y límites. `python/entorno-validado.txt` identifica las versiones de la ejecución original; `requirements.txt` expresa intervalos compatibles para instalaciones nuevas.
-
-## App local y sin conexión
-
-```bash
-python -m http.server 8765 --directory docs
-```
-
-Abre `http://localhost:8765`. Evita abrir `index.html` mediante `file://`: la carga del contenido y el service worker necesitan un servidor. En la app publicada, pulsa **Descargar para leer sin conexión** y espera el mensaje de finalización. Se guardan lecciones, ecuaciones, figuras PNG, SVG y prácticas; PDF y EPUB se descargan por separado. Si el navegador elimina la caché por falta de espacio, vuelve a descargar.
-
-Las notas y el avance pertenecen a cada navegador, sin cuenta ni sincronización. En **Mis notas**, exporta una copia JSON e impórtala en otro dispositivo. Las ilustraciones planas fueron generadas con la herramienta integrada de imágenes y revisadas para comprobar relaciones y etiquetas. Son esquemas didácticos, sin estructuras atomísticas ni tamaños a escala; no contienen activos de BioRender. La app no incorpora analítica ni carga bibliotecas o imágenes desde CDN. Los enlaces a artículos abren sus sitios de origen.
-
-## Reconstruir y ampliar
-
-Los datos originales están en `book/chapters.json` y `book/references.json`. `book/visuals.json` conserva las doce láminas, sus lecturas por paneles y las secciones insertadas en el texto; `book/visual_references.json` añade sus fuentes. `book/image-generation.json` documenta especificaciones, procedencia, prompts conservados y hashes de las imágenes. Los Markdown de consulta están en `book/source`. Para cambiar contenido, edita el JSON original y vuelve a construir; no edites solo el HTML de `docs/chapters.json`.
-
-```bash
-python -m pip install -r tools/requirements-build.txt
+```text
+python tools/crear_cuadernos.py
+python tools/crear_practicas_avanzadas.py
 python tools/crear_figuras.py
+python tools/crear_figuras_avanzadas.py
 python tools/construir_libro.py
+python tools/validar_material.py
 python tools/empaquetar.py
 ```
 
-El PDF se construye con ReportLab y fuentes incrustadas; si no hay fuentes de Windows usa DejaVu. Las figuras se calculan con NumPy/SciPy y se dibujan con Matplotlib. Las ecuaciones se renderizan localmente. `tools/empaquetar.py` vuelve a generar los paquetes, copia las prácticas para la app y actualiza la versión de caché según los archivos publicados. No hay compilación JavaScript ni dependencias web.
+Para revisión visual se usa Poppler (`pdftoppm`), disponible por separado. `VERIFICACION.json` registra resultados y alcance; `python/entorno-validado.txt` registra las versiones usadas. Las pruebas incluyen soluciones conocidas, conservaciones, identidades de control, umbrales y momentos. No equivalen a validación experimental de todos los modelos.
 
-Para GitHub Pages, el origen es **main → /docs**. Tras reconstruir, revisa el PDF renderizado, el EPUB y la app, confirma los cambios y haz push. La publicación se actualiza con ese directorio.
+## Fuentes y procedencia
 
-## Alcance, evidencia y límites
+- `book/bibliografia.bib`: bibliografía académica exportable.
+- `book/source-map.json`: referencias de cada apartado con contenido.
+- `book/research-log.json`: temas consultados, comprobación de DOI y alcance.
+- `book/image-generation.json`: procedencia y especificaciones de las doce láminas generadas con la herramienta integrada. Son esquemas planos, no estructuras atomísticas; no reutilizan activos de BioRender.
+- `tools/crear_figuras_avanzadas.py`: genera los doce gráficos nuevos desde ecuaciones y parámetros explícitos.
 
-Los valores, series y figuras son **ejemplos docentes originales** salvo que se indique expresamente una observación publicada. No constituyen ajustes de los artículos citados. Cada caso distingue observación, explicación y límites de transferencia entre organismos. Las notas bibliográficas dicen cuándo se pudo consultar el texto completo o solo un resumen/registro.
+## App, notas y uso sin conexión
 
-La bibliografía es una selección razonada y actualizada a la fecha indicada, no una revisión sistemática exhaustiva. La formación cubre fundamentos y múltiples rutas avanzadas; no contiene todo el conocimiento existente ni garantiza un nivel experto por sí sola. La revisión especializada independiente completa está pendiente. Trabajar con datos nuevos, discutir supuestos y recibir crítica son parte de la ruta de aprendizaje.
+Abre `docs/` mediante un servidor HTTP o usa GitHub Pages. Descarga previamente los recursos desde el botón de la app para leer sin conexión; los libros se descargan por separado. No hay analítica ni sincronización automática de notas. Estas se guardan en el navegador y pueden exportarse. Las notas de lecciones retiradas siguen accesibles en el archivo de notas de la edición anterior, sin volver a incluir sus lecciones.
 
-El material se generó con Codex y se revisó mediante comprobaciones bibliográficas, pruebas numéricas y revisión de formato. No se atribuye autoría o revisión a investigadores que no han participado. El aspecto de las figuras usa convenciones científicas; no hay afiliación con Nature.
-
-## Organización
-
-| Carpeta | Contenido |
-|---|---|
-| `book/` | Fuente editorial, Markdown y registro de ecuaciones |
-| `docs/` | App publicable, recursos y descargas |
-| `python/` | Modelos, pruebas y diez prácticas |
-| `tools/` | Generadores reproducibles de figuras y formatos |
-
-Contenido y figuras originales: CC BY 4.0. Código: MIT. Los artículos enlazados conservan sus propias licencias; aquí no se redistribuyen sus textos ni sus figuras.
+GitHub Pages publica la carpeta `/docs` de `main`. Se conservan los identificadores de lecciones pertinentes y alias de las que se integraron en otro capítulo; la numeración visible sigue el nuevo orden.

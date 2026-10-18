@@ -1,82 +1,5 @@
 [
   {
-    "id": "F01",
-    "title": "SI base unit: mole (mol)",
-    "authors": "Bureau International des Poids et Mesures (BIPM)",
-    "year": 2018,
-    "url": "https://www.bipm.org/en/si-base-units/mole",
-    "doi": null,
-    "type": "definición oficial del Sistema Internacional",
-    "verified": true,
-    "note": "Consultado el 18-10-2026. Se verificó la definición vigente y el valor exacto de la constante de Avogadro. El año corresponde a la adopción de la definición. Las conversiones, ejemplos de volumen y problemas del capítulo son originales."
-  },
-  {
-    "id": "F02",
-    "title": "College Algebra 2e, §1.2: Exponents and Scientific Notation",
-    "authors": "Jay Abramson; OpenStax",
-    "year": 2021,
-    "url": "https://openstax.org/books/college-algebra-2e/pages/1-2-exponents-and-scientific-notation",
-    "doi": null,
-    "type": "libro universitario abierto, sección oficial",
-    "verified": true,
-    "note": "Verificado el 18-10-2026 en OpenStax: sección y metadatos de College Algebra 2e, publicado el 21-12-2021. Fuente de consulta y práctica adicional. No se reproducen sus ejercicios, figuras ni redacción; los ejemplos aplicados y explicaciones son originales."
-  },
-  {
-    "id": "F03",
-    "title": "College Algebra 2e, §3.1: Functions and Function Notation",
-    "authors": "Jay Abramson; OpenStax",
-    "year": 2021,
-    "url": "https://openstax.org/books/college-algebra-2e/pages/3-1-functions-and-function-notation",
-    "doi": null,
-    "type": "libro universitario abierto, sección oficial",
-    "verified": true,
-    "note": "Verificado el 18-10-2026 en OpenStax: sección, definiciones de función y notación. Se usa como lectura complementaria; la secuencia pedagógica, relaciones con unidades y problemas son originales."
-  },
-  {
-    "id": "F04",
-    "title": "College Algebra 2e, §6.7: Exponential and Logarithmic Models",
-    "authors": "Jay Abramson; OpenStax",
-    "year": 2021,
-    "url": "https://openstax.org/books/college-algebra-2e/pages/6-7-exponential-and-logarithmic-models",
-    "doi": null,
-    "type": "libro universitario abierto, sección oficial",
-    "verified": true,
-    "note": "Verificado el 18-10-2026 en el texto oficial OpenStax. Apoyo para conceptos matemáticos generales de crecimiento y decaimiento. Todos los valores de tasas, semividas y concentraciones y sus problemas son construcciones originales."
-  },
-  {
-    "id": "F05",
-    "title": "Calculus Volume 1, §3.1: Defining the Derivative",
-    "authors": "Gilbert Strang; Edwin «Jed» Herman; OpenStax",
-    "year": 2016,
-    "url": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative",
-    "doi": null,
-    "type": "libro universitario abierto, sección oficial",
-    "verified": true,
-    "note": "Verificado el 18-10-2026 en OpenStax: definición y sección oficial. Metadatos del volumen: publicación 30-03-2016. El ejemplo cuadrático con unidades y el ejercicio exponencial son originales, no traducciones del libro."
-  },
-  {
-    "id": "F06",
-    "title": "Calculus Volume 1, §3.6: The Chain Rule",
-    "authors": "Gilbert Strang; Edwin «Jed» Herman; OpenStax",
-    "year": 2016,
-    "url": "https://openstax.org/books/calculus-volume-1/pages/3-6-the-chain-rule",
-    "doi": null,
-    "type": "libro universitario abierto, sección oficial",
-    "verified": true,
-    "note": "Verificado el 18-10-2026 en la sección oficial OpenStax. Referencia complementaria sobre composición y regla de la cadena; la calibración ilustrativa de señal y sus cálculos se diseñaron expresamente para este capítulo."
-  },
-  {
-    "id": "F07",
-    "title": "Calculus Volume 1, §5.2: The Definite Integral",
-    "authors": "Gilbert Strang; Edwin «Jed» Herman; OpenStax",
-    "year": 2016,
-    "url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
-    "doi": null,
-    "type": "libro universitario abierto, sección oficial",
-    "verified": true,
-    "note": "Verificado el 18-10-2026 en OpenStax: definición de integral, acumulación con signo y distinción respecto a integral indefinida. Metadatos de autores y fecha comprobados en el pie oficial. Ejemplos y redacción propios."
-  },
-  {
     "id": "F08",
     "title": "Calculus Volume 2, §4.3: Separable Equations",
     "authors": "Gilbert Strang; Edwin «Jed» Herman; OpenStax",
@@ -86,17 +9,6 @@
     "type": "libro universitario abierto, sección oficial",
     "verified": true,
     "note": "Verificado el 18-10-2026 en OpenStax: método y metadatos del volumen publicado el 30-03-2016. El balance de producción y eliminación, su solución con unidades y la comparación numérica son desarrollos originales."
-  },
-  {
-    "id": "F09",
-    "title": "College Algebra 2e, §7.5: Matrices and Matrix Operations",
-    "authors": "Jay Abramson; OpenStax",
-    "year": 2021,
-    "url": "https://openstax.org/books/college-algebra-2e/pages/7-5-matrices-and-matrix-operations",
-    "doi": null,
-    "type": "libro universitario abierto, sección oficial",
-    "verified": true,
-    "note": "Verificado el 18-10-2026 en OpenStax: organización de filas/columnas, dimensiones y operaciones; autor y fecha comprobados en metadatos oficiales. Se citan conceptos generales; no se reproducen tablas, imágenes ni ejercicios."
   },
   {
     "id": "F10",
@@ -790,5 +702,256 @@
     "type": "artículo primario de reporteros vegetales",
     "verified": true,
     "note": "Verificados registro de Nature Methods, PubMed 25643149 y texto accesible en PMC4344836 el 18-10-2026. La página primaria indica una corrección de 29-10-2015. R2D2 se describe como lectura semicuantitativa de entrada; la ilustración usa un sensor y una referencia conceptuales, sin calibración ni reconstrucción experimental."
+  },
+  {
+    "id": "A01",
+    "title": "Mathematical Modelling in Systems Biology: An Introduction — versión de autor de 23-12-2015",
+    "authors": "Brian P. Ingalls",
+    "year": 2015,
+    "doi": null,
+    "url": "https://www.math.uwaterloo.ca/~bingalls/MMSB/",
+    "type": "Libro académico; archivo aportado por el lector",
+    "note": "Se ha consultado el PDF de 406 páginas aportado por el usuario, cuya portada indica 23-12-2015. No se identifica como si fuera la edición impresa de MIT Press de 2013. Los capítulos y secciones citados corresponden al archivo de autor; la paginación impresa difiere del número de página PDF. Se usa como referencia de estructura, principios y análisis; no se redistribuye el PDF ni se copian sus figuras o ejercicios."
+  },
+  {
+    "id": "A02",
+    "title": "Ordinary Differential Equations and Dynamical Systems",
+    "authors": "Gerald Teschl",
+    "year": 2012,
+    "doi": null,
+    "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/",
+    "type": "Libro académico, Graduate Studies in Mathematics 140, American Mathematical Society",
+    "note": "Página académica del autor y datos editoriales consultados el 19-10-2026. Referencia adicional para métodos de EDO, existencia y unicidad, estabilidad y bifurcaciones; no se redistribuye el libro."
+  },
+  {
+    "id": "A03",
+    "title": "A fast, robust and tunable synthetic gene oscillator",
+    "authors": "Jesse Stricker; Scott Cookson; Matthew R. Bennett; William H. Mather; Lev S. Tsimring; Jeff Hasty",
+    "year": 2008,
+    "doi": "10.1038/nature07389",
+    "url": "https://doi.org/10.1038/nature07389",
+    "type": "Artículo académico primario",
+    "note": "Artículo primario; resumen y descripción editorial consultados. Caso de doble retroalimentación. No se trasladan sus parámetros a los ejemplos propios. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A04",
+    "title": "Antithetic Integral Feedback Ensures Robust Perfect Adaptation in Noisy Biomolecular Networks",
+    "authors": "Corentin Briat; Ankit Gupta; Mustafa Khammash",
+    "year": 2016,
+    "doi": "10.1016/j.cels.2016.01.004",
+    "url": "https://doi.org/10.1016/j.cels.2016.01.004",
+    "type": "Artículo académico primario",
+    "note": "Artículo teórico primario de control antitético. Identidad y resumen verificados; el desarrollo algebraico del texto es una aplicación docente propia. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A05",
+    "title": "A synchronized quorum of genetic clocks",
+    "authors": "Tal Danino; Octavio Mondragón-Palomino; Lev Tsimring; Jeff Hasty",
+    "year": 2010,
+    "doi": "10.1038/nature08753",
+    "url": "https://doi.org/10.1038/nature08753",
+    "type": "Artículo académico primario",
+    "note": "Artículo primario; resumen y descripción editorial consultados. Sincronización intercelular; el modelo de fases del libro es docente. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A06",
+    "title": "Intracellularly coupled oscillators for synthetic biology",
+    "authors": "Gábor Holló; Jung Hun Park; Rose A. Evard; Yolanda Schaerli",
+    "year": 2025,
+    "doi": "10.1038/s41467-025-67893-0",
+    "url": "https://doi.org/10.1038/s41467-025-67893-0",
+    "type": "Artículo académico primario",
+    "note": "Artículo teórico primario; texto web consultado, resultados y limitaciones de implementación. Publicado en línea el 21-12-2025; volumen 17 de 2026. No confundir predicciones computacionales con validación experimental. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A07",
+    "title": "Intrinsic and extrinsic contributions to stochasticity in gene expression",
+    "authors": "Peter S. Swain; Michael B. Elowitz; Eric D. Siggia",
+    "year": 2002,
+    "doi": "10.1073/pnas.162041399",
+    "url": "https://doi.org/10.1073/pnas.162041399",
+    "type": "Artículo académico primario",
+    "note": "Artículo primario teórico; resumen y texto abierto consultados para distinguir ruido intrínseco y extrínseco. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A08",
+    "title": "Variance based sensitivity analysis of model output. Design and estimator for the total sensitivity index",
+    "authors": "Andrea Saltelli; Paola Annoni; Ivano Azzini; Francesca Campolongo; Marco Ratto; Stefano Tarantola",
+    "year": 2010,
+    "doi": "10.1016/j.cpc.2009.09.018",
+    "url": "https://doi.org/10.1016/j.cpc.2009.09.018",
+    "type": "Artículo académico primario",
+    "note": "Artículo metodológico de sensibilidad. Identidad y resumen contrastados con la fuente editorial; las demostraciones y ejemplos de índices del libro son propios. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A10",
+    "title": "Universally Sloppy Parameter Sensitivities in Systems Biology Models",
+    "authors": "Ryan N Gutenkunst; Joshua J Waterfall; Fergal P Casey; Kevin S Brown; Christopher R Myers; James P Sethna",
+    "year": 2007,
+    "doi": "10.1371/journal.pcbi.0030189",
+    "url": "https://doi.org/10.1371/journal.pcbi.0030189",
+    "type": "Artículo académico primario",
+    "note": "Artículo primario; resumen abierto consultado. No afirma que todo modelo posible sea necesariamente sloppy; el resultado se refiere a los modelos estudiados. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A11",
+    "title": "Genetic Toggle Switch in Plants",
+    "authors": "Tessema K. Kassaw; Wenlong Xu; Christopher S. Zalewski; Katherine Kiwimagi; Ron Weiss; Mauricio S. Antunes; Ashok Prasad; June I. Medford",
+    "year": 2025,
+    "doi": "10.1021/acssynbio.4c00777",
+    "url": "https://doi.org/10.1021/acssynbio.4c00777",
+    "type": "Artículo académico primario",
+    "note": "Artículo primario; resumen PubMed e información editorial ACS consultados. Comparación transitorio/estable y modelado de un interruptor vegetal. No se presenta el ejemplo docente como reproducción del artículo. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A12",
+    "title": "Ultrasensitivity in the mitogen-activated protein kinase cascade.",
+    "authors": "C Y Huang; J E Ferrell",
+    "year": 1996,
+    "doi": "10.1073/pnas.93.19.10078",
+    "url": "https://doi.org/10.1073/pnas.93.19.10078",
+    "type": "Artículo académico primario",
+    "note": "Artículo primario; resumen PubMed y formulación general contrastados con Ingalls, capítulo 6. Se resume el hallazgo experimental y se deriva un ejemplo propio de cascada. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A13",
+    "title": "An amplified sensitivity arising from covalent modification in biological systems.",
+    "authors": "A Goldbeter; D E Koshland",
+    "year": 1981,
+    "doi": "10.1073/pnas.78.11.6840",
+    "url": "https://doi.org/10.1073/pnas.78.11.6840",
+    "type": "Artículo académico primario",
+    "note": "Artículo teórico primario; principio de ultrasensibilidad de orden cero contrastado con el capítulo 6 de Ingalls. No se reproducen figuras. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A14",
+    "title": "Discovering governing equations from data by sparse identification of nonlinear dynamical systems",
+    "authors": "Steven L. Brunton; Joshua L. Proctor; J. Nathan Kutz",
+    "year": 2016,
+    "doi": "10.1073/pnas.1517384113",
+    "url": "https://doi.org/10.1073/pnas.1517384113",
+    "type": "Artículo académico primario",
+    "note": "Artículo metodológico primario; resumen y presentación del método consultados. El ejemplo lineal de identificación dispersa es original. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A15",
+    "title": "Minimum information requested in the annotation of biochemical models (MIRIAM)",
+    "authors": "Nicolas Le Novère; Andrew Finney; Michael Hucka; Upinder S Bhalla; Fabien Campagne; Julio Collado-Vides; Edmund J Crampin; Matt Halstead; Edda Klipp; Pedro Mendes; Poul Nielsen; Herbert Sauro; Bruce Shapiro; Jacky L Snoep; Hugh D Spence; Barry L Wanner",
+    "year": 2005,
+    "doi": "10.1038/nbt1156",
+    "url": "https://doi.org/10.1038/nbt1156",
+    "type": "Fuente académica de método o software",
+    "note": "Artículo de estándares; metadatos y presentación académica consultados. Se usa para atribución y anotación reproducible de modelos. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A16",
+    "title": "Signaling switches and bistability arising from multisite phosphorylation in protein kinase cascades",
+    "authors": "Nick I. Markevich; Jan B. Hoek; Boris N. Kholodenko",
+    "year": 2004,
+    "doi": "10.1083/jcb.200308060",
+    "url": "https://doi.org/10.1083/jcb.200308060",
+    "type": "Artículo académico primario",
+    "note": "Artículo primario; resumen y texto abierto consultados. Bistabilidad por fosforilación multisito, sin atribuirla a cualquier cascada genérica. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A17",
+    "title": "An Algorithmic Introduction to Numerical Simulation of Stochastic Differential Equations",
+    "authors": "Desmond J. Higham",
+    "year": 2001,
+    "doi": "10.1137/S0036144500378302",
+    "url": "https://doi.org/10.1137/S0036144500378302",
+    "type": "Artículo académico primario",
+    "note": "Artículo metodológico primario; resumen editorial y alcance consultados. Referencia de simulación de EDE, convergencia fuerte y débil. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A18",
+    "title": "Structural Identifiability of Dynamic Systems Biology Models",
+    "authors": "Alejandro F. Villaverde; Antonio Barreiro; Antonis Papachristodoulou",
+    "year": 2016,
+    "doi": "10.1371/journal.pcbi.1005153",
+    "url": "https://doi.org/10.1371/journal.pcbi.1005153",
+    "type": "Artículo académico primario",
+    "note": "Artículo metodológico primario; referencia para identificabilidad estructural de sistemas dinámicos no lineales. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A19",
+    "title": "The finite state projection algorithm for the solution of the chemical master equation",
+    "authors": "Brian Munsky; Mustafa Khammash",
+    "year": 2006,
+    "doi": "10.1063/1.2145882",
+    "url": "https://doi.org/10.1063/1.2145882",
+    "type": "Artículo académico primario",
+    "note": "Artículo metodológico primario; identidad y presentación del autor consultadas. Proyección finita de estados para ecuación maestra. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A20",
+    "title": "Markovian Modeling of Gene-Product Synthesis",
+    "authors": "J. Peccoud; B. Ycart",
+    "year": 1995,
+    "doi": "10.1006/tpbi.1995.1027",
+    "url": "https://doi.org/10.1006/tpbi.1995.1027",
+    "type": "Artículo académico primario",
+    "note": "Artículo primario de expresión génica estocástica; identidad bibliográfica verificada. Los momentos del promotor telegráfico del libro se derivan explícitamente. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A21",
+    "title": "Array programming with NumPy",
+    "authors": "Charles R. Harris; K. Jarrod Millman; Stéfan J. van der Walt; Ralf Gommers; Pauli Virtanen; David Cournapeau; Eric Wieser; Julian Taylor; Sebastian Berg; Nathaniel J. Smith; Robert Kern; Matti Picus; Stephan Hoyer; Marten H. van Kerkwijk; Matthew Brett; Allan Haldane; Jaime Fernández del Río; Mark Wiebe; Pearu Peterson; Pierre Gérard-Marchant; Kevin Sheppard; Tyler Reddy; Warren Weckesser; Hameer Abbasi; Christoph Gohlke; Travis E. Oliphant",
+    "year": 2020,
+    "doi": "10.1038/s41586-020-2649-2",
+    "url": "https://doi.org/10.1038/s41586-020-2649-2",
+    "type": "Fuente académica de método o software",
+    "note": "Artículo de software académico para NumPy; acompañado de la documentación oficial en las referencias R. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A22",
+    "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+    "authors": "Pauli Virtanen; Ralf Gommers; Travis E. Oliphant; Matt Haberland; Tyler Reddy; David Cournapeau; Evgeni Burovski; Pearu Peterson; Warren Weckesser; Jonathan Bright; Stéfan J. van der Walt; Matthew Brett; Joshua Wilson; K. Jarrod Millman; Nikolay Mayorov; Andrew R. J. Nelson; Eric Jones; Robert Kern; Eric Larson; C J Carey; İlhan Polat; Yu Feng; Eric W. Moore; Jake VanderPlas; Denis Laxalde; Josef Perktold; Robert Cimrman; Ian Henriksen; E. A. Quintero; Charles R. Harris; Anne M. Archibald; Antônio H. Ribeiro; Fabian Pedregosa; Paul van Mulbregt; ; Aditya Vijaykumar; Alessandro Pietro Bardelli; Alex Rothberg; Andreas Hilboll; Andreas Kloeckner; Anthony Scopatz; Antony Lee; Ariel Rokem; C. Nathan Woods; Chad Fulton; Charles Masson; Christian Häggström; Clark Fitzgerald; David A. Nicholson; David R. Hagen; Dmitrii V. Pasechnik; Emanuele Olivetti; Eric Martin; Eric Wieser; Fabrice Silva; Felix Lenders; Florian Wilhelm; G. Young; Gavin A. Price; Gert-Ludwig Ingold; Gregory E. Allen; Gregory R. Lee; Hervé Audren; Irvin Probst; Jörg P. Dietrich; Jacob Silterra; James T Webber; Janko Slavič; Joel Nothman; Johannes Buchner; Johannes Kulick; Johannes L. Schönberger; José Vinícius de Miranda Cardoso; Joscha Reimer; Joseph Harrington; Juan Luis Cano Rodríguez; Juan Nunez-Iglesias; Justin Kuczynski; Kevin Tritz; Martin Thoma; Matthew Newville; Matthias Kümmerer; Maximilian Bolingbroke; Michael Tartre; Mikhail Pak; Nathaniel J. Smith; Nikolai Nowaczyk; Nikolay Shebanov; Oleksandr Pavlyk; Per A. Brodtkorb; Perry Lee; Robert T. McGibbon; Roman Feldbauer; Sam Lewis; Sam Tygier; Scott Sievert; Sebastiano Vigna; Stefan Peterson; Surhud More; Tadeusz Pudlik; Takuya Oshima; Thomas J. Pingel; Thomas P. Robitaille; Thomas Spura; Thouis R. Jones; Tim Cera; Tim Leslie; Tiziano Zito; Tom Krauss; Utkarsh Upadhyay; Yaroslav O. Halchenko; Yoshiki Vázquez-Baeza",
+    "year": 2020,
+    "doi": "10.1038/s41592-019-0686-2",
+    "url": "https://doi.org/10.1038/s41592-019-0686-2",
+    "type": "Fuente académica de método o software",
+    "note": "Artículo de software académico para SciPy; acompañado de la documentación oficial de cada función. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A23",
+    "title": "Matplotlib: A 2D Graphics Environment",
+    "authors": "John D. Hunter",
+    "year": 2007,
+    "doi": "10.1109/MCSE.2007.55",
+    "url": "https://doi.org/10.1109/MCSE.2007.55",
+    "type": "Fuente académica de método o software",
+    "note": "Artículo de software académico para Matplotlib; acompañado de su documentación oficial. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A24",
+    "title": "Jupyter Notebooks – a publishing format for reproducible computational workflows",
+    "authors": "Kluyver Thomas; Ragan-Kelley Benjamin; P&eacute;rez Fernando; Granger Brian; Bussonnier Matthias; Frederic Jonathan; Kelley Kyle; Hamrick Jessica; Grout Jason; Corlay Sylvain; Ivanov Paul; Avila Dami&aacute;n; Abdalla Safia; Willing Carol; Jupyter Development Team",
+    "year": 2016,
+    "doi": "10.3233/978-1-61499-649-1-87",
+    "url": "https://doi.org/10.3233/978-1-61499-649-1-87",
+    "type": "Fuente académica de método o software",
+    "note": "Capítulo académico sobre Jupyter y flujos reproducibles. No sustituye las instrucciones de instalación actuales. Metadatos DOI verificados el 19-10-2026."
+  },
+  {
+    "id": "A09",
+    "title": "Bayesian Data Analysis, tercera edición",
+    "authors": "Andrew Gelman; John B. Carlin; Hal S. Stern; David B. Dunson; Aki Vehtari; Donald B. Rubin",
+    "year": 2013,
+    "doi": null,
+    "url": "https://sites.stat.columbia.edu/gelman/book/",
+    "type": "Libro académico, Chapman & Hall/CRC",
+    "note": "Página académica del libro y registro editorial consultados el 19-10-2026. Referencia para posterior, predicción y comprobación bayesiana. Ejemplos numéricos originales; no se redistribuye el PDF de la fuente."
+  },
+  {
+    "id": "F01",
+    "title": "SI base unit: mole (mol)",
+    "authors": "Bureau International des Poids et Mesures (BIPM)",
+    "year": 2018,
+    "url": "https://www.bipm.org/en/si-base-units/mole",
+    "doi": null,
+    "type": "definición oficial del Sistema Internacional",
+    "verified": true,
+    "note": "Consultado el 18-10-2026. Se verificó la definición vigente y el valor exacto de la constante de Avogadro. El año corresponde a la adopción de la definición. Las conversiones, ejemplos de volumen y problemas del capítulo son originales."
   }
 ]

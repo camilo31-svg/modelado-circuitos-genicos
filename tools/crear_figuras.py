@@ -201,7 +201,17 @@ ax[1].barh(['Datos','Estructura','Parámetros','Algoritmo'],[.8,.9,.5,.3],color=
 save(fig,'f26_investigar','Del resultado numérico a una conclusión defendible',['c00','c31','c33','c34','c35','c37'],'A: cada predicción debe conectarse con una pregunta, supuestos y pruebas. B: esquema cualitativo de fuentes de incertidumbre; las alturas son arbitrarias y no comparan riesgos reales. Un ajuste excelente no elimina errores de estructura, observación o extrapolación.',['investigación','reproducibilidad','IA','validación'])
 
 catalog=OUT.parent.parent/'figures.json'
-mechanisms=[f for f in json.loads(catalog.read_text(encoding='utf8')) if f.get('kind')=='mechanism'] if catalog.exists() else []
-for f in META:f['kind']='model'
+previous=json.loads(catalog.read_text(encoding='utf8')) if catalog.exists() else []
+mechanisms=[f for f in previous if f.get('kind')=='mechanism' or f['id'].startswith('g')]
+known={f['id']:f for f in previous}
+if (ROOT/'book'/'edition.json').exists():
+    META=[f for f in META if f['id']!='f02_calculo']
+    for ext in ['png','svg']:
+        removed=OUT/('f02_calculo.'+ext)
+        if removed.exists():removed.unlink()
+for f in META:
+    f['kind']='model'
+    if f['id'] in known:
+        for field in ['chapters','refs','caption']:f[field]=known[f['id']].get(field,f.get(field))
 catalog.write_text(json.dumps(META+mechanisms,ensure_ascii=False,indent=2),encoding='utf8')
 print('Figuras originales:',len(META))

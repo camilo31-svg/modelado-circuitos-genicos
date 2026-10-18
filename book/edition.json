@@ -1,0 +1,27 @@
+{
+  "edition": "2.0",
+  "review_date": "2026-10-19",
+  "parts": [
+    "I · Ecuaciones diferenciales y construcción del modelo",
+    "II · Dinámica no lineal y circuitos complejos",
+    "III · Ruido, observación e inferencia",
+    "IV · Modelado vegetal con profundidad",
+    "V · Investigación y modelos de mayor alcance"
+  ],
+  "first_chapter": "edo",
+  "chapter_aliases": {
+    "c00": "edo",
+    "c06": "edo",
+    "c10": "c08",
+    "c12": "c11",
+    "c19": "c20",
+    "c30": "c32"
+  },
+  "source_book": "A01",
+  "removed_topics": [
+    "aritmética elemental",
+    "introducción a funciones",
+    "exponenciales y logaritmos desde cero",
+    "definición de derivadas e integrales"
+  ]
+}

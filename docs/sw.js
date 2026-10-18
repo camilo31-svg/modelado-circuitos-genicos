@@ -1,7 +1,7 @@
-const VERSION="2df0ce23d7369c";
+const VERSION="aa97db20e614ff";
 const PREFIX='atlas-circuitos:'+self.registration.scope+':';
 const CACHE=PREFIX+VERSION;
-const CORE=['./','index.html','style.css','molecules.css','app.js','chapters.json','figures.json','references.json','meta.json','assets.json','manifest.webmanifest','assets/icon.svg'];
+const CORE=['./','index.html','style.css','molecules.css','edition2.css','app.js','chapters.json','figures.json','references.json','meta.json','labs.json','assets.json','manifest.webmanifest','assets/icon.svg'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith(PREFIX)&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
 self.addEventListener('fetch',event=>{

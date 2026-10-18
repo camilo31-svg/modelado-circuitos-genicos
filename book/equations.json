@@ -1,271 +1,95 @@
 {
-  "474440ecfae6471e3c": {
-    "tex": "P_{\\mathrm{siguiente}}=0{,}8P_{\\mathrm{actual}}+6",
-    "path": "assets/equations/474440ecfae6471e3c.png"
-  },
-  "808a18f0fd86021b1f": {
-    "tex": "N_A=6{,}02214076\\times10^{23}\\ \\mathrm{mol}^{-1}",
-    "path": "assets/equations/808a18f0fd86021b1f.png"
-  },
-  "1bb9a55114ec19f1e3": {
-    "tex": "n=\\frac{N}{N_A}",
-    "path": "assets/equations/1bb9a55114ec19f1e3.png"
-  },
-  "7f3309aaabd4c91a21": {
-    "tex": "c=\\frac{n}{V}=\\frac{N}{N_A V}",
-    "path": "assets/equations/7f3309aaabd4c91a21.png"
-  },
-  "955965a5e38d761548": {
-    "tex": "2\\ \\mathrm{\\mu M}\\times\\frac{1000\\ \\mathrm{nM}}{1\\ \\mathrm{\\mu M}}=2000\\ \\mathrm{nM}",
-    "path": "assets/equations/955965a5e38d761548.png"
-  },
-  "14f52263002c4e52ec": {
-    "tex": "c=\\frac{600}{(6{,}02214076\\times10^{23})(10^{-12})}\\ \\mathrm{mol/L}",
-    "path": "assets/equations/14f52263002c4e52ec.png"
-  },
-  "a5ab91ef3ff290e411": {
-    "tex": "N=cN_A V",
-    "path": "assets/equations/a5ab91ef3ff290e411.png"
-  },
-  "890f9598a19cc350c3": {
-    "tex": "2+3\\times4=14",
-    "path": "assets/equations/890f9598a19cc350c3.png"
-  },
-  "dbaf4852b9aad3bf78": {
-    "tex": "(2+3)\\times4=20",
-    "path": "assets/equations/dbaf4852b9aad3bf78.png"
-  },
-  "7d0125a1634b0084ef": {
-    "tex": "\\frac{1}{2}+\\frac{1}{3}=\\frac{3}{6}+\\frac{2}{6}=\\frac{5}{6}",
-    "path": "assets/equations/7d0125a1634b0084ef.png"
-  },
-  "1dd702cec91ebc1e1e": {
-    "tex": "\\frac{a}{b}\\frac{c}{d}=\\frac{ac}{bd}",
-    "path": "assets/equations/1dd702cec91ebc1e1e.png"
-  },
-  "70aa20180f1655d8be": {
-    "tex": "r=\\frac{x_1-x_0}{x_0}",
-    "path": "assets/equations/70aa20180f1655d8be.png"
-  },
-  "952f0b96e24e2f7300": {
-    "tex": "x^a x^b=x^{a+b}",
-    "path": "assets/equations/952f0b96e24e2f7300.png"
-  },
-  "0d9b63d7a5dcf6d9b6": {
-    "tex": "\\frac{x^a}{x^b}=x^{a-b}",
-    "path": "assets/equations/0d9b63d7a5dcf6d9b6.png"
-  },
-  "a2321b19963f6053c4": {
-    "tex": "(x^a)^b=x^{ab}",
-    "path": "assets/equations/a2321b19963f6053c4.png"
-  },
-  "f5c51238d7d1f6cbd9": {
-    "tex": "0{,}0000032=3{,}2\\times10^{-6}",
-    "path": "assets/equations/f5c51238d7d1f6cbd9.png"
-  },
-  "f7fbfb5606c88e1251": {
-    "tex": "4500000=4{,}5\\times10^6",
-    "path": "assets/equations/f7fbfb5606c88e1251.png"
-  },
-  "459df8dda638b7221f": {
-    "tex": "a=\\delta x",
-    "path": "assets/equations/459df8dda638b7221f.png"
-  },
-  "fe4c631cc4e4cbbb47": {
-    "tex": "x=\\frac{a}{\\delta}",
-    "path": "assets/equations/fe4c631cc4e4cbbb47.png"
-  },
-  "05d8402754bb2d934c": {
-    "tex": "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}",
-    "path": "assets/equations/05d8402754bb2d934c.png"
-  },
-  "debd18bdfb20548cd5": {
-    "tex": "y=mx+b",
-    "path": "assets/equations/debd18bdfb20548cd5.png"
-  },
-  "6e0e5744e628cbd460": {
-    "tex": "m=\\frac{y_2-y_1}{x_2-x_1}",
-    "path": "assets/equations/6e0e5744e628cbd460.png"
-  },
-  "4e829668f4fa0aa085": {
-    "tex": "y=\\frac{Vx}{K+x}",
-    "path": "assets/equations/4e829668f4fa0aa085.png"
-  },
-  "ace990568cda3f29fa": {
-    "tex": "x=\\frac{yK}{V-y}",
-    "path": "assets/equations/ace990568cda3f29fa.png"
-  },
-  "d0df526bea442f2d5c": {
-    "tex": "x(t)=x_0 e^{kt}",
-    "path": "assets/equations/d0df526bea442f2d5c.png"
-  },
-  "afb93ac54086eb890b": {
-    "tex": "x(t)=x_0 b^{t/T}",
-    "path": "assets/equations/afb93ac54086eb890b.png"
-  },
-  "4bcd27ea92178a6c3d": {
-    "tex": "k=\\frac{\\ln b}{T}",
-    "path": "assets/equations/4bcd27ea92178a6c3d.png"
-  },
-  "7c6c3b8e8a40b0998e": {
-    "tex": "\\log_b q=r\\quad\\Longleftrightarrow\\quad b^r=q",
-    "path": "assets/equations/7c6c3b8e8a40b0998e.png"
-  },
-  "4432943cb6d64b8543": {
-    "tex": "\\ln\\left(\\frac{x(t)}{x_0}\\right)=kt",
-    "path": "assets/equations/4432943cb6d64b8543.png"
-  },
-  "ab6ad68a296092d9c1": {
-    "tex": "\\frac{1}{2}=e^{-\\delta t_{1/2}}",
-    "path": "assets/equations/ab6ad68a296092d9c1.png"
-  },
-  "bb07eec6f75dfd016d": {
-    "tex": "t_{1/2}=\\frac{\\ln2}{\\delta}",
-    "path": "assets/equations/bb07eec6f75dfd016d.png"
-  },
-  "97edcdd2466b4fb348": {
-    "tex": "k=\\frac{\\ln(x_2/x_1)}{t_2-t_1}",
-    "path": "assets/equations/97edcdd2466b4fb348.png"
-  },
-  "20d1880a6c45aa03fc": {
-    "tex": "\\frac{c(t+h)-c(t)}{h}",
-    "path": "assets/equations/20d1880a6c45aa03fc.png"
-  },
-  "2edc2921df8b9f81f3": {
-    "tex": "c'(t)=\\frac{dc}{dt}=\\lim_{h\\to0}\\frac{c(t+h)-c(t)}{h}",
-    "path": "assets/equations/2edc2921df8b9f81f3.png"
-  },
-  "09ce0da186781ec505": {
-    "tex": "c(t)=c_0+a t^2",
-    "path": "assets/equations/09ce0da186781ec505.png"
-  },
-  "a938366eba2dcd2002": {
-    "tex": "\\frac{c(t+h)-c(t)}{h}=a(2t+h)",
-    "path": "assets/equations/a938366eba2dcd2002.png"
-  },
-  "94d4b03d2dd61da718": {
-    "tex": "\\frac{dc}{dt}=2at",
-    "path": "assets/equations/94d4b03d2dd61da718.png"
-  },
-  "67c5639ad1df2f94d5": {
-    "tex": "\\frac{d}{dt}t^n=nt^{n-1}",
-    "path": "assets/equations/67c5639ad1df2f94d5.png"
-  },
-  "259427d260341cfcbd": {
-    "tex": "\\frac{d}{dt}(uv)=u'v+uv'",
-    "path": "assets/equations/259427d260341cfcbd.png"
-  },
-  "f0f924959c12826093": {
-    "tex": "\\frac{d}{dt}\\left(\\frac{u}{v}\\right)=\\frac{u'v-uv'}{v^2}",
-    "path": "assets/equations/f0f924959c12826093.png"
-  },
-  "0c40dbb46461799940": {
-    "tex": "\\frac{dF}{dt}=\\frac{dF}{dc}\\frac{dc}{dt}",
-    "path": "assets/equations/0c40dbb46461799940.png"
-  },
-  "90ad6084d0f05696ea": {
-    "tex": "\\frac{dF}{dt}=2qc\\frac{dc}{dt}",
-    "path": "assets/equations/90ad6084d0f05696ea.png"
-  },
-  "1ca0f712737ba4b296": {
-    "tex": "\\frac{\\partial f}{\\partial x}=a",
-    "path": "assets/equations/1ca0f712737ba4b296.png"
-  },
-  "8802ce27338706e460": {
-    "tex": "\\frac{\\partial f}{\\partial y}=b",
-    "path": "assets/equations/8802ce27338706e460.png"
-  },
-  "d5bce3df3c556a0185": {
-    "tex": "\\Delta x\\approx\\sum_i r(t_i)\\Delta t_i",
-    "path": "assets/equations/d5bce3df3c556a0185.png"
-  },
-  "a516bcf62661a77173": {
-    "tex": "\\Delta x=\\int_{t_0}^{t_1}r(t)\\,dt",
-    "path": "assets/equations/a516bcf62661a77173.png"
-  },
-  "5119177b844c346d8c": {
-    "tex": "R(t)=at+\\frac{bt^2}{2}+C",
-    "path": "assets/equations/5119177b844c346d8c.png"
-  },
-  "97068031d7d9ca3ea0": {
-    "tex": "\\frac{dx}{dt}=a-\\delta x",
-    "path": "assets/equations/97068031d7d9ca3ea0.png"
-  },
-  "4ab76a6a6626cbc941": {
-    "tex": "x^*=\\frac{a}{\\delta}",
-    "path": "assets/equations/4ab76a6a6626cbc941.png"
-  },
-  "c450de90cace4ae851": {
-    "tex": "\\frac{dz}{dt}=-\\delta z",
-    "path": "assets/equations/c450de90cace4ae851.png"
-  },
-  "0ba454ce43e407e8d9": {
-    "tex": "\\frac{dz}{z}=-\\delta\\,dt",
-    "path": "assets/equations/0ba454ce43e407e8d9.png"
-  },
-  "905e1e61d43976c0c0": {
-    "tex": "\\ln\\left|\\frac{z(t)}{z_0}\\right|=-\\delta t",
-    "path": "assets/equations/905e1e61d43976c0c0.png"
-  },
-  "1a4fc9935ece2f466f": {
-    "tex": "x(t)=\\frac{a}{\\delta}+\\left(x_0-\\frac{a}{\\delta}\\right)e^{-\\delta t}",
-    "path": "assets/equations/1a4fc9935ece2f466f.png"
-  },
-  "4f37037ad30972afb2": {
-    "tex": "x(2)=12-10e^{-1}\\approx8{,}321\\ \\mathrm{nM}",
-    "path": "assets/equations/4f37037ad30972afb2.png"
-  },
-  "773005814f26e9bace": {
-    "tex": "x_{j+1}=x_j+h(a-\\delta x_j)",
-    "path": "assets/equations/773005814f26e9bace.png"
-  },
-  "a6a799c7ea147af1e5": {
-    "tex": "y_i=\\sum_j A_{ij}x_j",
-    "path": "assets/equations/a6a799c7ea147af1e5.png"
-  },
-  "ec58f18682a633c9c4": {
-    "tex": "y_1=A_{11}x_1+A_{12}x_2",
-    "path": "assets/equations/ec58f18682a633c9c4.png"
-  },
-  "6ecc0e1aecc216ad59": {
-    "tex": "y_2=A_{21}x_1+A_{22}x_2",
-    "path": "assets/equations/6ecc0e1aecc216ad59.png"
-  },
-  "bf9d9bc6eceac34c35": {
-    "tex": "\\det A=A_{11}A_{22}-A_{12}A_{21}",
-    "path": "assets/equations/bf9d9bc6eceac34c35.png"
-  },
-  "b5f23f6de71353e75a": {
-    "tex": "Av=\\lambda v",
-    "path": "assets/equations/b5f23f6de71353e75a.png"
-  },
-  "3aae8c755684b1a282": {
-    "tex": "u=\\frac{x}{X}",
-    "path": "assets/equations/3aae8c755684b1a282.png"
-  },
-  "99fc62320140db6dcd": {
-    "tex": "\\tau=\\frac{t}{T}",
-    "path": "assets/equations/99fc62320140db6dcd.png"
-  },
-  "7e6e5f1490a862f1b0": {
-    "tex": "\\frac{X}{T}\\frac{du}{d\\tau}=a-\\delta Xu",
-    "path": "assets/equations/7e6e5f1490a862f1b0.png"
-  },
-  "74b6439330c9e39b36": {
-    "tex": "\\frac{du}{d\\tau}=1-u",
-    "path": "assets/equations/74b6439330c9e39b36.png"
-  },
-  "d06c57a7f04a636787": {
-    "tex": "\\epsilon\\frac{du}{d\\tau}=v-u",
-    "path": "assets/equations/d06c57a7f04a636787.png"
-  },
-  "bcf61fe14577a6ab7d": {
-    "tex": "\\frac{dv}{d\\tau}=1-v",
-    "path": "assets/equations/bcf61fe14577a6ab7d.png"
+  "5b84fb4beeb43c6f41": {
+    "tex": "\\frac{dx}{dt}=\\alpha-\\delta x,\\qquad x(0)=x_0.",
+    "path": "assets/equations/5b84fb4beeb43c6f41.png"
+  },
+  "76c6ac628b9b119658": {
+    "tex": "\\frac{1}{x}\\frac{dx}{dt}=-\\delta",
+    "path": "assets/equations/76c6ac628b9b119658.png"
+  },
+  "ef149b7b81df0d221b": {
+    "tex": "\\ln\\!\\left(\\frac{x(t)}{x_0}\\right)=-\\delta t, \\qquad x(t)=x_0e^{-\\delta t}.",
+    "path": "assets/equations/ef149b7b81df0d221b.png"
+  },
+  "2b890fbd6889106a43": {
+    "tex": "\\frac{dz}{dt}=-\\delta z, \\qquad z(0)=x_0-\\frac{\\alpha}{\\delta}.",
+    "path": "assets/equations/2b890fbd6889106a43.png"
+  },
+  "b7601cbc5d471e47d6": {
+    "tex": "x(t)=\\frac{\\alpha}{\\delta}+\\left(x_0-\\frac{\\alpha}{\\delta}\\right)e^{-\\delta t}.",
+    "path": "assets/equations/b7601cbc5d471e47d6.png"
+  },
+  "481dd788498ef114f2": {
+    "tex": "e^{\\delta t}x'+\\delta e^{\\delta t}x =\\frac{d}{dt}\\left(e^{\\delta t}x\\right) =e^{\\delta t}a(t).",
+    "path": "assets/equations/481dd788498ef114f2.png"
+  },
+  "91f1cfa072cb46bdcb": {
+    "tex": "x(t)=x_0e^{-\\delta t}+\\int_0^t e^{-\\delta(t-s)}a(s)\\,ds.",
+    "path": "assets/equations/91f1cfa072cb46bdcb.png"
+  },
+  "b623b1e6fae9ebd1fd": {
+    "tex": "x(t)=e^{-D(t)}\\left[x_0+\\int_0^t e^{D(s)}a(s)\\,ds\\right].",
+    "path": "assets/equations/b623b1e6fae9ebd1fd.png"
+  },
+  "f3becefd211252c7e2": {
+    "tex": "x(t)=x(T)e^{-\\delta(t-T)},\\qquad t\\geq T.",
+    "path": "assets/equations/f3becefd211252c7e2.png"
+  },
+  "90b283f7f7b89e1e58": {
+    "tex": "\\frac{da}{dt}=-k_1a+k_2b,\\qquad \\frac{db}{dt}=k_1a-k_2b.",
+    "path": "assets/equations/90b283f7f7b89e1e58.png"
+  },
+  "2809f1ba47cf27f734": {
+    "tex": "\\frac{d\\mathbf{x}}{dt}=N\\mathbf{v}(\\mathbf{x};\\theta).",
+    "path": "assets/equations/2809f1ba47cf27f734.png"
+  },
+  "251bbd0bde3d5579a1": {
+    "tex": "\\frac{dx}{dt}=\\frac{1}{V}\\frac{dn}{dt}-\\frac{1}{V}\\frac{dV}{dt}x.",
+    "path": "assets/equations/251bbd0bde3d5579a1.png"
+  },
+  "6b34f5ecb59a509a8a": {
+    "tex": "\\frac{dz}{d\\tau}=1-z.",
+    "path": "assets/equations/6b34f5ecb59a509a8a.png"
+  },
+  "b656002cf7c1d801f9": {
+    "tex": "c^2-20c+80=0.",
+    "path": "assets/equations/b656002cf7c1d801f9.png"
   },
   "f2fc0f34c53b2e3671": {
     "tex": "x(2)=8e^{-0.5\\cdot2}\\approx2.943",
     "path": "assets/equations/f2fc0f34c53b2e3671.png"
+  },
+  "ae40df9bba80d4d293": {
+    "tex": "\\frac{dx}{dt}=-\\delta x",
+    "path": "assets/equations/ae40df9bba80d4d293.png"
+  },
+  "7f431a71419cb426a2": {
+    "tex": "x_{j+1}=x_j+h(-\\delta x_j)=(1-\\delta h)x_j",
+    "path": "assets/equations/7f431a71419cb426a2.png"
+  },
+  "022560a8ab3cb40879": {
+    "tex": "|1-\\delta h|<1",
+    "path": "assets/equations/022560a8ab3cb40879.png"
+  },
+  "66866601faf0ce5237": {
+    "tex": "s_i=\\mathrm{atol}_i+\\mathrm{rtol}|x_i|",
+    "path": "assets/equations/66866601faf0ce5237.png"
+  },
+  "0d89b77792b4c26d53": {
+    "tex": "\\frac{dm}{dt}=\\alpha-\\gamma_m m, \\qquad \\frac{dp}{dt}=\\beta m-\\gamma_p p.",
+    "path": "assets/equations/0d89b77792b4c26d53.png"
+  },
+  "a7efdab4662a7f5ec8": {
+    "tex": "p(t)=p_0e^{-\\gamma_p t} +\\frac{\\beta m^*}{\\gamma_p}(1-e^{-\\gamma_p t}) +\\beta(m_0-m^*)\\frac{e^{-\\gamma_p t}-e^{-\\gamma_m t}}{\\gamma_m-\\gamma_p}.",
+    "path": "assets/equations/a7efdab4662a7f5ec8.png"
+  },
+  "0627bc3db11bb97add": {
+    "tex": "\\frac{dm_n}{dt}=\\alpha-(\\gamma_n+k_e)m_n, \\qquad \\frac{dm_c}{dt}=k_e\\frac{V_n}{V_c}m_n-\\gamma_c m_c.",
+    "path": "assets/equations/0627bc3db11bb97add.png"
+  },
+  "6a4b23dbdfe4477a60": {
+    "tex": "\\frac{dp_i}{dt}=\\beta m-(k_{mat}+\\gamma_i)p_i, \\qquad \\frac{dp_m}{dt}=k_{mat}p_i-\\gamma_m^{(p)}p_m.",
+    "path": "assets/equations/6a4b23dbdfe4477a60.png"
   },
   "65981f7d808264e96d": {
     "tex": "\\frac{dm}{dt}=\\alpha-\\gamma_m m",
@@ -283,21 +107,89 @@
     "tex": "p^*=\\frac{k\\alpha}{\\gamma_m\\gamma_p}",
     "path": "assets/equations/ec4d2c3f3d12046f43.png"
   },
-  "ae40df9bba80d4d293": {
-    "tex": "\\frac{dx}{dt}=-\\delta x",
-    "path": "assets/equations/ae40df9bba80d4d293.png"
+  "2c7938576d79413321": {
+    "tex": "\\theta=\\frac{r}{K_d+r},\\qquad 1-\\theta=\\frac{1}{1+r/K_d}.",
+    "path": "assets/equations/2c7938576d79413321.png"
   },
-  "7f431a71419cb426a2": {
-    "tex": "x_{j+1}=x_j+h(-\\delta x_j)=(1-\\delta h)x_j",
-    "path": "assets/equations/7f431a71419cb426a2.png"
+  "be3f55107f6a590685": {
+    "tex": "\\alpha_{rep}(r)=\\alpha_{min} +(\\alpha_{max}-\\alpha_{min})\\frac{1}{1+(r/K)^n}.",
+    "path": "assets/equations/be3f55107f6a590685.png"
   },
-  "022560a8ab3cb40879": {
-    "tex": "|1-\\delta h|<1",
-    "path": "assets/equations/022560a8ab3cb40879.png"
+  "e31e0fe41efe8462f9": {
+    "tex": "\\left.\\frac{dh}{dr}\\right|_{r=K}=\\frac{n}{4K}.",
+    "path": "assets/equations/e31e0fe41efe8462f9.png"
   },
-  "66866601faf0ce5237": {
-    "tex": "s_i=\\mathrm{atol}_i+\\mathrm{rtol}|x_i|",
-    "path": "assets/equations/66866601faf0ce5237.png"
+  "e05106b5eafe058426": {
+    "tex": "\\alpha(A,B)=\\frac{\\alpha_0+\\alpha_Aa+\\alpha_Bb+\\alpha_{AB}ab} {1+a+b+ab}.",
+    "path": "assets/equations/e05106b5eafe058426.png"
+  },
+  "f1a1f6252d086ec73e": {
+    "tex": "\\frac{d\\theta}{dt}=k_{on}r(1-\\theta)-k_{off}\\theta.",
+    "path": "assets/equations/f1a1f6252d086ec73e.png"
+  },
+  "78f11c0db4c6aacd31": {
+    "tex": "c\\simeq\\frac{E_Ts}{K_M+s},\\qquad K_M=\\frac{k_{-1}+k_{cat}}{k_1}.",
+    "path": "assets/equations/78f11c0db4c6aacd31.png"
+  },
+  "13aa3c40a429c4bc43": {
+    "tex": "v=k_{cat}c\\simeq\\frac{V_{max}s}{K_M+s}, \\qquad V_{max}=k_{cat}E_T.",
+    "path": "assets/equations/13aa3c40a429c4bc43.png"
+  },
+  "fd35b6dfe14b73d968": {
+    "tex": "v=k[A][B]",
+    "path": "assets/equations/fd35b6dfe14b73d968.png"
+  },
+  "d3f0f78259e6348db4": {
+    "tex": "\\frac{d\\mathbf{x}}{dt}=S\\mathbf{v}(\\mathbf{x})",
+    "path": "assets/equations/d3f0f78259e6348db4.png"
+  },
+  "4cf7435e638b00bbf9": {
+    "tex": "k_{\\mathrm{on}}[P][R]=k_{\\mathrm{off}}[PR]",
+    "path": "assets/equations/4cf7435e638b00bbf9.png"
+  },
+  "e2add9703822eba2e7": {
+    "tex": "K_d=\\frac{k_{\\mathrm{off}}}{k_{\\mathrm{on}}}",
+    "path": "assets/equations/e2add9703822eba2e7.png"
+  },
+  "9b743cd815ca03753b": {
+    "tex": "\\theta=\\frac{[PR]}{P_T}=\\frac{[R]}{K_d+[R]}",
+    "path": "assets/equations/9b743cd815ca03753b.png"
+  },
+  "c73e2ef51a970b185d": {
+    "tex": "r=b+V\\frac{K_d}{K_d+[R]}",
+    "path": "assets/equations/c73e2ef51a970b185d.png"
+  },
+  "a6b72458dac7d9d780": {
+    "tex": "\\frac{dC}{dt}=k_{\\mathrm{on}}(E_T-C)S-(k_{\\mathrm{off}}+k_{\\mathrm{cat}})C",
+    "path": "assets/equations/a6b72458dac7d9d780.png"
+  },
+  "7100eb3c6b1c6ddb55": {
+    "tex": "C\\approx\\frac{E_T S}{K_M+S}",
+    "path": "assets/equations/7100eb3c6b1c6ddb55.png"
+  },
+  "6b3f14b743d6aa00aa": {
+    "tex": "K_M=\\frac{k_{\\mathrm{off}}+k_{\\mathrm{cat}}}{k_{\\mathrm{on}}}",
+    "path": "assets/equations/6b3f14b743d6aa00aa.png"
+  },
+  "ee4550cad03549362a": {
+    "tex": "v=k_{\\mathrm{cat}}C\\approx\\frac{V_{\\max}S}{K_M+S}",
+    "path": "assets/equations/ee4550cad03549362a.png"
+  },
+  "5698f82c8ca005bdbd": {
+    "tex": "H(R)=\\frac{R^n}{K^n+R^n}",
+    "path": "assets/equations/5698f82c8ca005bdbd.png"
+  },
+  "ae145a638943925265": {
+    "tex": "\\frac{d\\eta}{dt}\\simeq f'(x^*)\\eta.",
+    "path": "assets/equations/ae145a638943925265.png"
+  },
+  "3e113f6bca48dc220c": {
+    "tex": "f'(x)=-\\frac{\\alpha n x^{n-1}/K^n}{[1+(x/K)^n]^2}-\\delta.",
+    "path": "assets/equations/3e113f6bca48dc220c.png"
+  },
+  "1241627fba3a798529": {
+    "tex": "\\lambda_{1,2}=\\frac{T\\pm\\sqrt{T^2-4\\Delta}}{2}.",
+    "path": "assets/equations/1241627fba3a798529.png"
   },
   "42f5d1f3d863f95ab2": {
     "tex": "\\frac{dx_i}{dt}=f_i(x_1,\\ldots,x_N;\\theta)",
@@ -355,6 +247,10 @@
     "tex": "f'(x)=\\frac{6x}{(1+x^2)^2}-1",
     "path": "assets/equations/ce40ac1d6c6e8a22ee.png"
   },
+  "01a7ffeed77fd4ab28": {
+    "tex": "\\frac{dx}{d\\tau}=\\frac{a}{1+y^n}-x, \\qquad \\frac{dy}{d\\tau}=\\frac{a}{1+x^n}-y.",
+    "path": "assets/equations/01a7ffeed77fd4ab28.png"
+  },
   "2d6b5c898bd6b55bd9": {
     "tex": "\\frac{dx}{dt}=\\frac{\\alpha}{1+y^2}-x",
     "path": "assets/equations/2d6b5c898bd6b55bd9.png"
@@ -382,6 +278,18 @@
   "891a275572ca63cd10": {
     "tex": "J_{12}=-\\frac{2\\alpha y}{(1+y^2)^2}",
     "path": "assets/equations/891a275572ca63cd10.png"
+  },
+  "20b51e0dd0ca20f5f0": {
+    "tex": "\\frac{dx^*}{d\\mu}=-\\frac{\\partial f/\\partial\\mu}{\\partial f/\\partial x}.",
+    "path": "assets/equations/20b51e0dd0ca20f5f0.png"
+  },
+  "cd4ea51221a0fb0d83": {
+    "tex": "x_\\pm^*=\\frac{a\\pm\\sqrt{a^2-4}}{2}.",
+    "path": "assets/equations/cd4ea51221a0fb0d83.png"
+  },
+  "3ccf7e4e1f8efb3925": {
+    "tex": "\\lambda^3+3\\lambda^2+3\\lambda+(1+g)=0.",
+    "path": "assets/equations/3ccf7e4e1f8efb3925.png"
   },
   "af4c178dbcf7d36a47": {
     "tex": "\\frac{dx_1}{dt}=\\frac{\\alpha}{1+x_3^n}-x_1",
@@ -415,6 +323,14 @@
     "tex": "T=\\frac{2\\pi}{\\sqrt{3}}\\approx3,628",
     "path": "assets/equations/9a0d1c43f5d9dee344.png"
   },
+  "9e33b4bb7bb4086462": {
+    "tex": "y(t)=cU\\frac{e^{-bt}-e^{-et}}{e-b}.",
+    "path": "assets/equations/9e33b4bb7bb4086462.png"
+  },
+  "9c2f5894828ebc3c97": {
+    "tex": "|G(i\\omega)|=\\frac{k}{\\sqrt{\\delta^2+\\omega^2}}, \\qquad \\phi(\\omega)=-\\arctan(\\omega/\\delta).",
+    "path": "assets/equations/9c2f5894828ebc3c97.png"
+  },
   "b48f8af06bd6c8d525": {
     "tex": "H_A(A)=\\frac{A^{n_A}}{K_A^{n_A}+A^{n_A}}",
     "path": "assets/equations/b48f8af06bd6c8d525.png"
@@ -439,49 +355,9 @@
     "tex": "\\tau_z\\frac{dz}{dt}=\\frac{u}{y}-z",
     "path": "assets/equations/51d1f258f0116cea04.png"
   },
-  "fd35b6dfe14b73d968": {
-    "tex": "v=k[A][B]",
-    "path": "assets/equations/fd35b6dfe14b73d968.png"
-  },
-  "d3f0f78259e6348db4": {
-    "tex": "\\frac{d\\mathbf{x}}{dt}=S\\mathbf{v}(\\mathbf{x})",
-    "path": "assets/equations/d3f0f78259e6348db4.png"
-  },
-  "4cf7435e638b00bbf9": {
-    "tex": "k_{\\mathrm{on}}[P][R]=k_{\\mathrm{off}}[PR]",
-    "path": "assets/equations/4cf7435e638b00bbf9.png"
-  },
-  "e2add9703822eba2e7": {
-    "tex": "K_d=\\frac{k_{\\mathrm{off}}}{k_{\\mathrm{on}}}",
-    "path": "assets/equations/e2add9703822eba2e7.png"
-  },
-  "9b743cd815ca03753b": {
-    "tex": "\\theta=\\frac{[PR]}{P_T}=\\frac{[R]}{K_d+[R]}",
-    "path": "assets/equations/9b743cd815ca03753b.png"
-  },
-  "c73e2ef51a970b185d": {
-    "tex": "r=b+V\\frac{K_d}{K_d+[R]}",
-    "path": "assets/equations/c73e2ef51a970b185d.png"
-  },
-  "a6b72458dac7d9d780": {
-    "tex": "\\frac{dC}{dt}=k_{\\mathrm{on}}(E_T-C)S-(k_{\\mathrm{off}}+k_{\\mathrm{cat}})C",
-    "path": "assets/equations/a6b72458dac7d9d780.png"
-  },
-  "7100eb3c6b1c6ddb55": {
-    "tex": "C\\approx\\frac{E_T S}{K_M+S}",
-    "path": "assets/equations/7100eb3c6b1c6ddb55.png"
-  },
-  "6b3f14b743d6aa00aa": {
-    "tex": "K_M=\\frac{k_{\\mathrm{off}}+k_{\\mathrm{cat}}}{k_{\\mathrm{on}}}",
-    "path": "assets/equations/6b3f14b743d6aa00aa.png"
-  },
-  "ee4550cad03549362a": {
-    "tex": "v=k_{\\mathrm{cat}}C\\approx\\frac{V_{\\max}S}{K_M+S}",
-    "path": "assets/equations/ee4550cad03549362a.png"
-  },
-  "5698f82c8ca005bdbd": {
-    "tex": "H(R)=\\frac{R^n}{K^n+R^n}",
-    "path": "assets/equations/5698f82c8ca005bdbd.png"
+  "fd0c15fa11b991d6d1": {
+    "tex": "\\lambda+\\delta+ge^{-\\lambda\\tau}=0.",
+    "path": "assets/equations/fd0c15fa11b991d6d1.png"
   },
   "a5bd99b485fe5fab38": {
     "tex": "\\frac{dx}{dt}=f(x(t-\\tau))-\\delta x(t)",
@@ -519,6 +395,78 @@
     "tex": "\\frac{dy_j}{dt}=\\frac{m}{\\tau}(y_{j-1}-y_j)",
     "path": "assets/equations/3e5953fbf0822e561a.png"
   },
+  "cbc9c71c0c1eaee175": {
+    "tex": "z(t)=z(0)+\\int_0^t[r-y(s)]\\,ds.",
+    "path": "assets/equations/cbc9c71c0c1eaee175.png"
+  },
+  "ebc0231e2975257db5": {
+    "tex": "\\frac{dz_1}{dt}=\\mu-\\eta z_1z_2, \\qquad \\frac{dz_2}{dt}=\\theta y-\\eta z_1z_2.",
+    "path": "assets/equations/ebc0231e2975257db5.png"
+  },
+  "b0bf1574df98e06887": {
+    "tex": "\\frac{dy}{dt}=kz_1-\\gamma y.",
+    "path": "assets/equations/b0bf1574df98e06887.png"
+  },
+  "ff635f23ce5c3beeb9": {
+    "tex": "\\frac{d(z_1-z_2)}{dt}=\\mu-\\theta y.",
+    "path": "assets/equations/ff635f23ce5c3beeb9.png"
+  },
+  "d294498c668900aab9": {
+    "tex": "v_A=k_A R_T\\frac{d_A}{1+d_A+d_B}, \\qquad v_B=k_B R_T\\frac{d_B}{1+d_A+d_B}.",
+    "path": "assets/equations/d294498c668900aab9.png"
+  },
+  "e85c6d1455a70f3969": {
+    "tex": "\\frac{dx}{dt}=\\frac{f(x)}{1+c'(x)}, \\qquad c'(x)=\\frac{D_TK_d}{(K_d+x)^2}.",
+    "path": "assets/equations/e85c6d1455a70f3969.png"
+  },
+  "ac0f9ed96d366b5966": {
+    "tex": "\\frac{dz}{dt}=K_i(r-y).",
+    "path": "assets/equations/ac0f9ed96d366b5966.png"
+  },
+  "f83e8f98d03dcdc49a": {
+    "tex": "\\frac{N_2(t)}{N_1(t)}=\\frac{N_2(0)}{N_1(0)}e^{(\\mu_2-\\mu_1)t}.",
+    "path": "assets/equations/f83e8f98d03dcdc49a.png"
+  },
+  "45c7bf7a450019f7f8": {
+    "tex": "\\Delta z\\approx g'(y)f'(x)\\Delta x",
+    "path": "assets/equations/45c7bf7a450019f7f8.png"
+  },
+  "2722fa83225fc3c375": {
+    "tex": "\\frac{dX}{dt}=\\alpha D-\\delta X",
+    "path": "assets/equations/2722fa83225fc3c375.png"
+  },
+  "c46fc602de3e420355": {
+    "tex": "\\frac{dY}{dt}=\\frac{\\beta D}{1+X/K}-\\gamma Y",
+    "path": "assets/equations/c46fc602de3e420355.png"
+  },
+  "86c9f3cb992dd5a7fb": {
+    "tex": "X^*=\\frac{\\alpha D}{\\delta}",
+    "path": "assets/equations/86c9f3cb992dd5a7fb.png"
+  },
+  "c12ab5fa0f7312cee4": {
+    "tex": "Y^*=\\frac{\\beta D}{\\gamma(1+\\alpha D/(\\delta K))}",
+    "path": "assets/equations/c12ab5fa0f7312cee4.png"
+  },
+  "f272de93db4b46157c": {
+    "tex": "Y^*\\approx\\frac{\\beta\\delta K}{\\gamma\\alpha}",
+    "path": "assets/equations/f272de93db4b46157c.png"
+  },
+  "cde9d1534fca507a1d": {
+    "tex": "\\frac{d\\psi}{dt}=\\Delta\\omega-2K\\sin\\psi.",
+    "path": "assets/equations/cde9d1534fca507a1d.png"
+  },
+  "3d47e0f5bdba4aeff6": {
+    "tex": "\\frac{\\partial u}{\\partial t}=D\\frac{\\partial^2u}{\\partial x^2}+f(u).",
+    "path": "assets/equations/3d47e0f5bdba4aeff6.png"
+  },
+  "0be99c3be18dd8810a": {
+    "tex": "\\frac{du_i}{dt}=\\frac{D}{h^2}(u_{i+1}-2u_i+u_{i-1})+f(u_i).",
+    "path": "assets/equations/0be99c3be18dd8810a.png"
+  },
+  "a77c9dd7739ea31e1e": {
+    "tex": "\\Delta(k)=\\Delta-k^2(D_vf_u+D_ug_v)+D_uD_vk^4.",
+    "path": "assets/equations/a77c9dd7739ea31e1e.png"
+  },
   "6702ffc5a707b1c4cb": {
     "tex": "J=-D\\frac{\\partial u}{\\partial r}",
     "path": "assets/equations/6702ffc5a707b1c4cb.png"
@@ -547,6 +495,14 @@
     "tex": "\\det(J_k)=1-7q+10q^2",
     "path": "assets/equations/829157fb67f905076a.png"
   },
+  "de5fbc7c3e36b02962": {
+    "tex": "\\frac{dP_n}{dt}=kP_{n-1}+\\delta(n+1)P_{n+1}-(k+\\delta n)P_n.",
+    "path": "assets/equations/de5fbc7c3e36b02962.png"
+  },
+  "7023df56269032d68f": {
+    "tex": "\\frac{d\\mathbb{E}[N]}{dt}=k-\\delta\\mathbb{E}[N].",
+    "path": "assets/equations/7023df56269032d68f.png"
+  },
   "34a04d8be606bec1f5": {
     "tex": "E[X]=\\sum_x xP(X=x).",
     "path": "assets/equations/34a04d8be606bec1f5.png"
@@ -570,6 +526,14 @@
   "5015f6da98755684ee": {
     "tex": "\\tau=\\frac{-\\ln(r_1)}{a_0}.",
     "path": "assets/equations/5015f6da98755684ee.png"
+  },
+  "ab6e31b9e3282f24b2": {
+    "tex": "\\frac{dp_{on}}{dt}=k_{on}(1-p_{on})-k_{off}p_{on}.",
+    "path": "assets/equations/ab6e31b9e3282f24b2.png"
+  },
+  "f781563693431a66aa": {
+    "tex": "\\mathrm{Var}(N)=m^*+ \\frac{s^2p_{on}(1-p_{on})}{\\gamma(\\gamma+k_{on}+k_{off})}.",
+    "path": "assets/equations/f781563693431a66aa.png"
   },
   "05e2faad38569698b2": {
     "tex": "\\mathrm{Var}(X)=E[\\mathrm{Var}(X|Z)]+\\mathrm{Var}(E[X|Z]).",
@@ -598,6 +562,18 @@
   "f40125aa4089e240e0": {
     "tex": "E[y]=b+gF=1020.",
     "path": "assets/equations/f40125aa4089e240e0.png"
+  },
+  "e35d24fc4f189670c9": {
+    "tex": "\\frac{\\partial x}{\\partial\\delta} =-\\frac{\\alpha}{\\delta^2}(1-e^{-\\delta t}) +\\frac{\\alpha t}{\\delta}e^{-\\delta t}.",
+    "path": "assets/equations/e35d24fc4f189670c9.png"
+  },
+  "d58766a2cb9998395a": {
+    "tex": "\\frac{dS_j}{dt}=J_xS_j+\\frac{\\partial f}{\\partial\\theta_j}.",
+    "path": "assets/equations/d58766a2cb9998395a.png"
+  },
+  "53e1d68f2db97c116c": {
+    "tex": "-\\log L(\\theta)=\\frac{1}{2}\\sum_i\\left[ \\frac{(y_i-\\mu_i(\\theta))^2}{\\sigma_i^2} +\\log(2\\pi\\sigma_i^2)\\right].",
+    "path": "assets/equations/53e1d68f2db97c116c.png"
   },
   "6fa09a7e4a223558c0": {
     "tex": "J(\\theta)=\\sum_i\\frac{(y_i-h_i(\\theta))^2}{\\sigma_i^2}.",
@@ -658,6 +634,10 @@
   "a9cd9386f6d1897ea7": {
     "tex": "t_{1/2}=\\frac{\\ln 2}{0.3}\\approx 2.31",
     "path": "assets/equations/a9cd9386f6d1897ea7.png"
+  },
+  "cd883f83c2169ab5b0": {
+    "tex": "a(t)=\\frac{p-\\delta S(t)-dS/dt}{kS(t)}.",
+    "path": "assets/equations/cd883f83c2169ab5b0.png"
   },
   "3b0ffb037fed9afe57": {
     "tex": "\\frac{dS}{dt}=p-(\\delta+ka)S",
@@ -755,53 +735,13 @@
     "tex": "\\frac{d\\psi}{dt}=\\omega-\\Omega-q\\sin\\psi",
     "path": "assets/equations/f224167d6a3012a088.png"
   },
-  "45c7bf7a450019f7f8": {
-    "tex": "\\Delta z\\approx g'(y)f'(x)\\Delta x",
-    "path": "assets/equations/45c7bf7a450019f7f8.png"
+  "f325e915afff7895a6": {
+    "tex": "\\Delta=\\delta_x\\delta_y-F_x'(y^*)F_y'(x^*).",
+    "path": "assets/equations/f325e915afff7895a6.png"
   },
-  "2722fa83225fc3c375": {
-    "tex": "\\frac{dX}{dt}=\\alpha D-\\delta X",
-    "path": "assets/equations/2722fa83225fc3c375.png"
-  },
-  "c46fc602de3e420355": {
-    "tex": "\\frac{dY}{dt}=\\frac{\\beta D}{1+X/K}-\\gamma Y",
-    "path": "assets/equations/c46fc602de3e420355.png"
-  },
-  "86c9f3cb992dd5a7fb": {
-    "tex": "X^*=\\frac{\\alpha D}{\\delta}",
-    "path": "assets/equations/86c9f3cb992dd5a7fb.png"
-  },
-  "c12ab5fa0f7312cee4": {
-    "tex": "Y^*=\\frac{\\beta D}{\\gamma(1+\\alpha D/(\\delta K))}",
-    "path": "assets/equations/c12ab5fa0f7312cee4.png"
-  },
-  "f272de93db4b46157c": {
-    "tex": "Y^*\\approx\\frac{\\beta\\delta K}{\\gamma\\alpha}",
-    "path": "assets/equations/f272de93db4b46157c.png"
-  },
-  "ff107f5506c0d5e29a": {
-    "tex": "y_{bpi}=\\mu+u_b+v_{bp}+\\epsilon_{bpi}",
-    "path": "assets/equations/ff107f5506c0d5e29a.png"
-  },
-  "1a6b794beeda07294e": {
-    "tex": "D_{\\mathrm{grupo}}=1+(m-1)\\rho",
-    "path": "assets/equations/1a6b794beeda07294e.png"
-  },
-  "ac0f9ed96d366b5966": {
-    "tex": "\\frac{dz}{dt}=K_i(r-y).",
-    "path": "assets/equations/ac0f9ed96d366b5966.png"
-  },
-  "f83e8f98d03dcdc49a": {
-    "tex": "\\frac{N_2(t)}{N_1(t)}=\\frac{N_2(0)}{N_1(0)}e^{(\\mu_2-\\mu_1)t}.",
-    "path": "assets/equations/f83e8f98d03dcdc49a.png"
-  },
-  "b33f645854d08b5950": {
-    "tex": "\\mathrm{precision}=\\frac{TP}{TP+FP}.",
-    "path": "assets/equations/b33f645854d08b5950.png"
-  },
-  "fb290585983990b69c": {
-    "tex": "\\mathrm{recall}=\\frac{TP}{TP+FN}.",
-    "path": "assets/equations/fb290585983990b69c.png"
+  "7b144a109cbf0d88da": {
+    "tex": "N\\mathbf{v}=0,\\qquad \\mathbf{v}_{min}\\leq\\mathbf{v}\\leq\\mathbf{v}_{max}.",
+    "path": "assets/equations/7b144a109cbf0d88da.png"
   },
   "792fb11ff037ece9ff": {
     "tex": "w_i=e^{-E_i/(k_B T)}",
@@ -827,8 +767,20 @@
     "tex": "\\frac{df}{dt}=sf(1-f)",
     "path": "assets/equations/de44517839a1209f8e.png"
   },
-  "382e22eb8fc37a0221": {
-    "tex": "r=\\frac{\\delta}{\\delta+ka}",
-    "path": "assets/equations/382e22eb8fc37a0221.png"
+  "b33f645854d08b5950": {
+    "tex": "\\mathrm{precision}=\\frac{TP}{TP+FP}.",
+    "path": "assets/equations/b33f645854d08b5950.png"
+  },
+  "fb290585983990b69c": {
+    "tex": "\\mathrm{recall}=\\frac{TP}{TP+FN}.",
+    "path": "assets/equations/fb290585983990b69c.png"
+  },
+  "ff107f5506c0d5e29a": {
+    "tex": "y_{bpi}=\\mu+u_b+v_{bp}+\\epsilon_{bpi}",
+    "path": "assets/equations/ff107f5506c0d5e29a.png"
+  },
+  "1a6b794beeda07294e": {
+    "tex": "D_{\\mathrm{grupo}}=1+(m-1)\\rho",
+    "path": "assets/equations/1a6b794beeda07294e.png"
   }
 }

@@ -29,13 +29,14 @@ SOURCE.mkdir(parents=True,exist_ok=True)
 DOCS=ROOT/'docs';EQ=DOCS/'assets'/'equations';EQ.mkdir(parents=True,exist_ok=True)
 DATA=ROOT/'book';DOWNLOADS=DOCS/'downloads';DOWNLOADS.mkdir(exist_ok=True)
 WORK=BASE/'work' if (BASE/'work').exists() else ROOT/'work'
-if (WORK/'fundamentos.json').exists():
+EDITION_CONFIG=json.loads((DATA/'edition.json').read_text(encoding='utf8')) if (DATA/'edition.json').exists() else {}
+if not EDITION_CONFIG and (WORK/'fundamentos.json').exists():
     chapters=[];refs=[]
     for name in ['fundamentos','programacion','dinamica','inferencia','plantas','apendices']:
         chapters+=json.loads((WORK/(name+'.json')).read_text(encoding='utf-8-sig'))
         r=WORK/('refs_'+name+'.json')
         if r.exists():refs+=json.loads(r.read_text(encoding='utf-8-sig'))
-    chapters.sort(key=lambda c:int(c['id'][1:]))
+    chapters.sort(key=lambda c:int(c['number']))
     assert [c['id'] for c in chapters]==[f'c{i:02}' for i in range(38)]
     ids={r['id'] for r in refs}
     assert len(ids)==len(refs)
@@ -65,17 +66,20 @@ for visual in visuals:
         chapter['refs']=list(dict.fromkeys(chapter.get('refs',[])+visual.get('refs',[])))
 refs_by_id={r['id']:r for r in refs}
 for chapter in chapters:
-    assert set(re.findall(r'\[([FPDIRV]\d+)\]',chapter['body'])) <= set(refs_by_id),chapter['id']
+    assert set(re.findall(r'\[([A-Z]\d{2})\]',chapter['body'])) <= set(refs_by_id),chapter['id']
 (DATA/'chapters.json').write_text(json.dumps(chapters,ensure_ascii=False,indent=2),encoding='utf8')
 (DATA/'references.json').write_text(json.dumps(refs,ensure_ascii=False,indent=2),encoding='utf8')
 figures=json.loads((DOCS/'figures.json').read_text(encoding='utf8'))
 def figure_label(f):return 'Lámina '+f['code'] if f.get('kind')=='mechanism' else 'Figura '+str(figures.index(f)+1)
-PARTS=['I · Matemáticas desde cero','II · Del mecanismo al programa','III · Dinámica de circuitos','IV · Ruido, datos e inferencia','V · Plantas y literatura','VI · De estudiante a investigador']
-def part(i):return PARTS[0 if i<=7 else 1 if i<=10 else 2 if i<=18 else 3 if i<=24 else 4 if i<=31 else 5]
-for i,c in enumerate(chapters):c['part']=part(i)
+PARTS=EDITION_CONFIG.get('parts') or ['I · Matemáticas desde cero','II · Del mecanismo al programa','III · Dinámica de circuitos','IV · Ruido, datos e inferencia','V · Plantas y literatura','VI · De estudiante a investigador']
+for i,c in enumerate(chapters):
+    c['number']=c.get('number',f'{i:02}')
+    if not EDITION_CONFIG:
+        c['part']=PARTS[0 if i<=7 else 1 if i<=10 else 2 if i<=18 else 3 if i<=24 else 4 if i<=31 else 5]
 equations={}
 def eq_replace(m):
-    tex=m.group(1).strip()
+    tex=re.sub(r'\s+',' ',m.group(1).strip())
+    tex=re.sub(r'\\frac(\d)(\d)',r'\\frac{\1}{\2}',tex)
     key=hashlib.sha256(tex.encode()).hexdigest()[:18]
     path=EQ/(key+'.png')
     if not path.exists():
@@ -83,10 +87,14 @@ def eq_replace(m):
     equations[key]=dict(tex=tex,path='assets/equations/'+path.name)
     return '\n\n<div class="equation"><img src="assets/equations/'+path.name+'" alt="'+html.escape(tex,quote=True)+'" /></div>\n\n'
 def render(body):
+    # Desigualdades como g<n son texto, no etiquetas HTML. Conservar código y TeX.
+    body=re.sub(r'<!-- VISUAL:.*?-->','',body)
+    pieces=re.split(r'(```.*?```|\$\$.*?\$\$)',body,flags=re.S)
+    body=''.join(piece if i%2 else piece.replace('<','&lt;') for i,piece in enumerate(pieces))
     body=re.sub(r'\$\$\s*\n?(.*?)\n?\s*\$\$',eq_replace,body,flags=re.S)
     result=markdown.markdown(body,extensions=['fenced_code','tables','sane_lists'])
     result=re.sub(r'<!-- VISUAL:.*?-->','',result)
-    return re.sub(r'\[([FPDIRV]\d+)\]',lambda m:'<a class="citation" href="'+html.escape(refs_by_id[m[1]]['url'],quote=True)+'" target="_blank" rel="noopener">['+m[1]+']</a>',result)
+    return re.sub(r'\[([A-Z]\d{2})\]',lambda m:'<a class="citation" href="'+html.escape(refs_by_id[m[1]]['url'],quote=True)+'" target="_blank" rel="noopener">['+m[1]+']</a>',result)
 
 app_chapters=[]
 for c in chapters:
@@ -96,12 +104,12 @@ for c in chapters:
     obj['minutes']=max(3,round(len(c['body'].split())/160))
     obj['figures']=[f['id'] for f in figures if c['id'] in f['chapters']]
     app_chapters.append(obj)
-    (SOURCE/(c['id']+'.md')).write_text('# '+c['title']+'\n\n'+'\n'.join('- '+o for o in c['objectives'])+'\n\n'+c['body'],encoding='utf8')
+    (SOURCE/(c['id']+'.md')).write_text(('# '+c['title']+'\n\n'+'\n'.join('- '+o for o in c['objectives'])+'\n\n'+c['body']).rstrip()+'\n',encoding='utf8')
 (DOCS/'chapters.json').write_text(json.dumps(app_chapters,ensure_ascii=False),encoding='utf8')
 (DOCS/'references.json').write_text(json.dumps(refs,ensure_ascii=False),encoding='utf8')
 (DATA/'equations.json').write_text(json.dumps(equations,ensure_ascii=False,indent=2),encoding='utf8')
 words=sum(len(c['body'].split()) for c in chapters)
-stats=dict(chapters=len(chapters),words=words,figures=len(figures),mechanisms=len(visuals),equations=sum(len(re.findall(r'\$\$',c['body']))//2 for c in chapters),unique_equations=len(equations),references=len(refs),notebooks=10,edition='1.1' if visuals else '1.0',review_date='2026-10-18',parts=PARTS)
+stats=dict(chapters=len(chapters),words=words,figures=len(figures),mechanisms=len(visuals),equations=sum(len(re.findall(r'\$\$',c['body']))//2 for c in chapters),unique_equations=len(equations),references=len(refs),notebooks=len(list((ROOT/'python'/'cuadernos').glob('*.ipynb'))),edition=EDITION_CONFIG.get('edition','1.1' if visuals else '1.0'),review_date=EDITION_CONFIG.get('review_date','2026-10-18'),parts=PARTS,first_chapter=chapters[0]['id'],chapter_aliases=EDITION_CONFIG.get('chapter_aliases',{}))
 (DOCS/'meta.json').write_text(json.dumps(stats,ensure_ascii=False,indent=2),encoding='utf8')
 
 # Una portada original reutilizable en EPUB y en el repositorio.
@@ -110,11 +118,11 @@ fig=plt.figure(figsize=(6,8.5),facecolor='#eef2e9')
 ax=fig.add_axes([0,0,1,1]);ax.set(xlim=(0,1),ylim=(0,1));ax.axis('off')
 ax.text(.1,.91,'ATLAS DE ESTUDIO  /  '+stats['edition'],fontsize=12,color='#25685d')
 ax.text(.1,.79,'Modelado\nmatemático de\ncircuitos génicos',fontsize=30,color='#17373d',weight='bold',va='top',linespacing=1.15)
-ax.text(.1,.48,'De las primeras ecuaciones\na la investigación en biología sintética',fontsize=13,color='#46605c',va='top')
-coords=np.array([[.2,.2],[.43,.31],[.7,.21],[.79,.38],[.48,.13]])
-for a,b in [(0,1),(1,2),(2,3),(1,4),(4,2)]:ax.plot(coords[[a,b],0],coords[[a,b],1],color='#81a798',lw=2)
-for j,(x,y) in enumerate(coords):ax.scatter([x],[y],s=1400 if j==1 else 700,color='#236c5c' if j%2 else '#c77542',edgecolor='#eef2e9',lw=2,zorder=3)
-ax.text(.1,.055,'ESPAÑOL  ·  PYTHON  ·  PLANTAS\nEdición de estudio · 18 de octubre de 2026',fontsize=10,color='#17373d',linespacing=1.7)
+ax.text(.1,.48,'De las ecuaciones diferenciales\na circuitos complejos y modelos vegetales',fontsize=13,color='#46605c',va='top')
+cover_art=DOCS/'assets'/'figures'/'m01_expresion_plana.png'
+if cover_art.exists():
+    inset=fig.add_axes([.1,.115,.8,.31]);inset.imshow(PILImage.open(cover_art));inset.axis('off')
+ax.text(.1,.055,'ESPAÑOL  ·  PYTHON  ·  PLANTAS\nEdición de estudio · 19 de octubre de 2026',fontsize=10,color='#17373d',linespacing=1.7)
 fig.savefig(cover,dpi=180);plt.close(fig)
 
 # PDF: tipografía incrustada, índice navegable y ecuaciones en alta resolución.
@@ -220,14 +228,16 @@ pdf=DOWNLOADS/'modelado-circuitos-genicos.pdf'
 book=Book(str(pdf),pagesize=(W,H),rightMargin=M,leftMargin=M,topMargin=21*mm,bottomMargin=18*mm,title='Modelado matemático de circuitos génicos',author='Atlas de estudio · material educativo generado con Codex',lang='es-ES',allowSplitting=1)
 book.addPageTemplates(PageTemplate(id='main',frames=[Frame(M,18*mm,CONTENT,H-39*mm,id='normal',leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0)],onPage=page))
 cover_figure=DOCS/next((f['png'] for f in figures if f.get('code')=='M01'),'assets/figures/f21_raices.png')
-story=[Spacer(1,13*mm),Paragraph('ATLAS DE ESTUDIO · EDICIÓN '+stats['edition'],S['ObjectiveBook']),Spacer(1,7*mm),Paragraph('Modelado matemático<br/>de circuitos génicos',ParagraphStyle('CoverTitle',fontName='Sans-Bold',fontSize=32,leading=37,textColor=HexColor('#173f42'))),Spacer(1,8*mm),Paragraph('De las primeras ecuaciones a la investigación en biología sintética',S['SubBook']),Spacer(1,6*mm),image_flow(cover_figure,maxh=65*mm),Spacer(1,8*mm),Paragraph(f'{len(chapters)} capítulos · {len(figures)} figuras originales · 10 cuadernos de Python',S['ObjectiveBook']),Paragraph('Español · especial atención a plantas<br/>Corte bibliográfico: 18 de octubre de 2026',S['TextBook']),PageBreak()]
-story.extend([Paragraph('Antes de empezar',S['ChapterBook']),Paragraph('Este libro está pensado para una persona que conoce las biopartes y empieza de cero en matemáticas. Lee con papel, lápiz y un intérprete de Python. Una ecuación se aprende al explicar sus términos, cambiar un supuesto y comprobar una predicción.',S['TextBook']),Paragraph('Alcance y procedencia',S['SubBook']),Paragraph('Es una formación extensa y una selección bibliográfica razonada; no una revisión sistemática de toda la literatura ni una garantía de dominio experto. Los temas avanzados abren rutas de profundización. Las referencias indican qué se verificó y cuándo solo se consultaron metadatos o resúmenes. Las revisiones de 2025–2026 orientan el estado del campo, mientras los casos experimentales se apoyan en artículos primarios.',S['TextBook']),Paragraph('Todas las figuras y los ejemplos numéricos son originales y didácticos. Sus parámetros no son calibraciones de los artículos citados. No se reproducen figuras de revistas. El estilo gráfico usa convenciones de publicación científica: paneles, ejes con unidades, leyendas y supuestos explícitos.',S['TextBook']),Paragraph('Material generado con Codex y sometido a comprobaciones numéricas, bibliográficas y de formato. Todavía no cuenta con una revisión independiente completa por especialistas. Usa el registro de limitaciones como parte del aprendizaje de la lectura crítica.',S['TextBook']),Paragraph('Cómo se conectan los formatos',S['SubBook']),Paragraph('El PDF, el EPUB y la app se construyen con los mismos capítulos. El repositorio contiene los Markdown, los modelos, scripts de figuras y cuadernos. La app permite buscar texto y descripciones de figuras, guardar progreso en el dispositivo, ajustar letra y descargar los materiales. El uso sin conexión requiere descargar antes los recursos desde la propia app.',S['TextBook']),Paragraph('Convención de capítulos',S['SubBook']),Paragraph('La numeración empieza en 00: es una introducción que también funciona como lección. Los identificadores c00–c37 son los mismos en el código y en la app. Las referencias entre corchetes enlazan a fuentes y se desarrollan al final con una nota de verificación.',S['TextBook']),PageBreak(),Paragraph('Contenido',S['ChapterBook'])])
+story=[Spacer(1,13*mm),Paragraph('ATLAS DE ESTUDIO · EDICIÓN '+stats['edition'],S['ObjectiveBook']),Spacer(1,7*mm),Paragraph('Modelado matemático<br/>de circuitos génicos',ParagraphStyle('CoverTitle',fontName='Sans-Bold',fontSize=32,leading=37,textColor=HexColor('#173f42'))),Spacer(1,8*mm),Paragraph('De las ecuaciones diferenciales a circuitos complejos y modelos vegetales',S['SubBook']),Spacer(1,6*mm),image_flow(cover_figure,maxh=65*mm),Spacer(1,8*mm),Paragraph(f'{len(chapters)} capítulos · {len(figures)} figuras originales · {stats["notebooks"]} cuadernos de Python',S['ObjectiveBook']),Paragraph('Español · especial atención a plantas<br/>Corte bibliográfico: 19 de octubre de 2026',S['TextBook']),PageBreak()]
+story.extend([Paragraph('Antes de empezar',S['ChapterBook'])])
+if (DATA/'preface.md').exists():story.extend(flow_html(render((DATA/'preface.md').read_text(encoding='utf8'))))
+story.extend([PageBreak(),Paragraph('Contenido',S['ChapterBook'])])
 toc=TableOfContents();toc.levelStyles=[ParagraphStyle('TOC0',fontName='Sans',fontSize=9.4,leading=14,spaceBefore=4,textColor=HexColor('#173f42'),leftIndent=0,firstLineIndent=0)]
 story.extend([toc,PageBreak()]);used_figs=set()
 if visuals:
     story.extend([Paragraph('Cómo leer las láminas moleculares',S['ChapterBook']),Paragraph('Las láminas M01–M12 conectan las reacciones con el modelo. Una forma lobulada representa una proteína; una doble hélice representa ADN; una hebra flexible representa ARN. Son ilustraciones conceptuales planas, generadas con una herramienta de imágenes y revisadas para comprobar relaciones y etiquetas. Las formas no son estructuras atomísticas ni están a escala.',S['TextBook']),Paragraph('Lee primero los objetos y después las conexiones. Una flecha de producción indica aparición de una especie; no significa que el molde de ADN o ARN se consuma. Una barra perpendicular indica inhibición. Dos flechas opuestas representan procesos reversibles. Una flecha entre compartimentos indica transporte. El recambio elimina moléculas de la especie contada, aunque su materia continúe en otros productos.',S['TextBook']),Paragraph('Cada lámina tiene una lectura por paneles, una limitación y una conexión con las ecuaciones. Los gráficos cuantitativos existentes complementan estos mecanismos: muestran la respuesta temporal, las distribuciones o la relación entre entradas y salidas. Las curvas esquemáticas dentro de las láminas son cualitativas y no son datos medidos.',S['TextBook']),Paragraph('En el móvil, abre la figura y usa la vista de alta resolución para inspeccionar etiquetas. El repositorio guarda también los textos de los prompts y la procedencia de cada imagen. Las figuras son originales y no reutilizan activos de BioRender ni figuras de revistas.',S['TextBook']),PageBreak()])
 for c,app in zip(chapters,app_chapters):
-    story.extend([Paragraph(pdf_text(c['part']),S['SmallBook']),Paragraph(c['id'][1:]+' · '+pdf_text(c['title']),S['ChapterBook'])])
+    story.extend([Paragraph(pdf_text(c['part']),S['SmallBook']),Paragraph(c['number']+' · '+pdf_text(c['title']),S['ChapterBook'])])
     for ob in c['objectives']:story.append(Paragraph('• '+pdf_text(ob),S['ObjectiveBook']))
     story.append(Spacer(1,8))
     # La figura se sitúa tras el primer apartado: primero una pregunta, luego la imagen.
@@ -239,7 +249,7 @@ for c,app in zip(chapters,app_chapters):
         if c['id'] in f['chapters'] and f['id'] not in used_figs:
             used_figs.add(f['id']);n=figures.index(f)+1
             label=figure_label(f)
-            story.append(KeepTogether([image_flow(DOCS/f['png'],maxh=102*mm if f.get('kind')=='mechanism' else 91*mm),Spacer(1,5),Paragraph('<b>'+pdf_text(label)+'. '+pdf_text(f['title'])+'.</b> '+pdf_text(f['caption']),S['CaptionBook'])]))
+            story.append(KeepTogether([image_flow(DOCS/f['png'],maxh=112*mm if f.get('advanced') else 102*mm if f.get('kind')=='mechanism' else 91*mm),Spacer(1,5),Paragraph('<b>'+pdf_text(label)+'. '+pdf_text(f['title'])+'.</b> '+pdf_text(f['caption']),S['CaptionBook'])]))
             if f.get('kind')=='mechanism':
                 story.append(Paragraph('Lectura de '+pdf_text(label),S['SubBook']))
                 for panel in f.get('panels',[]):story.append(Paragraph('<b>'+pdf_text(panel['label']+' · '+panel['title'])+'.</b> '+pdf_text(panel['text']),S['TextBook']))
@@ -249,7 +259,7 @@ for c,app in zip(chapters,app_chapters):
         story.append(Paragraph('Fuentes del capítulo: '+', '.join('['+x+']' for x in c['refs']),S['SmallBook']))
     story.append(PageBreak())
 story.append(Paragraph('Referencias y trazabilidad',S['ChapterBook']))
-story.append(Paragraph('Fecha de consulta: 18 de octubre de 2026. Se conservan identificadores por módulo aunque una obra pueda aparecer en más de un módulo. Las notas distinguen consulta de resumen, texto completo, documentación y revisión. Los enlaces permiten verificar la fuente y sus posibles correcciones posteriores.',S['TextBook']))
+story.append(Paragraph('Fecha de consulta: 19 de octubre de 2026. Se conservan identificadores por módulo aunque una obra pueda aparecer en más de un módulo. Las notas distinguen consulta de resumen, texto completo, documentación y revisión. Los enlaces permiten verificar la fuente y sus posibles correcciones posteriores.',S['TextBook']))
 for r in refs:
     authors=r.get('authors','');authors='; '.join(authors) if isinstance(authors,list) else authors
     txt='<b>['+r['id']+'] '+pdf_text(r['title'])+'</b><br/>'+pdf_text(str(authors))+'. '+str(r['year'])+'. '+pdf_text(r['type'])+'.'
@@ -267,16 +277,16 @@ def xhtml(title,body):
         a.attrs.pop('target',None);a.attrs.pop('rel',None)
     return '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE html>\n<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head><title>'+html.escape(title)+'</title><meta charset="utf-8"/><link rel="stylesheet" type="text/css" href="style.css"/></head><body>'+str(soup)+'</body></html>'
 manifest=[('css','style.css','text/css',''),('nav','nav.xhtml','application/xhtml+xml','nav'),('ncx','toc.ncx','application/x-dtbncx+xml',''),('cover','assets/cover.png','image/png','cover-image'),('intro','intro.xhtml','application/xhtml+xml',''),('refs','references.xhtml','application/xhtml+xml','')]
-spine=['intro'];nav=[];uid='urn:uuid:'+str(uuid.uuid5(uuid.NAMESPACE_URL,'https://github.com/camilo31-svg/modelado-circuitos-genicos/edition1'))
+spine=['intro'];nav=[];uid='urn:uuid:'+str(uuid.uuid5(uuid.NAMESPACE_URL,'https://github.com/camilo31-svg/modelado-circuitos-genicos/edition'+stats['edition']))
 with zipfile.ZipFile(epub,'w') as z:
     z.writestr('mimetype','application/epub+zip',compress_type=zipfile.ZIP_STORED)
     def put(p,s):z.writestr(p,s,compress_type=zipfile.ZIP_DEFLATED)
     put('META-INF/container.xml','<?xml version="1.0"?><container version="1.0" xmlns="urn:oasis:names:tc:opendocument:xmlns:container"><rootfiles><rootfile full-path="OEBPS/content.opf" media-type="application/oebps-package+xml"/></rootfiles></container>')
     put('OEBPS/style.css',epub_css)
-    put('OEBPS/intro.xhtml',xhtml('Antes de empezar','<img src="assets/cover.png" alt="Portada del Atlas"/><h1>Antes de empezar</h1><p>Formación desde cero, con una selección bibliográfica razonada hasta el 18 de octubre de 2026. Ejemplos y figuras originales; parámetros didácticos, sin reconstruir datos de artículos. Revisión especialista independiente pendiente.</p><p>La numeración comienza en 00. Avanza con papel, lápiz y los cuadernos del repositorio. El PDF y la app contienen las mismas lecciones. Los temas avanzados exigen profundizar en las referencias.</p>'))
+    put('OEBPS/intro.xhtml',xhtml('Antes de empezar','<img src="assets/cover.png" alt="Portada del Atlas"/><h1>Antes de empezar</h1>'+render((DATA/'preface.md').read_text(encoding='utf8'))))
     seen=set()
     for c in app_chapters:
-        prefix='<p class="part">'+html.escape(c['part'])+'</p><h1>'+c['id'][1:]+' · '+html.escape(c['title'])+'</h1><ul>'+''.join('<li>'+html.escape(o)+'</li>' for o in c['objectives'])+'</ul>'
+        prefix='<p class="part">'+html.escape(c['part'])+'</p><h1>'+c['number']+' · '+html.escape(c['title'])+'</h1><ul>'+''.join('<li>'+html.escape(o)+'</li>' for o in c['objectives'])+'</ul>'
         body=c['html'];illustrations=''
         for f in figures:
             if c['id'] in f['chapters'] and f['id'] not in seen:
@@ -285,7 +295,7 @@ with zipfile.ZipFile(epub,'w') as z:
                     illustrations+='<h2>Lectura de '+html.escape(figure_label(f))+'</h2>'+''.join('<p><b>'+html.escape(panel['label']+' · '+panel['title'])+'.</b> '+html.escape(panel['text'])+'</p>' for panel in f.get('panels',[]))+'<p><b>Límite del esquema.</b> '+html.escape(f.get('limitation',''))+'</p>'
         headings=list(re.finditer(r'<h[23]>',body));at=headings[1].start() if len(headings)>1 else len(body)
         body=prefix+body[:at]+illustrations+body[at:]
-        put('OEBPS/'+c['id']+'.xhtml',xhtml(c['title'],body));manifest.append((c['id'],c['id']+'.xhtml','application/xhtml+xml',''));spine.append(c['id']);nav.append((c['id']+'.xhtml',c['id'][1:]+' · '+c['title']))
+        put('OEBPS/'+c['id']+'.xhtml',xhtml(c['title'],body));manifest.append((c['id'],c['id']+'.xhtml','application/xhtml+xml',''));spine.append(c['id']);nav.append((c['id']+'.xhtml',c['number']+' · '+c['title']))
     refbody='<h1>Referencias y trazabilidad</h1>'
     for r in refs:refbody+='<p id="'+r['id']+'"><b>['+r['id']+'] '+html.escape(r['title'])+'</b> ('+str(r['year'])+'). '+html.escape(r['type'])+'. <a href="'+html.escape(r['url'],quote=True)+'">Fuente</a>. '+html.escape(r.get('note',''))+'</p>'
     put('OEBPS/references.xhtml',xhtml('Referencias',refbody));spine.append('refs')
@@ -293,11 +303,11 @@ with zipfile.ZipFile(epub,'w') as z:
     put('OEBPS/nav.xhtml',xhtml('Contenido',navbody))
     ncx='<?xml version="1.0" encoding="UTF-8"?><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1"><head><meta name="dtb:uid" content="'+uid+'"/></head><docTitle><text>Modelado matemático de circuitos génicos</text></docTitle><navMap>'+''.join('<navPoint id="nav'+str(i)+'" playOrder="'+str(i)+'"><navLabel><text>'+html.escape(t)+'</text></navLabel><content src="'+p+'"/></navPoint>' for i,(p,t) in enumerate([('intro.xhtml','Antes de empezar')]+nav+[('references.xhtml','Referencias')],1))+'</navMap></ncx>'
     put('OEBPS/toc.ncx',ncx)
-    image_paths=[cover]+list(EQ.glob('*.png'))+[DOCS/f['png'] for f in figures]
+    image_paths=[cover]+[DOCS/e['path'] for e in equations.values()]+[DOCS/f['png'] for f in figures]
     for p in dict.fromkeys(image_paths):
         rel=p.relative_to(DOCS).as_posix();put('OEBPS/'+rel,p.read_bytes())
         if p!=cover:manifest.append(('im'+hashlib.md5(rel.encode()).hexdigest(),rel,'image/png',''))
-    opf='<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid" xml:lang="es"><metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:identifier id="bookid">'+uid+'</dc:identifier><dc:title>Modelado matemático de circuitos génicos</dc:title><dc:language>es</dc:language><dc:creator>Atlas de estudio · generado con Codex</dc:creator><dc:description>Formación en español desde cero, con énfasis vegetal, figuras originales y Python.</dc:description><meta property="dcterms:modified">2026-10-18T12:00:00Z</meta><meta name="cover" content="cover"/></metadata><manifest>'+''.join('<item id="'+i+'" href="'+p+'" media-type="'+m+'"'+(' properties="'+pr+'"' if pr else '')+'/>' for i,p,m,pr in manifest)+'</manifest><spine toc="ncx">'+''.join('<itemref idref="'+i+'"/>' for i in spine)+'</spine></package>'
+    opf='<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid" xml:lang="es"><metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:identifier id="bookid">'+uid+'</dc:identifier><dc:title>Modelado matemático de circuitos génicos</dc:title><dc:language>es</dc:language><dc:creator>Atlas de estudio · generado con Codex</dc:creator><dc:description>Formación en español desde ecuaciones diferenciales, con análisis detallado, circuitos complejos, énfasis vegetal y Python.</dc:description><meta property="dcterms:modified">2026-10-19T12:00:00Z</meta><meta name="cover" content="cover"/></metadata><manifest>'+''.join('<item id="'+i+'" href="'+p+'" media-type="'+m+'"'+(' properties="'+pr+'"' if pr else '')+'/>' for i,p,m,pr in manifest)+'</manifest><spine toc="ncx">'+''.join('<itemref idref="'+i+'"/>' for i in spine)+'</spine></package>'
     put('OEBPS/content.opf',opf)
 from pypdf import PdfReader
 stats['pages']=len(PdfReader(pdf).pages)

@@ -1,0 +1,29 @@
+{
+  "consulted": "2026-10-19",
+  "source_book": {
+    "id": "A01",
+    "version": "2015-12-23",
+    "pdf_pages": 406,
+    "redistributed": false
+  },
+  "queries": [
+    "plant synthetic gene circuits mathematical modeling 2025 2026",
+    "Genetic Toggle Switch in Plants",
+    "Intracellularly coupled oscillators for synthetic biology",
+    "antithetic integral feedback robust perfect adaptation",
+    "synthetic multicellular synchronized genetic clocks",
+    "MAPK ultrasensitivity multisite phosphorylation bistability",
+    "gene expression intrinsic extrinsic noise",
+    "identifiability profile likelihood systems biology",
+    "variance based global sensitivity",
+    "plant auxin sensor ratiometric dynamic modeling",
+    "Arabidopsis circadian clock mathematical model validation"
+  ],
+  "doi_metadata_check": {
+    "new": 21,
+    "previous": 41,
+    "errors_remaining": 0
+  },
+  "pubmed_api": "Se intentó el conector Entrez; falló la conexión TLS. Se consultaron las páginas primarias de PubMed por búsqueda web, sin desactivar verificación de certificados.",
+  "limits": "Selección académica razonada, no revisión sistemática exhaustiva. Cada referencia conserva nota de lo consultado."
+}

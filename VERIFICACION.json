@@ -4,100 +4,224 @@
       "file": "01_python.py",
       "exit_code": 0,
       "output": "Equilibrio esperado: 10.0",
-      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\01_python.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend(); plt.show()"
+      "errors": "REPO\\python\\cuadernos\\01_python.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend(); plt.show()",
+      "sha256_script": "065e4cdc874231fd3b3d835399cbfeaca845259ab2434e9d146a775d5e412d16"
     },
     {
       "file": "02_balances.py",
       "exit_code": 0,
       "output": "Estado final: [ 4.         59.97484016] Equilibrio: [4, 60]",
-      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\02_balances.py:17: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()"
+      "errors": "REPO\\python\\cuadernos\\02_balances.py:17: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()",
+      "sha256_script": "7cdaf32f63cfe01f6eb658e97e547eaa0c0c641f39be74e996464a86cc2c1886"
     },
     {
       "file": "03_hill.py",
       "exit_code": 0,
       "output": "f(K)= 0.5",
-      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\03_hill.py:17: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()"
+      "errors": "REPO\\python\\cuadernos\\03_hill.py:17: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()",
+      "sha256_script": "e9a78f5096f210bab227c60c4dc4194bf23e455667aec6212735c594b7c30372"
     },
     {
       "file": "04_toggle.py",
       "exit_code": 0,
       "output": "[9, 0.1] -> [9.899 0.101]\n[0.1, 9] -> [0.101 9.899]\n[3, 2.9] -> [9.899 0.101]",
-      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\04_toggle.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()"
+      "errors": "REPO\\python\\cuadernos\\04_toggle.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()",
+      "sha256_script": "a14fde433473e87926982398f20e377923becbf2364c12c58e8ea323113091ab"
     },
     {
       "file": "05_oscilador.py",
       "exit_code": 0,
       "output": "Amplitud final: 20.634864918004567",
-      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\05_oscilador.py:17: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()"
+      "errors": "REPO\\python\\cuadernos\\05_oscilador.py:17: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()",
+      "sha256_script": "6f9d8574bc7ea84cc01b42ec06b09f1800ac80c3997cb5824f47731b3d6281e6"
     },
     {
       "file": "06_gillespie.py",
       "exit_code": 0,
       "output": "",
-      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\06_gillespie.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()"
+      "errors": "REPO\\python\\cuadernos\\06_gillespie.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()",
+      "sha256_script": "d603f17cd227cec8138761adb039e144a2c8c1e046ca583a475a2d0315bc5324"
     },
     {
       "file": "07_ajuste.py",
       "exit_code": 0,
       "output": "alfa, delta ajustados: [8.06587234 0.40398369]",
-      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\07_ajuste.py:24: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.tight_layout();plt.show()"
+      "errors": "REPO\\python\\cuadernos\\07_ajuste.py:24: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.tight_layout();plt.show()",
+      "sha256_script": "477ac0023ff4d481d2b613dfac4a3a56701f22353759c6ae873535eeb722e0fb"
     },
     {
       "file": "08_plantas.py",
       "exit_code": 0,
       "output": "Suma intercambio: -2.220446049250313e-16",
-      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\08_plantas.py:19: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.show()"
+      "errors": "REPO\\python\\cuadernos\\08_plantas.py:19: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.show()",
+      "sha256_script": "a90b894dc3080368a690883237c97d32af5f771384dc3ff836975158622efc4d"
     },
     {
       "file": "09_incertidumbre.py",
       "exit_code": 0,
       "output": "Cuantiles 2,5/50/97,5%: [[7.23584351 0.35791146]\n [7.93220496 0.39790665]\n [9.12355549 0.46218842]]",
-      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\09_incertidumbre.py:22: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.xlabel('alfa (u.a./h)');plt.ylabel('delta (1/h)');plt.show()"
+      "errors": "REPO\\python\\cuadernos\\09_incertidumbre.py:22: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.xlabel('alfa (u.a./h)');plt.ylabel('delta (1/h)');plt.show()",
+      "sha256_script": "afe330a2d9e0197430aa493524a6ae254f8cff452ab32d4f87881cde12c14cd2"
     },
     {
       "file": "10_reportero.py",
       "exit_code": 0,
       "output": "Equilibrio esperado inmadura=10, madura=40",
-      "errors": "C:\\Users\\tonym\\Documents\\Codex\\2026-10-18\\quiero-aprender-a-hacer-modelado-matem\\outputs\\atlas-circuitos-genicos\\python\\cuadernos\\10_reportero.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()"
+      "errors": "REPO\\python\\cuadernos\\10_reportero.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend();plt.show()",
+      "sha256_script": "c452411f96e1d159951b8c3f626ad2d0cb3b0941cbbad2a4ed6f981de023cbdf"
+    },
+    {
+      "file": "11_union.py",
+      "exit_code": 0,
+      "output": "Complejo en equilibrio: 5.52786404500042 nM\nA libre, B libre: 4.47213595499958 2.4721359549995796",
+      "errors": "REPO\\python\\cuadernos\\11_union.py:20: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.xlabel('Tiempo (h)');plt.ylabel('Complejo (nM)');plt.legend();plt.show()",
+      "sha256_script": "cf9110eaf92325fa5b8369d0e0d5c5eb6356d651da0856966cc382af73f09b4c"
+    },
+    {
+      "file": "12_bifurcaciones.py",
+      "exit_code": 0,
+      "output": "Raíces para a=2,5: [0.  0.5 2. ]",
+      "errors": "REPO\\python\\cuadernos\\12_bifurcaciones.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.xlabel('a (adimensional)');plt.ylabel('Equilibrio x*');plt.legend();plt.show()\nREPO\\python\\cuadernos\\12_bifurcaciones.py:24: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.xlabel('Tiempo adimensional');plt.ylabel('x');plt.legend();plt.show()",
+      "sha256_script": "067587572c6dc54d314d53f97117b8ac52828b9495f28b968b72fb2f1f8fb841"
+    },
+    {
+      "file": "13_goodwin.py",
+      "exit_code": 0,
+      "output": "Equilibrio crítico, a crítico, frecuencia: 1.148698354997035 5.74349177498518 1.7320508075688772\nPeríodo lineal en el cruce: 3.6275987284684357",
+      "errors": "REPO\\python\\cuadernos\\13_goodwin.py:20: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.xlabel('Tiempo adimensional');plt.ylabel('Estado x');plt.legend();plt.show()",
+      "sha256_script": "567b05bf1a68b2b1d9daec70e2b8ce0c512900e4e55a7d0a36f897fadf99a97c"
+    },
+    {
+      "file": "14_control.py",
+      "exit_code": 0,
+      "output": "Salida final, fuga: 3.99999993615039 0.0\nSalida final, fuga: 3.3540125275878756 0.05",
+      "errors": "REPO\\python\\cuadernos\\14_control.py:24: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.xlabel('Tiempo (h)');plt.ylabel('Salida (nM)');plt.legend();plt.show()",
+      "sha256_script": "837efe5a736d769832a71029f30fac1fdecaed72c52c99c5e5373d41d12ef92d"
+    },
+    {
+      "file": "15_fases.py",
+      "exit_code": 0,
+      "output": "Cambio final de fase relativa: 0.005 -0.78394204897603\nCambio final de fase relativa: 0.015 -4.015388128664199e-07",
+      "errors": "REPO\\python\\cuadernos\\15_fases.py:19: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.xlabel('Tiempo (h)');plt.ylabel('Fase relativa (rad)');plt.legend();plt.show()",
+      "sha256_script": "7a837f9ac73692a5de63319b174abf9377dfbce1fa8300fcd47c4471859711a4"
+    },
+    {
+      "file": "16_momentos.py",
+      "exit_code": 0,
+      "output": "Analítica: 10.0 43.333333333333336\nEstimación Monte Carlo: 10.375 43.60629921259842",
+      "errors": "REPO\\python\\cuadernos\\16_momentos.py:22: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.xlabel('ARN (moléculas)');plt.ylabel('Frecuencia relativa');plt.legend();plt.show()",
+      "sha256_script": "20dc5de6bda58b575f2e7cadf9801b327156df721de214d8a5d100688e351a87"
+    },
+    {
+      "file": "17_sensibilidades.py",
+      "exit_code": 0,
+      "output": "Paso, error derivada: 0.01 0.02994142435078828\nPaso, error derivada: 0.001 0.00029925779710993083\nPaso, error derivada: 0.0001 2.992562542658561e-06",
+      "errors": "REPO\\python\\cuadernos\\17_sensibilidades.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.xlabel('Tiempo (h)');plt.ylabel('Sensibilidad relativa');plt.legend();plt.show()",
+      "sha256_script": "c97f4275f93f94a60128928206bf461ea2dd5273486ac70b73e2f96c72a6ffce"
+    },
+    {
+      "file": "18_sensor.py",
+      "exit_code": 0,
+      "output": "Error inicial estático: -5.0",
+      "errors": "REPO\\python\\cuadernos\\18_sensor.py:21: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.xlabel('Tiempo (min)');plt.ylabel('Entrada estimada (u.a.)');plt.legend();plt.show()",
+      "sha256_script": "6dce2423e3d45404831e91760b8d45773ad08e6cbea20dbf3926fba67c7635b3"
+    },
+    {
+      "file": "19_turing.py",
+      "exit_code": 0,
+      "output": "Intervalo aproximado inestable: 0.2535 0.8840000000000001",
+      "errors": "REPO\\python\\cuadernos\\19_turing.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.ylabel('Máxima parte real (1/tiempo)');plt.legend();plt.show()",
+      "sha256_script": "5590a036e7600ca0d3e9f9c0d4fce145133e8e311c839bbbd4eb0f06b01b1d52"
+    },
+    {
+      "file": "20_fosforilacion.py",
+      "exit_code": 0,
+      "output": "Conservaciones L@N: 0.0\nTotales iniciales: [ 2.  1. 10.]\nMáxima desviación de totales: 6.561862164744525e-12",
+      "errors": "REPO\\python\\cuadernos\\20_fosforilacion.py:20: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.xlabel('Tiempo (u.a.)');plt.ylabel('Cantidad (u.a.)');plt.legend();plt.show()",
+      "sha256_script": "5ac49c8af784aab745e965326e09684dd9d1c7e1245263107cf3af140cbe7a6a"
+    },
+    {
+      "file": "21_seis_genes.py",
+      "exit_code": 0,
+      "output": "Rango final X1: 0.0 20.63196803979039\nRango final X1: 0.1 23.53489734277055",
+      "errors": "REPO\\python\\cuadernos\\21_seis_genes.py:23: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  fig.suptitle(f'Acoplamiento kappa={kappa}');plt.show()",
+      "sha256_script": "e4d839ff7ec94b1a339a45baa22c9bc5c798d3f31c506abb4063d4c3be521566"
+    },
+    {
+      "file": "22_perfiles.py",
+      "exit_code": 0,
+      "output": "",
+      "errors": "REPO\\python\\cuadernos\\22_perfiles.py:20: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.ylabel('Aumento de chi² tras reoptimizar');plt.legend();plt.show()",
+      "sha256_script": "122b5bd1f98d0efe31acc44494921043da82c2e6bc1a47220b5b8f5420e74f04"
     }
   ],
   "epub": {
-    "xml_files_valid": 44,
-    "internal_links_valid": 330,
-    "manifest_items": 290,
+    "xml_files_valid": 40,
+    "internal_links_valid": 319,
+    "manifest_items": 285,
     "note": "Validación estructural XML y vínculos; no es una certificación EPUBCheck externa."
   },
   "pdf": {
-    "pages": 191,
+    "pages": 287,
     "searchable_text": true,
     "embedded_fonts": true,
-    "empty_pages": []
+    "empty_pages": [],
+    "fuentes_utilizadas_incrustadas": {
+      "/AAAAAA+Arial-BoldMT": true,
+      "/AAAAAA+ArialMT": true,
+      "/AAAAAA+Georgia": true,
+      "/AAAAAA+DejaVuSans": true,
+      "/AAAAAA+Consolas": true,
+      "/AAAAAA+Georgia-Italic": true,
+      "/AAAAAA+Georgia-Bold": true
+    },
+    "sha256": "f34a01afcda8a53f9aca579311ed38247634999d719fdeedb0b0ce806a25a855"
   },
-  "scope": "Pruebas analíticas, conservación, SSA y estimación en test_modelos.py; scripts de prácticas; estructura EPUB; PDF. Revisión experta independiente completa pendiente.",
+  "scope": "Pruebas analíticas, conservación, SSA, estabilidad, sensibilidad y estimación; scripts de prácticas; estructura EPUB y PDF. Revisión experta independiente completa pendiente.",
   "revision_visual": {
-    "paginas_recorridas": 191,
-    "detalle": "Recorrido visual de la edición 1.1 en hojas de contacto y ampliaciones de las nuevas láminas; revisión de lectura y leyendas."
+    "estado": "revisada",
+    "paginas": 287,
+    "fecha": "2026-10-19",
+    "metodo": "Todas las páginas renderizadas a PNG y revisadas en 12 hojas de contacto; páginas 9, 83 y 231 ampliadas para revisar texto y ecuaciones. Doce figuras nuevas revisadas en tres láminas de contacto y ampliaciones selectivas.",
+    "resultado": "Sin cortes, desbordamientos ni páginas vacías observados. Desigualdades preservadas como texto; ecuaciones y referencias legibles.",
+    "limite": "Revisión visual y verificaciones docentes; no arbitraje académico independiente."
   },
-  "app_pruebas_ui": {
-    "viewport_movil": 390,
-    "busqueda_texto_y_figuras": true,
-    "figura_ampliada_y_enlaces": true,
-    "notas_y_avance": true,
-    "simulador": true,
-    "sin_conexion": "Descarga de recursos y recarga con servidor HTTP detenido; búsqueda y figuras cargadas; simulador operativo. Verificado por interfaz de navegador.",
-    "edicion_1_1": {
-      "filtro_molecular": "12 láminas; búsqueda ubiquitina devuelve M06.",
-      "busqueda_paneles": "La frase «los errores se cancelen» encuentra M06 desde el buscador global.",
-      "movil": "Viewport 390 × 844; sin desbordamiento horizontal; modal y leyenda legibles.",
-      "sin_conexion": "309 recursos descargados tras un reintento. Servidor HTTP detenido; recarga, búsqueda memoria y ampliación M08 comprobadas.",
-      "consola": "Sin errores durante la revisión con conexión."
-    }
-  },
-  "notebooks_validos": 10,
   "laminas": {
     "count": 12,
     "style": "Ilustración científica plana con sombreado limitado",
     "files_and_hashes_valid": true,
     "caption_and_panel_guide": true
+  },
+  "app_pruebas_ui": {
+    "edicion": "2.0",
+    "estado": "verificada en navegador",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "primera_leccion": "00 · EDO; enlace antiguo c00 también abre EDO",
+    "indice_interno": "Desplegable de 9 apartados y salto a Factor integrante comprobados",
+    "fuentes": "Fuentes de capítulo desplegadas; enlaces de figuras y prácticas comprobados en la interfaz y catálogo",
+    "busqueda": "antitetico sin tilde: 6 resultados de lecciones, figura y fuente",
+    "practicas": {
+      "cuadernos": 22,
+      "scripts": 22,
+      "lecciones_y_fuentes_validas": true
+    },
+    "figuras": "Visor de control integral y visor del circuito de seis proteínas con PNG, SVG y lecturas",
+    "movil": "Sin desbordamiento horizontal observado en lección, prácticas y visor",
+    "offline": "Descarga de 346 recursos completada; servidor local detenido; recarga de EDO, búsqueda en galería y figura avanzada no visitada antes disponibles.",
+    "alcance": "Pruebas de recorridos representativos; no auditoría de accesibilidad completa ni prueba de todos los dispositivos."
+  },
+  "notebooks_validos": 22,
+  "pruebas_modelos": {
+    "exit_code": 0,
+    "output": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.991s\n\nOK\n"
+  },
+  "cobertura_bibliografica": {
+    "secciones_con_fuentes": 371,
+    "referencias": 89,
+    "ids_validos": true,
+    "nota": "Cobertura formal de secciones y figuras; no sustituye revisión independiente de cada interpretación."
   }
 }

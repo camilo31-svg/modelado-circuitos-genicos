@@ -1,21 +1,29 @@
 {
-  "chapters": 38,
-  "words": 34803,
-  "figures": 38,
+  "chapters": 34,
+  "words": 64998,
+  "figures": 49,
   "mechanisms": 12,
-  "equations": 210,
-  "unique_equations": 208,
-  "references": 72,
-  "notebooks": 10,
-  "edition": "1.1",
-  "review_date": "2026-10-18",
+  "equations": 196,
+  "unique_equations": 196,
+  "references": 89,
+  "notebooks": 22,
+  "edition": "2.0",
+  "review_date": "2026-10-19",
   "parts": [
-    "I · Matemáticas desde cero",
-    "II · Del mecanismo al programa",
-    "III · Dinámica de circuitos",
-    "IV · Ruido, datos e inferencia",
-    "V · Plantas y literatura",
-    "VI · De estudiante a investigador"
+    "I · Ecuaciones diferenciales y construcción del modelo",
+    "II · Dinámica no lineal y circuitos complejos",
+    "III · Ruido, observación e inferencia",
+    "IV · Modelado vegetal con profundidad",
+    "V · Investigación y modelos de mayor alcance"
   ],
-  "pages": 191
+  "first_chapter": "edo",
+  "chapter_aliases": {
+    "c00": "edo",
+    "c06": "edo",
+    "c10": "c08",
+    "c12": "c11",
+    "c19": "c20",
+    "c30": "c32"
+  },
+  "pages": 287
 }
