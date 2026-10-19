@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+import lectura_curvas
 from scipy.stats import poisson,norm,binom
 BASE=Path(__file__).resolve().parents[1]
 ROOT=BASE/'outputs'/'atlas-circuitos-genicos'
@@ -21,9 +22,10 @@ def save(fig,slug,title,chapters,caption,tags):
     for i,a in enumerate(axes):
         a.text(-.13,1.12,string.ascii_uppercase[i],transform=a.transAxes,weight='bold',fontsize=12)
         a.tick_params(width=.6,labelsize=9)
+    curves=lectura_curvas.extraer(fig,slug)
     fig.savefig(OUT/(slug+'.png'),dpi=220,bbox_inches='tight')
     fig.savefig(OUT/(slug+'.svg'),bbox_inches='tight')
-    META.append(dict(id=slug,title=title,chapters=chapters,caption=caption,alt=title+'. '+caption,tags=tags,png='assets/figures/'+slug+'.png',svg='assets/figures/'+slug+'.svg',source='Simulación o esquema didáctico original; parámetros ilustrativos.'))
+    META.append(dict(id=slug,title=title,chapters=chapters,caption=caption,alt=title+'. '+caption,tags=tags,png='assets/figures/'+slug+'.png',svg='assets/figures/'+slug+'.svg',source='Simulación o esquema didáctico original; parámetros ilustrativos.',curve_guide=curves))
     plt.close(fig)
 
 t=np.linspace(0,10,200)
@@ -202,7 +204,7 @@ save(fig,'f26_investigar','Del resultado numérico a una conclusión defendible'
 
 catalog=OUT.parent.parent/'figures.json'
 previous=json.loads(catalog.read_text(encoding='utf8')) if catalog.exists() else []
-mechanisms=[f for f in previous if f.get('kind')=='mechanism' or f['id'].startswith('g')]
+mechanisms=[f for f in previous if f.get('kind')=='mechanism' or f['id'].startswith(('g','h','q'))]
 known={f['id']:f for f in previous}
 if (ROOT/'book'/'edition.json').exists():
     META=[f for f in META if f['id']!='f02_calculo']

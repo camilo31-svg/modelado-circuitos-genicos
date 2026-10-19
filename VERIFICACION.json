@@ -153,37 +153,58 @@
       "output": "",
       "errors": "REPO\\python\\cuadernos\\22_perfiles.py:20: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.ylabel('Aumento de chi² tras reoptimizar');plt.legend();plt.show()",
       "sha256_script": "122b5bd1f98d0efe31acc44494921043da82c2e6bc1a47220b5b8f5420e74f04"
+    },
+    {
+      "file": "23_codigo_paso_a_paso.py",
+      "exit_code": 0,
+      "output": "Forma especie/tiempo: (1, 201)\nMáximo error absoluto (nM): 7.68746133417153e-09\nJacobiano calculado: [[-0.5  0. ]\n [ 2.  -0.2]]\nTasas locales: [-0.2 -0.5]",
+      "errors": "REPO\\python\\cuadernos\\23_codigo_paso_a_paso.py:41: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend(); plt.show()",
+      "sha256_script": "19564c244b878227e27653337d64102c07ac8b84dc0119bf0ad6d11861353a90"
+    },
+    {
+      "file": "24_represilador_completo.py",
+      "exit_code": 0,
+      "output": "Diferencia máxima entre versiones: 1.9910448401105896e-08\nEquilibrio simétrico: 3.8332201781035082\nPartes reales: [-1.24070164 -1.24070164 -0.6        -0.6         0.04070164  0.04070164]",
+      "errors": "REPO\\python\\cuadernos\\24_represilador_completo.py:37: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend(); plt.show()",
+      "sha256_script": "4628d0d65ba3a4b36174ab4a7ccbe530067e632df77fbca666ed041b633523b6"
+    },
+    {
+      "file": "25_levadura_estado_adaptacion.py",
+      "exit_code": 0,
+      "output": "Equilibrios: [0.02136932 0.35387866 2.64475202]\nDerivadas locales: [-0.87190111  0.67696091 -0.75172647]\nFuga, respuesta residual, compensación: 0 0.0 1.0\nFuga, respuesta residual, compensación: 0.1 0.09090909090909091 0.9090909090909091\nFuga, respuesta residual, compensación: 0.3 0.23076923076923075 0.7692307692307693",
+      "errors": "REPO\\python\\cuadernos\\25_levadura_estado_adaptacion.py:31: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend(); plt.show()\nREPO\\python\\cuadernos\\25_levadura_estado_adaptacion.py:45: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.legend(); plt.show()",
+      "sha256_script": "fbaabf24de960dcc3544d622019c8b7b6fb406b985c1f43ba1938bac6347cc50"
     }
   ],
   "epub": {
-    "xml_files_valid": 40,
-    "internal_links_valid": 319,
-    "manifest_items": 285,
+    "xml_files_valid": 42,
+    "internal_links_valid": 615,
+    "manifest_items": 436,
     "note": "Validación estructural XML y vínculos; no es una certificación EPUBCheck externa."
   },
   "pdf": {
-    "pages": 287,
+    "pages": 446,
     "searchable_text": true,
     "embedded_fonts": true,
-    "empty_pages": [],
     "fuentes_utilizadas_incrustadas": {
       "/AAAAAA+Arial-BoldMT": true,
-      "/AAAAAA+ArialMT": true,
       "/AAAAAA+Georgia": true,
+      "/AAAAAA+ArialMT": true,
       "/AAAAAA+DejaVuSans": true,
       "/AAAAAA+Consolas": true,
-      "/AAAAAA+Georgia-Italic": true,
-      "/AAAAAA+Georgia-Bold": true
+      "/AAAAAA+Georgia-Bold": true,
+      "/AAAAAA+Georgia-Italic": true
     },
-    "sha256": "f34a01afcda8a53f9aca579311ed38247634999d719fdeedb0b0ce806a25a855"
+    "empty_pages": [],
+    "sha256": "1eb6b1afea7678625f975f64df79c4e68d8816f4984a321b545e3d4f803d072d"
   },
   "scope": "Pruebas analíticas, conservación, SSA, estabilidad, sensibilidad y estimación; scripts de prácticas; estructura EPUB y PDF. Revisión experta independiente completa pendiente.",
   "revision_visual": {
     "estado": "revisada",
-    "paginas": 287,
+    "paginas": 446,
     "fecha": "2026-10-19",
-    "metodo": "Todas las páginas renderizadas a PNG y revisadas en 12 hojas de contacto; páginas 9, 83 y 231 ampliadas para revisar texto y ecuaciones. Doce figuras nuevas revisadas en tres láminas de contacto y ampliaciones selectivas.",
-    "resultado": "Sin cortes, desbordamientos ni páginas vacías observados. Desigualdades preservadas como texto; ecuaciones y referencias legibles.",
+    "metodo": "446 páginas finales renderizadas con Poppler a PNG y revisadas en 19 hojas de contacto. Páginas 21, 22, 292 y 296 ampliadas a 140 dpi para comprobar figuras, instantáneas, tabla de símbolos y código. Las dieciséis secuencias iniciales se revisaron también en cuatro hojas de figuras; se revisó el ejemplo añadido de represión a resolución completa.",
+    "resultado": "Sin cortes ni solapamientos materiales observados. Texto, ecuaciones, llamadas, leyendas e instantáneas legibles al ampliar.",
     "limite": "Revisión visual y verificaciones docentes; no arbitraje académico independiente."
   },
   "laminas": {
@@ -193,35 +214,50 @@
     "caption_and_panel_guide": true
   },
   "app_pruebas_ui": {
-    "edicion": "2.0",
+    "edicion": "2.1",
     "estado": "verificada en navegador",
     "viewport": {
       "width": 390,
       "height": 844
     },
-    "primera_leccion": "00 · EDO; enlace antiguo c00 también abre EDO",
-    "indice_interno": "Desplegable de 9 apartados y salto a Factor integrante comprobados",
-    "fuentes": "Fuentes de capítulo desplegadas; enlaces de figuras y prácticas comprobados en la interfaz y catálogo",
-    "busqueda": "antitetico sin tilde: 6 resultados de lecciones, figura y fuente",
+    "navegacion": "Casos bacterianos y de levadura accesibles; índice interno con 14 apartados en EDO y salto al nuevo apartado comprobados.",
+    "referencias": "Saltos a ecuación y figura comprobados sin abandonar la ruta de capítulo.",
+    "busqueda": "ocupacion sin tilde devuelve lecciones, fuentes y figura 55; enzima encuentra figura 69.",
     "practicas": {
-      "cuadernos": 22,
-      "scripts": 22,
-      "lecciones_y_fuentes_validas": true
+      "cuadernos": 25,
+      "scripts": 25,
+      "guia_desplegable": "Lectura del código de práctica 25 abierta y comprobada."
     },
-    "figuras": "Visor de control integral y visor del circuito de seis proteínas con PNG, SVG y lecturas",
-    "movil": "Sin desbordamiento horizontal observado en lección, prácticas y visor",
-    "offline": "Descarga de 346 recursos completada; servidor local detenido; recarga de EDO, búsqueda en galería y figura avanzada no visitada antes disponibles.",
-    "alcance": "Pruebas de recorridos representativos; no auditoría de accesibilidad completa ni prueba de todos los dispositivos."
+    "lecturas_graficas": "Visor de represión con tres PNG de instantáneas; lecturas de figura 55 y figura 66 comprobadas.",
+    "movil": "Sin desbordamiento horizontal observado en lección, prácticas y visores; imágenes cargadas.",
+    "offline": "Descarga de 645 recursos completada; servidor local detenido; app recargada, búsqueda y figura de Michaelis–Menten con dos lecturas gráficas no visitadas antes disponibles.",
+    "alcance": "Recorridos representativos, no auditoría de accesibilidad completa ni ensayo en todos los dispositivos."
   },
-  "notebooks_validos": 22,
+  "notebooks_validos": 25,
   "pruebas_modelos": {
     "exit_code": 0,
-    "output": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.991s\n\nOK\n"
+    "output": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 1.332s\n\nOK\n"
+  },
+  "referencias_cruzadas": {
+    "ecuaciones_numeradas": 202,
+    "llamadas_de_ecuacion": 202,
+    "llamadas_de_figura": 77,
+    "destinos_validos": true,
+    "figuras_colocadas_en_el_desarrollo": true
   },
   "cobertura_bibliografica": {
-    "secciones_con_fuentes": 371,
-    "referencias": 89,
+    "secciones_con_fuentes": 409,
+    "referencias": 94,
     "ids_validos": true,
     "nota": "Cobertura formal de secciones y figuras; no sustituye revisión independiente de cada interpretación."
+  },
+  "lectura_curvas": {
+    "figuras_con_lectura_numerica": 56,
+    "graficos_de_instantaneas": 123,
+    "series": 235,
+    "puntos_por_serie": 3,
+    "valores_finitos_y_rangos_validos": true,
+    "represion_por_tramos_contrastada_con_solucion_analitica": true,
+    "estados_entradas_y_constantes_distinguidos": true
   }
 }

@@ -10,6 +10,16 @@
   {
     "chapter": "edo",
     "number": "00",
+    "section": "Desarrollo guiado: leer, transformar y verificar una EDO",
+    "references": [
+      "A01",
+      "A02",
+      "R05"
+    ]
+  },
+  {
+    "chapter": "edo",
+    "number": "00",
     "section": "Recuperar la separación de variables sin perder soluciones",
     "references": [
       "F08",
@@ -79,11 +89,31 @@
     ]
   },
   {
+    "chapter": "edo",
+    "number": "00",
+    "section": "Leer el inicio, el recorrido y el final de una curva",
+    "references": [
+      "A01",
+      "A02",
+      "D07"
+    ]
+  },
+  {
     "chapter": "reacciones",
     "number": "01",
     "section": "Una reacción es una instrucción de contabilidad",
     "references": [
       "A01"
+    ]
+  },
+  {
+    "chapter": "reacciones",
+    "number": "01",
+    "section": "Desarrollo guiado: una reacción produce tres ecuaciones, no una flecha decorativa",
+    "references": [
+      "A01",
+      "A27",
+      "A02"
     ]
   },
   {
@@ -165,6 +195,20 @@
       "A22",
       "R03",
       "R09"
+    ]
+  },
+  {
+    "chapter": "c08",
+    "number": "02",
+    "section": "Desarrollo guiado: Python como traducción de las ecuaciones",
+    "references": [
+      "R05",
+      "R20",
+      "R21",
+      "A21",
+      "R03",
+      "A01",
+      "A17"
     ]
   },
   {
@@ -270,6 +314,16 @@
   {
     "chapter": "c09",
     "number": "03",
+    "section": "Desarrollo guiado: por qué un gen necesita al menos dos balances",
+    "references": [
+      "A01",
+      "A02",
+      "I04"
+    ]
+  },
+  {
+    "chapter": "c09",
+    "number": "03",
     "section": "Resolver la cascada y entender el retraso aparente",
     "references": [
       "A01",
@@ -340,6 +394,18 @@
       "D07",
       "I07",
       "R19"
+    ]
+  },
+  {
+    "chapter": "c16",
+    "number": "04",
+    "section": "Desarrollo guiado: construir una función de regulación desde ocupaciones",
+    "references": [
+      "A01",
+      "D07",
+      "A02",
+      "I06",
+      "D08"
     ]
   },
   {
@@ -465,6 +531,17 @@
       "A01",
       "A02",
       "D04"
+    ]
+  },
+  {
+    "chapter": "c11",
+    "number": "05",
+    "section": "Desarrollo guiado: entender el Jacobiano sin dar por sabido el álgebra lineal",
+    "references": [
+      "A01",
+      "A27",
+      "A02",
+      "R03"
     ]
   },
   {
@@ -634,6 +711,16 @@
   {
     "chapter": "c13",
     "number": "06",
+    "section": "Desarrollo guiado: un interruptor necesita dos balances y una geometría",
+    "references": [
+      "A01",
+      "D01",
+      "A27"
+    ]
+  },
+  {
+    "chapter": "c13",
+    "number": "06",
     "section": "Un ejemplo donde se pueden calcular todos los equilibrios",
     "references": [
       "A01",
@@ -761,6 +848,15 @@
   {
     "chapter": "bifurcaciones",
     "number": "07",
+    "section": "Desarrollo guiado: de una ecuación a un diagrama de bifurcación",
+    "references": [
+      "A01",
+      "A02"
+    ]
+  },
+  {
+    "chapter": "bifurcaciones",
+    "number": "07",
     "section": "Silla-nodo: crear o destruir una pareja",
     "references": [
       "A01",
@@ -830,6 +926,17 @@
       "R05",
       "D02",
       "D03"
+    ]
+  },
+  {
+    "chapter": "c14",
+    "number": "08",
+    "section": "Desarrollo guiado: demostrar un umbral de oscilación en Goodwin",
+    "references": [
+      "A01",
+      "A27",
+      "A02",
+      "D02"
     ]
   },
   {
@@ -953,6 +1060,17 @@
     "references": [
       "A01",
       "D05"
+    ]
+  },
+  {
+    "chapter": "c15",
+    "number": "09",
+    "section": "Desarrollo guiado: fabricar un pulso por dos caminos de una señal",
+    "references": [
+      "A01",
+      "D05",
+      "D06",
+      "A02"
     ]
   },
   {
@@ -1089,6 +1207,18 @@
   {
     "chapter": "c17",
     "number": "10",
+    "section": "Desarrollo guiado: cuando el presente necesita conocer el pasado",
+    "references": [
+      "A01",
+      "D09",
+      "D12",
+      "R05",
+      "R20"
+    ]
+  },
+  {
+    "chapter": "c17",
+    "number": "10",
     "section": "Derivar cuándo un retraso puede desestabilizar la autorrepresión",
     "references": [
       "D12",
@@ -1217,6 +1347,16 @@
   {
     "chapter": "control",
     "number": "11",
+    "section": "Desarrollo guiado: ver aparecer una integral al restar dos balances",
+    "references": [
+      "A04",
+      "A01",
+      "I09"
+    ]
+  },
+  {
+    "chapter": "control",
+    "number": "11",
     "section": "La identidad que explica el control integral",
     "references": [
       "A04",
@@ -1288,6 +1428,16 @@
     "references": [
       "I08",
       "A01",
+      "I07"
+    ]
+  },
+  {
+    "chapter": "c32",
+    "number": "12",
+    "section": "Desarrollo guiado: escribir qué se comparte y qué se conserva",
+    "references": [
+      "A01",
+      "I08",
       "I07"
     ]
   },
@@ -1428,6 +1578,16 @@
   {
     "chapter": "acoplados",
     "number": "13",
+    "section": "Desarrollo guiado: convertir dos osciladores en una ecuación de diferencia de fase",
+    "references": [
+      "A01",
+      "A05",
+      "A06"
+    ]
+  },
+  {
+    "chapter": "acoplados",
+    "number": "13",
     "section": "Reducir a fase: qué se conserva y qué se pierde",
     "references": [
       "A01",
@@ -1498,6 +1658,16 @@
       "A01",
       "D10",
       "D11"
+    ]
+  },
+  {
+    "chapter": "c18",
+    "number": "14",
+    "section": "Desarrollo guiado: de intercambio entre dos células a difusión",
+    "references": [
+      "A01",
+      "D11",
+      "A27"
     ]
   },
   {
@@ -1640,6 +1810,17 @@
     "references": [
       "A01",
       "I02"
+    ]
+  },
+  {
+    "chapter": "c20",
+    "number": "15",
+    "section": "Desarrollo guiado: derivar el algoritmo de Gillespie desde probabilidades",
+    "references": [
+      "I02",
+      "A01",
+      "R03",
+      "R20"
     ]
   },
   {
@@ -1816,6 +1997,17 @@
   {
     "chapter": "c21",
     "number": "16",
+    "section": "Desarrollo guiado: obtener media y varianza de un promotor que cambia de estado",
+    "references": [
+      "A20",
+      "A01",
+      "A07",
+      "I02"
+    ]
+  },
+  {
+    "chapter": "c21",
+    "number": "16",
     "section": "Derivar la media y la variación del ARN",
     "references": [
       "A20",
@@ -1932,6 +2124,18 @@
       "A01",
       "I04",
       "I06"
+    ]
+  },
+  {
+    "chapter": "c22",
+    "number": "17",
+    "section": "Desarrollo guiado: construir la ecuación de lo que realmente mide el instrumento",
+    "references": [
+      "I04",
+      "A09",
+      "I05",
+      "V02",
+      "A07"
     ]
   },
   {
@@ -2062,6 +2266,17 @@
   {
     "chapter": "sensibilidad",
     "number": "18",
+    "section": "Desarrollo guiado: derivar una sensibilidad y entender sus unidades",
+    "references": [
+      "A01",
+      "A08",
+      "A27",
+      "A09"
+    ]
+  },
+  {
+    "chapter": "sensibilidad",
+    "number": "18",
     "section": "Un ejemplo analítico que separa equilibrio y tiempo",
     "references": [
       "A01",
@@ -2134,6 +2349,17 @@
       "A09",
       "A01",
       "I05"
+    ]
+  },
+  {
+    "chapter": "c23",
+    "number": "19",
+    "section": "Desarrollo guiado: por qué mínimos cuadrados aparece en un ajuste",
+    "references": [
+      "A09",
+      "I05",
+      "R21",
+      "A27"
     ]
   },
   {
@@ -2265,6 +2491,18 @@
     "references": [
       "I06",
       "A18"
+    ]
+  },
+  {
+    "chapter": "c24",
+    "number": "20",
+    "section": "Desarrollo guiado: demostrar que un parámetro no puede aprenderse de un dato",
+    "references": [
+      "I06",
+      "A01",
+      "A18",
+      "A09",
+      "A27"
     ]
   },
   {
@@ -2402,8 +2640,42 @@
     ]
   },
   {
-    "chapter": "c25",
+    "chapter": "caso-bacteriano",
     "number": "21",
+    "section": "Un caso completo: del anillo regulador a las seis variables",
+    "references": [
+      "D02",
+      "A01",
+      "A02",
+      "R21",
+      "R03",
+      "R20",
+      "R05",
+      "A27",
+      "I04"
+    ]
+  },
+  {
+    "chapter": "caso-levadura",
+    "number": "22",
+    "section": "Dos preguntas distintas en levadura: elegir un estado y adaptarse",
+    "references": [
+      "A25",
+      "A26",
+      "A01",
+      "A02",
+      "A07",
+      "I04",
+      "A09",
+      "A04",
+      "A27",
+      "R05",
+      "R20"
+    ]
+  },
+  {
+    "chapter": "c25",
+    "number": "23",
     "section": "El contexto vegetal modifica estados, parámetros y observación",
     "references": [
       "A01",
@@ -2414,7 +2686,20 @@
   },
   {
     "chapter": "c25",
-    "number": "21",
+    "number": "23",
+    "section": "Desarrollo guiado: el contexto cambia los balances, no las reglas de cálculo",
+    "references": [
+      "A01",
+      "A09",
+      "A07",
+      "P03",
+      "I08",
+      "P10"
+    ]
+  },
+  {
+    "chapter": "c25",
+    "number": "23",
     "section": "Producción que varía con el tiempo y el contexto",
     "references": [
       "A01",
@@ -2425,7 +2710,7 @@
   },
   {
     "chapter": "c25",
-    "number": "21",
+    "number": "23",
     "section": "Variación entre lotes, plantas, hojas y células",
     "references": [
       "P10",
@@ -2435,7 +2720,7 @@
   },
   {
     "chapter": "c25",
-    "number": "21",
+    "number": "23",
     "section": "Un cálculo de pseudorreplicación",
     "references": [
       "A09",
@@ -2444,7 +2729,7 @@
   },
   {
     "chapter": "c25",
-    "number": "21",
+    "number": "23",
     "section": "Crecimiento, transporte y regulación en un mismo balance",
     "references": [
       "A01",
@@ -2453,7 +2738,7 @@
   },
   {
     "chapter": "c25",
-    "number": "21",
+    "number": "23",
     "section": "Condiciones ambientales como entradas y como parámetros",
     "references": [
       "A01",
@@ -2463,7 +2748,7 @@
   },
   {
     "chapter": "c25",
-    "number": "21",
+    "number": "23",
     "section": "Trasladar un modelo entre contextos",
     "references": [
       "A09",
@@ -2474,7 +2759,7 @@
   },
   {
     "chapter": "c25",
-    "number": "21",
+    "number": "23",
     "section": "Ejercicio resuelto: una caída de concentración sin degradación",
     "references": [
       "A01",
@@ -2483,7 +2768,7 @@
   },
   {
     "chapter": "c25",
-    "number": "21",
+    "number": "23",
     "section": "Aplicación complementaria: Una planta no es un tubo de ensayo: contexto, tejidos y escalas",
     "references": [
       "A01",
@@ -2492,7 +2777,7 @@
   },
   {
     "chapter": "c26",
-    "number": "22",
+    "number": "24",
     "section": "Del mecanismo de reconocimiento a una tasa efectiva",
     "references": [
       "V01",
@@ -2503,7 +2788,22 @@
   },
   {
     "chapter": "c26",
-    "number": "22",
+    "number": "24",
+    "section": "Desarrollo guiado: de la pérdida de un sensor a una señal de entrada",
+    "references": [
+      "A01",
+      "P02",
+      "V01",
+      "A09",
+      "I04",
+      "P01",
+      "V02",
+      "I06"
+    ]
+  },
+  {
+    "chapter": "c26",
+    "number": "24",
     "section": "Tres niveles de detalle para la misma pregunta",
     "references": [
       "A01",
@@ -2513,7 +2813,7 @@
   },
   {
     "chapter": "c26",
-    "number": "22",
+    "number": "24",
     "section": "La calibración estacionaria y sus supuestos",
     "references": [
       "A01",
@@ -2524,7 +2824,7 @@
   },
   {
     "chapter": "c26",
-    "number": "22",
+    "number": "24",
     "section": "Reconstruir una entrada dinámica: aparece una derivada de datos",
     "references": [
       "A01",
@@ -2534,7 +2834,7 @@
   },
   {
     "chapter": "c26",
-    "number": "22",
+    "number": "24",
     "section": "Referencia ratiométrica y propagación de incertidumbre",
     "references": [
       "V02",
@@ -2544,7 +2844,7 @@
   },
   {
     "chapter": "c26",
-    "number": "22",
+    "number": "24",
     "section": "Leer dos casos de artículos sin mezclar instrumentos",
     "references": [
       "P01",
@@ -2554,7 +2854,7 @@
   },
   {
     "chapter": "c26",
-    "number": "22",
+    "number": "24",
     "section": "Modelo extendido con un complejo",
     "references": [
       "A01",
@@ -2564,7 +2864,7 @@
   },
   {
     "chapter": "c26",
-    "number": "22",
+    "number": "24",
     "section": "Ejercicio resuelto: el error de una calibración demasiado temprana",
     "references": [
       "A01",
@@ -2574,7 +2874,7 @@
   },
   {
     "chapter": "c26",
-    "number": "22",
+    "number": "24",
     "section": "Aplicación complementaria: Auxina y sensores: aprender a interpretar una señal que baja",
     "references": [
       "P01",
@@ -2587,7 +2887,7 @@
   },
   {
     "chapter": "c27",
-    "number": "23",
+    "number": "25",
     "section": "Del dominio de expresión a la variable de entrada",
     "references": [
       "A01",
@@ -2596,7 +2896,19 @@
   },
   {
     "chapter": "c27",
-    "number": "23",
+    "number": "25",
+    "section": "Desarrollo guiado: una puerta lógica en cada posición necesita una ley cuantitativa",
+    "references": [
+      "A01",
+      "P04",
+      "A02",
+      "A09",
+      "I04"
+    ]
+  },
+  {
+    "chapter": "c27",
+    "number": "25",
     "section": "Una AND analógica en una fila de células",
     "references": [
       "A01",
@@ -2605,7 +2917,7 @@
   },
   {
     "chapter": "c27",
-    "number": "23",
+    "number": "25",
     "section": "Derivar una frontera y su incertidumbre",
     "references": [
       "A01"
@@ -2613,7 +2925,7 @@
   },
   {
     "chapter": "c27",
-    "number": "23",
+    "number": "25",
     "section": "Movilidad de regulador y movilidad de reportero",
     "references": [
       "A01",
@@ -2622,7 +2934,7 @@
   },
   {
     "chapter": "c27",
-    "number": "23",
+    "number": "25",
     "section": "Lógica NOR, NIMPLY y exclusión espacial",
     "references": [
       "A01",
@@ -2632,7 +2944,7 @@
   },
   {
     "chapter": "c27",
-    "number": "23",
+    "number": "25",
     "section": "De expresión a morfología: una nueva capa causal",
     "references": [
       "P04",
@@ -2644,7 +2956,7 @@
   },
   {
     "chapter": "c27",
-    "number": "23",
+    "number": "25",
     "section": "Componer varias puertas: complejidad y márgenes",
     "references": [
       "A01",
@@ -2657,7 +2969,7 @@
   },
   {
     "chapter": "c27",
-    "number": "23",
+    "number": "25",
     "section": "Ejercicio resuelto: acumulación de fuga fuera del dominio",
     "references": [
       "A01",
@@ -2667,7 +2979,7 @@
   },
   {
     "chapter": "c27",
-    "number": "23",
+    "number": "25",
     "section": "Aplicación complementaria: Lógica espacial en raíces: de una tabla de verdad a células reales",
     "references": [
       "P04",
@@ -2677,7 +2989,7 @@
   },
   {
     "chapter": "c28",
-    "number": "24",
+    "number": "26",
     "section": "La memoria depende de qué estado persiste",
     "references": [
       "A01",
@@ -2686,7 +2998,18 @@
   },
   {
     "chapter": "c28",
-    "number": "24",
+    "number": "26",
+    "section": "Desarrollo guiado: una memoria de ADN se modela como cambio de estado",
+    "references": [
+      "A01",
+      "P05",
+      "A09",
+      "I04"
+    ]
+  },
+  {
+    "chapter": "c28",
+    "number": "26",
     "section": "Una célula registra o no registra: variable discreta y fracción de población",
     "references": [
       "A01"
@@ -2694,7 +3017,7 @@
   },
   {
     "chapter": "c28",
-    "number": "24",
+    "number": "26",
     "section": "Fondo de registro y falsas memorias",
     "references": [
       "A01",
@@ -2703,7 +3026,7 @@
   },
   {
     "chapter": "c28",
-    "number": "24",
+    "number": "26",
     "section": "Selección y crecimiento de subpoblaciones",
     "references": [
       "A01",
@@ -2713,7 +3036,7 @@
   },
   {
     "chapter": "c28",
-    "number": "24",
+    "number": "26",
     "section": "Dos pasos de registro no significan dos pulsos",
     "references": [
       "A01"
@@ -2721,7 +3044,7 @@
   },
   {
     "chapter": "c28",
-    "number": "24",
+    "number": "26",
     "section": "Separar la escritura de la lectura",
     "references": [
       "A01",
@@ -2732,7 +3055,7 @@
   },
   {
     "chapter": "c28",
-    "number": "24",
+    "number": "26",
     "section": "Reversibilidad y estabilidad heredada",
     "references": [
       "P05",
@@ -2741,7 +3064,7 @@
   },
   {
     "chapter": "c28",
-    "number": "24",
+    "number": "26",
     "section": "Ejercicio resuelto: duración e intensidad pueden ser indistinguibles",
     "references": [
       "A01"
@@ -2749,7 +3072,7 @@
   },
   {
     "chapter": "c28",
-    "number": "24",
+    "number": "26",
     "section": "Aplicación complementaria: Memoria vegetal: un estado que conserva el pasado",
     "references": [
       "P05",
@@ -2758,7 +3081,7 @@
   },
   {
     "chapter": "c29",
-    "number": "25",
+    "number": "27",
     "section": "Un reloj natural como investigación de estructura",
     "references": [
       "P06",
@@ -2768,7 +3091,18 @@
   },
   {
     "chapter": "c29",
-    "number": "25",
+    "number": "27",
+    "section": "Desarrollo guiado: separar fase, período y sincronización con el ambiente",
+    "references": [
+      "A01",
+      "P06",
+      "P07",
+      "I06"
+    ]
+  },
+  {
+    "chapter": "c29",
+    "number": "27",
     "section": "Una red con ARN, compartimentos y lazos entrelazados",
     "references": [
       "A01",
@@ -2778,7 +3112,7 @@
   },
   {
     "chapter": "c29",
-    "number": "25",
+    "number": "27",
     "section": "Luz como entrada y diferencia entre ritmo libre y arrastre",
     "references": [
       "A01",
@@ -2787,7 +3121,7 @@
   },
   {
     "chapter": "c29",
-    "number": "25",
+    "number": "27",
     "section": "Derivar una ecuación de fase relativa al ambiente",
     "references": [
       "A01",
@@ -2796,7 +3130,7 @@
   },
   {
     "chapter": "c29",
-    "number": "25",
+    "number": "27",
     "section": "Curva de respuesta de fase",
     "references": [
       "A01"
@@ -2804,7 +3138,7 @@
   },
   {
     "chapter": "c29",
-    "number": "25",
+    "number": "27",
     "section": "Datos que distinguen lazos alternativos",
     "references": [
       "P06",
@@ -2815,7 +3149,7 @@
   },
   {
     "chapter": "c29",
-    "number": "25",
+    "number": "27",
     "section": "Sensibilidad de período y compensación de temperatura",
     "references": [
       "A01",
@@ -2825,7 +3159,7 @@
   },
   {
     "chapter": "c29",
-    "number": "25",
+    "number": "27",
     "section": "Ejercicio resuelto: una diferencia pequeña que se acumula",
     "references": [
       "A01",
@@ -2836,7 +3170,7 @@
   },
   {
     "chapter": "c29",
-    "number": "25",
+    "number": "27",
     "section": "Aplicación complementaria: El reloj de Arabidopsis: cómo una predicción cambia un modelo",
     "references": [
       "P06",
@@ -2846,7 +3180,7 @@
   },
   {
     "chapter": "toggle-vegetal",
-    "number": "26",
+    "number": "28",
     "section": "Qué aporta el caso de 2025",
     "references": [
       "A11",
@@ -2855,7 +3189,18 @@
   },
   {
     "chapter": "toggle-vegetal",
-    "number": "26",
+    "number": "28",
+    "section": "Desarrollo guiado: utilizar un caso vegetal sin cambiar el significado de las ecuaciones",
+    "references": [
+      "A01",
+      "A11",
+      "I04",
+      "I06"
+    ]
+  },
+  {
+    "chapter": "toggle-vegetal",
+    "number": "28",
     "section": "Funciones de transferencia como módulos cuantitativos",
     "references": [
       "A01",
@@ -2864,7 +3209,7 @@
   },
   {
     "chapter": "toggle-vegetal",
-    "number": "26",
+    "number": "28",
     "section": "Una condición local para amplificación por doble represión",
     "references": [
       "A01"
@@ -2872,7 +3217,7 @@
   },
   {
     "chapter": "toggle-vegetal",
-    "number": "26",
+    "number": "28",
     "section": "Normalizar sin borrar asimetrías",
     "references": [
       "A01"
@@ -2880,7 +3225,7 @@
   },
   {
     "chapter": "toggle-vegetal",
-    "number": "26",
+    "number": "28",
     "section": "Variación entre células y robustez del dispositivo",
     "references": [
       "A09",
@@ -2892,7 +3237,7 @@
   },
   {
     "chapter": "toggle-vegetal",
-    "number": "26",
+    "number": "28",
     "section": "Un análisis de conmutación con observable separado",
     "references": [
       "A01",
@@ -2901,7 +3246,7 @@
   },
   {
     "chapter": "toggle-vegetal",
-    "number": "26",
+    "number": "28",
     "section": "Ejercicio resuelto: degradación cambia la condición local",
     "references": [
       "A01"
@@ -2909,7 +3254,7 @@
   },
   {
     "chapter": "toggle-vegetal",
-    "number": "26",
+    "number": "28",
     "section": "Cómo estudiar el artículo con este capítulo",
     "references": [
       "A11",
@@ -2920,7 +3265,7 @@
   },
   {
     "chapter": "cascadas",
-    "number": "27",
+    "number": "29",
     "section": "Una red de regulación puede actuar sobre estados de una proteína",
     "references": [
       "A01",
@@ -2929,7 +3274,18 @@
   },
   {
     "chapter": "cascadas",
-    "number": "27",
+    "number": "29",
+    "section": "Desarrollo guiado: construir una red de modificación sin perder enzimas",
+    "references": [
+      "A01",
+      "A16",
+      "A09",
+      "A13"
+    ]
+  },
+  {
+    "chapter": "cascadas",
+    "number": "29",
     "section": "Un ciclo de modificación y su conservación",
     "references": [
       "A01",
@@ -2938,7 +3294,7 @@
   },
   {
     "chapter": "cascadas",
-    "number": "27",
+    "number": "29",
     "section": "Calcular la pendiente del ciclo",
     "references": [
       "A01",
@@ -2947,7 +3303,7 @@
   },
   {
     "chapter": "cascadas",
-    "number": "27",
+    "number": "29",
     "section": "Cascadas: componer ganancias",
     "references": [
       "A01",
@@ -2957,7 +3313,7 @@
   },
   {
     "chapter": "cascadas",
-    "number": "27",
+    "number": "29",
     "section": "Modificación multisito y enzimas compartidas",
     "references": [
       "A16",
@@ -2966,7 +3322,7 @@
   },
   {
     "chapter": "cascadas",
-    "number": "27",
+    "number": "29",
     "section": "Secuestro estequiométrico como umbral",
     "references": [
       "A01"
@@ -2974,7 +3330,7 @@
   },
   {
     "chapter": "cascadas",
-    "number": "27",
+    "number": "29",
     "section": "Redes excitable y oscilatoria no son sinónimos",
     "references": [
       "A01"
@@ -2982,7 +3338,7 @@
   },
   {
     "chapter": "cascadas",
-    "number": "27",
+    "number": "29",
     "section": "Ejercicio resuelto: conservación antes que ajuste",
     "references": [
       "A01",
@@ -2991,7 +3347,7 @@
   },
   {
     "chapter": "c35",
-    "number": "28",
+    "number": "30",
     "section": "Acoplar un circuito con metabolismo exige decidir qué se predice",
     "references": [
       "A01",
@@ -3000,7 +3356,18 @@
   },
   {
     "chapter": "c35",
-    "number": "28",
+    "number": "30",
+    "section": "Desarrollo guiado: distinguir balances dinámicos de restricciones de flujo",
+    "references": [
+      "A01",
+      "R16",
+      "R18",
+      "A09"
+    ]
+  },
+  {
+    "chapter": "c35",
+    "number": "30",
     "section": "Control metabólico: la enzima más abundante no controla necesariamente el flujo",
     "references": [
       "A01"
@@ -3008,7 +3375,7 @@
   },
   {
     "chapter": "c35",
-    "number": "28",
+    "number": "30",
     "section": "Flujos compatibles con estequiometría",
     "references": [
       "A01",
@@ -3018,7 +3385,7 @@
   },
   {
     "chapter": "c35",
-    "number": "28",
+    "number": "30",
     "section": "Termodinámica y balances cinéticos",
     "references": [
       "A01"
@@ -3026,7 +3393,7 @@
   },
   {
     "chapter": "c35",
-    "number": "28",
+    "number": "30",
     "section": "Memoria epigenética como estados, sin confundirla con concentración",
     "references": [
       "A01",
@@ -3035,7 +3402,7 @@
   },
   {
     "chapter": "c35",
-    "number": "28",
+    "number": "30",
     "section": "Evolución de una población de circuitos",
     "references": [
       "A01",
@@ -3045,7 +3412,7 @@
   },
   {
     "chapter": "c35",
-    "number": "28",
+    "number": "30",
     "section": "Conectar niveles sin sobrecargar la inferencia",
     "references": [
       "A01",
@@ -3055,7 +3422,7 @@
   },
   {
     "chapter": "c35",
-    "number": "28",
+    "number": "30",
     "section": "Ejercicio resuelto: selección que parece apagado",
     "references": [
       "A01",
@@ -3064,7 +3431,7 @@
   },
   {
     "chapter": "c35",
-    "number": "28",
+    "number": "30",
     "section": "Aplicación complementaria: Más allá de las EDO: energías, metabolismo, epigenética y poblaciones",
     "references": [
       "A01",
@@ -3080,7 +3447,7 @@
   },
   {
     "chapter": "c33",
-    "number": "29",
+    "number": "31",
     "section": "Tres tareas diferentes: predecir, reconstruir una red y explicar un mecanismo",
     "references": [
       "I10",
@@ -3090,7 +3457,23 @@
   },
   {
     "chapter": "c33",
-    "number": "29",
+    "number": "31",
+    "section": "Desarrollo guiado: inferir una ecuación no equivale a identificar su mecanismo",
+    "references": [
+      "A14",
+      "A27",
+      "A18",
+      "A01",
+      "I06",
+      "I10",
+      "I11",
+      "I12",
+      "A09"
+    ]
+  },
+  {
+    "chapter": "c33",
+    "number": "31",
     "section": "Identificar ecuaciones con una biblioteca de términos",
     "references": [
       "A14",
@@ -3100,7 +3483,7 @@
   },
   {
     "chapter": "c33",
-    "number": "29",
+    "number": "31",
     "section": "Un término descubierto no es automáticamente una reacción elemental",
     "references": [
       "A01",
@@ -3110,7 +3493,7 @@
   },
   {
     "chapter": "c33",
-    "number": "29",
+    "number": "31",
     "section": "Modelos híbridos de mecanismo y aprendizaje",
     "references": [
       "A01",
@@ -3121,7 +3504,7 @@
   },
   {
     "chapter": "c33",
-    "number": "29",
+    "number": "31",
     "section": "Datos de célula única y tiempo",
     "references": [
       "I10",
@@ -3132,7 +3515,7 @@
   },
   {
     "chapter": "c33",
-    "number": "29",
+    "number": "31",
     "section": "Qué aporta y qué no aporta un modelo fundacional",
     "references": [
       "I11",
@@ -3143,7 +3526,7 @@
   },
   {
     "chapter": "c33",
-    "number": "29",
+    "number": "31",
     "section": "Un flujo de trabajo de comparación honesto",
     "references": [
       "I10",
@@ -3154,7 +3537,7 @@
   },
   {
     "chapter": "c33",
-    "number": "29",
+    "number": "31",
     "section": "Ejercicio resuelto: un ajuste perfecto que no identifica dos coeficientes",
     "references": [
       "I06",
@@ -3164,7 +3547,7 @@
   },
   {
     "chapter": "c33",
-    "number": "29",
+    "number": "31",
     "section": "Varias preguntas necesitan varias clases de modelo",
     "references": [
       "A01",
@@ -3175,7 +3558,7 @@
   },
   {
     "chapter": "c33",
-    "number": "29",
+    "number": "31",
     "section": "Qué significa inferir una red",
     "references": [
       "I10",
@@ -3186,7 +3569,7 @@
   },
   {
     "chapter": "c33",
-    "number": "29",
+    "number": "31",
     "section": "La exactitud puede engañar",
     "references": [
       "A01",
@@ -3197,7 +3580,7 @@
   },
   {
     "chapter": "c33",
-    "number": "29",
+    "number": "31",
     "section": "Cómo evitar una victoria artificial",
     "references": [
       "A01",
@@ -3208,7 +3591,7 @@
   },
   {
     "chapter": "c33",
-    "number": "29",
+    "number": "31",
     "section": "Una lectura crítica de avances recientes",
     "references": [
       "I11",
@@ -3219,7 +3602,7 @@
   },
   {
     "chapter": "c33",
-    "number": "29",
+    "number": "31",
     "section": "Dinámica e híbridos",
     "references": [
       "A01",
@@ -3230,7 +3613,7 @@
   },
   {
     "chapter": "c34",
-    "number": "30",
+    "number": "32",
     "section": "Una figura reproducible necesita más que un script que se ejecuta",
     "references": [
       "A15",
@@ -3241,7 +3624,24 @@
   },
   {
     "chapter": "c34",
-    "number": "30",
+    "number": "32",
+    "section": "Desarrollo guiado: organizar un programa para que pueda revisarse",
+    "references": [
+      "R05",
+      "R20",
+      "A22",
+      "A24",
+      "A01",
+      "A17",
+      "A21",
+      "I13",
+      "I14",
+      "I15"
+    ]
+  },
+  {
+    "chapter": "c34",
+    "number": "32",
     "section": "Estructura de un proyecto científico pequeño",
     "references": [
       "A15",
@@ -3251,7 +3651,7 @@
   },
   {
     "chapter": "c34",
-    "number": "30",
+    "number": "32",
     "section": "Pruebas con significado matemático",
     "references": [
       "A01",
@@ -3263,7 +3663,7 @@
   },
   {
     "chapter": "c34",
-    "number": "30",
+    "number": "32",
     "section": "Versiones, semillas y entorno",
     "references": [
       "A21",
@@ -3275,7 +3675,7 @@
   },
   {
     "chapter": "c34",
-    "number": "30",
+    "number": "32",
     "section": "Intercambiar modelos y simulaciones",
     "references": [
       "I13",
@@ -3286,7 +3686,7 @@
   },
   {
     "chapter": "c34",
-    "number": "30",
+    "number": "32",
     "section": "Dibujar una figura que explique el mecanismo y el cálculo",
     "references": [
       "A01",
@@ -3296,7 +3696,7 @@
   },
   {
     "chapter": "c34",
-    "number": "30",
+    "number": "32",
     "section": "Una afirmación y su cadena de evidencia",
     "references": [
       "A04",
@@ -3307,7 +3707,7 @@
   },
   {
     "chapter": "c34",
-    "number": "30",
+    "number": "32",
     "section": "Ejercicio resuelto: dos resultados reproducibles que discrepan",
     "references": [
       "A01",
@@ -3316,7 +3716,7 @@
   },
   {
     "chapter": "c34",
-    "number": "30",
+    "number": "32",
     "section": "Tu resultado debe sobrevivir a tu memoria",
     "references": [
       "A01",
@@ -3327,7 +3727,7 @@
   },
   {
     "chapter": "c34",
-    "number": "30",
+    "number": "32",
     "section": "Tres herramientas que resuelven partes diferentes",
     "references": [
       "I13",
@@ -3338,7 +3738,7 @@
   },
   {
     "chapter": "c34",
-    "number": "30",
+    "number": "32",
     "section": "Programar también requiere comprobaciones",
     "references": [
       "A01",
@@ -3349,7 +3749,7 @@
   },
   {
     "chapter": "c34",
-    "number": "30",
+    "number": "32",
     "section": "Proyecto final: una respuesta inducible observada con retraso",
     "references": [
       "A01",
@@ -3360,7 +3760,7 @@
   },
   {
     "chapter": "c34",
-    "number": "30",
+    "number": "32",
     "section": "Rúbrica y solución orientativa",
     "references": [
       "A01",
@@ -3370,8 +3770,46 @@
     ]
   },
   {
+    "chapter": "c34",
+    "number": "32",
+    "section": "Lectura guiada de las 25 prácticas",
+    "references": [
+      "R20",
+      "R21",
+      "R05",
+      "A01",
+      "A21",
+      "A23",
+      "D07",
+      "D01",
+      "D02",
+      "I02",
+      "I03",
+      "I05",
+      "I06",
+      "A09",
+      "P03",
+      "P04",
+      "I04",
+      "P01",
+      "A02",
+      "A04",
+      "I09",
+      "A05",
+      "A20",
+      "P02",
+      "D11",
+      "A16",
+      "A06",
+      "A10",
+      "A27",
+      "A25",
+      "A26"
+    ]
+  },
+  {
     "chapter": "c31",
-    "number": "31",
+    "number": "33",
     "section": "Leer un artículo como un modelo que se puede poner a prueba",
     "references": [
       "A01",
@@ -3382,7 +3820,21 @@
   },
   {
     "chapter": "c31",
-    "number": "31",
+    "number": "33",
+    "section": "Desarrollo guiado: reconstruir el argumento matemático de un artículo",
+    "references": [
+      "A01",
+      "A15",
+      "I13",
+      "D02",
+      "A25",
+      "A26",
+      "P04"
+    ]
+  },
+  {
+    "chapter": "c31",
+    "number": "33",
     "section": "Qué se buscó para esta revisión",
     "references": [
       "A01",
@@ -3396,7 +3848,7 @@
   },
   {
     "chapter": "c31",
-    "number": "31",
+    "number": "33",
     "section": "Cuatro rutas para circuitos de mayor complejidad",
     "references": [
       "A03",
@@ -3411,7 +3863,7 @@
   },
   {
     "chapter": "c31",
-    "number": "31",
+    "number": "33",
     "section": "Tres rutas vegetales que no conviene mezclar",
     "references": [
       "P01",
@@ -3426,7 +3878,7 @@
   },
   {
     "chapter": "c31",
-    "number": "31",
+    "number": "33",
     "section": "Fechas y tipos de publicación",
     "references": [
       "A06",
@@ -3436,7 +3888,7 @@
   },
   {
     "chapter": "c31",
-    "number": "31",
+    "number": "33",
     "section": "Evitar tres saltos de interpretación",
     "references": [
       "I06",
@@ -3450,7 +3902,7 @@
   },
   {
     "chapter": "c31",
-    "number": "31",
+    "number": "33",
     "section": "Construir una ficha de reproducción fiel",
     "references": [
       "A15",
@@ -3463,7 +3915,7 @@
   },
   {
     "chapter": "c31",
-    "number": "31",
+    "number": "33",
     "section": "Ejercicio de lectura resuelto",
     "references": [
       "A01",
@@ -3474,7 +3926,7 @@
   },
   {
     "chapter": "c31",
-    "number": "31",
+    "number": "33",
     "section": "Aplicación complementaria: Hasta octubre de 2026: avances verificados y preguntas abiertas",
     "references": [
       "P12",
@@ -3486,7 +3938,7 @@
   },
   {
     "chapter": "c37",
-    "number": "32",
+    "number": "34",
     "section": "Un proyecto comienza con una afirmación comprobable",
     "references": [
       "A01",
@@ -3496,7 +3948,18 @@
   },
   {
     "chapter": "c37",
-    "number": "32",
+    "number": "34",
+    "section": "Desarrollo guiado: construir un proyecto que puedas defender con tus palabras",
+    "references": [
+      "A01",
+      "I06",
+      "A09",
+      "A17"
+    ]
+  },
+  {
+    "chapter": "c37",
+    "number": "34",
     "section": "Proyecto 1: inferir un pulso de entrada desde un sensor",
     "references": [
       "A01",
@@ -3510,7 +3973,7 @@
   },
   {
     "chapter": "c37",
-    "number": "32",
+    "number": "34",
     "section": "Proyecto 2: interruptor vegetal con recurso compartido",
     "references": [
       "A01",
@@ -3523,7 +3986,7 @@
   },
   {
     "chapter": "c37",
-    "number": "32",
+    "number": "34",
     "section": "Proyecto 3: patrón espacial en un tejido creciente",
     "references": [
       "A01",
@@ -3534,7 +3997,7 @@
   },
   {
     "chapter": "c37",
-    "number": "32",
+    "number": "34",
     "section": "Proyecto 4: adaptación, ruido y capacidad",
     "references": [
       "A04",
@@ -3544,7 +4007,7 @@
   },
   {
     "chapter": "c37",
-    "number": "32",
+    "number": "34",
     "section": "Doce problemas adicionales con respuesta desarrollada",
     "references": [
       "A01",
@@ -3558,7 +4021,7 @@
   },
   {
     "chapter": "c37",
-    "number": "32",
+    "number": "34",
     "section": "Rúbrica para evaluar un proyecto",
     "references": [
       "A01",
@@ -3570,7 +4033,7 @@
   },
   {
     "chapter": "c37",
-    "number": "32",
+    "number": "34",
     "section": "Ruta de profundización sin garantía artificial de dominio",
     "references": [
       "A01",
@@ -3579,7 +4042,7 @@
   },
   {
     "chapter": "c36",
-    "number": "33",
+    "number": "35",
     "section": "Lenguaje de las ecuaciones y de las reacciones",
     "references": [
       "A01",
@@ -3589,7 +4052,27 @@
   },
   {
     "chapter": "c36",
-    "number": "33",
+    "number": "35",
+    "section": "Guía ampliada: leer símbolos y términos sin adivinarlos",
+    "references": [
+      "A01",
+      "A27",
+      "A02",
+      "A09",
+      "I05",
+      "I02",
+      "A07",
+      "I06",
+      "R05",
+      "R21",
+      "R20",
+      "A24",
+      "I15"
+    ]
+  },
+  {
+    "chapter": "c36",
+    "number": "35",
     "section": "Lenguaje de la dinámica no lineal",
     "references": [
       "A01",
@@ -3599,7 +4082,7 @@
   },
   {
     "chapter": "c36",
-    "number": "33",
+    "number": "35",
     "section": "Lenguaje de la probabilidad y la observación",
     "references": [
       "A01",
@@ -3613,7 +4096,7 @@
   },
   {
     "chapter": "c36",
-    "number": "33",
+    "number": "35",
     "section": "Lenguaje de la inferencia",
     "references": [
       "A09",
@@ -3626,7 +4109,7 @@
   },
   {
     "chapter": "c36",
-    "number": "33",
+    "number": "35",
     "section": "Lenguaje de circuitos y contexto vegetal",
     "references": [
       "I07",
@@ -3641,7 +4124,7 @@
   },
   {
     "chapter": "c36",
-    "number": "33",
+    "number": "35",
     "section": "Tabla de comprobación rápida",
     "references": [
       "A01",

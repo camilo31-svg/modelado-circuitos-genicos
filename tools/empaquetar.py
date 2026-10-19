@@ -15,7 +15,7 @@ for size in [180,192,512]:
 manifest=json.loads((DOCS/'manifest.webmanifest').read_text(encoding='utf8'))
 manifest['icons']=[dict(src=f'assets/icon-{n}.png',sizes=f'{n}x{n}',type='image/png',purpose='any') for n in [192,512]]
 (DOCS/'manifest.webmanifest').write_text(json.dumps(manifest,ensure_ascii=False),encoding='utf8')
-for name in ['crear_figuras.py','crear_figuras_avanzadas.py','construir_libro.py','crear_cuadernos.py','crear_practicas_avanzadas.py','validar_material.py','empaquetar.py']:
+for name in ['crear_figuras.py','crear_figuras_avanzadas.py','crear_figuras_casos.py','crear_figuras_pasos.py','figuras_en_texto.py','ilustracion_molecular.py','lectura_curvas.py','construir_libro.py','crear_cuadernos.py','crear_practicas_avanzadas.py','crear_casos_detallados.py','ampliar_practicas.py','validar_material.py','empaquetar.py']:
     src=BASE/'work'/name
     if src.exists() and src.resolve()!=(TOOLS/name).resolve():shutil.copy2(src,TOOLS/name)
 (TOOLS/'requirements-build.txt').write_text('numpy>=2.0,<3\nscipy>=1.14,<2\nmatplotlib>=3.9,<4\nreportlab>=4,<5\npypdf>=5,<7\nmarkdown>=3.7,<4\nbeautifulsoup4>=4.12,<5\npillow>=11,<13\nnbformat>=5,<6\n',encoding='utf8')
@@ -26,7 +26,7 @@ for pkg in ['numpy','scipy','matplotlib','reportlab','pypdf','markdown','beautif
 practicas=DOCS/'practicas';practicas.mkdir(exist_ok=True)
 for p in (ROOT/'python'/'cuadernos').glob('*'):
     if p.is_file() and p.suffix in ['.py','.ipynb']:shutil.copy2(p,practicas/p.name)
-for p in ['circuitos.py','circuitos_avanzados.py','requirements.txt']:
+for p in ['circuitos.py','circuitos_avanzados.py','circuitos_casos.py','requirements.txt']:
     shutil.copy2(ROOT/'python'/p,practicas/p)
 zip_path=DOCS/'downloads'/'practicas-python.zip'
 with zipfile.ZipFile(zip_path,'w',zipfile.ZIP_DEFLATED) as z:
@@ -34,6 +34,8 @@ with zipfile.ZipFile(zip_path,'w',zipfile.ZIP_DEFLATED) as z:
     for p in (ROOT/'python').rglob('*'):
         if p.is_file() and '__pycache__' not in p.parts:z.write(p,p.relative_to(ROOT).as_posix())
 shutil.copy2(ROOT/'LEEME.md',ROOT/'README.md')
+for p in (DOCS/'assets').rglob('*.svg'):
+    p.write_text('\n'.join(line.rstrip() for line in p.read_text(encoding='utf8').splitlines())+'\n',encoding='utf8')
 assets=[p.relative_to(DOCS).as_posix() for p in DOCS.rglob('*') if p.is_file() and p.name not in ['sw.js','assets.json'] and 'downloads' not in p.parts]
 assets.sort();digest=hashlib.sha256()
 for p in assets:digest.update(p.encode());digest.update((DOCS/p).read_bytes())

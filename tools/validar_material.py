@@ -25,6 +25,10 @@ with zipfile.ZipFile(epub) as z:
             ET.fromstring(z.read(name));xmlcount+=1
         if name.endswith('.xhtml'):
             soup=BeautifulSoup(z.read(name),'html.parser')
+            page_ids={el['id'] for el in soup.find_all(id=True)}
+            for anchor in soup.find_all('a',href=True):
+                href=anchor['href']
+                if href.startswith('#'):assert href[1:] in page_ids,(name,href)
             for tag,attr in [('img','src'),('link','href'),('a','href')]:
                 for el in soup.find_all(tag):
                     ref=el.get(attr,'').split('#')[0]
@@ -67,7 +71,7 @@ for plate in plates:
     assert hashlib.sha256(path.read_bytes()).hexdigest()==plate['sha256']
     assert plate.get('panels') and plate.get('limitation')
 report['laminas']=dict(count=len(plates),style='Ilustración científica plana con sombreado limitado',files_and_hashes_valid=True,caption_and_panel_guide=True)
-report['app_pruebas_ui']={'edicion':'2.0','estado':'pendiente de registrar tras probar la interfaz'}
+report['app_pruebas_ui']={'edicion':'2.1','estado':'pendiente de registrar tras probar la interfaz'}
 import nbformat
 notebooks=list((ROOT/'python'/'cuadernos').glob('*.ipynb'))
 for notebook in notebooks:nbformat.validate(nbformat.read(notebook,as_version=4))
@@ -78,7 +82,7 @@ report['pruebas_modelos']={'exit_code':tests.returncode,'output':tests.stdout+te
 cs=json.loads((ROOT/'book'/'chapters.json').read_text(encoding='utf8'))
 refs={ref['id']:ref for ref in json.loads((ROOT/'book'/'references.json').read_text(encoding='utf8'))}
 assert cs[0]['id']=='edo'
-assert len(cs)==34 and len(figures)==49 and len(notebooks)==22
+assert len(cs)==36 and len(figures)==69 and len(notebooks)==25
 assert len({c['id'] for c in cs})==len(cs)
 assert [c['number'] for c in cs]==[f'{i:02}' for i in range(len(cs))]
 sections=[]
@@ -97,6 +101,44 @@ for f in figures:
     assert all(any(c['id']==id for c in cs) for id in f['chapters'])
     assert f.get('refs') and set(f['refs'])<=refs.keys(),f['id']
     assert (ROOT/'docs'/f['png']).exists()
+web=json.loads((ROOT/'docs'/'chapters.json').read_text(encoding='utf8'))
+equations=json.loads((ROOT/'book'/'equations.json').read_text(encoding='utf8'))
+assert sorted(e['number'] for e in equations.values())==list(range(1,len(equations)+1))
+equation_calls=0;figure_calls=0
+for c in web:
+    soup=BeautifulSoup(c['html'],'html.parser');ids=[el['id'] for el in soup.find_all(id=True)]
+    assert len(ids)==len(set(ids)),c['id']
+    for ref in soup.select('a.local-ref'):
+        assert ref['href'][1:] in ids,(c['id'],ref['href'])
+    eqs=soup.select('div.equation');calls=soup.select('a.equation-ref')
+    assert len(eqs)==len(calls),(c['id'],len(eqs),len(calls))
+    expected=[f for f in figures if c['id'] in f['chapters']]
+    assert len(soup.find_all('figure'))==len(expected),(c['id'],len(expected))
+    assert len(soup.select('p.figure-reference'))==len(expected),c['id']
+    equation_calls+=len(calls);figure_calls+=len(expected)
+report['referencias_cruzadas']={'ecuaciones_numeradas':len(equations),'llamadas_de_ecuacion':equation_calls,'llamadas_de_figura':figure_calls,'destinos_validos':True,'figuras_colocadas_en_el_desarrollo':True}
+guides=[f for f in figures if f.get('curve_guide')]
+assert len(guides)==56
+import math
+for f in guides:
+    g=f['curve_guide'];assert g['parameter_behavior'] and g['readings']
+    assert g['series_count']==sum(len(p['series']) for p in g['panels'])
+    for panel in g['panels']:
+        assert panel['x_label'] and panel['y_label']
+        assert (ROOT/'docs'/panel['visual_png']).is_file()
+        assert (ROOT/'docs'/panel['visual_svg']).is_file()
+        for curve in panel['series']:
+            assert len(curve['points'])==3
+            for pt in curve['points']:
+                assert math.isfinite(pt['x']) and math.isfinite(pt['y'])
+                assert curve['minimum']-1e-10<=pt['y']<=curve['maximum']+1e-10
+q17=next(f for f in figures if f['id']=='q17_represion')['curve_guide']
+rp,sp,ep=[p['series'][0] for p in q17['panels']]
+assert rp['points'][0]['y']==1 and rp['points'][-1]['y']==10
+assert abs(sp['points'][-1]['y']-2.4)<1e-10
+assert abs(ep['points'][0]['y']-12/1.04/.3)<1e-10
+assert abs(ep['points'][-1]['y']-(8+(12/1.04/.3-8)*math.exp(-6)))<1e-10
+report['lectura_curvas']={'figuras_con_lectura_numerica':len(guides),'graficos_de_instantaneas':sum(len(f['curve_guide']['panels']) for f in guides),'series':sum(f['curve_guide']['series_count'] for f in guides),'puntos_por_serie':3,'valores_finitos_y_rangos_validos':True,'represion_por_tramos_contrastada_con_solucion_analitica':True,'estados_entradas_y_constantes_distinguidos':True}
 (ROOT/'book'/'source-map.json').write_text(json.dumps(sections,ensure_ascii=False,indent=2),encoding='utf8')
 report['cobertura_bibliografica']={'secciones_con_fuentes':len(sections),'referencias':len(refs),'ids_validos':True,'nota':'Cobertura formal de secciones y figuras; no sustituye revisión independiente de cada interpretación.'}
 (ROOT/'VERIFICACION.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')

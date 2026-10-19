@@ -1,4 +1,4 @@
-const VERSION="aa97db20e614ff";
+const VERSION="c9c5067773bc6a";
 const PREFIX='atlas-circuitos:'+self.registration.scope+':';
 const CACHE=PREFIX+VERSION;
 const CORE=['./','index.html','style.css','molecules.css','edition2.css','app.js','chapters.json','figures.json','references.json','meta.json','labs.json','assets.json','manifest.webmanifest','assets/icon.svg'];

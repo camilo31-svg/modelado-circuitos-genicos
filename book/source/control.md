@@ -10,6 +10,26 @@ Un control de expresión necesita una salida y, una referencia r, una perturbaci
 
 Para una planta abstracta y'=ku−γy+d, aumentar la perturbación d cambia el equilibrio si u se mantiene fijo. Un controlador proporcional u=u₀+K(r−y) reduce esa sensibilidad, pero en general conserva error estacionario. El ajuste de un valor de producción no equivale a una estructura que detecta y corrige una perturbación [A01], §6.3; [A04].
 
+## Desarrollo guiado: ver aparecer una integral al restar dos balances
+
+Considera tres estados no negativos: salida y, controlador z₁ y controlador z₂. Un modelo idealizado es y′=kz₁−γy, z₁′=μ−ηz₁z₂ y z₂′=θy−ηz₁z₂. μ es una producción constante del primer controlador; θy produce el segundo según la salida; ηz₁z₂ retira ambos juntos. Si los estados están en nM y el tiempo en h, k,γ,θ están en h⁻¹, μ en nM/h y η en nM⁻¹h⁻¹. El producto de dos estados exige una constante de segundo orden para que la tasa tenga las unidades correctas. [A04] [A01]
+
+### Restar antes de intentar resolver todo
+
+Define w=z₁−z₂. Deriva usando la linealidad de la derivada: w′=z₁′−z₂′. Sustituye ambos balances. Los términos −ηz₁z₂ se cancelan exactamente y queda w′=μ−θy. Divide por θ y define la referencia r=μ/θ. Entonces w′=θ(r−y). El error es r−y, la diferencia entre el valor deseado y la salida. Integra: w(t)=w(0)+θ∫₀ᵗ[r−y(s)]ds. Por eso la diferencia de dos cantidades no negativas funciona como memoria firmada del error. [A04] [A01]
+
+El estado w puede ser negativo aunque z₁ y z₂ sean no negativos. No representa una concentración nueva: es una diferencia de dos concentraciones existentes. «Antitético» se refiere aquí al par que se secuestra o retira conjuntamente; no significa que una especie tenga concentración negativa. La cancelación algebraica explica la integración, pero la estabilidad requiere estudiar también las otras direcciones del sistema. [A04]
+
+### Qué se deduce en un equilibrio admisible
+
+Si la dinámica converge a un equilibrio finito, w′=0 exige y*=μ/θ. Del balance de y se obtiene z₁*=γy*/k, y del de z₂ se obtiene z₂*=μ/(ηz₁*). Estas expresiones requieren parámetros positivos y un estado compatible. La primera relación no contiene γ, por lo que una perturbación constante de pérdida puede compensarse al cambiar z₁*. La señal integradora se mueve para mantener la salida. No se ha demostrado que cualquier perturbación o cualquier parámetro permita alcanzar ese estado. [A04] [I09]
+
+### La dilución muestra exactamente por dónde falla la identidad
+
+Añade −δ_c z₁ y −δ_c z₂ a los balances de los controladores. Al restar, w′=μ−θy−δ_c w. Integrar ya no acumula indefinidamente el error: parte de la memoria se pierde. En equilibrio y*=r−(δ_c/θ)w*. La salida solo coincide con r si la corrección adicional desaparece. Esta ecuación permite explicar el error estacionario de la figura sin recurrir a «el control es peor» como una etiqueta sin mecanismo. [A04] [I09]
+
+Si la producción de y se satura, por ejemplo k z₁/(K+z₁), la tasa máxima es k, cuyas unidades pasan a ser nM/h. Para sostener una referencia r con pérdida γ, hace falta que γr sea menor que la capacidad disponible. Un controlador no puede crear una producción superior al máximo de su actuador. «Actuador» significa el mecanismo que cambia la salida cuando el controlador lo ordena. Las unidades de un símbolo dependen de la ecuación en que se define; reutilizar la letra k no conserva automáticamente su interpretación. [A01] [A04]
+
 ## La identidad que explica el control integral
 
 Introduce un estado z con z'=r−y y una actuación u=kᵢz. Si el sistema cerrado alcanza un equilibrio finito, necesariamente z'=0 y, por tanto, y*=r. La conclusión depende de alcanzar ese equilibrio; la identidad no demuestra estabilidad ni factibilidad de la actuación. Es un ejemplo de cómo separar una propiedad estacionaria de un problema dinámico [A04] [I09].

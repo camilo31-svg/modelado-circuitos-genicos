@@ -1,786 +1,1012 @@
 {
   "5b84fb4beeb43c6f41": {
     "tex": "\\frac{dx}{dt}=\\alpha-\\delta x,\\qquad x(0)=x_0.",
-    "path": "assets/equations/5b84fb4beeb43c6f41.png"
+    "path": "assets/equations/5b84fb4beeb43c6f41.png",
+    "number": 1
   },
   "76c6ac628b9b119658": {
     "tex": "\\frac{1}{x}\\frac{dx}{dt}=-\\delta",
-    "path": "assets/equations/76c6ac628b9b119658.png"
+    "path": "assets/equations/76c6ac628b9b119658.png",
+    "number": 2
   },
   "ef149b7b81df0d221b": {
     "tex": "\\ln\\!\\left(\\frac{x(t)}{x_0}\\right)=-\\delta t, \\qquad x(t)=x_0e^{-\\delta t}.",
-    "path": "assets/equations/ef149b7b81df0d221b.png"
+    "path": "assets/equations/ef149b7b81df0d221b.png",
+    "number": 3
   },
   "2b890fbd6889106a43": {
     "tex": "\\frac{dz}{dt}=-\\delta z, \\qquad z(0)=x_0-\\frac{\\alpha}{\\delta}.",
-    "path": "assets/equations/2b890fbd6889106a43.png"
+    "path": "assets/equations/2b890fbd6889106a43.png",
+    "number": 4
   },
   "b7601cbc5d471e47d6": {
     "tex": "x(t)=\\frac{\\alpha}{\\delta}+\\left(x_0-\\frac{\\alpha}{\\delta}\\right)e^{-\\delta t}.",
-    "path": "assets/equations/b7601cbc5d471e47d6.png"
+    "path": "assets/equations/b7601cbc5d471e47d6.png",
+    "number": 5
   },
   "481dd788498ef114f2": {
     "tex": "e^{\\delta t}x'+\\delta e^{\\delta t}x =\\frac{d}{dt}\\left(e^{\\delta t}x\\right) =e^{\\delta t}a(t).",
-    "path": "assets/equations/481dd788498ef114f2.png"
+    "path": "assets/equations/481dd788498ef114f2.png",
+    "number": 6
   },
   "91f1cfa072cb46bdcb": {
     "tex": "x(t)=x_0e^{-\\delta t}+\\int_0^t e^{-\\delta(t-s)}a(s)\\,ds.",
-    "path": "assets/equations/91f1cfa072cb46bdcb.png"
+    "path": "assets/equations/91f1cfa072cb46bdcb.png",
+    "number": 7
   },
   "b623b1e6fae9ebd1fd": {
     "tex": "x(t)=e^{-D(t)}\\left[x_0+\\int_0^t e^{D(s)}a(s)\\,ds\\right].",
-    "path": "assets/equations/b623b1e6fae9ebd1fd.png"
+    "path": "assets/equations/b623b1e6fae9ebd1fd.png",
+    "number": 8
   },
   "f3becefd211252c7e2": {
     "tex": "x(t)=x(T)e^{-\\delta(t-T)},\\qquad t\\geq T.",
-    "path": "assets/equations/f3becefd211252c7e2.png"
+    "path": "assets/equations/f3becefd211252c7e2.png",
+    "number": 9
+  },
+  "9234ec63cde38bcb8a": {
+    "tex": "E(t)=8+\\left(\\frac{12}{1.04\\cdot0.3}-8\\right)e^{-0.3(t-5)},\\qquad t\\geq5.",
+    "path": "assets/equations/9234ec63cde38bcb8a.png",
+    "number": 10
   },
   "90b283f7f7b89e1e58": {
     "tex": "\\frac{da}{dt}=-k_1a+k_2b,\\qquad \\frac{db}{dt}=k_1a-k_2b.",
-    "path": "assets/equations/90b283f7f7b89e1e58.png"
+    "path": "assets/equations/90b283f7f7b89e1e58.png",
+    "number": 11
   },
   "2809f1ba47cf27f734": {
     "tex": "\\frac{d\\mathbf{x}}{dt}=N\\mathbf{v}(\\mathbf{x};\\theta).",
-    "path": "assets/equations/2809f1ba47cf27f734.png"
+    "path": "assets/equations/2809f1ba47cf27f734.png",
+    "number": 12
   },
   "251bbd0bde3d5579a1": {
     "tex": "\\frac{dx}{dt}=\\frac{1}{V}\\frac{dn}{dt}-\\frac{1}{V}\\frac{dV}{dt}x.",
-    "path": "assets/equations/251bbd0bde3d5579a1.png"
+    "path": "assets/equations/251bbd0bde3d5579a1.png",
+    "number": 13
   },
   "6b34f5ecb59a509a8a": {
     "tex": "\\frac{dz}{d\\tau}=1-z.",
-    "path": "assets/equations/6b34f5ecb59a509a8a.png"
+    "path": "assets/equations/6b34f5ecb59a509a8a.png",
+    "number": 14
   },
   "b656002cf7c1d801f9": {
     "tex": "c^2-20c+80=0.",
-    "path": "assets/equations/b656002cf7c1d801f9.png"
+    "path": "assets/equations/b656002cf7c1d801f9.png",
+    "number": 15
   },
   "f2fc0f34c53b2e3671": {
     "tex": "x(2)=8e^{-0.5\\cdot2}\\approx2.943",
-    "path": "assets/equations/f2fc0f34c53b2e3671.png"
+    "path": "assets/equations/f2fc0f34c53b2e3671.png",
+    "number": 16
   },
   "ae40df9bba80d4d293": {
     "tex": "\\frac{dx}{dt}=-\\delta x",
-    "path": "assets/equations/ae40df9bba80d4d293.png"
+    "path": "assets/equations/ae40df9bba80d4d293.png",
+    "number": 17
   },
   "7f431a71419cb426a2": {
     "tex": "x_{j+1}=x_j+h(-\\delta x_j)=(1-\\delta h)x_j",
-    "path": "assets/equations/7f431a71419cb426a2.png"
+    "path": "assets/equations/7f431a71419cb426a2.png",
+    "number": 18
   },
   "022560a8ab3cb40879": {
     "tex": "|1-\\delta h|<1",
-    "path": "assets/equations/022560a8ab3cb40879.png"
+    "path": "assets/equations/022560a8ab3cb40879.png",
+    "number": 19
   },
   "66866601faf0ce5237": {
     "tex": "s_i=\\mathrm{atol}_i+\\mathrm{rtol}|x_i|",
-    "path": "assets/equations/66866601faf0ce5237.png"
+    "path": "assets/equations/66866601faf0ce5237.png",
+    "number": 20
   },
   "0d89b77792b4c26d53": {
     "tex": "\\frac{dm}{dt}=\\alpha-\\gamma_m m, \\qquad \\frac{dp}{dt}=\\beta m-\\gamma_p p.",
-    "path": "assets/equations/0d89b77792b4c26d53.png"
+    "path": "assets/equations/0d89b77792b4c26d53.png",
+    "number": 21
+  },
+  "7a9fae1b774e0f30df": {
+    "tex": "p(t)=k_t m^*\\left[\\frac{1-e^{-\\gamma_p t}}{\\gamma_p}-\\frac{e^{-\\gamma_m t}-e^{-\\gamma_p t}}{\\gamma_p-\\gamma_m}\\right].",
+    "path": "assets/equations/7a9fae1b774e0f30df.png",
+    "number": 22
   },
   "a7efdab4662a7f5ec8": {
     "tex": "p(t)=p_0e^{-\\gamma_p t} +\\frac{\\beta m^*}{\\gamma_p}(1-e^{-\\gamma_p t}) +\\beta(m_0-m^*)\\frac{e^{-\\gamma_p t}-e^{-\\gamma_m t}}{\\gamma_m-\\gamma_p}.",
-    "path": "assets/equations/a7efdab4662a7f5ec8.png"
+    "path": "assets/equations/a7efdab4662a7f5ec8.png",
+    "number": 23
   },
   "0627bc3db11bb97add": {
     "tex": "\\frac{dm_n}{dt}=\\alpha-(\\gamma_n+k_e)m_n, \\qquad \\frac{dm_c}{dt}=k_e\\frac{V_n}{V_c}m_n-\\gamma_c m_c.",
-    "path": "assets/equations/0627bc3db11bb97add.png"
+    "path": "assets/equations/0627bc3db11bb97add.png",
+    "number": 24
   },
   "6a4b23dbdfe4477a60": {
     "tex": "\\frac{dp_i}{dt}=\\beta m-(k_{mat}+\\gamma_i)p_i, \\qquad \\frac{dp_m}{dt}=k_{mat}p_i-\\gamma_m^{(p)}p_m.",
-    "path": "assets/equations/6a4b23dbdfe4477a60.png"
+    "path": "assets/equations/6a4b23dbdfe4477a60.png",
+    "number": 25
   },
   "65981f7d808264e96d": {
     "tex": "\\frac{dm}{dt}=\\alpha-\\gamma_m m",
-    "path": "assets/equations/65981f7d808264e96d.png"
+    "path": "assets/equations/65981f7d808264e96d.png",
+    "number": 26
   },
   "3b67cf06eeb8932a34": {
     "tex": "\\frac{dp}{dt}=km-\\gamma_p p",
-    "path": "assets/equations/3b67cf06eeb8932a34.png"
+    "path": "assets/equations/3b67cf06eeb8932a34.png",
+    "number": 27
   },
   "79c630f698d25664b4": {
     "tex": "m^*=\\frac{\\alpha}{\\gamma_m}",
-    "path": "assets/equations/79c630f698d25664b4.png"
+    "path": "assets/equations/79c630f698d25664b4.png",
+    "number": 28
   },
   "ec4d2c3f3d12046f43": {
     "tex": "p^*=\\frac{k\\alpha}{\\gamma_m\\gamma_p}",
-    "path": "assets/equations/ec4d2c3f3d12046f43.png"
+    "path": "assets/equations/ec4d2c3f3d12046f43.png",
+    "number": 29
   },
   "2c7938576d79413321": {
     "tex": "\\theta=\\frac{r}{K_d+r},\\qquad 1-\\theta=\\frac{1}{1+r/K_d}.",
-    "path": "assets/equations/2c7938576d79413321.png"
+    "path": "assets/equations/2c7938576d79413321.png",
+    "number": 30
   },
   "be3f55107f6a590685": {
     "tex": "\\alpha_{rep}(r)=\\alpha_{min} +(\\alpha_{max}-\\alpha_{min})\\frac{1}{1+(r/K)^n}.",
-    "path": "assets/equations/be3f55107f6a590685.png"
+    "path": "assets/equations/be3f55107f6a590685.png",
+    "number": 31
   },
   "e31e0fe41efe8462f9": {
     "tex": "\\left.\\frac{dh}{dr}\\right|_{r=K}=\\frac{n}{4K}.",
-    "path": "assets/equations/e31e0fe41efe8462f9.png"
+    "path": "assets/equations/e31e0fe41efe8462f9.png",
+    "number": 32
   },
   "e05106b5eafe058426": {
     "tex": "\\alpha(A,B)=\\frac{\\alpha_0+\\alpha_Aa+\\alpha_Bb+\\alpha_{AB}ab} {1+a+b+ab}.",
-    "path": "assets/equations/e05106b5eafe058426.png"
+    "path": "assets/equations/e05106b5eafe058426.png",
+    "number": 33
   },
   "f1a1f6252d086ec73e": {
     "tex": "\\frac{d\\theta}{dt}=k_{on}r(1-\\theta)-k_{off}\\theta.",
-    "path": "assets/equations/f1a1f6252d086ec73e.png"
+    "path": "assets/equations/f1a1f6252d086ec73e.png",
+    "number": 34
   },
   "78f11c0db4c6aacd31": {
     "tex": "c\\simeq\\frac{E_Ts}{K_M+s},\\qquad K_M=\\frac{k_{-1}+k_{cat}}{k_1}.",
-    "path": "assets/equations/78f11c0db4c6aacd31.png"
+    "path": "assets/equations/78f11c0db4c6aacd31.png",
+    "number": 35
   },
   "13aa3c40a429c4bc43": {
     "tex": "v=k_{cat}c\\simeq\\frac{V_{max}s}{K_M+s}, \\qquad V_{max}=k_{cat}E_T.",
-    "path": "assets/equations/13aa3c40a429c4bc43.png"
+    "path": "assets/equations/13aa3c40a429c4bc43.png",
+    "number": 36
   },
   "fd35b6dfe14b73d968": {
     "tex": "v=k[A][B]",
-    "path": "assets/equations/fd35b6dfe14b73d968.png"
+    "path": "assets/equations/fd35b6dfe14b73d968.png",
+    "number": 37
   },
   "d3f0f78259e6348db4": {
     "tex": "\\frac{d\\mathbf{x}}{dt}=S\\mathbf{v}(\\mathbf{x})",
-    "path": "assets/equations/d3f0f78259e6348db4.png"
+    "path": "assets/equations/d3f0f78259e6348db4.png",
+    "number": 38
   },
   "4cf7435e638b00bbf9": {
     "tex": "k_{\\mathrm{on}}[P][R]=k_{\\mathrm{off}}[PR]",
-    "path": "assets/equations/4cf7435e638b00bbf9.png"
+    "path": "assets/equations/4cf7435e638b00bbf9.png",
+    "number": 39
   },
   "e2add9703822eba2e7": {
     "tex": "K_d=\\frac{k_{\\mathrm{off}}}{k_{\\mathrm{on}}}",
-    "path": "assets/equations/e2add9703822eba2e7.png"
+    "path": "assets/equations/e2add9703822eba2e7.png",
+    "number": 40
   },
   "9b743cd815ca03753b": {
     "tex": "\\theta=\\frac{[PR]}{P_T}=\\frac{[R]}{K_d+[R]}",
-    "path": "assets/equations/9b743cd815ca03753b.png"
+    "path": "assets/equations/9b743cd815ca03753b.png",
+    "number": 41
   },
   "c73e2ef51a970b185d": {
     "tex": "r=b+V\\frac{K_d}{K_d+[R]}",
-    "path": "assets/equations/c73e2ef51a970b185d.png"
+    "path": "assets/equations/c73e2ef51a970b185d.png",
+    "number": 42
   },
   "a6b72458dac7d9d780": {
     "tex": "\\frac{dC}{dt}=k_{\\mathrm{on}}(E_T-C)S-(k_{\\mathrm{off}}+k_{\\mathrm{cat}})C",
-    "path": "assets/equations/a6b72458dac7d9d780.png"
+    "path": "assets/equations/a6b72458dac7d9d780.png",
+    "number": 43
   },
   "7100eb3c6b1c6ddb55": {
     "tex": "C\\approx\\frac{E_T S}{K_M+S}",
-    "path": "assets/equations/7100eb3c6b1c6ddb55.png"
+    "path": "assets/equations/7100eb3c6b1c6ddb55.png",
+    "number": 44
   },
   "6b3f14b743d6aa00aa": {
     "tex": "K_M=\\frac{k_{\\mathrm{off}}+k_{\\mathrm{cat}}}{k_{\\mathrm{on}}}",
-    "path": "assets/equations/6b3f14b743d6aa00aa.png"
+    "path": "assets/equations/6b3f14b743d6aa00aa.png",
+    "number": 45
   },
   "ee4550cad03549362a": {
     "tex": "v=k_{\\mathrm{cat}}C\\approx\\frac{V_{\\max}S}{K_M+S}",
-    "path": "assets/equations/ee4550cad03549362a.png"
+    "path": "assets/equations/ee4550cad03549362a.png",
+    "number": 46
   },
   "5698f82c8ca005bdbd": {
     "tex": "H(R)=\\frac{R^n}{K^n+R^n}",
-    "path": "assets/equations/5698f82c8ca005bdbd.png"
+    "path": "assets/equations/5698f82c8ca005bdbd.png",
+    "number": 47
   },
   "ae145a638943925265": {
     "tex": "\\frac{d\\eta}{dt}\\simeq f'(x^*)\\eta.",
-    "path": "assets/equations/ae145a638943925265.png"
+    "path": "assets/equations/ae145a638943925265.png",
+    "number": 48
   },
   "3e113f6bca48dc220c": {
     "tex": "f'(x)=-\\frac{\\alpha n x^{n-1}/K^n}{[1+(x/K)^n]^2}-\\delta.",
-    "path": "assets/equations/3e113f6bca48dc220c.png"
+    "path": "assets/equations/3e113f6bca48dc220c.png",
+    "number": 49
   },
   "1241627fba3a798529": {
     "tex": "\\lambda_{1,2}=\\frac{T\\pm\\sqrt{T^2-4\\Delta}}{2}.",
-    "path": "assets/equations/1241627fba3a798529.png"
+    "path": "assets/equations/1241627fba3a798529.png",
+    "number": 50
   },
   "42f5d1f3d863f95ab2": {
     "tex": "\\frac{dx_i}{dt}=f_i(x_1,\\ldots,x_N;\\theta)",
-    "path": "assets/equations/42f5d1f3d863f95ab2.png"
+    "path": "assets/equations/42f5d1f3d863f95ab2.png",
+    "number": 51
   },
   "48385c4a215a7d8271": {
     "tex": "\\frac{dm}{dt}=4-2m",
-    "path": "assets/equations/48385c4a215a7d8271.png"
+    "path": "assets/equations/48385c4a215a7d8271.png",
+    "number": 52
   },
   "4796765e2b614129b1": {
     "tex": "\\frac{dp}{dt}=3m-p",
-    "path": "assets/equations/4796765e2b614129b1.png"
+    "path": "assets/equations/4796765e2b614129b1.png",
+    "number": 53
   },
   "10195b5a3e0762d929": {
     "tex": "m(t)=2(1-e^{-2t})",
-    "path": "assets/equations/10195b5a3e0762d929.png"
+    "path": "assets/equations/10195b5a3e0762d929.png",
+    "number": 54
   },
   "4380b66fcbf2f05107": {
     "tex": "p(t)=6(1-e^{-t})^2",
-    "path": "assets/equations/4380b66fcbf2f05107.png"
+    "path": "assets/equations/4380b66fcbf2f05107.png",
+    "number": 55
   },
   "38b9b6eb45ce384cf5": {
     "tex": "\\frac{d\\boldsymbol{\\eta}}{dt}\\approx J\\boldsymbol{\\eta}",
-    "path": "assets/equations/38b9b6eb45ce384cf5.png"
+    "path": "assets/equations/38b9b6eb45ce384cf5.png",
+    "number": 56
   },
   "68d702eff96014be84": {
     "tex": "J_{ij}=\\left.\\frac{\\partial f_i}{\\partial x_j}\\right|_{x=x^*}",
-    "path": "assets/equations/68d702eff96014be84.png"
+    "path": "assets/equations/68d702eff96014be84.png",
+    "number": 57
   },
   "2b4c48aed89c16779e": {
     "tex": "\\lambda^2-T\\lambda+\\Delta=0",
-    "path": "assets/equations/2b4c48aed89c16779e.png"
+    "path": "assets/equations/2b4c48aed89c16779e.png",
+    "number": 58
   },
   "53e3c8a7e6f2e71f42": {
     "tex": "\\frac{dx}{dt}=\\frac{a}{1+x/K}-\\delta x",
-    "path": "assets/equations/53e3c8a7e6f2e71f42.png"
+    "path": "assets/equations/53e3c8a7e6f2e71f42.png",
+    "number": 59
   },
   "06e46943ae6ea7fb6c": {
     "tex": "f'(x^*)=-\\frac{a/K}{(1+x^*/K)^2}-\\delta",
-    "path": "assets/equations/06e46943ae6ea7fb6c.png"
+    "path": "assets/equations/06e46943ae6ea7fb6c.png",
+    "number": 60
   },
   "2a64353695c8153861": {
     "tex": "\\frac{dx}{dt}=b+\\frac{a x^2}{1+x^2}-x",
-    "path": "assets/equations/2a64353695c8153861.png"
+    "path": "assets/equations/2a64353695c8153861.png",
+    "number": 61
   },
   "30bbe253d2ebef831c": {
     "tex": "x^*_0=0",
-    "path": "assets/equations/30bbe253d2ebef831c.png"
+    "path": "assets/equations/30bbe253d2ebef831c.png",
+    "number": 62
   },
   "cb4646f6b81ec7b9d2": {
     "tex": "x^*_{\\pm}=\\frac{3\\pm\\sqrt{5}}{2}",
-    "path": "assets/equations/cb4646f6b81ec7b9d2.png"
+    "path": "assets/equations/cb4646f6b81ec7b9d2.png",
+    "number": 63
   },
   "ce40ac1d6c6e8a22ee": {
     "tex": "f'(x)=\\frac{6x}{(1+x^2)^2}-1",
-    "path": "assets/equations/ce40ac1d6c6e8a22ee.png"
+    "path": "assets/equations/ce40ac1d6c6e8a22ee.png",
+    "number": 64
   },
   "01a7ffeed77fd4ab28": {
     "tex": "\\frac{dx}{d\\tau}=\\frac{a}{1+y^n}-x, \\qquad \\frac{dy}{d\\tau}=\\frac{a}{1+x^n}-y.",
-    "path": "assets/equations/01a7ffeed77fd4ab28.png"
+    "path": "assets/equations/01a7ffeed77fd4ab28.png",
+    "number": 65
   },
   "2d6b5c898bd6b55bd9": {
     "tex": "\\frac{dx}{dt}=\\frac{\\alpha}{1+y^2}-x",
-    "path": "assets/equations/2d6b5c898bd6b55bd9.png"
+    "path": "assets/equations/2d6b5c898bd6b55bd9.png",
+    "number": 66
   },
   "4d4a248237f2c1aa7a": {
     "tex": "\\frac{dy}{dt}=\\frac{\\alpha}{1+x^2}-y",
-    "path": "assets/equations/4d4a248237f2c1aa7a.png"
+    "path": "assets/equations/4d4a248237f2c1aa7a.png",
+    "number": 67
   },
   "4d988dfca6955310e3": {
     "tex": "x=\\frac{\\alpha}{1+y^2}",
-    "path": "assets/equations/4d988dfca6955310e3.png"
+    "path": "assets/equations/4d988dfca6955310e3.png",
+    "number": 68
   },
   "c10958b46d86f36cbd": {
     "tex": "y=\\frac{\\alpha}{1+x^2}",
-    "path": "assets/equations/c10958b46d86f36cbd.png"
+    "path": "assets/equations/c10958b46d86f36cbd.png",
+    "number": 69
   },
   "337d29ae58cba4e969": {
     "tex": "(x-y)(1-xy)=0",
-    "path": "assets/equations/337d29ae58cba4e969.png"
+    "path": "assets/equations/337d29ae58cba4e969.png",
+    "number": 70
   },
   "507e92e8b567cb0abe": {
     "tex": "x=\\frac{10\\pm\\sqrt{96}}{2}",
-    "path": "assets/equations/507e92e8b567cb0abe.png"
+    "path": "assets/equations/507e92e8b567cb0abe.png",
+    "number": 71
   },
   "891a275572ca63cd10": {
     "tex": "J_{12}=-\\frac{2\\alpha y}{(1+y^2)^2}",
-    "path": "assets/equations/891a275572ca63cd10.png"
+    "path": "assets/equations/891a275572ca63cd10.png",
+    "number": 72
   },
   "20b51e0dd0ca20f5f0": {
     "tex": "\\frac{dx^*}{d\\mu}=-\\frac{\\partial f/\\partial\\mu}{\\partial f/\\partial x}.",
-    "path": "assets/equations/20b51e0dd0ca20f5f0.png"
+    "path": "assets/equations/20b51e0dd0ca20f5f0.png",
+    "number": 73
   },
   "cd4ea51221a0fb0d83": {
     "tex": "x_\\pm^*=\\frac{a\\pm\\sqrt{a^2-4}}{2}.",
-    "path": "assets/equations/cd4ea51221a0fb0d83.png"
+    "path": "assets/equations/cd4ea51221a0fb0d83.png",
+    "number": 74
   },
   "3ccf7e4e1f8efb3925": {
     "tex": "\\lambda^3+3\\lambda^2+3\\lambda+(1+g)=0.",
-    "path": "assets/equations/3ccf7e4e1f8efb3925.png"
+    "path": "assets/equations/3ccf7e4e1f8efb3925.png",
+    "number": 75
   },
   "af4c178dbcf7d36a47": {
     "tex": "\\frac{dx_1}{dt}=\\frac{\\alpha}{1+x_3^n}-x_1",
-    "path": "assets/equations/af4c178dbcf7d36a47.png"
+    "path": "assets/equations/af4c178dbcf7d36a47.png",
+    "number": 76
   },
   "41f416e52052d13d5b": {
     "tex": "\\frac{dx_2}{dt}=\\frac{\\alpha}{1+x_1^n}-x_2",
-    "path": "assets/equations/41f416e52052d13d5b.png"
+    "path": "assets/equations/41f416e52052d13d5b.png",
+    "number": 77
   },
   "a5c71087c6dd19cfce": {
     "tex": "\\frac{dx_3}{dt}=\\frac{\\alpha}{1+x_2^n}-x_3",
-    "path": "assets/equations/a5c71087c6dd19cfce.png"
+    "path": "assets/equations/a5c71087c6dd19cfce.png",
+    "number": 78
   },
   "c9bffca3acf4b33a31": {
     "tex": "\\alpha=s(1+s^n)",
-    "path": "assets/equations/c9bffca3acf4b33a31.png"
+    "path": "assets/equations/c9bffca3acf4b33a31.png",
+    "number": 79
   },
   "94b8885aa0094f367c": {
     "tex": "g=\\frac{n s^n}{1+s^n}",
-    "path": "assets/equations/94b8885aa0094f367c.png"
+    "path": "assets/equations/94b8885aa0094f367c.png",
+    "number": 80
   },
   "68018a87fe4ed2365f": {
     "tex": "\\lambda_1=-1-g",
-    "path": "assets/equations/68018a87fe4ed2365f.png"
+    "path": "assets/equations/68018a87fe4ed2365f.png",
+    "number": 81
   },
   "33fcbb95d5235ac985": {
     "tex": "\\lambda_{\\pm}=-1+\\frac{g}{2}\\pm i\\frac{\\sqrt{3}g}{2}",
-    "path": "assets/equations/33fcbb95d5235ac985.png"
+    "path": "assets/equations/33fcbb95d5235ac985.png",
+    "number": 82
   },
   "9a0d1c43f5d9dee344": {
     "tex": "T=\\frac{2\\pi}{\\sqrt{3}}\\approx3,628",
-    "path": "assets/equations/9a0d1c43f5d9dee344.png"
+    "path": "assets/equations/9a0d1c43f5d9dee344.png",
+    "number": 83
   },
   "9e33b4bb7bb4086462": {
     "tex": "y(t)=cU\\frac{e^{-bt}-e^{-et}}{e-b}.",
-    "path": "assets/equations/9e33b4bb7bb4086462.png"
+    "path": "assets/equations/9e33b4bb7bb4086462.png",
+    "number": 84
   },
   "9c2f5894828ebc3c97": {
     "tex": "|G(i\\omega)|=\\frac{k}{\\sqrt{\\delta^2+\\omega^2}}, \\qquad \\phi(\\omega)=-\\arctan(\\omega/\\delta).",
-    "path": "assets/equations/9c2f5894828ebc3c97.png"
+    "path": "assets/equations/9c2f5894828ebc3c97.png",
+    "number": 85
   },
   "b48f8af06bd6c8d525": {
     "tex": "H_A(A)=\\frac{A^{n_A}}{K_A^{n_A}+A^{n_A}}",
-    "path": "assets/equations/b48f8af06bd6c8d525.png"
+    "path": "assets/equations/b48f8af06bd6c8d525.png",
+    "number": 86
   },
   "0847d786e69895c69f": {
     "tex": "\\frac{dz}{dt}=\\beta H_A(A)H_B(B)-\\delta z",
-    "path": "assets/equations/0847d786e69895c69f.png"
+    "path": "assets/equations/0847d786e69895c69f.png",
+    "number": 87
   },
   "d8374c24394dafde95": {
     "tex": "\\frac{dy}{dt}=u-y",
-    "path": "assets/equations/d8374c24394dafde95.png"
+    "path": "assets/equations/d8374c24394dafde95.png",
+    "number": 88
   },
   "19f6b06d134de21feb": {
     "tex": "y(t)=1-e^{-t}",
-    "path": "assets/equations/19f6b06d134de21feb.png"
+    "path": "assets/equations/19f6b06d134de21feb.png",
+    "number": 89
   },
   "64afb93923d9ef97fd": {
     "tex": "\\tau_y\\frac{dy}{dt}=u-y",
-    "path": "assets/equations/64afb93923d9ef97fd.png"
+    "path": "assets/equations/64afb93923d9ef97fd.png",
+    "number": 90
   },
   "51d1f258f0116cea04": {
     "tex": "\\tau_z\\frac{dz}{dt}=\\frac{u}{y}-z",
-    "path": "assets/equations/51d1f258f0116cea04.png"
+    "path": "assets/equations/51d1f258f0116cea04.png",
+    "number": 91
   },
   "fd0c15fa11b991d6d1": {
     "tex": "\\lambda+\\delta+ge^{-\\lambda\\tau}=0.",
-    "path": "assets/equations/fd0c15fa11b991d6d1.png"
+    "path": "assets/equations/fd0c15fa11b991d6d1.png",
+    "number": 92
   },
   "a5bd99b485fe5fab38": {
     "tex": "\\frac{dx}{dt}=f(x(t-\\tau))-\\delta x(t)",
-    "path": "assets/equations/a5bd99b485fe5fab38.png"
+    "path": "assets/equations/a5bd99b485fe5fab38.png",
+    "number": 93
   },
   "9d748dadc94c7d5e64": {
     "tex": "\\frac{d\\eta}{dt}=-a\\eta(t-\\tau)-d\\eta(t)",
-    "path": "assets/equations/9d748dadc94c7d5e64.png"
+    "path": "assets/equations/9d748dadc94c7d5e64.png",
+    "number": 94
   },
   "130c21704ce1fcc166": {
     "tex": "\\lambda+d+a e^{-\\lambda\\tau}=0",
-    "path": "assets/equations/130c21704ce1fcc166.png"
+    "path": "assets/equations/130c21704ce1fcc166.png",
+    "number": 95
   },
   "0ea7836e26632112a9": {
     "tex": "d+a\\cos(\\omega\\tau)=0",
-    "path": "assets/equations/0ea7836e26632112a9.png"
+    "path": "assets/equations/0ea7836e26632112a9.png",
+    "number": 96
   },
   "bd85ae504b3f0419bf": {
     "tex": "\\omega-a\\sin(\\omega\\tau)=0",
-    "path": "assets/equations/bd85ae504b3f0419bf.png"
+    "path": "assets/equations/bd85ae504b3f0419bf.png",
+    "number": 97
   },
   "632aae6d754aa92a05": {
     "tex": "\\omega=\\sqrt{a^2-d^2}",
-    "path": "assets/equations/632aae6d754aa92a05.png"
+    "path": "assets/equations/632aae6d754aa92a05.png",
+    "number": 98
   },
   "09dc6ecf5c5c925f3d": {
     "tex": "\\tau_c=\\frac{\\arccos(-d/a)}{\\sqrt{a^2-d^2}}",
-    "path": "assets/equations/09dc6ecf5c5c925f3d.png"
+    "path": "assets/equations/09dc6ecf5c5c925f3d.png",
+    "number": 99
   },
   "28872970469b4c73de": {
     "tex": "\\frac{dy_1}{dt}=\\frac{m}{\\tau}(x-y_1)",
-    "path": "assets/equations/28872970469b4c73de.png"
+    "path": "assets/equations/28872970469b4c73de.png",
+    "number": 100
   },
   "3e5953fbf0822e561a": {
     "tex": "\\frac{dy_j}{dt}=\\frac{m}{\\tau}(y_{j-1}-y_j)",
-    "path": "assets/equations/3e5953fbf0822e561a.png"
+    "path": "assets/equations/3e5953fbf0822e561a.png",
+    "number": 101
   },
   "cbc9c71c0c1eaee175": {
     "tex": "z(t)=z(0)+\\int_0^t[r-y(s)]\\,ds.",
-    "path": "assets/equations/cbc9c71c0c1eaee175.png"
+    "path": "assets/equations/cbc9c71c0c1eaee175.png",
+    "number": 102
   },
   "ebc0231e2975257db5": {
     "tex": "\\frac{dz_1}{dt}=\\mu-\\eta z_1z_2, \\qquad \\frac{dz_2}{dt}=\\theta y-\\eta z_1z_2.",
-    "path": "assets/equations/ebc0231e2975257db5.png"
+    "path": "assets/equations/ebc0231e2975257db5.png",
+    "number": 103
   },
   "b0bf1574df98e06887": {
     "tex": "\\frac{dy}{dt}=kz_1-\\gamma y.",
-    "path": "assets/equations/b0bf1574df98e06887.png"
+    "path": "assets/equations/b0bf1574df98e06887.png",
+    "number": 104
   },
   "ff635f23ce5c3beeb9": {
     "tex": "\\frac{d(z_1-z_2)}{dt}=\\mu-\\theta y.",
-    "path": "assets/equations/ff635f23ce5c3beeb9.png"
+    "path": "assets/equations/ff635f23ce5c3beeb9.png",
+    "number": 105
   },
   "d294498c668900aab9": {
     "tex": "v_A=k_A R_T\\frac{d_A}{1+d_A+d_B}, \\qquad v_B=k_B R_T\\frac{d_B}{1+d_A+d_B}.",
-    "path": "assets/equations/d294498c668900aab9.png"
+    "path": "assets/equations/d294498c668900aab9.png",
+    "number": 106
   },
   "e85c6d1455a70f3969": {
     "tex": "\\frac{dx}{dt}=\\frac{f(x)}{1+c'(x)}, \\qquad c'(x)=\\frac{D_TK_d}{(K_d+x)^2}.",
-    "path": "assets/equations/e85c6d1455a70f3969.png"
+    "path": "assets/equations/e85c6d1455a70f3969.png",
+    "number": 107
   },
   "ac0f9ed96d366b5966": {
     "tex": "\\frac{dz}{dt}=K_i(r-y).",
-    "path": "assets/equations/ac0f9ed96d366b5966.png"
+    "path": "assets/equations/ac0f9ed96d366b5966.png",
+    "number": 108
   },
   "f83e8f98d03dcdc49a": {
     "tex": "\\frac{N_2(t)}{N_1(t)}=\\frac{N_2(0)}{N_1(0)}e^{(\\mu_2-\\mu_1)t}.",
-    "path": "assets/equations/f83e8f98d03dcdc49a.png"
+    "path": "assets/equations/f83e8f98d03dcdc49a.png",
+    "number": 109
   },
   "45c7bf7a450019f7f8": {
     "tex": "\\Delta z\\approx g'(y)f'(x)\\Delta x",
-    "path": "assets/equations/45c7bf7a450019f7f8.png"
+    "path": "assets/equations/45c7bf7a450019f7f8.png",
+    "number": 110
   },
   "2722fa83225fc3c375": {
     "tex": "\\frac{dX}{dt}=\\alpha D-\\delta X",
-    "path": "assets/equations/2722fa83225fc3c375.png"
+    "path": "assets/equations/2722fa83225fc3c375.png",
+    "number": 111
   },
   "c46fc602de3e420355": {
     "tex": "\\frac{dY}{dt}=\\frac{\\beta D}{1+X/K}-\\gamma Y",
-    "path": "assets/equations/c46fc602de3e420355.png"
+    "path": "assets/equations/c46fc602de3e420355.png",
+    "number": 112
   },
   "86c9f3cb992dd5a7fb": {
     "tex": "X^*=\\frac{\\alpha D}{\\delta}",
-    "path": "assets/equations/86c9f3cb992dd5a7fb.png"
+    "path": "assets/equations/86c9f3cb992dd5a7fb.png",
+    "number": 113
   },
   "c12ab5fa0f7312cee4": {
     "tex": "Y^*=\\frac{\\beta D}{\\gamma(1+\\alpha D/(\\delta K))}",
-    "path": "assets/equations/c12ab5fa0f7312cee4.png"
+    "path": "assets/equations/c12ab5fa0f7312cee4.png",
+    "number": 114
   },
   "f272de93db4b46157c": {
     "tex": "Y^*\\approx\\frac{\\beta\\delta K}{\\gamma\\alpha}",
-    "path": "assets/equations/f272de93db4b46157c.png"
+    "path": "assets/equations/f272de93db4b46157c.png",
+    "number": 115
   },
   "cde9d1534fca507a1d": {
     "tex": "\\frac{d\\psi}{dt}=\\Delta\\omega-2K\\sin\\psi.",
-    "path": "assets/equations/cde9d1534fca507a1d.png"
+    "path": "assets/equations/cde9d1534fca507a1d.png",
+    "number": 116
   },
   "3d47e0f5bdba4aeff6": {
     "tex": "\\frac{\\partial u}{\\partial t}=D\\frac{\\partial^2u}{\\partial x^2}+f(u).",
-    "path": "assets/equations/3d47e0f5bdba4aeff6.png"
+    "path": "assets/equations/3d47e0f5bdba4aeff6.png",
+    "number": 117
   },
   "0be99c3be18dd8810a": {
     "tex": "\\frac{du_i}{dt}=\\frac{D}{h^2}(u_{i+1}-2u_i+u_{i-1})+f(u_i).",
-    "path": "assets/equations/0be99c3be18dd8810a.png"
+    "path": "assets/equations/0be99c3be18dd8810a.png",
+    "number": 118
   },
   "a77c9dd7739ea31e1e": {
     "tex": "\\Delta(k)=\\Delta-k^2(D_vf_u+D_ug_v)+D_uD_vk^4.",
-    "path": "assets/equations/a77c9dd7739ea31e1e.png"
+    "path": "assets/equations/a77c9dd7739ea31e1e.png",
+    "number": 119
   },
   "6702ffc5a707b1c4cb": {
     "tex": "J=-D\\frac{\\partial u}{\\partial r}",
-    "path": "assets/equations/6702ffc5a707b1c4cb.png"
+    "path": "assets/equations/6702ffc5a707b1c4cb.png",
+    "number": 120
   },
   "fb9654efeae7ff5118": {
     "tex": "\\frac{\\partial u}{\\partial t}=f(u,v)+D_u\\frac{\\partial^2u}{\\partial r^2}",
-    "path": "assets/equations/fb9654efeae7ff5118.png"
+    "path": "assets/equations/fb9654efeae7ff5118.png",
+    "number": 121
   },
   "19ce3335030e63bb45": {
     "tex": "\\frac{\\partial v}{\\partial t}=g(u,v)+D_v\\frac{\\partial^2v}{\\partial r^2}",
-    "path": "assets/equations/19ce3335030e63bb45.png"
+    "path": "assets/equations/19ce3335030e63bb45.png",
+    "number": 122
   },
   "a285da77af84ccf936": {
     "tex": "\\frac{dx_i}{dt}=f_i(x_i)+D\\sum_j A_{ij}(x_j-x_i)",
-    "path": "assets/equations/a285da77af84ccf936.png"
+    "path": "assets/equations/a285da77af84ccf936.png",
+    "number": 123
   },
   "495de39cc4a8f922ac": {
     "tex": "x_1(t)-x_2(t)=6e^{-t}",
-    "path": "assets/equations/495de39cc4a8f922ac.png"
+    "path": "assets/equations/495de39cc4a8f922ac.png",
+    "number": 124
   },
   "0083250578ebbafbc5": {
     "tex": "J_k=J-k^2D",
-    "path": "assets/equations/0083250578ebbafbc5.png"
+    "path": "assets/equations/0083250578ebbafbc5.png",
+    "number": 125
   },
   "829157fb67f905076a": {
     "tex": "\\det(J_k)=1-7q+10q^2",
-    "path": "assets/equations/829157fb67f905076a.png"
+    "path": "assets/equations/829157fb67f905076a.png",
+    "number": 126
   },
   "de5fbc7c3e36b02962": {
     "tex": "\\frac{dP_n}{dt}=kP_{n-1}+\\delta(n+1)P_{n+1}-(k+\\delta n)P_n.",
-    "path": "assets/equations/de5fbc7c3e36b02962.png"
+    "path": "assets/equations/de5fbc7c3e36b02962.png",
+    "number": 127
   },
   "7023df56269032d68f": {
     "tex": "\\frac{d\\mathbb{E}[N]}{dt}=k-\\delta\\mathbb{E}[N].",
-    "path": "assets/equations/7023df56269032d68f.png"
+    "path": "assets/equations/7023df56269032d68f.png",
+    "number": 128
   },
   "34a04d8be606bec1f5": {
     "tex": "E[X]=\\sum_x xP(X=x).",
-    "path": "assets/equations/34a04d8be606bec1f5.png"
+    "path": "assets/equations/34a04d8be606bec1f5.png",
+    "number": 129
   },
   "7089e2ad5592705ebe": {
     "tex": "\\mathrm{Var}(X)=E[(X-E[X])^2].",
-    "path": "assets/equations/7089e2ad5592705ebe.png"
+    "path": "assets/equations/7089e2ad5592705ebe.png",
+    "number": 130
   },
   "be69008264a1c0f2ec": {
     "tex": "P(X=x)=\\frac{e^{-m}m^x}{x!}.",
-    "path": "assets/equations/be69008264a1c0f2ec.png"
+    "path": "assets/equations/be69008264a1c0f2ec.png",
+    "number": 131
   },
   "fcc9c653b70bcc685b": {
     "tex": "P(A|B)=\\frac{P(B|A)P(A)}{P(B)}.",
-    "path": "assets/equations/fcc9c653b70bcc685b.png"
+    "path": "assets/equations/fcc9c653b70bcc685b.png",
+    "number": 132
   },
   "5b9ef6938318c2c87c": {
     "tex": "\\frac{dp(x,t)}{dt}=\\sum_j a_j(x-\\nu_j)p(x-\\nu_j,t)-\\sum_j a_j(x)p(x,t).",
-    "path": "assets/equations/5b9ef6938318c2c87c.png"
+    "path": "assets/equations/5b9ef6938318c2c87c.png",
+    "number": 133
   },
   "5015f6da98755684ee": {
     "tex": "\\tau=\\frac{-\\ln(r_1)}{a_0}.",
-    "path": "assets/equations/5015f6da98755684ee.png"
+    "path": "assets/equations/5015f6da98755684ee.png",
+    "number": 134
   },
   "ab6e31b9e3282f24b2": {
     "tex": "\\frac{dp_{on}}{dt}=k_{on}(1-p_{on})-k_{off}p_{on}.",
-    "path": "assets/equations/ab6e31b9e3282f24b2.png"
+    "path": "assets/equations/ab6e31b9e3282f24b2.png",
+    "number": 135
+  },
+  "5fe92768241cb91c76": {
+    "tex": "F=\\frac{\\operatorname{Var}(M)}{E[M]}=1+\\frac{r k_{off}}{(k_{on}+k_{off})(\\gamma+k_{on}+k_{off})}.",
+    "path": "assets/equations/5fe92768241cb91c76.png",
+    "number": 136
   },
   "f781563693431a66aa": {
     "tex": "\\mathrm{Var}(N)=m^*+ \\frac{s^2p_{on}(1-p_{on})}{\\gamma(\\gamma+k_{on}+k_{off})}.",
-    "path": "assets/equations/f781563693431a66aa.png"
+    "path": "assets/equations/f781563693431a66aa.png",
+    "number": 137
   },
   "05e2faad38569698b2": {
     "tex": "\\mathrm{Var}(X)=E[\\mathrm{Var}(X|Z)]+\\mathrm{Var}(E[X|Z]).",
-    "path": "assets/equations/05e2faad38569698b2.png"
+    "path": "assets/equations/05e2faad38569698b2.png",
+    "number": 138
   },
   "d0a8ff4dc4d7de4a55": {
     "tex": "p_{\\mathrm{on}}=\\frac{k_{\\mathrm{on}}}{k_{\\mathrm{on}}+k_{\\mathrm{off}}}.",
-    "path": "assets/equations/d0a8ff4dc4d7de4a55.png"
+    "path": "assets/equations/d0a8ff4dc4d7de4a55.png",
+    "number": 139
   },
   "e91c900baa7e2d5b16": {
     "tex": "F=1+\\frac{s k_{\\mathrm{off}}}{(k_{\\mathrm{on}}+k_{\\mathrm{off}})(d+k_{\\mathrm{on}}+k_{\\mathrm{off}})}.",
-    "path": "assets/equations/e91c900baa7e2d5b16.png"
+    "path": "assets/equations/e91c900baa7e2d5b16.png",
+    "number": 140
   },
   "e3d49ea76c38005274": {
     "tex": "dX=(\\beta-\\delta X)dt+\\sqrt{\\beta}\\,dW_1-\\sqrt{\\delta X}\\,dW_2.",
-    "path": "assets/equations/e3d49ea76c38005274.png"
+    "path": "assets/equations/e3d49ea76c38005274.png",
+    "number": 141
   },
   "c7f147e1844f8cab85": {
     "tex": "\\frac{dU}{dt}=s(t)-(k_m+\\lambda)U.",
-    "path": "assets/equations/c7f147e1844f8cab85.png"
+    "path": "assets/equations/c7f147e1844f8cab85.png",
+    "number": 142
   },
   "6e0a26c08979b8f928": {
     "tex": "\\frac{dF}{dt}=k_mU-\\lambda F.",
-    "path": "assets/equations/6e0a26c08979b8f928.png"
+    "path": "assets/equations/6e0a26c08979b8f928.png",
+    "number": 143
   },
   "f40125aa4089e240e0": {
     "tex": "E[y]=b+gF=1020.",
-    "path": "assets/equations/f40125aa4089e240e0.png"
+    "path": "assets/equations/f40125aa4089e240e0.png",
+    "number": 144
   },
   "e35d24fc4f189670c9": {
     "tex": "\\frac{\\partial x}{\\partial\\delta} =-\\frac{\\alpha}{\\delta^2}(1-e^{-\\delta t}) +\\frac{\\alpha t}{\\delta}e^{-\\delta t}.",
-    "path": "assets/equations/e35d24fc4f189670c9.png"
+    "path": "assets/equations/e35d24fc4f189670c9.png",
+    "number": 145
   },
   "d58766a2cb9998395a": {
     "tex": "\\frac{dS_j}{dt}=J_xS_j+\\frac{\\partial f}{\\partial\\theta_j}.",
-    "path": "assets/equations/d58766a2cb9998395a.png"
+    "path": "assets/equations/d58766a2cb9998395a.png",
+    "number": 146
   },
   "53e1d68f2db97c116c": {
     "tex": "-\\log L(\\theta)=\\frac{1}{2}\\sum_i\\left[ \\frac{(y_i-\\mu_i(\\theta))^2}{\\sigma_i^2} +\\log(2\\pi\\sigma_i^2)\\right].",
-    "path": "assets/equations/53e1d68f2db97c116c.png"
+    "path": "assets/equations/53e1d68f2db97c116c.png",
+    "number": 147
   },
   "6fa09a7e4a223558c0": {
     "tex": "J(\\theta)=\\sum_i\\frac{(y_i-h_i(\\theta))^2}{\\sigma_i^2}.",
-    "path": "assets/equations/6fa09a7e4a223558c0.png"
+    "path": "assets/equations/6fa09a7e4a223558c0.png",
+    "number": 148
   },
   "e68d453b2f8b8b0d76": {
     "tex": "\\hat{\\theta}=\\frac{\\sum_i t_iy_i}{\\sum_i t_i^2}=\\frac{28.5}{14}=2.0357.",
-    "path": "assets/equations/e68d453b2f8b8b0d76.png"
+    "path": "assets/equations/e68d453b2f8b8b0d76.png",
+    "number": 149
   },
   "71e91a45b5c41d3142": {
     "tex": "p(\\theta|y)\\propto p(y|\\theta)p(\\theta).",
-    "path": "assets/equations/71e91a45b5c41d3142.png"
+    "path": "assets/equations/71e91a45b5c41d3142.png",
+    "number": 150
   },
   "b3813a9f69b4e97e91": {
     "tex": "y(t)=gA e^{-kt}.",
-    "path": "assets/equations/b3813a9f69b4e97e91.png"
+    "path": "assets/equations/b3813a9f69b4e97e91.png",
+    "number": 151
   },
   "4e324b086aa4e86e8b": {
     "tex": "S_\\theta(t)=\\frac{\\partial y(t)}{\\partial\\theta}.",
-    "path": "assets/equations/4e324b086aa4e86e8b.png"
+    "path": "assets/equations/4e324b086aa4e86e8b.png",
+    "number": 152
   },
   "f8961330544463e6af": {
     "tex": "y(t)=A(1-e^{-kt}).",
-    "path": "assets/equations/f8961330544463e6af.png"
+    "path": "assets/equations/f8961330544463e6af.png",
+    "number": 153
   },
   "5645b48845fe2af544": {
     "tex": "\\mathcal{I}_{ab}=\\sum_i\\frac{1}{\\sigma_i^2}\\frac{\\partial h_i}{\\partial\\theta_a}\\frac{\\partial h_i}{\\partial\\theta_b}.",
-    "path": "assets/equations/5645b48845fe2af544.png"
+    "path": "assets/equations/5645b48845fe2af544.png",
+    "number": 154
+  },
+  "be7b95e67e849c0fc0": {
+    "tex": "\\frac{dM_0}{dt}=s_b+\\frac{s_v}{1+(P_2/K)^n}-\\gamma_mM_0.",
+    "path": "assets/equations/be7b95e67e849c0fc0.png",
+    "number": 155
+  },
+  "06531483f8645ee771": {
+    "tex": "\\frac{dM_1}{dt}=s_b+\\frac{s_v}{1+(P_0/K)^n}-\\gamma_mM_1.",
+    "path": "assets/equations/06531483f8645ee771.png",
+    "number": 156
+  },
+  "4a3410ff0ef32ba9b0": {
+    "tex": "\\frac{dM_2}{dt}=s_b+\\frac{s_v}{1+(P_1/K)^n}-\\gamma_mM_2.",
+    "path": "assets/equations/4a3410ff0ef32ba9b0.png",
+    "number": 157
   },
   "a11dc0e3a0ef3f9dfd": {
     "tex": "\\frac{dn}{dt}=s-\\delta n",
-    "path": "assets/equations/a11dc0e3a0ef3f9dfd.png"
+    "path": "assets/equations/a11dc0e3a0ef3f9dfd.png",
+    "number": 158
   },
   "ebafe06d7a6d37fb37": {
     "tex": "\\frac{dx}{dt}=\\frac{s}{V}-\\delta x-\\frac{x}{V}\\frac{dV}{dt}",
-    "path": "assets/equations/ebafe06d7a6d37fb37.png"
+    "path": "assets/equations/ebafe06d7a6d37fb37.png",
+    "number": 159
   },
   "06a34e6d2540820e3e": {
     "tex": "\\mu=\\frac{1}{V}\\frac{dV}{dt}",
-    "path": "assets/equations/06a34e6d2540820e3e.png"
+    "path": "assets/equations/06a34e6d2540820e3e.png",
+    "number": 160
   },
   "36acdede4456b9fadf": {
     "tex": "\\frac{dx}{dt}=\\alpha-(\\delta+\\mu)x",
-    "path": "assets/equations/36acdede4456b9fadf.png"
+    "path": "assets/equations/36acdede4456b9fadf.png",
+    "number": 161
   },
   "be8414095bc37ab6f3": {
     "tex": "\\frac{dx_1}{dt}=\\alpha_1-\\delta x_1+k(x_2-x_1)",
-    "path": "assets/equations/be8414095bc37ab6f3.png"
+    "path": "assets/equations/be8414095bc37ab6f3.png",
+    "number": 162
   },
   "d6d6491feb21a22fa6": {
     "tex": "\\frac{dx_2}{dt}=\\alpha_2-\\delta x_2+k(x_1-x_2)",
-    "path": "assets/equations/d6d6491feb21a22fa6.png"
+    "path": "assets/equations/d6d6491feb21a22fa6.png",
+    "number": 163
   },
   "9cefaeff71776fa746": {
     "tex": "x^*=\\frac{\\alpha}{\\delta+\\mu}=\\frac{6}{0.3}=20",
-    "path": "assets/equations/9cefaeff71776fa746.png"
+    "path": "assets/equations/9cefaeff71776fa746.png",
+    "number": 164
   },
   "a9cd9386f6d1897ea7": {
     "tex": "t_{1/2}=\\frac{\\ln 2}{0.3}\\approx 2.31",
-    "path": "assets/equations/a9cd9386f6d1897ea7.png"
+    "path": "assets/equations/a9cd9386f6d1897ea7.png",
+    "number": 165
   },
   "cd883f83c2169ab5b0": {
     "tex": "a(t)=\\frac{p-\\delta S(t)-dS/dt}{kS(t)}.",
-    "path": "assets/equations/cd883f83c2169ab5b0.png"
+    "path": "assets/equations/cd883f83c2169ab5b0.png",
+    "number": 166
   },
   "3b0ffb037fed9afe57": {
     "tex": "\\frac{dS}{dt}=p-(\\delta+ka)S",
-    "path": "assets/equations/3b0ffb037fed9afe57.png"
+    "path": "assets/equations/3b0ffb037fed9afe57.png",
+    "number": 167
   },
   "d96ad987151f8e57d4": {
     "tex": "S^*=\\frac{p}{\\delta+ka}",
-    "path": "assets/equations/d96ad987151f8e57d4.png"
+    "path": "assets/equations/d96ad987151f8e57d4.png",
+    "number": 168
   },
   "630ec21f3cce303942": {
     "tex": "r=\\frac{S^*(a)}{S^*(0)}=\\frac{\\delta}{\\delta+ka}",
-    "path": "assets/equations/630ec21f3cce303942.png"
+    "path": "assets/equations/630ec21f3cce303942.png",
+    "number": 169
   },
   "7b27ac7ba986820cdc": {
     "tex": "a=\\frac{\\delta}{k}\\left(\\frac{1}{r}-1\\right)",
-    "path": "assets/equations/7b27ac7ba986820cdc.png"
+    "path": "assets/equations/7b27ac7ba986820cdc.png",
+    "number": 170
   },
   "b46c8da7e415f31478": {
     "tex": "\\frac{da}{dr}=-\\frac{\\delta}{kr^2}",
-    "path": "assets/equations/b46c8da7e415f31478.png"
+    "path": "assets/equations/b46c8da7e415f31478.png",
+    "number": 171
   },
   "3f13159b68e504ac32": {
     "tex": "S(t)=S^*+(S(0)-S^*)e^{-(\\delta+ka)t}",
-    "path": "assets/equations/3f13159b68e504ac32.png"
+    "path": "assets/equations/3f13159b68e504ac32.png",
+    "number": 172
   },
   "992a5243331b2c2061": {
     "tex": "h(a)=\\frac{a^n}{K^n+a^n}",
-    "path": "assets/equations/992a5243331b2c2061.png"
+    "path": "assets/equations/992a5243331b2c2061.png",
+    "number": 173
   },
   "5ea63f87a76fa28073": {
     "tex": "y=\\ell+(H-\\ell)h(a)h(b)",
-    "path": "assets/equations/5ea63f87a76fa28073.png"
+    "path": "assets/equations/5ea63f87a76fa28073.png",
+    "number": 174
   },
   "0d1c686e5bd2632bea": {
     "tex": "y_{\\mathrm{OFF,max}}<\\theta<y_{\\mathrm{ON,min}}",
-    "path": "assets/equations/0d1c686e5bd2632bea.png"
+    "path": "assets/equations/0d1c686e5bd2632bea.png",
+    "number": 175
   },
   "bd446b843e12117042": {
     "tex": "M=y_{\\mathrm{ON,min}}-y_{\\mathrm{OFF,max}}",
-    "path": "assets/equations/bd446b843e12117042.png"
+    "path": "assets/equations/bd446b843e12117042.png",
+    "number": 176
   },
   "d2cb1264bf7853e4bb": {
     "tex": "\\frac{dy_i}{dt}=\\alpha_i-\\delta y_i+k\\sum_{j \\in N_i}(y_j-y_i)",
-    "path": "assets/equations/d2cb1264bf7853e4bb.png"
+    "path": "assets/equations/d2cb1264bf7853e4bb.png",
+    "number": 177
   },
   "770f26cdbf987e57f3": {
     "tex": "\\frac{dp}{dt}=\\lambda(t)(1-p)",
-    "path": "assets/equations/770f26cdbf987e57f3.png"
+    "path": "assets/equations/770f26cdbf987e57f3.png",
+    "number": 178
   },
   "8947ebb532be53134b": {
     "tex": "p(t)=1-e^{-\\lambda t}",
-    "path": "assets/equations/8947ebb532be53134b.png"
+    "path": "assets/equations/8947ebb532be53134b.png",
+    "number": 179
   },
   "6c57cab9638b8eacea": {
     "tex": "p(t)=1-\\exp\\left(-\\int_0^t \\lambda(s)\\,ds\\right)",
-    "path": "assets/equations/6c57cab9638b8eacea.png"
+    "path": "assets/equations/6c57cab9638b8eacea.png",
+    "number": 180
   },
   "4e0001541ee34905a7": {
     "tex": "t=\\frac{-\\ln(1-p)}{\\lambda}",
-    "path": "assets/equations/4e0001541ee34905a7.png"
+    "path": "assets/equations/4e0001541ee34905a7.png",
+    "number": 181
   },
   "d419169e23f59386d7": {
     "tex": "\\frac{dF}{dt}=\\alpha_0+(\\alpha_1-\\alpha_0)p-\\delta_F F",
-    "path": "assets/equations/d419169e23f59386d7.png"
+    "path": "assets/equations/d419169e23f59386d7.png",
+    "number": 182
   },
   "25edc754173cfe2ad5": {
     "tex": "p_{\\mathrm{falso}}=1-e^{-\\epsilon T}",
-    "path": "assets/equations/25edc754173cfe2ad5.png"
+    "path": "assets/equations/25edc754173cfe2ad5.png",
+    "number": 183
   },
   "5472b112b899710efe": {
     "tex": "\\frac{dp}{dt}=\\lambda(1-p)-\\rho p",
-    "path": "assets/equations/5472b112b899710efe.png"
+    "path": "assets/equations/5472b112b899710efe.png",
+    "number": 184
   },
   "304e02f045193ab721": {
     "tex": "\\frac{dm}{dt}=\\frac{\\alpha}{1+(z/K)^n}-\\delta_m m",
-    "path": "assets/equations/304e02f045193ab721.png"
+    "path": "assets/equations/304e02f045193ab721.png",
+    "number": 185
   },
   "6b0fd8f2fca27bb960": {
     "tex": "\\frac{dp}{dt}=\\beta m-\\delta_p p",
-    "path": "assets/equations/6b0fd8f2fca27bb960.png"
+    "path": "assets/equations/6b0fd8f2fca27bb960.png",
+    "number": 186
   },
   "cc37b4768089be2763": {
     "tex": "\\frac{dz}{dt}=\\gamma p-\\delta_z z",
-    "path": "assets/equations/cc37b4768089be2763.png"
+    "path": "assets/equations/cc37b4768089be2763.png",
+    "number": 187
   },
   "ecb1fff616ac7ba721": {
     "tex": "y(t)=b+A\\cos\\left(\\frac{2\\pi t}{T}+\\phi\\right)",
-    "path": "assets/equations/ecb1fff616ac7ba721.png"
+    "path": "assets/equations/ecb1fff616ac7ba721.png",
+    "number": 188
   },
   "82cba8b57bb027a6a7": {
     "tex": "\\frac{d\\phi}{dt}=\\omega+q\\sin(\\Omega t-\\phi)",
-    "path": "assets/equations/82cba8b57bb027a6a7.png"
+    "path": "assets/equations/82cba8b57bb027a6a7.png",
+    "number": 189
   },
   "f224167d6a3012a088": {
     "tex": "\\frac{d\\psi}{dt}=\\omega-\\Omega-q\\sin\\psi",
-    "path": "assets/equations/f224167d6a3012a088.png"
+    "path": "assets/equations/f224167d6a3012a088.png",
+    "number": 190
   },
   "f325e915afff7895a6": {
     "tex": "\\Delta=\\delta_x\\delta_y-F_x'(y^*)F_y'(x^*).",
-    "path": "assets/equations/f325e915afff7895a6.png"
+    "path": "assets/equations/f325e915afff7895a6.png",
+    "number": 191
   },
   "7b144a109cbf0d88da": {
     "tex": "N\\mathbf{v}=0,\\qquad \\mathbf{v}_{min}\\leq\\mathbf{v}\\leq\\mathbf{v}_{max}.",
-    "path": "assets/equations/7b144a109cbf0d88da.png"
+    "path": "assets/equations/7b144a109cbf0d88da.png",
+    "number": 192
   },
   "792fb11ff037ece9ff": {
     "tex": "w_i=e^{-E_i/(k_B T)}",
-    "path": "assets/equations/792fb11ff037ece9ff.png"
+    "path": "assets/equations/792fb11ff037ece9ff.png",
+    "number": 193
   },
   "e9f452868ec5456a31": {
     "tex": "P_i=\\frac{w_i}{\\sum_j w_j}",
-    "path": "assets/equations/e9f452868ec5456a31.png"
+    "path": "assets/equations/e9f452868ec5456a31.png",
+    "number": 194
   },
   "cee33efd3cfe0083bd": {
     "tex": "\\frac{dx}{dt}=Sv",
-    "path": "assets/equations/cee33efd3cfe0083bd.png"
+    "path": "assets/equations/cee33efd3cfe0083bd.png",
+    "number": 195
   },
   "b19eb25a244ce931d5": {
     "tex": "Sv=0",
-    "path": "assets/equations/b19eb25a244ce931d5.png"
+    "path": "assets/equations/b19eb25a244ce931d5.png",
+    "number": 196
   },
   "9ba4407e30dad94e6a": {
     "tex": "\\frac{dq}{dt}=k_{\\mathrm{abre}}(1-q)-k_{\\mathrm{cierra}}q",
-    "path": "assets/equations/9ba4407e30dad94e6a.png"
+    "path": "assets/equations/9ba4407e30dad94e6a.png",
+    "number": 197
   },
   "de44517839a1209f8e": {
     "tex": "\\frac{df}{dt}=sf(1-f)",
-    "path": "assets/equations/de44517839a1209f8e.png"
+    "path": "assets/equations/de44517839a1209f8e.png",
+    "number": 198
   },
   "b33f645854d08b5950": {
     "tex": "\\mathrm{precision}=\\frac{TP}{TP+FP}.",
-    "path": "assets/equations/b33f645854d08b5950.png"
+    "path": "assets/equations/b33f645854d08b5950.png",
+    "number": 199
   },
   "fb290585983990b69c": {
     "tex": "\\mathrm{recall}=\\frac{TP}{TP+FN}.",
-    "path": "assets/equations/fb290585983990b69c.png"
+    "path": "assets/equations/fb290585983990b69c.png",
+    "number": 200
   },
   "ff107f5506c0d5e29a": {
     "tex": "y_{bpi}=\\mu+u_b+v_{bp}+\\epsilon_{bpi}",
-    "path": "assets/equations/ff107f5506c0d5e29a.png"
+    "path": "assets/equations/ff107f5506c0d5e29a.png",
+    "number": 201
   },
   "1a6b794beeda07294e": {
     "tex": "D_{\\mathrm{grupo}}=1+(m-1)\\rho",
-    "path": "assets/equations/1a6b794beeda07294e.png"
+    "path": "assets/equations/1a6b794beeda07294e.png",
+    "number": 202
   }
 }

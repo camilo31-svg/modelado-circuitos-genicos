@@ -10,6 +10,24 @@ La transcripción es una manera de cambiar actividad, pero no la única. Una pro
 
 En una cascada, un estado activo regula la tasa de modificación de la etapa siguiente. Las curvas y escalas se componen y pueden producir sensibilidad elevada sin que cada unión elemental sea cooperativa. Huang y Ferrell estudiaron este principio en una cascada MAPK mediante modelado y mediciones. El ejemplo docente del capítulo examina las ecuaciones sin atribuirles sus parámetros experimentales [A12] [A01], §6.2.
 
+## Desarrollo guiado: construir una red de modificación sin perder enzimas
+
+Un sustrato X puede estar sin modificar, con una modificación o con dos: X₀, X₁ y X₂. E añade modificaciones y F las retira. En un mecanismo distributivo, la enzima debe liberar el sustrato después de cada paso; por eso X₁ vuelve a competir por enzima libre. «Distributivo» describe esa secuencia de encuentros, no una distribución de probabilidad. Define cuatro complejos: C₀=E:X₀, C₁=E:X₁, D₁=F:X₁ y D₂=F:X₂. Los dos puntos indican unión dentro del complejo. [A01] [A16]
+
+Cada unión tiene tres pasos de tasa: asociación k_on·enzima libre·sustrato libre, disociación k_off·complejo y catálisis k_cat·complejo. Para el primer complejo, C₀′=k_on,0 E X₀−(k_off,0+k_cat,0)C₀. En X₀′ aparecen la asociación con signo negativo, la disociación positiva y la catálisis de D₁ positiva, porque esa reacción devuelve sustrato sin modificar. La catálisis de C₀ produce X₁ y E libre, no devuelve X₀. Escribir antes la tabla de reacciones evita confundir esos destinos. [A01] [A16]
+
+### Contar unidades de sustrato y unidades de enzima
+
+El total de E es E+C₀+C₁; el de F, F+D₁+D₂. El total de sustrato es X₀+X₁+X₂+C₀+C₁+D₁+D₂. Cada complejo cuenta una unidad de sustrato y una de su enzima. No sumes ambos totales de enzima al total de sustrato como si fueran tres reservas de la misma sustancia. La matriz estequiométrica permite verificar que la derivada de cada total es cero. [A01] [A16]
+
+Si observas «X₂ total», decide si incluye D₂, que contiene sustrato doblemente modificado unido a fosfatasa. Un anticuerpo o un reportero pueden responder de forma distinta a especies libres y complejadas. El programa puede predecir ambas, pero el ajuste debe usar la combinación que corresponde al ensayo. Esta elección puede cambiar la pendiente aparente de una curva de respuesta. [A01] [A09]
+
+### De dónde sale la ultrasensibilidad de saturación
+
+En un ciclo de una modificación, aproxima las dos tasas como v₁=V₁(1−q)/(K₁+1−q) y v₂=V₂q/(K₂+q), donde q es la fracción modificada y los K están normalizados por el total de sustrato. En equilibrio v₁=v₂. Si K₁ y K₂ son pequeños, ambas enzimas están cerca de saturación en gran parte del intervalo y una pequeña diferencia entre capacidades puede desplazar mucho q. «Ultrasensibilidad» significa una respuesta de salida más pronunciada que la referencia no cooperativa pertinente; no demuestra bistabilidad. La bistabilidad requiere múltiples equilibrios y un análisis de su estabilidad. [A13] [A16]
+
+La práctica de nueve especies conserva explícitamente enzimas y sustrato. Al comparar con una aproximación reducida, usa los mismos totales y define qué complejos se han eliminado. Una conservación numérica muy precisa comprueba contabilidad, pero no demuestra que las constantes describan una enzima real. [A01] [A16]
+
 ## Un ciclo de modificación y su conservación
 
 Sea X una proteína inactiva y X* activa, con total Xₜ=X+X*. Una enzima activadora convierte X en X* y otra revierte el proceso. En una aproximación Michaelis–Menten, x'=V₁(Xₜ−x)/(K₁+Xₜ−x)−V₂x/(K₂+x), con x=[X*]. La conservación reduce el modelo a una variable y obliga a mantener 0≤x≤Xₜ [A01], §§3.1 y 6.2; [A13].

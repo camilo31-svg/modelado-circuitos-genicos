@@ -25,5 +25,17 @@
     "errors_remaining": 0
   },
   "pubmed_api": "Se intentó el conector Entrez; falló la conexión TLS. Se consultaron las páginas primarias de PubMed por búsqueda web, sin desactivar verificación de certificados.",
-  "limits": "Selección académica razonada, no revisión sistemática exhaustiva. Cada referencia conserva nota de lo consultado."
+  "limits": "Selección académica razonada, no revisión sistemática exhaustiva. Cada referencia conserva nota de lo consultado.",
+  "revision_2_1": {
+    "date": "2026-10-19",
+    "focus": "Derivaciones y programación explícitas; casos bacterianos y de levadura; glosario ampliado",
+    "primary_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC125456/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3109981/",
+      "https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html",
+      "https://docs.python.org/3/tutorial/index.html",
+      "https://numpy.org/doc/stable/user/basics.indexing.html"
+    ],
+    "source_model_note": "Represilador: Box 1 contrastado en copia académica de Caltech. Levadura: texto de dos artículos primarios en PMC. Las ecuaciones y números nuevos del atlas son desarrollos docentes identificados como tales."
+  }
 }

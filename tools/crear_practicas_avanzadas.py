@@ -207,8 +207,9 @@ for p in sorted(OUT.glob('*.ipynb')):
         source_line='Fuentes de los principios: '+', '.join('['+key+']('+refs[key]['url']+')' for key in sources)+'.'
         text=lines[0]+'\n\n'+intro+'\n\nLecciones relacionadas: '+', '.join(chapters[key]['number']+' · '+chapters[key]['title'] for key in lesson_ids)+'.\n\n'+source_line
     else:
-        spec=next(l for l in LABS if l[0]==p.stem)
-        lesson_ids,sources=[spec[2]],spec[3]
+        spec=next((l for l in LABS if l[0]==p.stem),None)
+        if spec:lesson_ids,sources=[spec[2]],spec[3]
+        else:lesson_ids,sources=nb['metadata']['atlas']['lessons'],nb['metadata']['atlas']['sources']
     nb['cells'][0]['source']=text.splitlines(True)
     (p).write_text(json.dumps(nb,ensure_ascii=False,indent=2),encoding='utf8')
     lines=[x for x in text.splitlines() if x.strip()]

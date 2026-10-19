@@ -10,6 +10,24 @@ Al combinar dos osciladores, la red completa puede sincronizarse, mostrar modula
 
 El artículo de Holló y colaboradores distingue regímenes de acoplamiento y predice, mediante modelos, distintos comportamientos dinámicos. Es una investigación computacional con implicaciones para trabajo experimental futuro; no debe citarse como demostración de que todos esos regímenes ya se hayan construido y observado en plantas. Su fecha en línea de 2025 y volumen editorial de 2026 se conservan en la nota bibliográfica [A06].
 
+## Desarrollo guiado: convertir dos osciladores en una ecuación de diferencia de fase
+
+La fase θ indica la posición a lo largo de un ciclo; aumenta 2π radianes por vuelta. No es una concentración ni una amplitud. Un oscilador de período T tiene frecuencia angular ω=2π/T. Si T está en horas, ω está en radianes por hora. La reducción de fase supone que la trayectoria permanece cerca de un ciclo estable y que las perturbaciones de amplitud se relajan suficientemente rápido. [A01] [A05]
+
+Para dos osciladores con acoplamiento simétrico senoidal, escribe θ₁′=ω₁+K sin(θ₂−θ₁) y θ₂′=ω₂+K sin(θ₁−θ₂). K mide intensidad de acoplamiento en inversa de tiempo, con radianes tratados como adimensionales. Define φ=θ₁−θ₂ y Δω=ω₁−ω₂. Restar las ecuaciones y usar sin(−φ)=−sinφ produce φ′=Δω−2K sinφ. El factor dos aparece porque ambos osciladores responden; no se añade por convenio. [A01]
+
+### Bloqueo no significa fases idénticas
+
+Una diferencia de fase constante requiere sinφ*=Δω/(2K). Si |Δω|>2K no existe solución fija: la diferencia deriva. Si |Δω|<2K aparecen dos soluciones por período de fase. La derivada del campo es −2K cosφ. La solución con cosφ*>0 es estable para K>0; la otra es inestable. Bloqueo significa igual frecuencia media y una diferencia de fase constante, que puede ser distinta de cero. [A01]
+
+Para períodos de 24 y 26 h, Δω=2π(1/24−1/26)≈0,0201 rad/h. El umbral de este modelo es K≈0,0101 h⁻¹. Con K=0,015 h⁻¹, sinφ*≈0,671 y la rama estable tiene φ*≈0,736 rad. El cálculo explica el desfase de la figura y también sus límites: son valores de un modelo de fase docente, no estimaciones de una molécula comunicante de un artículo. [A01] [A05]
+
+### Volver a moléculas cuando la amplitud importa
+
+Dos anillos de tres proteínas necesitan seis balances si mantienes esos estados. Un enlace cruzado represor puede modificar la producción de X₁ mediante un denominador 1+X₃ⁿ+κY₁ⁿ. κ pesa el enlace adicional y debe definirse con las escalas elegidas. Esa suma representa una ley reguladora propuesta; otra arquitectura de unión podría dar un producto u otra función. No se obtiene la función molecular a partir de la palabra «acoplamiento». [A01] [A06]
+
+Para decidir si el movimiento es periódico, observa todas las componentes. Una proyección X₁ frente a Y₁ puede parecer un lazo mientras las otras especies siguen cambiando de una vuelta a otra. La sincronía de dos señales tampoco demuestra identidad de sus estados internos. Por eso la práctica compara trazas temporales, proyección y mapa de las seis especies, y pide repetir la ventana tras el transitorio. [A01] [A06]
+
 ## Reducir a fase: qué se conserva y qué se pierde
 
 Si cada oscilador posee un ciclo atractivo y el acoplamiento es débil respecto a la relajación de amplitud, puedes aproximar su estado por una fase φᵢ. La velocidad de fase libre es ωᵢ y la interacción añade una función periódica. La aproximación elimina los cambios de amplitud y necesita cuidado cerca de una bifurcación, durante perturbaciones fuertes o cuando el ciclo se deforma mucho [A01], §§6.5 y 7.4; [A02].

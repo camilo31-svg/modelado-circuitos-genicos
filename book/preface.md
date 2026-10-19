@@ -8,7 +8,7 @@ Trabaja con papel y Python. Antes de integrar, explica qué representa cada tér
 
 El archivo de Brian Ingalls proporcionado por el lector tiene 406 páginas PDF y una portada fechada el 23 de diciembre de 2015. Se cita como versión de autor, diferenciada de la edición impresa de MIT Press de 2013. Sus capítulos sobre reacciones, cinética, análisis, metabolismo, señalización y regulación génica sirven como eje académico. Los localizadores de sección corresponden a ese archivo, no a un número supuesto de página de otra edición [A01].
 
-El texto de esta obra, sus ejercicios, números y figuras son desarrollos docentes propios. No se redistribuye el PDF aportado ni se copian sus láminas o ejercicios. Las fuentes adicionales permiten ampliar EDO, estadística, métodos computacionales y casos de circuitos complejos y vegetales [A02] [A09] [A15].
+El texto de esta obra, sus ejercicios, números y figuras son desarrollos docentes propios. No se redistribuye el PDF aportado ni se copian sus láminas o ejercicios. Las fuentes adicionales permiten ampliar EDO, estadística, métodos computacionales y casos de circuitos en distintos organismos [A02] [A09] [A15].
 
 ## Qué significa una referencia en este libro
 
@@ -18,10 +18,17 @@ La bibliografía conserva notas de consulta: metadatos, resumen, texto web, arch
 
 ## Niveles que se conectan
 
-El recorrido combina EDO, sistemas no lineales, procesos de saltos, modelos de observación, inferencia, espacio y contexto vegetal. Se explica cuándo una reducción puede ser razonable y qué cambia al conservar estados adicionales. Los temas avanzados amplían el repertorio, con condiciones y ejemplos, sin exigir utilizarlos todos en cada proyecto [A01], capítulos 2–8.
+El recorrido combina EDO, sistemas no lineales, procesos de saltos, modelos de observación, inferencia, espacio y contexto biológico. Se explica cuándo una reducción puede ser razonable y qué cambia al conservar estados adicionales. Los temas avanzados amplían el repertorio, con condiciones y ejemplos, sin exigir utilizarlos todos en cada proyecto [A01], capítulos 2–8.
 
 PDF, EPUB y app comparten los mismos capítulos. La app permite buscar texto, descripciones de figuras y fuentes; las lecturas por paneles acompañan a las láminas. Los cuadernos y scripts generan ejemplos docentes y las comprobaciones numéricas entregadas. Sus resultados se distinguen de una reproducción fiel de un artículo, que exigiría ecuaciones, parámetros, datos y condiciones exactos del trabajo [A15] [I13] [I14].
 
 ## Alcance de la revisión
 
-La selección bibliográfica se consultó hasta el 19 de octubre de 2026. Incluye fundamentos y trabajos recientes, con énfasis en plantas, pero no se presenta como una revisión sistemática exhaustiva ni una garantía de dominio experto. El material no ha recibido una revisión independiente completa por especialistas. La formación investigadora exige reproducir modelos publicados, contrastarlos con datos y someter las conclusiones a crítica [A01], prefacio; [A15].
+La selección bibliográfica se consultó hasta el 19 de octubre de 2026. Incluye fundamentos y trabajos recientes, con ejemplos de bacterias, levaduras y plantas, pero no se presenta como una revisión sistemática exhaustiva ni una garantía de dominio experto. El material no ha recibido una revisión independiente completa por especialistas. La formación investigadora exige reproducir modelos publicados, contrastarlos con datos y someter las conclusiones a crítica [A01], prefacio; [A15].
+
+
+## Cómo se construye cada explicación
+
+La edición 2.1 utiliza bacterias, levaduras y plantas como ejemplos de métodos generales. Las plantas aportan casos de interés, sin restringir el alcance del recorrido. Cada desarrollo guiado explica estados, parámetros, unidades, origen de las tasas, transformaciones, significado de términos técnicos y comprobaciones. Los casos completos incluyen la traducción a código y el significado de índices, argumentos y salidas. Da por conocidas derivadas e integrales y recupera el uso de EDO, álgebra lineal y probabilidad en su contexto. [A01] [A02] [A27]
+
+Una ecuación experimental y un desarrollo docente se identifican por separado. Los casos bacteriano y de levadura utilizan preguntas de artículos primarios, pero sus simulaciones y constantes docentes no se atribuyen a mediciones publicadas. La explicación de un método se apoya en fuentes matemáticas o documentación oficial; la interpretación biológica, en artículos y evidencia del caso. [D02] [A25] [A26] [R20] [R21]

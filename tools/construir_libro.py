@@ -2,6 +2,8 @@
 from pathlib import Path
 import re,json,hashlib,html,zipfile,shutil,textwrap,uuid,datetime,sys
 import markdown
+from figuras_en_texto import decorar
+from lectura_curvas import parrafos as lectura_de_curvas
 from bs4 import BeautifulSoup, NavigableString
 import numpy as np
 import matplotlib
@@ -70,6 +72,9 @@ for chapter in chapters:
 (DATA/'chapters.json').write_text(json.dumps(chapters,ensure_ascii=False,indent=2),encoding='utf8')
 (DATA/'references.json').write_text(json.dumps(refs,ensure_ascii=False,indent=2),encoding='utf8')
 figures=json.loads((DOCS/'figures.json').read_text(encoding='utf8'))
+for figure in figures:
+    if figure.get('curve_guide'):figure['curve_guide']['readings']=lectura_de_curvas(figure['curve_guide'])
+(DOCS/'figures.json').write_text(json.dumps(figures,ensure_ascii=False,indent=2),encoding='utf8')
 def figure_label(f):return 'Lámina '+f['code'] if f.get('kind')=='mechanism' else 'Figura '+str(figures.index(f)+1)
 PARTS=EDITION_CONFIG.get('parts') or ['I · Matemáticas desde cero','II · Del mecanismo al programa','III · Dinámica de circuitos','IV · Ruido, datos e inferencia','V · Plantas y literatura','VI · De estudiante a investigador']
 for i,c in enumerate(chapters):
@@ -77,16 +82,16 @@ for i,c in enumerate(chapters):
     if not EDITION_CONFIG:
         c['part']=PARTS[0 if i<=7 else 1 if i<=10 else 2 if i<=18 else 3 if i<=24 else 4 if i<=31 else 5]
 equations={}
-def eq_replace(m):
+def eq_replace(m,chapter_id="intro"):
     tex=re.sub(r'\s+',' ',m.group(1).strip())
     tex=re.sub(r'\\frac(\d)(\d)',r'\\frac{\1}{\2}',tex)
     key=hashlib.sha256(tex.encode()).hexdigest()[:18]
     path=EQ/(key+'.png')
     if not path.exists():
         math_to_image('$'+tex+'$',str(path),dpi=220,color='#17373d')
-    equations[key]=dict(tex=tex,path='assets/equations/'+path.name)
-    return '\n\n<div class="equation"><img src="assets/equations/'+path.name+'" alt="'+html.escape(tex,quote=True)+'" /></div>\n\n'
-def render(body):
+    equations.setdefault(key,dict(tex=tex,path='assets/equations/'+path.name,number=len(equations)+1))
+    return '\n\n<div class="equation" id="eq-'+chapter_id+'-'+key+'" data-equation-number="'+str(equations[key]['number'])+'"><img src="assets/equations/'+path.name+'" alt="'+html.escape(tex,quote=True)+'" /></div>\n\n'
+def render(body,chapter_id=None):
     # Desigualdades como g<n son texto, no etiquetas HTML. Conservar código y TeX.
     body=re.sub(r'<!-- VISUAL:.*?-->','',body)
     pieces=re.split(r'(```.*?```|\$\$.*?\$\$)',body,flags=re.S)
@@ -94,12 +99,13 @@ def render(body):
     body=re.sub(r'\$\$\s*\n?(.*?)\n?\s*\$\$',eq_replace,body,flags=re.S)
     result=markdown.markdown(body,extensions=['fenced_code','tables','sane_lists'])
     result=re.sub(r'<!-- VISUAL:.*?-->','',result)
-    return re.sub(r'\[([A-Z]\d{2})\]',lambda m:'<a class="citation" href="'+html.escape(refs_by_id[m[1]]['url'],quote=True)+'" target="_blank" rel="noopener">['+m[1]+']</a>',result)
+    result=re.sub(r'\[([A-Z]\d{2})\]',lambda m:'<a class="citation" href="'+html.escape(refs_by_id[m[1]]['url'],quote=True)+'" target="_blank" rel="noopener">['+m[1]+']</a>',result)
+    return decorar(result,chapter_id,figures,figure_label,refs_by_id) if chapter_id else result
 
 app_chapters=[]
 for c in chapters:
     obj=dict(c)
-    obj['html']=render(c['body'])
+    obj['html']=render(c['body'],c['id'])
     obj['text']=BeautifulSoup(obj['html'],'html.parser').get_text(' ',strip=True)
     obj['minutes']=max(3,round(len(c['body'].split())/160))
     obj['figures']=[f['id'] for f in figures if c['id'] in f['chapters']]
@@ -118,11 +124,11 @@ fig=plt.figure(figsize=(6,8.5),facecolor='#eef2e9')
 ax=fig.add_axes([0,0,1,1]);ax.set(xlim=(0,1),ylim=(0,1));ax.axis('off')
 ax.text(.1,.91,'ATLAS DE ESTUDIO  /  '+stats['edition'],fontsize=12,color='#25685d')
 ax.text(.1,.79,'Modelado\nmatemático de\ncircuitos génicos',fontsize=30,color='#17373d',weight='bold',va='top',linespacing=1.15)
-ax.text(.1,.48,'De las ecuaciones diferenciales\na circuitos complejos y modelos vegetales',fontsize=13,color='#46605c',va='top')
+ax.text(.1,.48,'De las ecuaciones diferenciales al código\nBacterias, levaduras y plantas',fontsize=13,color='#46605c',va='top')
 cover_art=DOCS/'assets'/'figures'/'m01_expresion_plana.png'
 if cover_art.exists():
     inset=fig.add_axes([.1,.115,.8,.31]);inset.imshow(PILImage.open(cover_art));inset.axis('off')
-ax.text(.1,.055,'ESPAÑOL  ·  PYTHON  ·  PLANTAS\nEdición de estudio · 19 de octubre de 2026',fontsize=10,color='#17373d',linespacing=1.7)
+ax.text(.1,.055,'ESPAÑOL  ·  PYTHON  ·  MODELOS BIOLÓGICOS\nEdición de estudio · 19 de octubre de 2026',fontsize=10,color='#17373d',linespacing=1.7)
 fig.savefig(cover,dpi=180);plt.close(fig)
 
 # PDF: tipografía incrustada, índice navegable y ecuaciones en alta resolución.
@@ -179,7 +185,10 @@ def flow_html(raw):
         n=el.name
         if n in ['h1','h2','h3','h4','h5']:
             out.append(Paragraph(inline(el),S['SubBook']))
-        elif n=='p':out.append(Paragraph(inline(el),S['TextBook']))
+        elif n=='p':
+            if el.get_text().lstrip().startswith('Fuentes') and out and isinstance(out[-1],Paragraph):
+                out[-1].keepWithNext=True
+            out.append(Paragraph(inline(el),S['TextBook']))
         elif n in ['ul','ol']:
             for j,li in enumerate(el.find_all('li',recursive=False)):
                 bullet=str(j+1)+'.' if n=='ol' else '•'
@@ -191,6 +200,21 @@ def flow_html(raw):
                 if len(line)<=87:lines.append(line)
                 else:lines.extend(textwrap.wrap(line,87,subsequent_indent='    ',replace_whitespace=False,drop_whitespace=False,break_long_words=True))
             out.append(Preformatted('\n'.join(lines),S['CodeBook']))
+        elif n=='figure':
+            im=el.find('img');cap=el.find('figcaption')
+            anchor='<a name="'+el.get('id','')+'"/>'
+            out.append(KeepTogether([image_flow(DOCS/im['src'],maxh=112*mm),Spacer(1,5),Paragraph(anchor+inline(cap),S['CaptionBook'])]))
+            for guide in el.find_all('details'):
+                for child in guide.children:
+                    if getattr(child,'name',None)=='p':out.append(Paragraph(inline(child),S['CaptionBook']))
+                    elif getattr(child,'name',None)=='a' and child.find('img'):
+                        out.extend([Spacer(1,5),image_flow(DOCS/child.find('img')['src'],maxh=170*mm),Spacer(1,6)])
+        elif n=='div' and 'equation' in el.get('class',[]):
+            label=el.find('p',class_='equation-label')
+            anchor='<a name="'+el.get('id','')+'"/>'
+            items=[image_flow(DOCS/el.find('img')['src']),Spacer(1,3)]
+            items.append(Paragraph(anchor+inline(label),S['SmallBook']))
+            out.append(KeepTogether(items))
         elif n=='div' and el.find('img'):
             for im in el.find_all('img'):out.extend([image_flow(DOCS/im['src']),Spacer(1,7)])
         elif n=='blockquote':out.append(Paragraph(inline(el),S['QuoteBook']))
@@ -228,11 +252,11 @@ pdf=DOWNLOADS/'modelado-circuitos-genicos.pdf'
 book=Book(str(pdf),pagesize=(W,H),rightMargin=M,leftMargin=M,topMargin=21*mm,bottomMargin=18*mm,title='Modelado matemático de circuitos génicos',author='Atlas de estudio · material educativo generado con Codex',lang='es-ES',allowSplitting=1)
 book.addPageTemplates(PageTemplate(id='main',frames=[Frame(M,18*mm,CONTENT,H-39*mm,id='normal',leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0)],onPage=page))
 cover_figure=DOCS/next((f['png'] for f in figures if f.get('code')=='M01'),'assets/figures/f21_raices.png')
-story=[Spacer(1,13*mm),Paragraph('ATLAS DE ESTUDIO · EDICIÓN '+stats['edition'],S['ObjectiveBook']),Spacer(1,7*mm),Paragraph('Modelado matemático<br/>de circuitos génicos',ParagraphStyle('CoverTitle',fontName='Sans-Bold',fontSize=32,leading=37,textColor=HexColor('#173f42'))),Spacer(1,8*mm),Paragraph('De las ecuaciones diferenciales a circuitos complejos y modelos vegetales',S['SubBook']),Spacer(1,6*mm),image_flow(cover_figure,maxh=65*mm),Spacer(1,8*mm),Paragraph(f'{len(chapters)} capítulos · {len(figures)} figuras originales · {stats["notebooks"]} cuadernos de Python',S['ObjectiveBook']),Paragraph('Español · especial atención a plantas<br/>Corte bibliográfico: 19 de octubre de 2026',S['TextBook']),PageBreak()]
+story=[Spacer(1,13*mm),Paragraph('ATLAS DE ESTUDIO · EDICIÓN '+stats['edition'],S['ObjectiveBook']),Spacer(1,7*mm),Paragraph('Modelado matemático<br/>de circuitos génicos',ParagraphStyle('CoverTitle',fontName='Sans-Bold',fontSize=32,leading=37,textColor=HexColor('#173f42'))),Spacer(1,8*mm),Paragraph('De las ecuaciones diferenciales al código: bacterias, levaduras y plantas',S['SubBook']),Spacer(1,6*mm),image_flow(cover_figure,maxh=65*mm),Spacer(1,8*mm),Paragraph(f'{len(chapters)} capítulos · {len(figures)} figuras originales · {stats["notebooks"]} cuadernos de Python',S['ObjectiveBook']),Paragraph('Español · modelos y programas explicados paso a paso<br/>Corte bibliográfico: 19 de octubre de 2026',S['TextBook']),PageBreak()]
 story.extend([Paragraph('Antes de empezar',S['ChapterBook'])])
 if (DATA/'preface.md').exists():story.extend(flow_html(render((DATA/'preface.md').read_text(encoding='utf8'))))
 story.extend([PageBreak(),Paragraph('Contenido',S['ChapterBook'])])
-toc=TableOfContents();toc.levelStyles=[ParagraphStyle('TOC0',fontName='Sans',fontSize=9.4,leading=14,spaceBefore=4,textColor=HexColor('#173f42'),leftIndent=0,firstLineIndent=0)]
+toc=TableOfContents();toc.levelStyles=[ParagraphStyle('TOC0',fontName='Sans',fontSize=9.4,leading=14,spaceBefore=2,textColor=HexColor('#173f42'),leftIndent=0,firstLineIndent=0)]
 story.extend([toc,PageBreak()]);used_figs=set()
 if visuals:
     story.extend([Paragraph('Cómo leer las láminas moleculares',S['ChapterBook']),Paragraph('Las láminas M01–M12 conectan las reacciones con el modelo. Una forma lobulada representa una proteína; una doble hélice representa ADN; una hebra flexible representa ARN. Son ilustraciones conceptuales planas, generadas con una herramienta de imágenes y revisadas para comprobar relaciones y etiquetas. Las formas no son estructuras atomísticas ni están a escala.',S['TextBook']),Paragraph('Lee primero los objetos y después las conexiones. Una flecha de producción indica aparición de una especie; no significa que el molde de ADN o ARN se consuma. Una barra perpendicular indica inhibición. Dos flechas opuestas representan procesos reversibles. Una flecha entre compartimentos indica transporte. El recambio elimina moléculas de la especie contada, aunque su materia continúe en otros productos.',S['TextBook']),Paragraph('Cada lámina tiene una lectura por paneles, una limitación y una conexión con las ecuaciones. Los gráficos cuantitativos existentes complementan estos mecanismos: muestran la respuesta temporal, las distribuciones o la relación entre entradas y salidas. Las curvas esquemáticas dentro de las láminas son cualitativas y no son datos medidos.',S['TextBook']),Paragraph('En el móvil, abre la figura y usa la vista de alta resolución para inspeccionar etiquetas. El repositorio guarda también los textos de los prompts y la procedencia de cada imagen. Las figuras son originales y no reutilizan activos de BioRender ni figuras de revistas.',S['TextBook']),PageBreak()])
@@ -240,22 +264,10 @@ for c,app in zip(chapters,app_chapters):
     story.extend([Paragraph(pdf_text(c['part']),S['SmallBook']),Paragraph(c['number']+' · '+pdf_text(c['title']),S['ChapterBook'])])
     for ob in c['objectives']:story.append(Paragraph('• '+pdf_text(ob),S['ObjectiveBook']))
     story.append(Spacer(1,8))
-    # La figura se sitúa tras el primer apartado: primero una pregunta, luego la imagen.
-    raw=app['html'];spl=re.split(r'(?=<h[23]>)',raw)
-    first=spl.pop(0) if spl else raw
-    if not first and spl:first=spl.pop(0)
-    story+=flow_html(first)
-    for f in figures:
-        if c['id'] in f['chapters'] and f['id'] not in used_figs:
-            used_figs.add(f['id']);n=figures.index(f)+1
-            label=figure_label(f)
-            story.append(KeepTogether([image_flow(DOCS/f['png'],maxh=112*mm if f.get('advanced') else 102*mm if f.get('kind')=='mechanism' else 91*mm),Spacer(1,5),Paragraph('<b>'+pdf_text(label)+'. '+pdf_text(f['title'])+'.</b> '+pdf_text(f['caption']),S['CaptionBook'])]))
-            if f.get('kind')=='mechanism':
-                story.append(Paragraph('Lectura de '+pdf_text(label),S['SubBook']))
-                for panel in f.get('panels',[]):story.append(Paragraph('<b>'+pdf_text(panel['label']+' · '+panel['title'])+'.</b> '+pdf_text(panel['text']),S['TextBook']))
-                story.append(Paragraph('<b>Límite del esquema.</b> '+pdf_text(f.get('limitation','')),S['CaptionBook']))
-    story+=flow_html(''.join(spl))
+    story+=flow_html(app['html'])
     if c.get('refs'):
+        # La lista de fuentes debe acompañar al cierre del capítulo.
+        if isinstance(story[-1],Paragraph):story[-1].keepWithNext=True
         story.append(Paragraph('Fuentes del capítulo: '+', '.join('['+x+']' for x in c['refs']),S['SmallBook']))
     story.append(PageBreak())
 story.append(Paragraph('Referencias y trazabilidad',S['ChapterBook']))
@@ -273,6 +285,7 @@ epub=DOWNLOADS/'modelado-circuitos-genicos.epub'
 epub_css='''body{font-family:serif;line-height:1.6;margin:5%;color:#203936}h1,h2,h3{font-family:sans-serif;color:#205d51;line-height:1.25}h1{font-size:1.8em}p{margin:.7em 0}img{max-width:100%;height:auto}.equation{text-align:center;overflow:auto;margin:1em 0}.equation img{max-height:5em;width:auto;vertical-align:middle}figure{margin:1.2em 0}figcaption{font-size:.85em;line-height:1.45}pre{white-space:pre-wrap;font-size:.8em;padding:.8em;background:#edf1ed}code{font-family:monospace}table{border-collapse:collapse;width:100%;font-size:.85em}td,th{border-bottom:1px solid #bbc9c1;padding:.4em;vertical-align:top}a{color:#236b60}.part{font-family:sans-serif;font-size:.85em;color:#6b7a70}'''
 def xhtml(title,body):
     soup=BeautifulSoup(body,'html.parser')
+    for button in soup.select('button[data-figure]'):button.unwrap()
     for a in soup.find_all('a'):
         a.attrs.pop('target',None);a.attrs.pop('rel',None)
     return '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE html>\n<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head><title>'+html.escape(title)+'</title><meta charset="utf-8"/><link rel="stylesheet" type="text/css" href="style.css"/></head><body>'+str(soup)+'</body></html>'
@@ -287,14 +300,7 @@ with zipfile.ZipFile(epub,'w') as z:
     seen=set()
     for c in app_chapters:
         prefix='<p class="part">'+html.escape(c['part'])+'</p><h1>'+c['number']+' · '+html.escape(c['title'])+'</h1><ul>'+''.join('<li>'+html.escape(o)+'</li>' for o in c['objectives'])+'</ul>'
-        body=c['html'];illustrations=''
-        for f in figures:
-            if c['id'] in f['chapters'] and f['id'] not in seen:
-                seen.add(f['id']);illustrations+='<figure><img src="'+f['png']+'" alt="'+html.escape(f['alt'],quote=True)+'"/><figcaption>'+html.escape(figure_label(f))+'. '+html.escape(f['title'])+'. '+html.escape(f['caption'])+'</figcaption></figure>'
-                if f.get('kind')=='mechanism':
-                    illustrations+='<h2>Lectura de '+html.escape(figure_label(f))+'</h2>'+''.join('<p><b>'+html.escape(panel['label']+' · '+panel['title'])+'.</b> '+html.escape(panel['text'])+'</p>' for panel in f.get('panels',[]))+'<p><b>Límite del esquema.</b> '+html.escape(f.get('limitation',''))+'</p>'
-        headings=list(re.finditer(r'<h[23]>',body));at=headings[1].start() if len(headings)>1 else len(body)
-        body=prefix+body[:at]+illustrations+body[at:]
+        body=prefix+c['html']
         put('OEBPS/'+c['id']+'.xhtml',xhtml(c['title'],body));manifest.append((c['id'],c['id']+'.xhtml','application/xhtml+xml',''));spine.append(c['id']);nav.append((c['id']+'.xhtml',c['number']+' · '+c['title']))
     refbody='<h1>Referencias y trazabilidad</h1>'
     for r in refs:refbody+='<p id="'+r['id']+'"><b>['+r['id']+'] '+html.escape(r['title'])+'</b> ('+str(r['year'])+'). '+html.escape(r['type'])+'. <a href="'+html.escape(r['url'],quote=True)+'">Fuente</a>. '+html.escape(r.get('note',''))+'</p>'
@@ -303,11 +309,11 @@ with zipfile.ZipFile(epub,'w') as z:
     put('OEBPS/nav.xhtml',xhtml('Contenido',navbody))
     ncx='<?xml version="1.0" encoding="UTF-8"?><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1"><head><meta name="dtb:uid" content="'+uid+'"/></head><docTitle><text>Modelado matemático de circuitos génicos</text></docTitle><navMap>'+''.join('<navPoint id="nav'+str(i)+'" playOrder="'+str(i)+'"><navLabel><text>'+html.escape(t)+'</text></navLabel><content src="'+p+'"/></navPoint>' for i,(p,t) in enumerate([('intro.xhtml','Antes de empezar')]+nav+[('references.xhtml','Referencias')],1))+'</navMap></ncx>'
     put('OEBPS/toc.ncx',ncx)
-    image_paths=[cover]+[DOCS/e['path'] for e in equations.values()]+[DOCS/f['png'] for f in figures]
+    image_paths=[cover]+[DOCS/e['path'] for e in equations.values()]+[DOCS/f['png'] for f in figures]+[DOCS/p['visual_png'] for f in figures if f.get('curve_guide') for p in f['curve_guide']['panels'] if p.get('visual_png')]
     for p in dict.fromkeys(image_paths):
         rel=p.relative_to(DOCS).as_posix();put('OEBPS/'+rel,p.read_bytes())
         if p!=cover:manifest.append(('im'+hashlib.md5(rel.encode()).hexdigest(),rel,'image/png',''))
-    opf='<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid" xml:lang="es"><metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:identifier id="bookid">'+uid+'</dc:identifier><dc:title>Modelado matemático de circuitos génicos</dc:title><dc:language>es</dc:language><dc:creator>Atlas de estudio · generado con Codex</dc:creator><dc:description>Formación en español desde ecuaciones diferenciales, con análisis detallado, circuitos complejos, énfasis vegetal y Python.</dc:description><meta property="dcterms:modified">2026-10-19T12:00:00Z</meta><meta name="cover" content="cover"/></metadata><manifest>'+''.join('<item id="'+i+'" href="'+p+'" media-type="'+m+'"'+(' properties="'+pr+'"' if pr else '')+'/>' for i,p,m,pr in manifest)+'</manifest><spine toc="ncx">'+''.join('<itemref idref="'+i+'"/>' for i in spine)+'</spine></package>'
+    opf='<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid" xml:lang="es"><metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:identifier id="bookid">'+uid+'</dc:identifier><dc:title>Modelado matemático de circuitos génicos</dc:title><dc:language>es</dc:language><dc:creator>Atlas de estudio · generado con Codex</dc:creator><dc:description>Formación en español desde ecuaciones diferenciales, con análisis detallado, circuitos complejos, ejemplos de distintos organismos y Python explicado.</dc:description><meta property="dcterms:modified">2026-10-19T12:00:00Z</meta><meta name="cover" content="cover"/></metadata><manifest>'+''.join('<item id="'+i+'" href="'+p+'" media-type="'+m+'"'+(' properties="'+pr+'"' if pr else '')+'/>' for i,p,m,pr in manifest)+'</manifest><spine toc="ncx">'+''.join('<itemref idref="'+i+'"/>' for i in spine)+'</spine></package>'
     put('OEBPS/content.opf',opf)
 from pypdf import PdfReader
 stats['pages']=len(PdfReader(pdf).pages)

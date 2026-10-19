@@ -1,19 +1,19 @@
 {
-  "chapters": 34,
-  "words": 64998,
-  "figures": 49,
+  "chapters": 36,
+  "words": 87432,
+  "figures": 69,
   "mechanisms": 12,
-  "equations": 196,
-  "unique_equations": 196,
-  "references": 89,
-  "notebooks": 22,
-  "edition": "2.0",
+  "equations": 202,
+  "unique_equations": 202,
+  "references": 94,
+  "notebooks": 25,
+  "edition": "2.1",
   "review_date": "2026-10-19",
   "parts": [
     "I · Ecuaciones diferenciales y construcción del modelo",
     "II · Dinámica no lineal y circuitos complejos",
     "III · Ruido, observación e inferencia",
-    "IV · Modelado vegetal con profundidad",
+    "IV · Casos biológicos: bacterias, levaduras y plantas",
     "V · Investigación y modelos de mayor alcance"
   ],
   "first_chapter": "edo",
@@ -25,5 +25,5 @@
     "c19": "c20",
     "c30": "c32"
   },
-  "pages": 287
+  "pages": 446
 }

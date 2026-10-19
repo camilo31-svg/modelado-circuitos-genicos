@@ -10,6 +10,24 @@ Una sensibilidad mide cómo cambia una cantidad elegida al modificar un parámet
 
 Para y(θ), la sensibilidad dimensional es ∂y/∂θ. Su unidad depende de ambas magnitudes. La sensibilidad normalizada S=(θ/y)∂y/∂θ equivale a ∂ln y/∂lnθ cuando y y θ son positivos. Informa del cambio relativo de salida ante un cambio relativo pequeño de parámetro. Cerca de y=0, esa normalización puede divergir y dejar de ser útil [A01], §4.5.1.
 
+## Desarrollo guiado: derivar una sensibilidad y entender sus unidades
+
+La sensibilidad S_j(t)=∂x(t;θ)/∂θ_j pregunta cuánto cambia la predicción cuando mueves un parámetro manteniendo los demás fijos. θ es un vector de parámetros; el subíndice j selecciona uno. No es la derivada temporal x′. Para x=α(1−e⁻ᵟᵗ)/δ desde cero, derivar respecto a α da S_α=(1−e⁻ᵟᵗ)/δ, en horas si x está en nM y α en nM/h. [A01] [A08]
+
+Para δ hay dos dependencias: divide a α y aparece dentro de la exponencial. Usa la regla del producto sobre α δ⁻¹(1−e⁻ᵟᵗ). La derivada de δ⁻¹ es −δ⁻²; la de 1−e⁻ᵟᵗ respecto a δ es t e⁻ᵟᵗ. Sumando, S_δ=−α(1−e⁻ᵟᵗ)/δ²+αt e⁻ᵟᵗ/δ. Sus unidades son nM·h. No tiene sentido comparar directamente el tamaño numérico de S_α y S_δ como si compartieran escala. [A01]
+
+### Obtener la ecuación de sensibilidad cuando no conoces la solución
+
+Parte de x′=f(x,θ,t). Deriva ambos lados respecto a θ_j. La regla de la cadena produce S_j′=(∂f/∂x)S_j+∂f/∂θ_j. El primer término transmite el cambio indirecto: el parámetro altera el estado y el estado altera la pendiente. El segundo representa el efecto directo del parámetro sobre la pendiente. Para varias especies, ∂f/∂x es el Jacobiano y S_j es un vector. La condición inicial es ∂x₀/∂θ_j, que vale cero solo si el estado inicial no depende de ese parámetro. [A01] [A27]
+
+En el balance lineal, S_α′=−δS_α+1 y S_δ′=−δS_δ−x. Puedes integrar x y esas dos variables juntas. Esto añade ecuaciones matemáticas auxiliares; no añade dos proteínas nuevas al circuito. La distinción entre estado biológico y variable de cálculo evita interpretar el programa como si todo su vector fueran especies químicas. [A01]
+
+### Normalizar no elimina todos los problemas
+
+La elasticidad E_j=(θ_j/x)S_j es adimensional y equivale a una derivada de logaritmos cuando x y θ_j son positivos. E_j=2 significa que un cambio pequeño del 1 % en ese parámetro produce aproximadamente un cambio del 2 % en la salida, bajo esas condiciones. Si x=0, la expresión no está definida. Una sensibilidad local tampoco es una banda de incertidumbre: para obtener variación de predicciones necesitas declarar cuánto y cómo varían los parámetros. [A01] [A08]
+
+En un análisis global de varianza defines un conjunto de distribuciones de parámetros y descompones la varianza de una salida. El índice de primer orden de un parámetro cuantifica una contribución individual dentro de ese conjunto; el índice total incluye sus interacciones. Si los parámetros están correlacionados, una descomposición que supone independencia necesita adaptarse. «Global» no significa universal: el resultado depende del dominio y las distribuciones que elegiste. [A08] [A09]
+
 ## Un ejemplo analítico que separa equilibrio y tiempo
 
 Para x(t)=α/δ·(1−e⁻ᵟᵗ), desde cero, ∂x/∂α=x/α y la sensibilidad normalizada a α es uno. La sensibilidad respecto a δ contiene tanto el cambio de equilibrio como el de velocidad. Derivar la expresión completa da el siguiente resultado original [A01], §§4.5 y 2.1.

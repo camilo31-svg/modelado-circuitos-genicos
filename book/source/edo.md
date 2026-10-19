@@ -18,6 +18,40 @@ La ecuación establece la pendiente en cualquier punto del plano tiempo–abunda
 
 Conviene escribir el modelo general como dx/dt = f(t,x;θ), con θ el conjunto de parámetros. Una entrada u(t), por ejemplo una señal externa, puede aparecer dentro de f. Los estados necesitan condiciones iniciales; las entradas necesitan una definición temporal; los parámetros necesitan un valor o una distribución. Confundir estas tres funciones produce problemas que ningún algoritmo numérico puede corregir [A01], §§1.5 y 4.6.
 
+## Desarrollo guiado: leer, transformar y verificar una EDO
+
+Una ecuación no se entiende solamente por reconocer su nombre. Vamos a recorrer el balance x′=α−δx como si lo hubiéramos propuesto nosotros. La letra x representa una concentración; x(t) recuerda que su valor depende del tiempo. El símbolo prima significa derivar respecto al tiempo y equivale a dx/dt. α, que se lee «alfa», representa una entrada de concentración por tiempo. δ, «delta», es una constante de pérdida por tiempo. Un parámetro es una cantidad que el modelo mantiene fija durante esta simulación; no significa que la naturaleza la mantenga fija en cualquier circunstancia. El estado x necesita un valor inicial; los parámetros necesitan valores, unidades y un ámbito de validez. [A01] [A02]
+
+| Elemento | Qué significa aquí | Unidad si x está en nM y t en h |
+|---|---|---|
+| t | Tiempo desde el inicio del registro | h |
+| x(t) | Concentración que queremos predecir | nM |
+| x₀ | Concentración al comenzar | nM |
+| α | Producción constante por volumen | nM/h |
+| δ | Probabilidad efectiva de retirada por unidad de tiempo | 1/h |
+| δx | Pérdida total de concentración por tiempo | nM/h |
+| x* | Un valor del estado que no cambia | nM |
+
+Las unidades de α y δ son diferentes porque representan mecanismos diferentes. Si δ=0,2 h⁻¹ y x=10 nM, la pérdida instantánea es 2 nM/h. Si x pasa a 30 nM, la pérdida pasa a 6 nM/h aunque δ permanezca igual. La retirada por primer orden es una hipótesis sobre cada molécula o sobre una aproximación efectiva del mecanismo. El producto δx no es un término que se añade para que la curva tenga buena forma. [A01]
+
+### Por qué se empieza buscando un equilibrio
+
+El asterisco no es multiplicación: etiqueta un estado estacionario. Estacionario significa que su derivada vale cero. Por tanto, sustituimos x′ por cero, despejamos δx*=α y dividimos entre δ, siempre que δ≠0. Aparece x*=α/δ. La operación responde a una pregunta física: ¿a qué concentración la producción iguala a la pérdida? Ese número no dice cuánto se tarda en llegar ni si todas las trayectorias llegarán. [A01] [A02]
+
+Para resolver la trayectoria completa, resta ese equilibrio. Define z=x−x*. Como x* es constante, z′=x′. Sustituir x=z+x* en α−δx da α−δz−δx*. Ya sabemos que δx*=α: los dos términos constantes se cancelan. Queda z′=−δz. No hemos supuesto que z sea pequeña; para esta ecuación lineal la transformación es exacta. En modelos no lineales, una aproximación alrededor del equilibrio será local y habrá que distinguirla de esta igualdad. [A01] [A02]
+
+### Integrar sin esconder la constante inicial
+
+Para z≠0, divide por z: z′/z=−δ. La regla de la cadena dice que la derivada de ln|z(t)| es z′/z. Integra desde 0 hasta t: ln|z(t)|−ln|z(0)|=−δt. La diferencia de logaritmos equivale al logaritmo del cociente de sus argumentos. Al exponenciar, |z(t)|=|z(0)|e⁻ᵟᵗ. La solución no atraviesa cero en tiempo finito cuando z(0)≠0, por lo que conserva el signo inicial. Recuperas z(t)=z(0)e⁻ᵟᵗ. Si z(0)=0, la solución es z=0 directamente, sin dividir por ella. [A02]
+
+Finalmente sustituye z(0)=x₀−α/δ y suma x*. Así se obtiene la fórmula de producción y pérdida. Cada pieza tiene una función: α/δ fija el destino; x₀−α/δ fija la distancia inicial con signo; la exponencial reduce esa distancia. Una exponencial que multiplica una distancia no significa que toda la concentración esté creciendo exponencialmente. [A01]
+
+### Tres comprobaciones que sustituyen a memorizar
+
+Primera: en t=0, e⁰=1, y la fórmula debe devolver exactamente x₀. Segunda: deriva toda la expresión; su derivada debe ser α−δx(t) al sustituir la solución. Tercera: si δ>0 y t aumenta mucho, la exponencial tiende a cero y queda α/δ. Si cualquiera de estas comprobaciones falla, no ajustes números para disimularlo: revisa el signo, el factor δ o la condición inicial. Un caso con α=0 debe reducirse al decaimiento puro. El caso δ=0 se resuelve en la ecuación original porque la expresión α/δ deja de existir. [A01] [A02]
+
+Para el problema por tramos, x(3)=24−22e⁻⁰·⁷⁵ es un resultado del primer intervalo, no un parámetro nuevo. Ese valor pasa a ser el estado inicial del segundo. El segundo reloj es t−3: a las 5 h del experimento han pasado 2 h desde el cambio. Este cambio de origen temporal es la causa de muchos errores al programar pulsos. Puedes dibujar dos ejes de tiempo alineados y escribir debajo «experimento: 0,3,5» y «segundo intervalo: 0,2». [A01] [R05]
+
 ## Recuperar la separación de variables sin perder soluciones
 
 Empieza por la desaparición pura, dx/dt = −δx. Para x positivo puedes dividir por x e integrar. La manipulación separa las variables, pero recuerda que x = 0 también es solución y se perdería si dividieras por x sin examinarla. La forma correcta de usar esta técnica incluye comprobar los puntos donde el divisor se anula [F08]; el modelo de reacción que la motiva aparece en Ingalls [A01], §2.1.
@@ -117,3 +151,24 @@ Comprueba ahora tres límites: con un segundo tramo muy largo, x tiende a 4; si 
 ## Qué debes poder hacer antes de continuar
 
 No necesitas memorizar todas las fórmulas. Debes poder reconstruir la solución de producción y pérdida, identificar la condición inicial, enlazar un pulso sin inventar saltos, comprobar unidades y explicar qué conserva memoria del pasado. Las técnicas de análisis cualitativo y la simulación se añaden a esta base; no sustituyen la lectura de cada término del balance [A01], capítulos 2 y 4.
+
+
+## Leer el inicio, el recorrido y el final de una curva
+
+Una curva no representa necesariamente «un parámetro que cambia». **Estado** es una cantidad que el modelo calcula a lo largo del tiempo, como la concentración de una enzima E(t). **Parámetro constante** es una cantidad fijada para una simulación, como una tasa de pérdida δ. **Entrada** es una condición que imponemos al modelo, como un represor R(t). Una **tasa efectiva** es un flujo calculado con estados o entradas: puede cambiar aunque sus parámetros permanezcan constantes. Lee estas cuatro funciones antes de interpretar una subida o una bajada [A01], §§2.1, 3 y 7.1; [A02].
+
+En las figuras cuantitativas del atlas, un círculo señala el primer punto trazado, un cuadrado uno intermedio y un rombo el último. Debajo de la figura se indican sus coordenadas, las unidades de ambos ejes, el rango recorrido y las condiciones que permanecen fijas o cambian. Los valores proceden de los mismos datos que generan los gráficos; se redondean para facilitar la lectura. **Último punto dibujado no significa equilibrio**: una oscilación continúa y una relajación puede acercarse al límite sin alcanzarlo. Los símbolos de extremos no convierten una nulclina o una distribución en una evolución temporal [A01], §§4.1–4.4; [A02].
+
+Considera una enzima producida bajo represión. Usaremos un balance reducido E′=s(R)−δE. E se mide en nM y s en nM/h; δ se mide en h⁻¹. La producción efectiva es s(R)=smax/[1+(R/K)ⁿ]. smax=12 nM/h fija la capacidad máxima, K=5 nM la escala de entrada, n=2 la forma de la regulación y δ=0,3 h⁻¹ la pérdida por unidad de enzima. Estas cuatro constantes **no cambian durante el ejemplo**. La representación resume la expresión sin un estado explícito de ARN y no describe la catálisis de un sustrato por la enzima [A01], §§7.1–7.2; [D07].
+
+Al inicio fijamos R=1 nM. Entonces R/K=0,2, su cuadrado vale 0,04 y s=12/1,04≈11,538 nM/h. Elegimos E(0)=s/δ≈38,462 nM. Producción y pérdida coinciden: δE≈11,538 nM/h; por eso E permanece horizontal hasta que cambie la condición. No está desapareciendo enzima neta, aunque hay producción y retirada simultáneas [A01], §§2.1 y 4.2.
+
+En t=5 h hacemos subir R a 10 nM. Ahora R/K=2, su cuadrado vale 4 y s=12/5=2,4 nM/h. R sube y s baja de inmediato según nuestra hipótesis de regulación instantánea. E sigue siendo aproximadamente 38,462 nM justo después del cambio: su balance tiene tasas finitas, de modo que su concentración no salta. La nueva pendiente es 2,4−0,3·38,462≈−9,138 nM/h. Esa resta explica el inicio del descenso [A01], §§2.1, 4.1 y 7.1; [A02].
+
+Para t≥5 h, el nuevo equilibrio es E*=2,4/0,3=8 nM. La solución por tramos conserva el estado alcanzado en el instante del cambio:
+
+$$E(t)=8+\left(\frac{12}{1.04\cdot0.3}-8\right)e^{-0.3(t-5)},\qquad t\geq5.$$
+
+En t=25 h han transcurrido 20 h desde el escalón. El exceso inicial respecto a 8 nM se multiplica por exp(−6), y queda E(25)≈8,076 nM. Su pendiente todavía es ligeramente negativa. **No ha disminuido δ**: ha disminuido E, y con ella la tasa de pérdida δE. Tampoco ha disminuido smax: ha aumentado la represión y por ello se utiliza una fracción menor de esa capacidad. Esta diferencia entre constante, entrada, estado y flujo es la lectura que debes reproducir en otros modelos [A01], §§2.1 y 7.1; [A02].
+
+Cuando un gráfico compara varias δ o varios K, cada curva suele mantener un valor fijo distinto. Eso es una comparación entre simulaciones. Para afirmar que δ cambia durante una misma curva hay que definir δ(t), indicar el instante o la regla del cambio y resolver ese modelo. Del mismo modo, en una curva de Hill el eje horizontal recorre valores de una entrada, y en una bifurcación recorre un parámetro: moverse de izquierda a derecha no representa automáticamente el paso del tiempo [A01], §§3.3 y 4.4; [A02].

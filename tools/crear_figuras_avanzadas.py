@@ -5,6 +5,8 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+import lectura_curvas
+import ilustracion_molecular as art
 from matplotlib.patches import PathPatch,FancyArrowPatch
 from matplotlib.path import Path as MPath
 from scipy.optimize import brentq
@@ -18,20 +20,19 @@ colors=['#176d8b','#7c5ba1','#cc792c','#23816a']
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':9,'axes.titlesize':10,'axes.labelsize':9,'legend.fontsize':7,'axes.spines.top':False,'axes.spines.right':False,'axes.linewidth':.7,'lines.linewidth':1.6,'savefig.facecolor':'white','svg.fonttype':'none','axes.prop_cycle':plt.cycler(color=colors)})
 def grid():return plt.subplots(2,2,figsize=(7.2,5.1),layout='constrained')
 def protein(ax,x,y,color,label,scale=.28):
-    t=np.linspace(0,2*np.pi,100);r=scale*(1+.10*np.sin(5*t)+.07*np.cos(3*t))
-    xy=np.c_[x+r*np.cos(t),y+.75*r*np.sin(t)]
-    ax.add_patch(PathPatch(MPath(xy,closed=True),facecolor=color,edgecolor='#344c51',lw=.7,alpha=.86))
-    ax.text(x,y,label,ha='center',va='center',color='white',weight='bold',fontsize=9)
+    art.protein(ax,x,y,color,label,scale)
+
 def arrow(ax,a,b,inhibit=False,rad=0,color='#56716b'):
     ax.add_patch(FancyArrowPatch(a,b,arrowstyle='-[' if inhibit else '-|>',mutation_scale=10,lw=1.2,color=color,connectionstyle=f'arc3,rad={rad}'))
 def save(fig,slug,title,chapter,caption,tags,refs):
     for i,a in enumerate(fig.axes[:4]):
         a.text(-.12,1.10,string.ascii_uppercase[i],transform=a.transAxes,weight='bold',fontsize=12)
         a.tick_params(labelsize=8,width=.6)
+    curves=lectura_curvas.extraer(fig,slug)
     fig.savefig(OUT/(slug+'.png'),dpi=240,bbox_inches='tight')
     fig.savefig(OUT/(slug+'.svg'),bbox_inches='tight')
     caption+=' Fuentes de principios: '+', '.join('['+x+']' for x in refs)+'. Parámetros y simulaciones originales, sin datos de artículos.'
-    META.append({'id':slug,'title':title,'chapters':[chapter],'caption':caption,'alt':title+'. '+caption,'tags':tags,'refs':refs,'png':'assets/figures/'+slug+'.png','svg':'assets/figures/'+slug+'.svg','kind':'model','advanced':True,'source':'Figura científica generada desde código reproducible; ver tools/crear_figuras_avanzadas.py y python/circuitos_avanzados.py.'})
+    META.append({'id':slug,'title':title,'chapters':[chapter],'caption':caption,'alt':title+'. '+caption,'tags':tags,'refs':refs,'png':'assets/figures/'+slug+'.png','svg':'assets/figures/'+slug+'.svg','kind':'model','advanced':True,'curve_guide':curves,'source':'Figura científica generada desde código reproducible; ver tools/crear_figuras_avanzadas.py y python/circuitos_avanzados.py.'})
     plt.close(fig)
 
 # G01: unión y dominio.
@@ -197,6 +198,7 @@ aa=np.linspace(3,16,120);dd=np.linspace(.1,.9,120);error=(aa[None,:]/dd[:,None]-
 save(fig,'g12_perfiles','Diseño temporal e identificabilidad práctica','c24','Datos sintéticos de α=8 nM/h, δ=0,4 h⁻¹ y x₀=0; errores normales σ=1 nM, semilla 26. A–B reoptimizan δ para cada α. C–D son cálculos analíticos sin ruido. Un perfil ancho no se corrige congelando el parámetro compensador.',['perfil','identificabilidad','ajuste','diseño'],['I06','A09','A10'])
 
 p=ROOT/'docs'/'figures.json';existing=json.loads(p.read_text(encoding='utf8'))
-existing=[f for f in existing if not f['id'].startswith('g')]
-p.write_text(json.dumps(existing+META,ensure_ascii=False,indent=2),encoding='utf8')
-print('Figuras nuevas:',len(META),'Total:',len(existing)+len(META))
+replacement={f['id']:f for f in META};known={f['id'] for f in existing}
+result=[replacement.get(f['id'],f) for f in existing]+[f for f in META if f['id'] not in known]
+p.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf8')
+print('Figuras nuevas:',len(META),'Total:',len(result))

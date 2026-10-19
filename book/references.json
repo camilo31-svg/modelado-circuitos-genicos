@@ -926,7 +926,7 @@
   {
     "id": "A24",
     "title": "Jupyter Notebooks – a publishing format for reproducible computational workflows",
-    "authors": "Kluyver Thomas; Ragan-Kelley Benjamin; P&eacute;rez Fernando; Granger Brian; Bussonnier Matthias; Frederic Jonathan; Kelley Kyle; Hamrick Jessica; Grout Jason; Corlay Sylvain; Ivanov Paul; Avila Dami&aacute;n; Abdalla Safia; Willing Carol; Jupyter Development Team",
+    "authors": "Kluyver Thomas; Ragan-Kelley Benjamin; Pérez Fernando; Granger Brian; Bussonnier Matthias; Frederic Jonathan; Kelley Kyle; Hamrick Jessica; Grout Jason; Corlay Sylvain; Ivanov Paul; Avila Damián; Abdalla Safia; Willing Carol; Jupyter Development Team",
     "year": 2016,
     "doi": "10.3233/978-1-61499-649-1-87",
     "url": "https://doi.org/10.3233/978-1-61499-649-1-87",
@@ -953,5 +953,55 @@
     "type": "definición oficial del Sistema Internacional",
     "verified": true,
     "note": "Consultado el 18-10-2026. Se verificó la definición vigente y el valor exacto de la constante de Avogadro. El año corresponde a la adopción de la definición. Las conversiones, ejemplos de volumen y problemas del capítulo son originales."
+  },
+  {
+    "id": "A25",
+    "title": "Positive feedback in eukaryotic gene networks: cell differentiation by graded to binary response conversion",
+    "authors": "Attila Becskei; Bertrand Séraphin; Luis Serrano",
+    "year": 2001,
+    "doi": "10.1093/emboj/20.10.2528",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC125456/",
+    "type": "Artículo primario, The EMBO Journal 20, 2528–2535",
+    "note": "Texto completo consultado el 19-10-2026: resultados y arquitectura general de autoactivación en S. cerevisiae. El capítulo construye desarrollos y simulaciones docentes propios; no reproduce parámetros ni distribuciones medidas del artículo."
+  },
+  {
+    "id": "A26",
+    "title": "A systems-level analysis of perfect adaptation in yeast osmoregulation",
+    "authors": "Dale Muzzey; Carlos A. Gómez-Uribe; Jerome T. Mettetal; Alexander van Oudenaarden",
+    "year": 2009,
+    "doi": "10.1016/j.cell.2009.04.047",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3109981/",
+    "type": "Artículo primario, Cell 138, 160–171",
+    "note": "Texto y resultados consultados el 19-10-2026: adaptación, Hog1 y síntesis de glicerol. La analogía lineal de dos estados del atlas es original y local; no se presenta como el modelo molecular completo del artículo."
+  },
+  {
+    "id": "A27",
+    "title": "Introduction to Linear Algebra, sexta edición",
+    "authors": "Gilbert Strang",
+    "year": 2023,
+    "doi": null,
+    "url": "https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html",
+    "type": "Libro académico, Wellesley–Cambridge Press",
+    "note": "Página del autor en MIT y recursos académicos consultados el 19-10-2026. Referencia para productos matriciales, espacio nulo, autovalores, gradientes y mínimos cuadrados. Derivaciones y ejemplos del atlas originales."
+  },
+  {
+    "id": "R20",
+    "title": "The Python Tutorial",
+    "authors": "Python Software Foundation",
+    "year": 2026,
+    "doi": null,
+    "url": "https://docs.python.org/3/tutorial/index.html",
+    "type": "Documentación oficial del lenguaje",
+    "note": "Documentación vigente consultada el 19-10-2026. Sintaxis, argumentos, funciones, objetos y excepciones. Los ejemplos del atlas se ejecutan con el entorno de versiones registrado; la documentación pública puede mostrar una versión posterior."
+  },
+  {
+    "id": "R21",
+    "title": "Indexing on ndarrays",
+    "authors": "NumPy Developers",
+    "year": 2026,
+    "doi": null,
+    "url": "https://numpy.org/doc/stable/user/basics.indexing.html",
+    "type": "Documentación oficial de NumPy",
+    "note": "Documentación consultada el 19-10-2026 sobre ejes, índices, slices y selección mediante arrays. Explicaciones docentes originales; las formas de salida de EDO se contrastan con SciPy R05."
   }
 ]

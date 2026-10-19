@@ -17,6 +17,36 @@ $$
 
 Suma las ecuaciones: d(a+b)/dt = 0. Por tanto, a+b = T, con T fijado por las condiciones iniciales. No has supuesto equilibrio; la conservación vale durante toda la trayectoria. Sustituir b = T−a reduce el sistema a a' = k₂T − (k₁+k₂)a. La solución del capítulo anterior vuelve a servir, con tasa efectiva k₁+k₂ y equilibrio a* = k₂T/(k₁+k₂) [A01], §§2.1 y 2.2.
 
+## Desarrollo guiado: una reacción produce tres ecuaciones, no una flecha decorativa
+
+Considera A+B⇌C. A y B son especies libres; C es el complejo que contiene una unidad de cada una. Las minúsculas a,b,c indican sus concentraciones. Una reacción reversible contiene dos procesos distintos: asociación y disociación. La asociación ocurre a tasa v₊=k₊ab; la disociación a tasa v₋=k₋c. «Tasa» significa cantidad transformada por volumen y tiempo. k₊ y k₋ son constantes cinéticas; no son concentraciones y no tienen las mismas unidades. Si las concentraciones son nM, k₊ se expresa en nM⁻¹h⁻¹ y k₋ en h⁻¹. [A01]
+
+El producto ab procede de la ley de acción de masas para un encuentro elemental entre A y B en una mezcla idealizada. Duplicar a manteniendo b duplica los encuentros disponibles; duplicar ambas concentraciones multiplica por cuatro esa tasa. Esta explicación no autoriza a escribir el producto de todas las especies que aparezcan en una flecha que resume muchos pasos. Una flecha efectiva necesita su propia justificación cinética. [A01]
+
+### Contar cambios antes de escribir derivadas
+
+En una asociación, a pierde una unidad, b pierde una unidad y c gana una. En una disociación sucede lo contrario. Multiplica esos cambios por el número de eventos por volumen y tiempo. Obtienes a′=−v₊+v₋, b′=−v₊+v₋ y c′=v₊−v₋. Los signos proceden de la contabilidad molecular, no de que A sea «inhibidor». Una especie puede disminuir sin inhibir nada. [A01]
+
+| Fila de N | Asociación | Disociación |
+|---|---|---|
+| a | −1 | +1 |
+| b | −1 | +1 |
+| c | +1 | −1 |
+
+N se llama matriz estequiométrica. Una matriz es una tabla de números con una regla de multiplicación. Aquí sus filas corresponden a especies y sus columnas a reacciones. El vector v contiene las dos tasas, en el mismo orden que las columnas. Escribir x′=Nv resume las tres ecuaciones: cada fila multiplica cada tasa por su cambio y luego suma. Cambiar el orden de v sin cambiar las columnas de N altera el modelo. [A01] [A27]
+
+### De dónde salen las cantidades conservadas
+
+Suma a′+c′. Aparecen −v₊+v₋+v₊−v₋=0. La derivada de a+c es cero: su valor permanece constante. Llámalo A_T=a(0)+c(0). De la misma forma B_T=b(0)+c(0). El subíndice T indica «total» de unidades del componente, no una especie adicional. Estos totales se calculan a partir del estado inicial; no se asignan independientemente de él. Una síntesis, un transporte hacia fuera o una degradación pueden romper esta conservación. [A01]
+
+Ahora a=A_T−c y b=B_T−c. Sustituye en c′ y obtienes una EDO: c′=k₊(A_T−c)(B_T−c)−k₋c. El intervalo físicamente admisible es 0≤c≤min(A_T,B_T), porque no puedes secuestrar más A ni más B de los que existen. En la frontera c=0 la derivada es no negativa. En la frontera superior, la asociación se anula y la disociación apunta hacia dentro. Esa prueba explica por qué la ecuación conserva el dominio. [A01] [A02]
+
+### Resolver el equilibrio y descartar una raíz por una razón física
+
+Divide la ecuación estacionaria por k₊ y define K_d=k₋/k₊. Al expandir, queda c²−(A_T+B_T+K_d)c+A_TB_T=0. No confundas K_d con k₋: K_d es una concentración, mientras que k₋ es una inversa de tiempo. Aplica la fórmula de segundo grado. Con A_T=10, B_T=8 y K_d=2 nM, las raíces son (20±√80)/2: aproximadamente 5,53 y 14,47 nM. Solo la primera pertenece a [0,8]. La segunda satisface el polinomio pero exigiría concentraciones libres negativas. Resolver álgebra y seleccionar un estado físico son tareas distintas. [A01]
+
+En redes grandes, una conservación es un vector de pesos ℓ tal que ℓᵀN=0. La T elevada indica transposición: convierte una columna en fila para efectuar el producto. Entonces (ℓᵀx)′=ℓᵀNv=0. En este ejemplo ℓ=(1,0,1) cuenta unidades de A. No tienes que aceptar el producto matricial como magia: es exactamente la suma de ecuaciones que acabas de hacer, escrita de una vez. [A01] [A27]
+
 ## Escribir N·v sin que la matriz se convierta en una caja negra
 
 Ordena las especies como (A,B,C) y los procesos como (A→B, B→A, A+B→C). Cada columna de N registra un proceso; cada fila registra una especie. El siguiente bloque es una tabla de enteros de cambio, no una tabla de constantes cinéticas [A01], §§2.1 y 5.4:
