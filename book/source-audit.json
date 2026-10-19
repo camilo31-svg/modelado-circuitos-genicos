@@ -1,0 +1,8385 @@
+{
+  "manual_reviews": [
+    {
+      "id": "A28",
+      "resolution": "Título ampliado para identificar actualización 2026, verificada en BIPM; el DOI identifica la edición base de 2019."
+    },
+    {
+      "id": "A06",
+      "resolution": "Publicación en línea de 2025 y volumen editorial de 2026; se conservan ambas fechas en la referencia."
+    }
+  ],
+  "edition": "2.3",
+  "date": "2026-10-19",
+  "references": [
+    {
+      "id": "F08",
+      "title": "Calculus Volume 2, §4.3: Separable Equations",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/4-3-separable-equations",
+      "domain": "openstax.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "F10",
+      "title": "18.06SC Linear Algebra: Eigenvalues and Eigenvectors",
+      "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/least-squares-determinants-and-eigenvalues/eigenvalues-and-eigenvectors/",
+      "domain": "ocw.mit.edu",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R01",
+      "title": "Download Python",
+      "url": "https://www.python.org/downloads/",
+      "domain": "python.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R02",
+      "title": "venv — Creation of virtual environments",
+      "url": "https://docs.python.org/3/library/venv.html",
+      "domain": "docs.python.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R03",
+      "title": "NumPy: the absolute basics for beginners",
+      "url": "https://numpy.org/doc/stable/user/absolute_beginners.html",
+      "domain": "numpy.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R04",
+      "title": "Quick start guide — Matplotlib",
+      "url": "https://matplotlib.org/stable/users/explain/quick_start.html",
+      "domain": "matplotlib.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R05",
+      "title": "scipy.integrate.solve_ivp",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html",
+      "domain": "docs.scipy.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R06",
+      "title": "scipy.integrate.RK45",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.RK45.html",
+      "domain": "docs.scipy.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R07",
+      "title": "scipy.integrate.Radau",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.Radau.html",
+      "domain": "docs.scipy.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R08",
+      "title": "scipy.integrate.BDF",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.BDF.html",
+      "domain": "docs.scipy.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R09",
+      "title": "More Control Flow Tools — The Python Tutorial",
+      "url": "https://docs.python.org/3/tutorial/controlflow.html",
+      "domain": "docs.python.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R10",
+      "title": "pathlib — Object-oriented filesystem paths",
+      "url": "https://docs.python.org/3/library/pathlib.html",
+      "domain": "docs.python.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R11",
+      "title": "Installing Jupyter",
+      "url": "https://jupyter.org/install",
+      "domain": "jupyter.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R12",
+      "title": "DifferentialEquations.jl: Efficient Differential Equation Solving in Julia",
+      "url": "https://docs.sciml.ai/DiffEqDocs/stable/",
+      "domain": "docs.sciml.ai",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R13",
+      "title": "deSolve: Solvers for Initial Value Problems of Differential Equations",
+      "url": "https://cran.r-project.org/package=deSolve",
+      "domain": "cran.r-project.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R14",
+      "title": "Choose an ODE Solver — MATLAB",
+      "url": "https://www.mathworks.com/help/matlab/math/choose-an-ode-solver.html",
+      "domain": "mathworks.com",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R15",
+      "title": "COPASI User Manual",
+      "url": "https://copasi.org/Support/User_Manual/",
+      "domain": "copasi.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R16",
+      "title": "Simulating with FBA — COBRApy",
+      "url": "https://cobrapy.readthedocs.io/en/latest/simulating.html",
+      "domain": "cobrapy.readthedocs.io",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R17",
+      "title": "Welcome to Tellurium documentation",
+      "url": "https://tellurium.readthedocs.io/en/latest/",
+      "domain": "tellurium.readthedocs.io",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R18",
+      "title": "scipy.optimize.linprog",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.linprog.html",
+      "domain": "docs.scipy.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R19",
+      "title": "Transcriptional regulation by the numbers: models",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15797194/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1016/j.gde.2005.02.007",
+      "crossref_title": "Transcriptional regulation by the numbers: models",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2005,
+            4
+          ]
+        ],
+        "published-print": [
+          [
+            2005,
+            4
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "D01",
+      "title": "Construction of a genetic toggle switch in Escherichia coli",
+      "url": "https://www.nature.com/articles/35002131",
+      "domain": "nature.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/35002131",
+      "crossref_title": "Construction of a genetic toggle switch in Escherichia coli",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2000,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            2000,
+            1
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "D02",
+      "title": "A synthetic oscillatory network of transcriptional regulators",
+      "url": "https://www.nature.com/articles/35002125",
+      "domain": "nature.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/35002125",
+      "crossref_title": "A synthetic oscillatory network of transcriptional regulators",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2000,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            2000,
+            1
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "D03",
+      "title": "Synchronous long-term oscillations in a synthetic gene circuit",
+      "url": "https://www.nature.com/articles/nature19841",
+      "domain": "nature.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/nature19841",
+      "crossref_title": "Synchronous long-term oscillations in a synthetic gene circuit",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2016,
+            10
+          ]
+        ],
+        "published-online": [
+          [
+            2016,
+            10,
+            12
+          ]
+        ],
+        "published-print": [
+          [
+            2016,
+            10
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "D04",
+      "title": "Negative autoregulation speeds the response times of transcription networks",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12417193/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1016/S0022-2836(02)00994-4",
+      "crossref_title": "Negative Autoregulation Speeds the Response Times of Transcription Networks",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2002,
+            11
+          ]
+        ],
+        "published-print": [
+          [
+            2002,
+            11
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "D05",
+      "title": "Structure and function of the feed-forward loop network motif",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC218699/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1073/pnas.2133841100",
+      "crossref_title": "Structure and function of the feed-forward loop network motif",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2003,
+            10,
+            6
+          ]
+        ],
+        "published-online": [
+          [
+            2003,
+            10,
+            6
+          ]
+        ],
+        "published-print": [
+          [
+            2003,
+            10,
+            14
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "D06",
+      "title": "Synthetic incoherent feedforward circuits show adaptation to the amount of their genetic template",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21811230/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/msb.2011.49",
+      "crossref_title": "Synthetic incoherent feedforward circuits show adaptation to the amount of their genetic template",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2011,
+            8,
+            2
+          ]
+        ],
+        "published-online": [
+          [
+            2011,
+            8,
+            2
+          ]
+        ],
+        "published-print": [
+          [
+            2011,
+            8,
+            2
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "D07",
+      "title": "Quantitative dissection of the simple repression input–output function",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3141941/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1073/pnas.1015616108",
+      "crossref_title": "Quantitative dissection of the simple repression input–output function",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2011,
+            7,
+            5
+          ]
+        ],
+        "published-online": [
+          [
+            2011,
+            7,
+            5
+          ]
+        ],
+        "published-print": [
+          [
+            2011,
+            7,
+            19
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "D08",
+      "title": "A Note on the Kinetics of Enzyme Action",
+      "url": "https://portlandpress.com/biochemj/article-abstract/19/2/338/13102/A-Note-on-the-Kinetics-of-Enzyme-Action",
+      "domain": "portlandpress.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1042/bj0190338",
+      "crossref_title": "A Note on the Kinetics of Enzyme Action",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            1925,
+            1,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            1925,
+            1,
+            1
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "D09",
+      "title": "Oscillatory Regulation of Hes1: Discrete Stochastic Delay Modelling and Simulation",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020117",
+      "domain": "journals.plos.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1371/journal.pcbi.0020117",
+      "crossref_title": "Oscillatory Regulation of Hes1: Discrete Stochastic Delay Modelling and Simulation",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2006,
+            9,
+            8
+          ]
+        ],
+        "published-online": [
+          [
+            2006,
+            9,
+            8
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "D10",
+      "title": "An auxin-driven polarized transport model for phyllotaxis",
+      "url": "https://doi.org/10.1073/pnas.0509839103",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1073/pnas.0509839103",
+      "crossref_title": "An auxin-driven polarized transport model for phyllotaxis",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2006,
+            1,
+            13
+          ]
+        ],
+        "published-online": [
+          [
+            2006,
+            1,
+            13
+          ]
+        ],
+        "published-print": [
+          [
+            2006,
+            1,
+            31
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "D11",
+      "title": "The chemical basis of morphogenesis",
+      "url": "https://doi.org/10.1098/rstb.1952.0012",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1098/rstb.1952.0012",
+      "crossref_title": "The chemical basis of morphogenesis",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            1952,
+            8,
+            14
+          ]
+        ],
+        "published-print": [
+          [
+            1952,
+            8,
+            14
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "D12",
+      "title": "Intracellular delay limits cyclic changes in gene expression",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17027040/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1016/j.mbs.2006.08.010",
+      "crossref_title": "Intracellular delay limits cyclic changes in gene expression",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2007,
+            2
+          ]
+        ],
+        "published-print": [
+          [
+            2007,
+            2
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "I01",
+      "title": "Statistical functions (scipy.stats)",
+      "url": "https://docs.scipy.org/doc/scipy/reference/stats.html",
+      "domain": "docs.scipy.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "I02",
+      "title": "Exact stochastic simulation of coupled chemical reactions",
+      "url": "https://doi.org/10.1021/j100540a008",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1021/j100540a008",
+      "crossref_title": "Exact stochastic simulation of coupled chemical reactions",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            1977,
+            12
+          ]
+        ],
+        "published-online": [
+          [
+            2002,
+            5,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            1977,
+            12
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "I03",
+      "title": "Stochastic gene expression in a single cell",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12183631/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1126/science.1070919",
+      "crossref_title": "Stochastic Gene Expression in a Single Cell",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2002,
+            8,
+            16
+          ]
+        ],
+        "published-print": [
+          [
+            2002,
+            8,
+            16
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "I04",
+      "title": "Systematic characterization of maturation time of fluorescent proteins in living cells",
+      "url": "https://www.nature.com/articles/nmeth.4509",
+      "domain": "nature.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/nmeth.4509",
+      "crossref_title": "Systematic characterization of maturation time of fluorescent proteins in living cells",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2017,
+            11,
+            20
+          ]
+        ],
+        "published-online": [
+          [
+            2017,
+            11,
+            20
+          ]
+        ],
+        "published-print": [
+          [
+            2018,
+            1
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "I05",
+      "title": "scipy.optimize.least_squares",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.least_squares.html",
+      "domain": "docs.scipy.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "I06",
+      "title": "Structural and practical identifiability analysis of partially observed dynamical models by exploiting the profile likelihood",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19505944/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1093/bioinformatics/btp358",
+      "crossref_title": "Structural and practical identifiability analysis of partially observed dynamical models by exploiting the profile likelihood",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2009,
+            6,
+            8
+          ]
+        ],
+        "published-online": [
+          [
+            2009,
+            6,
+            8
+          ]
+        ],
+        "published-print": [
+          [
+            2009,
+            8,
+            1
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "I07",
+      "title": "Modular cell biology: retroactivity and insulation",
+      "url": "https://link.springer.com/article/10.1038/msb4100204",
+      "domain": "link.springer.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/msb4100204",
+      "crossref_title": "Modular cell biology: retroactivity and insulation",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2008,
+            2,
+            12
+          ]
+        ],
+        "published-online": [
+          [
+            2008,
+            2,
+            12
+          ]
+        ],
+        "published-print": [
+          [
+            2008,
+            2,
+            12
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "I08",
+      "title": "Quantifying cellular capacity identifies gene expression designs with reduced burden",
+      "url": "https://www.nature.com/articles/nmeth.3339",
+      "domain": "nature.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/nmeth.3339",
+      "crossref_title": "Quantifying cellular capacity identifies gene expression designs with reduced burden",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2015,
+            4,
+            6
+          ]
+        ],
+        "published-online": [
+          [
+            2015,
+            4,
+            6
+          ]
+        ],
+        "published-print": [
+          [
+            2015,
+            5
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "I09",
+      "title": "A universal biomolecular integral feedback controller for robust perfect adaptation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31217585/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/s41586-019-1321-1",
+      "crossref_title": "A universal biomolecular integral feedback controller for robust perfect adaptation",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2019,
+            6,
+            19
+          ]
+        ],
+        "published-online": [
+          [
+            2019,
+            6,
+            19
+          ]
+        ],
+        "published-print": [
+          [
+            2019,
+            6,
+            27
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "I10",
+      "title": "Benchmarking algorithms for gene regulatory network inference from single-cell transcriptomic data",
+      "url": "https://www.nature.com/articles/s41592-019-0690-6",
+      "domain": "nature.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/s41592-019-0690-6",
+      "crossref_title": "Benchmarking algorithms for gene regulatory network inference from single-cell transcriptomic data",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2020,
+            1,
+            6
+          ]
+        ],
+        "published-online": [
+          [
+            2020,
+            1,
+            6
+          ]
+        ],
+        "published-print": [
+          [
+            2020,
+            2
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "I11",
+      "title": "Zero-shot evaluation reveals limitations of single-cell foundation models",
+      "url": "https://link.springer.com/article/10.1186/s13059-025-03574-x",
+      "domain": "link.springer.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1186/s13059-025-03574-x",
+      "crossref_title": "Zero-shot evaluation reveals limitations of single-cell foundation models",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2025,
+            4,
+            18
+          ]
+        ],
+        "published-online": [
+          [
+            2025,
+            4,
+            18
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "I12",
+      "title": "RegFormer: a single-cell foundation model powered by gene regulatory hierarchies",
+      "url": "https://www.nature.com/articles/s41467-026-72198-x",
+      "domain": "nature.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/s41467-026-72198-x",
+      "crossref_title": "RegFormer: a single-cell foundation model powered by gene regulatory hierarchies",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2026,
+            5,
+            5
+          ]
+        ],
+        "published-online": [
+          [
+            2026,
+            5,
+            5
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "I13",
+      "title": "The Systems Biology Markup Language (SBML): Language Specification for Level 3 Version 2 Core Release 2",
+      "url": "https://sbml.org/documents/specifications/",
+      "domain": "sbml.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1515/jib-2019-0021",
+      "crossref_title": "The Systems Biology Markup Language (SBML): Language Specification for Level 3 Version 2 Core Release 2",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2019,
+            6,
+            20
+          ]
+        ],
+        "published-print": [
+          [
+            2019,
+            6,
+            20
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "I14",
+      "title": "Simulation Experiment Description Markup Language (SED-ML): Level 1 Version 5",
+      "url": "https://sed-ml.org/documents/sed-ml-L1V5.pdf",
+      "domain": "sed-ml.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "I15",
+      "title": "COMBINE archive and OMEX format: one file to share all information to reproduce a modeling project",
+      "url": "https://link.springer.com/article/10.1186/s12859-014-0369-z",
+      "domain": "link.springer.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1186/s12859-014-0369-z",
+      "crossref_title": "COMBINE archive and OMEX format: one file to share all information to reproduce a modeling project",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2014,
+            12
+          ]
+        ],
+        "published-online": [
+          [
+            2014,
+            12,
+            14
+          ]
+        ],
+        "published-print": [
+          [
+            2014,
+            12
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "P01",
+      "title": "A quantitative ratiometric sensor for time-resolved analysis of auxin dynamics",
+      "url": "https://www.nature.com/articles/srep02052",
+      "domain": "nature.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/srep02052",
+      "crossref_title": "A quantitative ratiometric sensor for time-resolved analysis of auxin dynamics",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2013,
+            6,
+            21
+          ]
+        ],
+        "published-online": [
+          [
+            2013,
+            6,
+            21
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "P02",
+      "title": "A novel sensor to map auxin response and distribution at high spatio-temporal resolution",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22246322/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/nature10791",
+      "crossref_title": "A novel sensor to map auxin response and distribution at high spatio-temporal resolution",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2012,
+            1,
+            15
+          ]
+        ],
+        "published-online": [
+          [
+            2012,
+            1,
+            15
+          ]
+        ],
+        "published-print": [
+          [
+            2012,
+            2
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "P03",
+      "title": "Root gravitropism is regulated by a transient lateral auxin gradient controlled by a tipping-point mechanism",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22393022/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1073/pnas.1201498109",
+      "crossref_title": "Root gravitropism is regulated by a transient lateral auxin gradient controlled by a tipping-point mechanism",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2012,
+            3,
+            5
+          ]
+        ],
+        "published-online": [
+          [
+            2012,
+            3,
+            5
+          ]
+        ],
+        "published-print": [
+          [
+            2012,
+            3,
+            20
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "P04",
+      "title": "Synthetic genetic circuits as a means of reprogramming plant roots",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35951698/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1126/science.abo4326",
+      "crossref_title": "Synthetic genetic circuits as a means of reprogramming plant roots",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2022,
+            8,
+            12
+          ]
+        ],
+        "published-print": [
+          [
+            2022,
+            8,
+            12
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "P05",
+      "title": "Synthetic memory circuits for stable cell reprogramming in plants",
+      "url": "https://www.nature.com/articles/s41587-022-01383-2",
+      "domain": "nature.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/s41587-022-01383-2",
+      "crossref_title": "Synthetic memory circuits for stable cell reprogramming in plants",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2022,
+            7,
+            4
+          ]
+        ],
+        "published-online": [
+          [
+            2022,
+            7,
+            4
+          ]
+        ],
+        "published-print": [
+          [
+            2022,
+            12
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "P06",
+      "title": "Extension of a genetic network model by iterative experimentation and mathematical analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16729048/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/msb4100018",
+      "crossref_title": "Extension of a genetic network model by iterative experimentation and mathematical analysis",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2005,
+            6,
+            28
+          ]
+        ],
+        "published-online": [
+          [
+            2005,
+            6,
+            28
+          ]
+        ],
+        "published-print": [
+          [
+            2005,
+            6,
+            28
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "P07",
+      "title": "Experimental validation of a predicted feedback loop in the multi-oscillator clock of Arabidopsis thaliana",
+      "url": "https://www.pure.ed.ac.uk/ws/portalfiles/portal/7600296/MSB_2006_Millar.pdf",
+      "domain": "pure.ed.ac.uk",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/msb4100102",
+      "crossref_title": "Experimental validation of a predicted feedback loop in the multi‐oscillator clock of Arabidopsis thaliana",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2006,
+            11,
+            14
+          ]
+        ],
+        "published-online": [
+          [
+            2006,
+            11,
+            14
+          ]
+        ],
+        "published-print": [
+          [
+            2006,
+            11,
+            14
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "P08",
+      "title": "Synchronous long-term oscillations in a synthetic gene circuit",
+      "url": "https://www.nature.com/articles/nature19841",
+      "domain": "nature.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/nature19841",
+      "crossref_title": "Synchronous long-term oscillations in a synthetic gene circuit",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2016,
+            10
+          ]
+        ],
+        "published-online": [
+          [
+            2016,
+            10,
+            12
+          ]
+        ],
+        "published-print": [
+          [
+            2016,
+            10
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "P09",
+      "title": "Digital logic circuits in yeast with CRISPR-dCas9 NOR gates",
+      "url": "https://www.nature.com/articles/ncomms15459",
+      "domain": "nature.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/ncomms15459",
+      "crossref_title": "Digital logic circuits in yeast with CRISPR-dCas9 NOR gates",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2017,
+            5,
+            25
+          ]
+        ],
+        "published-online": [
+          [
+            2017,
+            5,
+            25
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "P10",
+      "title": "Causes and consequences of experimental variation in Nicotiana benthamiana transient expression",
+      "url": "https://www.nature.com/articles/s41467-026-69458-1",
+      "domain": "nature.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/s41467-026-69458-1",
+      "crossref_title": "Causes and consequences of experimental variation in Nicotiana benthamiana transient expression",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2026,
+            2,
+            14
+          ]
+        ],
+        "published-online": [
+          [
+            2026,
+            2,
+            14
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "P11",
+      "title": "Synthetic incoherent feedforward circuits show adaptation to the amount of their genetic template",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21811230/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/msb.2011.49",
+      "crossref_title": "Synthetic incoherent feedforward circuits show adaptation to the amount of their genetic template",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2011,
+            8,
+            2
+          ]
+        ],
+        "published-online": [
+          [
+            2011,
+            8,
+            2
+          ]
+        ],
+        "published-print": [
+          [
+            2011,
+            8,
+            2
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "P12",
+      "title": "CRISPRi-based circuits to control gene expression in plants",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38769424/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/s41587-024-02236-w",
+      "crossref_title": "CRISPRi-based circuits to control gene expression in plants",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2024,
+            5,
+            20
+          ]
+        ],
+        "published-online": [
+          [
+            2024,
+            5,
+            20
+          ]
+        ],
+        "published-print": [
+          [
+            2025,
+            3
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "P13",
+      "title": "Predictive genetic circuit design for phenotype reprogramming in plants",
+      "url": "https://www.nature.com/articles/s41467-025-56042-2",
+      "domain": "nature.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/s41467-025-56042-2",
+      "crossref_title": "Predictive genetic circuit design for phenotype reprogramming in plants",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2025,
+            1,
+            16
+          ]
+        ],
+        "published-online": [
+          [
+            2025,
+            1,
+            16
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "P14",
+      "title": "Synthetic gene circuits in plants: recent advances and challenges",
+      "url": "https://doi.org/10.1017/qpb.2025.3",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1017/qpb.2025.3",
+      "crossref_title": "Synthetic gene circuits in plants: recent advances and challenges",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2025
+          ]
+        ],
+        "published-online": [
+          [
+            2025,
+            2,
+            27
+          ]
+        ],
+        "published-print": [
+          [
+            2025
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "V01",
+      "title": "Mechanism of auxin perception by the TIR1 ubiquitin ligase",
+      "url": "https://www.nature.com/articles/nature05731",
+      "domain": "nature.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/nature05731",
+      "crossref_title": "Mechanism of auxin perception by the TIR1 ubiquitin ligase",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2007,
+            4
+          ]
+        ],
+        "published-print": [
+          [
+            2007,
+            4
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "V02",
+      "title": "Reporters for sensitive and quantitative measurement of auxin response",
+      "url": "https://www.nature.com/articles/nmeth.3279",
+      "domain": "nature.com",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/nmeth.3279",
+      "crossref_title": "Reporters for sensitive and quantitative measurement of auxin response",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2015,
+            2,
+            2
+          ]
+        ],
+        "published-online": [
+          [
+            2015,
+            2,
+            2
+          ]
+        ],
+        "published-print": [
+          [
+            2015,
+            3
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A01",
+      "title": "Mathematical Modelling in Systems Biology: An Introduction — versión de autor de 23-12-2015",
+      "url": "https://www.math.uwaterloo.ca/~bingalls/MMSB/",
+      "domain": "math.uwaterloo.ca",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "A02",
+      "title": "Ordinary Differential Equations and Dynamical Systems",
+      "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/",
+      "domain": "mat.univie.ac.at",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "A03",
+      "title": "A fast, robust and tunable synthetic gene oscillator",
+      "url": "https://doi.org/10.1038/nature07389",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/nature07389",
+      "crossref_title": "A fast, robust and tunable synthetic gene oscillator",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2008,
+            10,
+            29
+          ]
+        ],
+        "published-online": [
+          [
+            2008,
+            10,
+            29
+          ]
+        ],
+        "published-print": [
+          [
+            2008,
+            11
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A04",
+      "title": "Antithetic Integral Feedback Ensures Robust Perfect Adaptation in Noisy Biomolecular Networks",
+      "url": "https://doi.org/10.1016/j.cels.2016.01.004",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1016/j.cels.2016.01.004",
+      "crossref_title": "Antithetic Integral Feedback Ensures Robust Perfect Adaptation in Noisy Biomolecular Networks",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2016,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            2016,
+            1
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A05",
+      "title": "A synchronized quorum of genetic clocks",
+      "url": "https://doi.org/10.1038/nature08753",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/nature08753",
+      "crossref_title": "A synchronized quorum of genetic clocks",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2010,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            2010,
+            1
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A06",
+      "title": "Intracellularly coupled oscillators for synthetic biology",
+      "url": "https://doi.org/10.1038/s41467-025-67893-0",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/s41467-025-67893-0",
+      "crossref_title": "Intracellularly coupled oscillators for synthetic biology",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2025,
+            12,
+            21
+          ]
+        ],
+        "published-online": [
+          [
+            2025,
+            12,
+            21
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A07",
+      "title": "Intrinsic and extrinsic contributions to stochasticity in gene expression",
+      "url": "https://doi.org/10.1073/pnas.162041399",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1073/pnas.162041399",
+      "crossref_title": "Intrinsic and extrinsic contributions to stochasticity in gene expression",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2002,
+            9,
+            17
+          ]
+        ],
+        "published-online": [
+          [
+            2002,
+            9,
+            17
+          ]
+        ],
+        "published-print": [
+          [
+            2002,
+            10
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A08",
+      "title": "Variance based sensitivity analysis of model output. Design and estimator for the total sensitivity index",
+      "url": "https://doi.org/10.1016/j.cpc.2009.09.018",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1016/j.cpc.2009.09.018",
+      "crossref_title": "Variance based sensitivity analysis of model output. Design and estimator for the total sensitivity index",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2010,
+            2
+          ]
+        ],
+        "published-print": [
+          [
+            2010,
+            2
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A10",
+      "title": "Universally Sloppy Parameter Sensitivities in Systems Biology Models",
+      "url": "https://doi.org/10.1371/journal.pcbi.0030189",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1371/journal.pcbi.0030189",
+      "crossref_title": "Universally Sloppy Parameter Sensitivities in Systems Biology Models",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2007,
+            10,
+            5
+          ]
+        ],
+        "published-online": [
+          [
+            2007,
+            10,
+            5
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A11",
+      "title": "Genetic Toggle Switch in Plants",
+      "url": "https://doi.org/10.1021/acssynbio.4c00777",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1021/acssynbio.4c00777",
+      "crossref_title": "Genetic Toggle Switch in Plants",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2025,
+            5,
+            19
+          ]
+        ],
+        "published-online": [
+          [
+            2025,
+            5,
+            19
+          ]
+        ],
+        "published-print": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A12",
+      "title": "Ultrasensitivity in the mitogen-activated protein kinase cascade.",
+      "url": "https://doi.org/10.1073/pnas.93.19.10078",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1073/pnas.93.19.10078",
+      "crossref_title": "Ultrasensitivity in the mitogen-activated protein kinase cascade.",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            1996,
+            9,
+            17
+          ]
+        ],
+        "published-online": [
+          [
+            1996,
+            9,
+            17
+          ]
+        ],
+        "published-print": [
+          [
+            1996,
+            9,
+            17
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A13",
+      "title": "An amplified sensitivity arising from covalent modification in biological systems.",
+      "url": "https://doi.org/10.1073/pnas.78.11.6840",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1073/pnas.78.11.6840",
+      "crossref_title": "An amplified sensitivity arising from covalent modification in biological systems.",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            1981,
+            11
+          ]
+        ],
+        "published-online": [
+          [
+            1981,
+            11
+          ]
+        ],
+        "published-print": [
+          [
+            1981,
+            11
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A14",
+      "title": "Discovering governing equations from data by sparse identification of nonlinear dynamical systems",
+      "url": "https://doi.org/10.1073/pnas.1517384113",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1073/pnas.1517384113",
+      "crossref_title": "Discovering governing equations from data by sparse identification of nonlinear dynamical systems",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2016,
+            3,
+            28
+          ]
+        ],
+        "published-online": [
+          [
+            2016,
+            3,
+            28
+          ]
+        ],
+        "published-print": [
+          [
+            2016,
+            4,
+            12
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A15",
+      "title": "Minimum information requested in the annotation of biochemical models (MIRIAM)",
+      "url": "https://doi.org/10.1038/nbt1156",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/nbt1156",
+      "crossref_title": "Minimum information requested in the annotation of biochemical models (MIRIAM)",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2005,
+            12
+          ]
+        ],
+        "published-online": [
+          [
+            2005,
+            12,
+            6
+          ]
+        ],
+        "published-print": [
+          [
+            2005,
+            12
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A16",
+      "title": "Signaling switches and bistability arising from multisite phosphorylation in protein kinase cascades",
+      "url": "https://doi.org/10.1083/jcb.200308060",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1083/jcb.200308060",
+      "crossref_title": "Signaling switches and bistability arising from multisite phosphorylation in protein kinase cascades",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2004,
+            1,
+            26
+          ]
+        ],
+        "published-online": [
+          [
+            2004,
+            1,
+            26
+          ]
+        ],
+        "published-print": [
+          [
+            2004,
+            2,
+            2
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A17",
+      "title": "An Algorithmic Introduction to Numerical Simulation of Stochastic Differential Equations",
+      "url": "https://doi.org/10.1137/S0036144500378302",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1137/S0036144500378302",
+      "crossref_title": "An Algorithmic Introduction to Numerical Simulation of Stochastic Differential Equations",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2001,
+            1,
+            1
+          ]
+        ],
+        "published-online": [
+          [
+            2001,
+            8,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            2001,
+            1,
+            1
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A18",
+      "title": "Structural Identifiability of Dynamic Systems Biology Models",
+      "url": "https://doi.org/10.1371/journal.pcbi.1005153",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1371/journal.pcbi.1005153",
+      "crossref_title": "Structural Identifiability of Dynamic Systems Biology Models",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2016,
+            10,
+            28
+          ]
+        ],
+        "published-online": [
+          [
+            2016,
+            10,
+            28
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A19",
+      "title": "The finite state projection algorithm for the solution of the chemical master equation",
+      "url": "https://doi.org/10.1063/1.2145882",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1063/1.2145882",
+      "crossref_title": "The finite state projection algorithm for the solution of the chemical master equation",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2006,
+            1,
+            25
+          ]
+        ],
+        "published-online": [
+          [
+            2006,
+            1,
+            25
+          ]
+        ],
+        "published-print": [
+          [
+            2006,
+            1,
+            28
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A20",
+      "title": "Markovian Modeling of Gene-Product Synthesis",
+      "url": "https://doi.org/10.1006/tpbi.1995.1027",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1006/tpbi.1995.1027",
+      "crossref_title": "Markovian Modeling of Gene-Product Synthesis",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            1995,
+            10
+          ]
+        ],
+        "published-print": [
+          [
+            1995,
+            10
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A21",
+      "title": "Array programming with NumPy",
+      "url": "https://doi.org/10.1038/s41586-020-2649-2",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/s41586-020-2649-2",
+      "crossref_title": "Array programming with NumPy",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2020,
+            9,
+            16
+          ]
+        ],
+        "published-online": [
+          [
+            2020,
+            9,
+            16
+          ]
+        ],
+        "published-print": [
+          [
+            2020,
+            9,
+            17
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A22",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "url": "https://doi.org/10.1038/s41592-019-0686-2",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/s41592-019-0686-2",
+      "crossref_title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2020,
+            2,
+            3
+          ]
+        ],
+        "published-online": [
+          [
+            2020,
+            2,
+            3
+          ]
+        ],
+        "published-print": [
+          [
+            2020,
+            3,
+            2
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A23",
+      "title": "Matplotlib: A 2D Graphics Environment",
+      "url": "https://doi.org/10.1109/MCSE.2007.55",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1109/MCSE.2007.55",
+      "crossref_title": "Matplotlib: A 2D Graphics Environment",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2007
+          ]
+        ],
+        "published-print": [
+          [
+            2007
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A24",
+      "title": "Jupyter Notebooks – a publishing format for reproducible computational workflows",
+      "url": "https://doi.org/10.3233/978-1-61499-649-1-87",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.3233/978-1-61499-649-1-87",
+      "crossref_title": "Jupyter Notebooks &amp;ndash; a publishing format for reproducible computational workflows",
+      "title_similarity": 0.966,
+      "metadata_checked": true,
+      "publication_type": "book-chapter",
+      "dates": {
+        "published": [
+          [
+            2016
+          ]
+        ],
+        "published-print": [
+          [
+            2016
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A09",
+      "title": "Bayesian Data Analysis, tercera edición",
+      "url": "https://sites.stat.columbia.edu/gelman/book/",
+      "domain": "sites.stat.columbia.edu",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "F01",
+      "title": "SI base unit: mole (mol)",
+      "url": "https://www.bipm.org/en/si-base-units/mole",
+      "domain": "bipm.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "A25",
+      "title": "Positive feedback in eukaryotic gene networks: cell differentiation by graded to binary response conversion",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC125456/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1093/emboj/20.10.2528",
+      "crossref_title": "Positive feedback in eukaryotic gene networks: cell differentiation by graded to binary response conversion",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2001,
+            5,
+            15
+          ]
+        ],
+        "published-online": [
+          [
+            2001,
+            5,
+            15
+          ]
+        ],
+        "published-print": [
+          [
+            2001,
+            5,
+            15
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A26",
+      "title": "A systems-level analysis of perfect adaptation in yeast osmoregulation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3109981/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1016/j.cell.2009.04.047",
+      "crossref_title": "A Systems-Level Analysis of Perfect Adaptation in Yeast Osmoregulation",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2009,
+            7
+          ]
+        ],
+        "published-print": [
+          [
+            2009,
+            7
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A27",
+      "title": "Introduction to Linear Algebra, sexta edición",
+      "url": "https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html",
+      "domain": "math.mit.edu",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R20",
+      "title": "The Python Tutorial",
+      "url": "https://docs.python.org/3/tutorial/index.html",
+      "domain": "docs.python.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "R21",
+      "title": "Indexing on ndarrays",
+      "url": "https://numpy.org/doc/stable/user/basics.indexing.html",
+      "domain": "numpy.org",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    },
+    {
+      "id": "A28",
+      "title": "The International System of Units (SI), 9th edition, actualización de 2026",
+      "url": "https://www.bipm.org/en/publications/si-brochure",
+      "domain": "bipm.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.59161/AUEZ1291",
+      "crossref_title": "The International System of Units (SI)",
+      "title_similarity": 0.689,
+      "metadata_checked": true,
+      "publication_type": "report",
+      "dates": {
+        "published": [
+          [
+            2019
+          ]
+        ],
+        "published-online": [
+          [
+            2019
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A29",
+      "title": "What is flux balance analysis?",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3108565/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1038/nbt.1614",
+      "crossref_title": "What is flux balance analysis?",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2010,
+            3
+          ]
+        ],
+        "published-print": [
+          [
+            2010,
+            3
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A30",
+      "title": "Theoretical analysis of epigenetic cell memory by nucleosome modification",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17512413/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1016/j.cell.2007.02.053",
+      "crossref_title": "Theoretical Analysis of Epigenetic Cell Memory by Nucleosome Modification",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            2007,
+            5
+          ]
+        ],
+        "published-print": [
+          [
+            2007,
+            5
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A31",
+      "title": "Evolutionary stable strategies and game dynamics",
+      "url": "https://doi.org/10.1016/0025-5564(78)90077-9",
+      "domain": "doi.org",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1016/0025-5564(78)90077-9",
+      "crossref_title": "Evolutionary stable strategies and game dynamics",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            1978,
+            7
+          ]
+        ],
+        "published-print": [
+          [
+            1978,
+            7
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A32",
+      "title": "The intracluster correlation coefficient in cluster randomisation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1113123/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "primary_publisher_or_official_host": true,
+      "doi": "10.1136/bmj.316.7142.1455",
+      "crossref_title": "The intracluster correlation coefficient in cluster randomisation",
+      "title_similarity": 1.0,
+      "metadata_checked": true,
+      "publication_type": "journal-article",
+      "dates": {
+        "published": [
+          [
+            1998,
+            5,
+            9
+          ]
+        ],
+        "published-online": [
+          [
+            1998,
+            5,
+            9
+          ]
+        ],
+        "published-print": [
+          [
+            1998,
+            5,
+            9
+          ]
+        ]
+      },
+      "updates": []
+    },
+    {
+      "id": "A33",
+      "title": "Preparing figures: our specifications",
+      "url": "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/",
+      "domain": "research-figure-guide.nature.com",
+      "primary_publisher_or_official_host": true,
+      "metadata_checked": "sin DOI; fuente institucional o documentación identificada"
+    }
+  ],
+  "disallowed_sources_found": [],
+  "source_policy": "Publicaciones científicas, libros universitarios y documentación primaria oficial. Los ejemplos originales son derivaciones o simulaciones identificadas, no datos experimentales atribuidos a artículos.",
+  "sections": [
+    {
+      "chapter": "edo",
+      "heading": "El punto de partida: una ley de cambio y una condición inicial",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "edo",
+      "heading": "Desarrollo guiado: leer, transformar y verificar una EDO",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "edo",
+      "heading": "Por qué se empieza buscando un equilibrio",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "edo",
+      "heading": "Integrar sin esconder la constante inicial",
+      "references": [
+        "A02",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "edo",
+      "heading": "Tres comprobaciones que sustituyen a memorizar",
+      "references": [
+        "A01",
+        "A02",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "edo",
+      "heading": "Recuperar la separación de variables sin perder soluciones",
+      "references": [
+        "F08",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "edo",
+      "heading": "Producción y pérdida: desplazar la incógnita",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "edo",
+      "heading": "Factor integrante: una herramienta que sirve para entradas variables",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "edo",
+      "heading": "Entradas por tramos y pulsos: enlazar soluciones",
+      "references": [
+        "A01",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "edo",
+      "heading": "Ecuaciones no lineales: saber qué deja de funcionar",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "edo",
+      "heading": "Existencia, unicidad y dominio biológico",
+      "references": [
+        "A02",
+        "A01",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "edo",
+      "heading": "Problema completo con solución razonada",
+      "references": [
+        "A01",
+        "A02",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "edo",
+      "heading": "Qué debes poder hacer antes de continuar",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "edo",
+      "heading": "Leer el inicio, el recorrido y el final de una curva",
+      "references": [
+        "A01",
+        "A02",
+        "D07"
+      ]
+    },
+    {
+      "chapter": "reacciones",
+      "heading": "Una reacción es una instrucción de contabilidad",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "reacciones",
+      "heading": "Desarrollo guiado: una reacción produce tres ecuaciones, no una flecha decorativa",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "reacciones",
+      "heading": "Contar cambios antes de escribir derivadas",
+      "references": [
+        "A01",
+        "A27"
+      ]
+    },
+    {
+      "chapter": "reacciones",
+      "heading": "De dónde salen las cantidades conservadas",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "reacciones",
+      "heading": "Resolver el equilibrio y descartar una raíz por una razón física",
+      "references": [
+        "A01",
+        "A27"
+      ]
+    },
+    {
+      "chapter": "reacciones",
+      "heading": "Escribir N·v sin que la matriz se convierta en una caja negra",
+      "references": [
+        "A01",
+        "R03"
+      ]
+    },
+    {
+      "chapter": "reacciones",
+      "heading": "Masa de acción: qué significa el producto de concentraciones",
+      "references": [
+        "A01",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "reacciones",
+      "heading": "Redes abiertas: entrar y salir de la frontera elegida",
+      "references": [
+        "A01",
+        "I08"
+      ]
+    },
+    {
+      "chapter": "reacciones",
+      "heading": "Buscar conservaciones de forma sistemática",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "reacciones",
+      "heading": "Cantidad y concentración cuando cambia el volumen",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "reacciones",
+      "heading": "Adimensionalizar para ver los grupos que importan",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "reacciones",
+      "heading": "Separar escalas sin confundir equilibrio rápido y estado cuasiestacionario",
+      "references": [
+        "A01",
+        "D08"
+      ]
+    },
+    {
+      "chapter": "reacciones",
+      "heading": "Ejercicio resuelto: unión y conservación",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "De la fórmula a un contrato computacional",
+      "references": [
+        "R05",
+        "A01",
+        "A21",
+        "A22",
+        "R03",
+        "R09"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Desarrollo guiado: Python como traducción de las ecuaciones",
+      "references": [
+        "R05",
+        "R20"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Qué hace cada línea relevante",
+      "references": [
+        "R20",
+        "R05",
+        "R21",
+        "A21",
+        "R03"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Por qué Euler puede fallar aunque la ecuación sea estable",
+      "references": [
+        "A01",
+        "A17",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Qué hacen realmente Euler y Runge–Kutta",
+      "references": [
+        "A01",
+        "A02",
+        "R05",
+        "R06"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Interpretar tolerancias por variable",
+      "references": [
+        "R05",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Rigidez: dos escalas que exigen métodos diferentes",
+      "references": [
+        "A01",
+        "R07",
+        "R08",
+        "A22",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Eventos y discontinuidades",
+      "references": [
+        "R05",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Un ensayo de convergencia que informa",
+      "references": [
+        "A01",
+        "A02",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Ejercicio resuelto: estabilidad sin ejecutar el programa",
+      "references": [
+        "A01",
+        "A02",
+        "A15",
+        "I13",
+        "I14"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Aplicación complementaria: Python desde cero: de una carpeta a tu primera gráfica",
+      "references": []
+    },
+    {
+      "chapter": "c08",
+      "heading": "Cuatro cosas que al principio se parecen",
+      "references": [
+        "A01",
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R09",
+        "R10",
+        "R11"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Preparar una carpeta y su entorno",
+      "references": [
+        "R01",
+        "R02",
+        "R11",
+        "A01",
+        "R03",
+        "R04",
+        "R09",
+        "R10"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Variables: poner nombre a una cantidad",
+      "references": [
+        "R09",
+        "A01",
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R10",
+        "R11"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Arrays: trabajar con una columna entera",
+      "references": [
+        "R03",
+        "R04",
+        "A01",
+        "R01",
+        "R02",
+        "R09",
+        "R10",
+        "R11"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Rutas y ejercicio resuelto",
+      "references": [
+        "R10",
+        "A01",
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R09",
+        "R11"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Aplicación complementaria: Resolver sin engañarte: pasos, tolerancias, rigidez y eventos",
+      "references": []
+    },
+    {
+      "chapter": "c08",
+      "heading": "Una derivada no contiene todavía una trayectoria",
+      "references": [
+        "A01",
+        "R05",
+        "R06",
+        "R07",
+        "R08"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Estabilidad y positividad son condiciones distintas",
+      "references": [
+        "A01",
+        "R05",
+        "R06",
+        "R07",
+        "R08"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Error local frente a error global",
+      "references": [
+        "A01",
+        "R05",
+        "R06",
+        "R07",
+        "R08"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "RK45, Radau y BDF responden a necesidades diferentes",
+      "references": [
+        "R06",
+        "R07",
+        "R08",
+        "A01",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Tolerancias que puedas interpretar",
+      "references": [
+        "R06",
+        "A01",
+        "R05",
+        "R07",
+        "R08"
+      ]
+    },
+    {
+      "chapter": "c08",
+      "heading": "Eventos y tiempos de salida",
+      "references": [
+        "R05",
+        "A01",
+        "R06",
+        "R07",
+        "R08"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Derivar el modelo de dos etapas desde procesos separados",
+      "references": [
+        "A01",
+        "R19",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Leer la lámina M01: de cada flecha a un término",
+      "references": []
+    },
+    {
+      "chapter": "c09",
+      "heading": "Desarrollo guiado: por qué un gen necesita al menos dos balances",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Resolver en el orden que impone el mecanismo",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Leer las pendientes iniciales",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Qué se pierde al eliminar el ARN",
+      "references": [
+        "A01",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Resolver la cascada y entender el retraso aparente",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Eliminar ARN: cuándo una variable rápida puede resumirse",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Añadir núcleo y citoplasma sin duplicar moléculas",
+      "references": [
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Maduración: el reportero todavía no es la lectura",
+      "references": [
+        "I04",
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Una entrada regulada convierte la cascada en circuito",
+      "references": [
+        "A01",
+        "D04",
+        "R19"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Ejercicio resuelto: qué medición añade información",
+      "references": [
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Aplicación complementaria: Tu primer modelo completo: ARN, proteína y señal observada",
+      "references": []
+    },
+    {
+      "chapter": "c09",
+      "heading": "Construir una versión que puedas explicar",
+      "references": [
+        "A01",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Unidades que obligan a pensar",
+      "references": [
+        "A01",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Predecir antes de programar",
+      "references": [
+        "A01",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Escribir la función de cambio",
+      "references": [
+        "R05",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "El instrumento necesita un modelo",
+      "references": [
+        "A01",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c09",
+      "heading": "Ejercicio resuelto y comprobaciones",
+      "references": [
+        "A01",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Empezar por un estado de unión",
+      "references": [
+        "A01",
+        "D07",
+        "I07",
+        "R19"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Leer la lámina M02: ocupación no es producción",
+      "references": [
+        "D07"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Desarrollo guiado: construir una función de regulación desde ocupaciones",
+      "references": [
+        "A01",
+        "D07"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Del promotor ocupado a una tasa de producción",
+      "references": [
+        "A01",
+        "D07"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Derivar la pendiente que entrará en el Jacobiano",
+      "references": [
+        "A01",
+        "A02",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Michaelis–Menten exige otra contabilidad",
+      "references": [
+        "A01",
+        "D08"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "De ocupación a una función de Hill",
+      "references": [
+        "A01",
+        "R19",
+        "A12",
+        "A16"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Promotores con dos entradas: construir estados en vez de multiplicar por costumbre",
+      "references": [
+        "A01",
+        "R19"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Ocupación dinámica: cuándo el equilibrio de unión resulta demasiado rápido",
+      "references": [
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Michaelis–Menten desde el intermediario, paso a paso",
+      "references": [
+        "A01",
+        "D08"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Competencia y degradación saturable",
+      "references": [
+        "A01",
+        "I08"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Ejercicio resuelto: una misma curva, dos dinámicas",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Aplicación complementaria: De las reacciones a las funciones reguladoras: masa de acción, promotores y saturación",
+      "references": []
+    },
+    {
+      "chapter": "c16",
+      "heading": "Las ecuaciones empiezan contando entradas y salidas",
+      "references": [
+        "A01",
+        "D07",
+        "D08"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Derivar una ocupación sencilla de promotor",
+      "references": [
+        "D07",
+        "A01",
+        "D08"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Michaelis–Menten no es un sinónimo de cualquier saturación",
+      "references": [
+        "D08",
+        "A01",
+        "D07"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Un ejemplo numérico resuelto",
+      "references": [
+        "A01",
+        "D07",
+        "D08"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Qué afirma realmente una función de Hill",
+      "references": [
+        "A01",
+        "D07",
+        "D08"
+      ]
+    },
+    {
+      "chapter": "c16",
+      "heading": "Ejercicio y solución",
+      "references": [
+        "A01",
+        "D07",
+        "D08"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "La estabilidad es una pregunta sobre perturbaciones",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Leer la lámina M12: el signo orienta; las tasas deciden",
+      "references": [
+        "D04"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Desarrollo guiado: entender el Jacobiano sin dar por sabido el álgebra lineal",
+      "references": [
+        "A01",
+        "A27"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Construir una aproximación alrededor de un estado",
+      "references": [
+        "A01",
+        "A02",
+        "A27"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "De dónde viene la ecuación de autovalores",
+      "references": [
+        "A01",
+        "A27"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Calcular un ejemplo completo",
+      "references": [
+        "A01",
+        "A27",
+        "A02",
+        "R03"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Autorrepresión: derivar la ganancia y la relajación local",
+      "references": [
+        "A01",
+        "D04"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Dos variables: cómo leer el Jacobiano",
+      "references": [
+        "A01",
+        "F10"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "El modelo de ARN y proteína y la condición de oscilación",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Alcance local y comportamiento global",
+      "references": [
+        "A01",
+        "A02",
+        "I09"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Ejercicio resuelto: por qué no basta mirar la diagonal",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Aplicación complementaria: Equilibrio y estabilidad: entender hacia dónde va un circuito",
+      "references": []
+    },
+    {
+      "chapter": "c11",
+      "heading": "Una foto quieta no explica una película",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Un cálculo completo desde cero",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Estabilidad: qué sucede después de un empujón",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Una herramienta sencilla en dos variables",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Del papel al ordenador",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Ejercicio y solución",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Aplicación complementaria: Retroalimentación negativa y positiva: corregir, amplificar y recordar",
+      "references": []
+    },
+    {
+      "chapter": "c11",
+      "heading": "Cuando la salida vuelve a la entrada",
+      "references": [
+        "A01",
+        "D04"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Un freno que permite llegar antes",
+      "references": [
+        "A01",
+        "D04"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Un caso observado y su lectura",
+      "references": [
+        "D04",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Un amplificador no siempre guarda memoria",
+      "references": [
+        "A01",
+        "D04"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Sensibilidad y ruido requieren otra pregunta",
+      "references": [
+        "A01",
+        "D04"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Cómo estudiarlo con rigor",
+      "references": [
+        "A01",
+        "D04"
+      ]
+    },
+    {
+      "chapter": "c11",
+      "heading": "Ejercicio y solución",
+      "references": [
+        "A01",
+        "D04"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Construir dos represiones cruzadas",
+      "references": [
+        "A01",
+        "D01"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Leer la lámina M03: una flecha de inhibición no elimina moléculas",
+      "references": [
+        "D01"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Desarrollo guiado: un interruptor necesita dos balances y una geometría",
+      "references": [
+        "A01",
+        "D01"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Un ejemplo con tres equilibrios que se puede comprobar a mano",
+      "references": [
+        "A01",
+        "A27"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Por qué importa hacia dónde empujas",
+      "references": [
+        "A01",
+        "D01"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Un ejemplo donde se pueden calcular todos los equilibrios",
+      "references": [
+        "A01",
+        "D01"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Cuencas de atracción y separatriz",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Histéresis y memoria: condiciones distintas",
+      "references": [
+        "A01",
+        "D01",
+        "I03",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Asimetría, fuga y pérdida de la función",
+      "references": [
+        "A01",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Ejercicio resuelto: por qué n=1 no basta en el ejemplo simétrico",
+      "references": [
+        "A01",
+        "A16"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Aplicación complementaria: El interruptor biestable: nulclinas, cuencas e histéresis",
+      "references": []
+    },
+    {
+      "chapter": "c13",
+      "heading": "La idea de guardar un estado",
+      "references": [
+        "D01",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Dos represores y dos balances",
+      "references": [
+        "A01",
+        "D01"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Qué es una nulclina",
+      "references": [
+        "A01",
+        "D01"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Resolver un ejemplo con tres intersecciones",
+      "references": [
+        "A01",
+        "D01"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Cuencas y separatrices",
+      "references": [
+        "A01",
+        "D01"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Histéresis: el camino de ida puede diferir del de vuelta",
+      "references": [
+        "A01",
+        "D01"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Qué limita el modelo",
+      "references": [
+        "A01",
+        "D01"
+      ]
+    },
+    {
+      "chapter": "c13",
+      "heading": "Ejercicio y solución",
+      "references": [
+        "A01",
+        "D01"
+      ]
+    },
+    {
+      "chapter": "bifurcaciones",
+      "heading": "Seguir equilibrios cuando cambia un parámetro",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "bifurcaciones",
+      "heading": "Desarrollo guiado: de una ecuación a un diagrama de bifurcación",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "bifurcaciones",
+      "heading": "Identificar la estabilidad sin simular cada punto",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "bifurcaciones",
+      "heading": "Qué significa acercarse despacio a un equilibrio",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "bifurcaciones",
+      "heading": "Silla-nodo: crear o destruir una pareja",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "bifurcaciones",
+      "heading": "Una bifurcación que se puede calcular en una autoactivación",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "bifurcaciones",
+      "heading": "Horquilla y transcrítica: reconocer la simetría y sus límites",
+      "references": [
+        "A02",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "bifurcaciones",
+      "heading": "Hopf: cuando la estabilidad se pierde mediante un modo oscilatorio",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "bifurcaciones",
+      "heading": "Continuación numérica frente a un barrido de simulaciones",
+      "references": [
+        "A01",
+        "A02",
+        "R15"
+      ]
+    },
+    {
+      "chapter": "bifurcaciones",
+      "heading": "Criterios de lectura de un diagrama",
+      "references": [
+        "A01",
+        "A06"
+      ]
+    },
+    {
+      "chapter": "bifurcaciones",
+      "heading": "Problema resuelto y práctica computacional",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "Qué distingue un oscilador de una trayectoria que ondula",
+      "references": [
+        "A01",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "Leer la lámina M04: el circuito guarda tiempo en sus especies",
+      "references": [
+        "D02",
+        "D03"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "Desarrollo guiado: demostrar un umbral de oscilación en Goodwin",
+      "references": [
+        "A01",
+        "A27"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "Expandir el polinomio, término por término",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "Qué demuestra el cálculo y qué todavía debes comprobar",
+      "references": [
+        "A01",
+        "A02",
+        "D02"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "Goodwin: un lazo negativo con varias etapas",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "El represilador y su anillo de tres represiones",
+      "references": [
+        "A01",
+        "D02",
+        "D03"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "Doble retroalimentación: un circuito más complejo que un anillo",
+      "references": [
+        "A01",
+        "A03"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "Amplitud, período, fase y precisión",
+      "references": [
+        "A01",
+        "D03"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "Ejercicio resuelto: comprobar un umbral sin simular miles de puntos",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "Aplicación complementaria: Osciladores génicos: del represilador a la precisión de un reloj",
+      "references": []
+    },
+    {
+      "chapter": "c14",
+      "heading": "Una curva ondulada puede significar varias cosas",
+      "references": [
+        "A01",
+        "D02",
+        "D03"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "El caso del represilador",
+      "references": [
+        "D02",
+        "D03",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "Un anillo mínimo que podemos analizar",
+      "references": [
+        "A01",
+        "D02",
+        "D03"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "Por qué n mayor que uno no basta",
+      "references": [
+        "A01",
+        "D02",
+        "D03"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "Medir un reloj en vez de reconocer una onda",
+      "references": [
+        "A01",
+        "D02",
+        "D03"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "Un protocolo computacional sensato",
+      "references": [
+        "A01",
+        "D02",
+        "D03"
+      ]
+    },
+    {
+      "chapter": "c14",
+      "heading": "Ejercicio y solución",
+      "references": [
+        "A01",
+        "D02",
+        "D03"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "Una puerta lógica no determina una trayectoria",
+      "references": [
+        "A01",
+        "D05"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "Desarrollo guiado: fabricar un pulso por dos caminos de una señal",
+      "references": [
+        "A01",
+        "D05",
+        "D06"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "Seguir el inicio de un escalón",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "Lógica y dinámica responden preguntas distintas",
+      "references": [
+        "A01",
+        "D05"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "Cascadas de puertas y restauración de niveles",
+      "references": [
+        "A01",
+        "P04",
+        "P12"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "Feedforward coherente y detector de persistencia",
+      "references": [
+        "A01",
+        "D05",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "Feedforward incoherente y un pulso calculable",
+      "references": [
+        "A01",
+        "D06",
+        "A02",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "Respuesta en frecuencia desde un balance sencillo",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "Adaptación robusta y adaptación ajustada",
+      "references": [
+        "A01",
+        "A04",
+        "I09",
+        "D06",
+        "P11"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "Ejercicio resuelto: persistencia y amplitud",
+      "references": [
+        "A01",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "Aplicación complementaria: Lógica, feedforward y adaptación: distinguir reglas de mecanismos",
+      "references": []
+    },
+    {
+      "chapter": "c15",
+      "heading": "Empezar con encendido y apagado",
+      "references": [
+        "A01",
+        "D05",
+        "D06"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "El reloj de actualización también es una hipótesis",
+      "references": [
+        "A01",
+        "D05",
+        "D06"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "Pasar a concentraciones sin ocultar supuestos",
+      "references": [
+        "A01",
+        "D05",
+        "D06"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "Un camino directo y otro que llega más tarde",
+      "references": [
+        "D05",
+        "A01",
+        "D06"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "Adaptarse no es simplemente producir un pulso",
+      "references": [
+        "D06",
+        "A01",
+        "D05"
+      ]
+    },
+    {
+      "chapter": "c15",
+      "heading": "Ejercicio y solución",
+      "references": [
+        "A01",
+        "D05",
+        "D06"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "Un retraso puro exige una historia inicial",
+      "references": [
+        "D09",
+        "D12",
+        "A01",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "Desarrollo guiado: cuando el presente necesita conocer el pasado",
+      "references": [
+        "A01",
+        "D09",
+        "D12"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "El método de pasos explicado sin caja negra",
+      "references": [
+        "A01",
+        "D09"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "De muchas etapas a una demora distribuida",
+      "references": [
+        "A01",
+        "D12"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "Eventos y estados discretos",
+      "references": [
+        "R05",
+        "R20",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "Derivar cuándo un retraso puede desestabilizar la autorrepresión",
+      "references": [
+        "D12",
+        "A02",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "Una cadena de etapas representa un retraso distribuido",
+      "references": [
+        "A01",
+        "D12",
+        "D09"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "Estados discretos y continuos en un sistema híbrido",
+      "references": [
+        "A01",
+        "P05",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "Registrar un cambio irreversible en el modelo",
+      "references": [
+        "A01",
+        "P05"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "Ejercicio resuelto: misma media, diferente dispersión",
+      "references": [
+        "D12",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "Aplicación complementaria: Retrasos, eventos y modelos híbridos: cuando importa el momento",
+      "references": []
+    },
+    {
+      "chapter": "c17",
+      "heading": "No todo ocurre al mismo tiempo",
+      "references": [
+        "A01",
+        "D09",
+        "D12"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "Por qué una corrección tardía puede desestabilizar",
+      "references": [
+        "A01",
+        "D09",
+        "D12"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "Retraso fijo y retraso distribuido",
+      "references": [
+        "D12",
+        "D09",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "Eventos: cambios que ocurren en un instante",
+      "references": [
+        "A01",
+        "D09",
+        "D12"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "Un modelo híbrido combina estados continuos y discretos",
+      "references": [
+        "A01",
+        "D09",
+        "D12"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "Observar y simular requieren la misma atención al tiempo",
+      "references": [
+        "A01",
+        "D09",
+        "D12"
+      ]
+    },
+    {
+      "chapter": "c17",
+      "heading": "Ejercicio y solución",
+      "references": [
+        "A01",
+        "D09",
+        "D12"
+      ]
+    },
+    {
+      "chapter": "control",
+      "heading": "Qué se quiere mantener constante y frente a qué perturbación",
+      "references": [
+        "A01",
+        "I09",
+        "A04"
+      ]
+    },
+    {
+      "chapter": "control",
+      "heading": "Desarrollo guiado: ver aparecer una integral al restar dos balances",
+      "references": [
+        "A04",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "control",
+      "heading": "Restar antes de intentar resolver todo",
+      "references": [
+        "A04",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "control",
+      "heading": "Qué se deduce en un equilibrio admisible",
+      "references": [
+        "A04",
+        "I09"
+      ]
+    },
+    {
+      "chapter": "control",
+      "heading": "La dilución muestra exactamente por dónde falla la identidad",
+      "references": [
+        "A04",
+        "I09",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "control",
+      "heading": "La identidad que explica el control integral",
+      "references": [
+        "A04",
+        "I09"
+      ]
+    },
+    {
+      "chapter": "control",
+      "heading": "El motivo antitético en balances explícitos",
+      "references": [
+        "A04",
+        "I09"
+      ]
+    },
+    {
+      "chapter": "control",
+      "heading": "La estabilidad no está incluida gratis",
+      "references": [
+        "A01",
+        "A04",
+        "I09"
+      ]
+    },
+    {
+      "chapter": "control",
+      "heading": "Dilución: por qué la integración puede volverse imperfecta",
+      "references": [
+        "I09",
+        "A04"
+      ]
+    },
+    {
+      "chapter": "control",
+      "heading": "Saturación y factibilidad",
+      "references": [
+        "A04",
+        "I09",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "control",
+      "heading": "Diferencias entre la lectura determinista y la estocástica",
+      "references": [
+        "A04",
+        "A07"
+      ]
+    },
+    {
+      "chapter": "control",
+      "heading": "Ejercicio resuelto: detectar una afirmación demasiado fuerte",
+      "references": [
+        "A01",
+        "I09",
+        "P10",
+        "A04"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Dos módulos pueden interactuar sin una flecha reguladora",
+      "references": [
+        "I08",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Leer la lámina M10: busca el acoplamiento que no está dibujado entre genes",
+      "references": [
+        "I08",
+        "I07"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Desarrollo guiado: escribir qué se comparte y qué se conserva",
+      "references": [
+        "A01",
+        "I08"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Derivar la dilución desde cantidad y volumen",
+      "references": [
+        "A01",
+        "I08"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Retroactividad: el receptor también puede alterar al emisor",
+      "references": [
+        "I07",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Recursos explícitos frente a una ley reducida",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Crecimiento que depende del propio circuito",
+      "references": [
+        "A01",
+        "I08",
+        "A07"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Retroactividad: conectar una carga cambia la dinámica de la fuente",
+      "references": [
+        "I07",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Competencia por recurso y retroactividad no son la misma hipótesis",
+      "references": [
+        "I07",
+        "I08",
+        "I06",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Ejercicio resuelto: la carga puede frenar sin mover el equilibrio",
+      "references": [
+        "I07",
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Aplicación complementaria: Control, carga celular, retroactividad y evolución",
+      "references": []
+    },
+    {
+      "chapter": "c32",
+      "heading": "Un circuito vive dentro de otro sistema",
+      "references": [
+        "A01",
+        "I07",
+        "I08",
+        "I09"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Control integral explicado con una suma",
+      "references": [
+        "A01",
+        "I07",
+        "I08",
+        "I09"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Un caso publicado: adaptación integral biomolecular",
+      "references": [
+        "I09",
+        "A01",
+        "I07",
+        "I08"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Dos formas distintas de perder modularidad",
+      "references": [
+        "I07",
+        "I08",
+        "A01",
+        "I09"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "La evolución añade otra escala temporal",
+      "references": [
+        "A01",
+        "I07",
+        "I08",
+        "I09"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Taller y soluciones",
+      "references": [
+        "A01",
+        "I07",
+        "I08",
+        "I09"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Aplicación complementaria: Comparar bacterias, levadura y células animales sin perder el contexto",
+      "references": []
+    },
+    {
+      "chapter": "c32",
+      "heading": "Tres casos, tres preguntas",
+      "references": [
+        "P08",
+        "P09",
+        "P11",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Compartir una forma matemática no significa compartir números",
+      "references": [
+        "A01",
+        "P08",
+        "P09",
+        "P11"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Qué puede degradarse al conectar capas",
+      "references": [
+        "A01",
+        "P08",
+        "P09",
+        "P11"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Compensar una entrada con dos caminos",
+      "references": [
+        "A01",
+        "P08",
+        "P09",
+        "P11"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Ejercicio resuelto: medir cuánta compensación queda",
+      "references": [
+        "A01",
+        "P08",
+        "P09",
+        "P11"
+      ]
+    },
+    {
+      "chapter": "c32",
+      "heading": "Qué trasladar a plantas",
+      "references": [
+        "A01",
+        "P08",
+        "P09",
+        "P11"
+      ]
+    },
+    {
+      "chapter": "acoplados",
+      "heading": "Usar osciladores como módulos exige comprobar su interacción",
+      "references": [
+        "A01",
+        "A06"
+      ]
+    },
+    {
+      "chapter": "acoplados",
+      "heading": "Desarrollo guiado: convertir dos osciladores en una ecuación de diferencia de fase",
+      "references": [
+        "A01",
+        "A05"
+      ]
+    },
+    {
+      "chapter": "acoplados",
+      "heading": "Bloqueo no significa fases idénticas",
+      "references": [
+        "A01",
+        "A05"
+      ]
+    },
+    {
+      "chapter": "acoplados",
+      "heading": "Volver a moléculas cuando la amplitud importa",
+      "references": [
+        "A01",
+        "A06"
+      ]
+    },
+    {
+      "chapter": "acoplados",
+      "heading": "Reducir a fase: qué se conserva y qué se pierde",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "acoplados",
+      "heading": "Un ejemplo de sincronización calculado",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "acoplados",
+      "heading": "De fases a seis proteínas",
+      "references": [
+        "A01",
+        "R19",
+        "A06"
+      ]
+    },
+    {
+      "chapter": "acoplados",
+      "heading": "Acoplamiento entre células y observación colectiva",
+      "references": [
+        "A05",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "acoplados",
+      "heading": "Medir sincronía sin confundirla con señal grande",
+      "references": [
+        "A01",
+        "A06",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "acoplados",
+      "heading": "Complejidad, caos y qué evidencia haría falta",
+      "references": [
+        "A02",
+        "A06",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "acoplados",
+      "heading": "Ejercicio resuelto: una salida lenta a partir de dos entradas rápidas",
+      "references": [
+        "A06",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "De un compartimento a una distribución espacial",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Leer la lámina M11: conserva materia al cambiar de escala",
+      "references": [
+        "D10",
+        "D11"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Desarrollo guiado: de intercambio entre dos células a difusión",
+      "references": [
+        "A01",
+        "D11"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Qué pide una ecuación con espacio",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Por qué una difusión desigual puede cambiar la estabilidad",
+      "references": [
+        "A01",
+        "D11",
+        "A27"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Las fronteras forman parte del modelo",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Discretizar una difusión sin inventar unidades",
+      "references": [
+        "A01",
+        "R05",
+        "R07",
+        "R08"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Redes de células con volúmenes distintos",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Longitud de penetración de una señal",
+      "references": [
+        "A01",
+        "D10"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Inestabilidad de Turing: difusión que cambia la estabilidad",
+      "references": [
+        "A01",
+        "D11"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Transporte polarizado y crecimiento",
+      "references": [
+        "D10",
+        "A01",
+        "P04"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Ejercicio resuelto: una prueba de conservación en dos células",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Aplicación complementaria: Espacio y redes celulares: de una célula mezclada a un tejido",
+      "references": []
+    },
+    {
+      "chapter": "c18",
+      "heading": "La concentración también tiene dirección y lugar",
+      "references": [
+        "A01",
+        "D10",
+        "D11"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Difundir significa responder a un gradiente",
+      "references": [
+        "A01",
+        "D10",
+        "D11"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Una red de células es otra forma de representar espacio",
+      "references": [
+        "A01",
+        "D10",
+        "D11"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "¿Cómo puede la difusión ayudar a crear un patrón?",
+      "references": [
+        "D11",
+        "A01",
+        "D10"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Un vínculo concreto con plantas",
+      "references": [
+        "D10",
+        "A01",
+        "D11"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Discretización y figuras que permiten comprobar",
+      "references": [
+        "A01",
+        "D10",
+        "D11"
+      ]
+    },
+    {
+      "chapter": "c18",
+      "heading": "Ejercicio y solución",
+      "references": [
+        "A01",
+        "D10",
+        "D11"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Cambiar de pregunta: una trayectoria no es una distribución",
+      "references": [
+        "A01",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Desarrollo guiado: derivar el algoritmo de Gillespie desde probabilidades",
+      "references": [
+        "I02",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Derivar el tiempo de espera",
+      "references": [
+        "I02",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Elegir qué reacción ocurre",
+      "references": [
+        "I02",
+        "R03",
+        "R20"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "La ecuación maestra cuenta entradas y salidas de probabilidad",
+      "references": [
+        "A01",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Una probabilidad se transporta entre estados",
+      "references": [
+        "A01",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Derivar la media sin resolver toda la distribución",
+      "references": [
+        "A01",
+        "I02",
+        "A07"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "La distribución estacionaria de nacimiento y muerte",
+      "references": [
+        "A01",
+        "I03",
+        "A07",
+        "A20"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Derivar Gillespie a partir de la espera al próximo evento",
+      "references": [
+        "I02",
+        "A01",
+        "D09"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Cómo muestrear sin sesgar la distribución",
+      "references": [
+        "I02",
+        "A01",
+        "A04"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Truncar la ecuación maestra con control de probabilidad",
+      "references": [
+        "A19",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Ejercicio resuelto: incertidumbre de una media de simulación",
+      "references": [
+        "A01",
+        "A09",
+        "I02",
+        "A07"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Aplicación complementaria: Probabilidad desde cero: aprender a pensar en distribuciones",
+      "references": []
+    },
+    {
+      "chapter": "c20",
+      "heading": "Una célula no es una curva promedio",
+      "references": [
+        "A01",
+        "I01"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Centro, dispersión y relación",
+      "references": [
+        "A01",
+        "I01"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Una familia para cada pregunta",
+      "references": [
+        "A01",
+        "I01"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Condicionar es actualizar una pregunta",
+      "references": [
+        "A01",
+        "I01"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Taller y soluciones",
+      "references": [
+        "I01",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Aplicación complementaria: De reacciones a trayectorias: ecuación maestra y Gillespie",
+      "references": []
+    },
+    {
+      "chapter": "c20",
+      "heading": "El estado ahora contiene números enteros",
+      "references": [
+        "A01",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "La distribución también tiene una dinámica",
+      "references": [
+        "I02",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Un paso de Gillespie, con números",
+      "references": [
+        "A01",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Implementación mínima",
+      "references": [
+        "A01",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "c20",
+      "heading": "Qué comprobar antes de confiar",
+      "references": [
+        "A01",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "Un promotor que cambia de estado",
+      "references": [
+        "A20",
+        "A01",
+        "A07"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "Leer la lámina M05: tres niveles que no debes confundir",
+      "references": [
+        "I03"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "Desarrollo guiado: obtener media y varianza de un promotor que cambia de estado",
+      "references": [
+        "A20",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "Por qué hace falta una correlación adicional",
+      "references": [
+        "A20",
+        "A07",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "Muestrear sin favorecer los estados de salida rápida",
+      "references": [
+        "I02",
+        "A20"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "Derivar la media y la variación del ARN",
+      "references": [
+        "A20",
+        "A01",
+        "A07"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "Qué significa una ráfaga en esta descripción",
+      "references": [
+        "A20",
+        "I03",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "Ruido intrínseco, extrínseco y de medición",
+      "references": [
+        "A07",
+        "I03",
+        "A09",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "Aproximación de Langevin y límites en la frontera",
+      "references": [
+        "A01",
+        "A17",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "Aproximación lineal del ruido cerca de un equilibrio",
+      "references": [
+        "A01",
+        "A17",
+        "A07"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "Ejercicio resuelto: igual media, distinto Fano",
+      "references": [
+        "A20",
+        "I02",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "Aplicación complementaria: Ruido biológico: ráfagas, promotores y aproximaciones continuas",
+      "references": []
+    },
+    {
+      "chapter": "c21",
+      "heading": "El ruido también cuenta una historia",
+      "references": [
+        "A01",
+        "I03",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "Un caso publicado que cambió la pregunta",
+      "references": [
+        "I03",
+        "A01",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "El promotor telegráfico",
+      "references": [
+        "A01",
+        "I03",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "De saltos a ruido continuo",
+      "references": [
+        "A01",
+        "I03",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "c21",
+      "heading": "Taller y soluciones",
+      "references": [
+        "A01",
+        "I03",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "El estado oculto y el dato observado",
+      "references": [
+        "A01",
+        "I04",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Leer la lámina M09: del estado escondido al número observado",
+      "references": [
+        "I04"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Desarrollo guiado: construir la ecuación de lo que realmente mide el instrumento",
+      "references": [
+        "I04",
+        "A09",
+        "I05"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Por qué dividir dos canales cambia el problema estadístico",
+      "references": [
+        "A09",
+        "V02"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Qué significa un dato por debajo del límite",
+      "references": [
+        "A09",
+        "A07"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Maduración y blanqueo requieren balances diferentes",
+      "references": [
+        "I04",
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Elegir un modelo de error que corresponda a la escala",
+      "references": [
+        "A09",
+        "I05",
+        "A20"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Correlación temporal: muchas imágenes no siempre son muchos datos independientes",
+      "references": [
+        "A09",
+        "I06",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Saturación, límites de detección y datos censurados",
+      "references": [
+        "A09",
+        "A15"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Cocientes y normalización",
+      "references": [
+        "V02",
+        "A09",
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Promediar células no conmuta con una función no lineal",
+      "references": [
+        "A07",
+        "A01",
+        "P10",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Ejercicio resuelto: un fondo que altera un cociente",
+      "references": [
+        "V02",
+        "A09",
+        "I04",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Aplicación complementaria: Lo que mide el instrumento: fluorescencia, maduración y error",
+      "references": []
+    },
+    {
+      "chapter": "c22",
+      "heading": "La señal no es la molécula",
+      "references": [
+        "A01",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Un modelo pequeño que evita una confusión grande",
+      "references": [
+        "A01",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Un caso publicado y su alcance",
+      "references": [
+        "I04",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Los errores tampoco son todos iguales",
+      "references": [
+        "A01",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "c22",
+      "heading": "Taller y soluciones",
+      "references": [
+        "A01",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "sensibilidad",
+      "heading": "Especificar la salida antes de preguntar qué parámetro importa",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "sensibilidad",
+      "heading": "Desarrollo guiado: derivar una sensibilidad y entender sus unidades",
+      "references": [
+        "A01",
+        "A08"
+      ]
+    },
+    {
+      "chapter": "sensibilidad",
+      "heading": "Obtener la ecuación de sensibilidad cuando no conoces la solución",
+      "references": [
+        "A01",
+        "A27"
+      ]
+    },
+    {
+      "chapter": "sensibilidad",
+      "heading": "Normalizar no elimina todos los problemas",
+      "references": [
+        "A01",
+        "A08",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "sensibilidad",
+      "heading": "Un ejemplo analítico que separa equilibrio y tiempo",
+      "references": [
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "sensibilidad",
+      "heading": "Integrar ecuaciones de sensibilidad",
+      "references": [
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "sensibilidad",
+      "heading": "Diferencias finitas y comprobaciones de derivadas",
+      "references": [
+        "A01",
+        "R05",
+        "I05"
+      ]
+    },
+    {
+      "chapter": "sensibilidad",
+      "heading": "Sensibilidad local no es incertidumbre paramétrica",
+      "references": [
+        "A01",
+        "A09",
+        "I06",
+        "A10"
+      ]
+    },
+    {
+      "chapter": "sensibilidad",
+      "heading": "Sensibilidad global y descomposición de varianza",
+      "references": [
+        "A08",
+        "A10",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "sensibilidad",
+      "heading": "Ejemplo global que puedes resolver a mano",
+      "references": [
+        "A08",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "sensibilidad",
+      "heading": "Cambios cualitativos y discontinuidad de la salida",
+      "references": [
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "El ajuste empieza con una probabilidad de los datos",
+      "references": [
+        "A09",
+        "A01",
+        "I05"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Desarrollo guiado: por qué mínimos cuadrados aparece en un ajuste",
+      "references": [
+        "A09",
+        "I05"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Qué entrega la función de residuos",
+      "references": [
+        "I05",
+        "R21",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Obtener la actualización de Gauss–Newton",
+      "references": [
+        "A27",
+        "I05"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Qué añade Bayes y qué no añade automáticamente",
+      "references": [
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Restricciones, logparámetros y residuales",
+      "references": [
+        "I05",
+        "I06",
+        "A22",
+        "R03",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Un mínimo encontrado no es toda la geometría del problema",
+      "references": [
+        "A01",
+        "I06",
+        "A10",
+        "I05"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Residuos, validación y predicción",
+      "references": [
+        "A09",
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Incertidumbre local y bootstrap",
+      "references": [
+        "I06",
+        "A10",
+        "A09",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Bayes: prior, posterior y Jacobiano de transformación",
+      "references": [
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Un Metropolis sencillo y sus comprobaciones",
+      "references": [
+        "A09",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Problema resuelto: una posterior que conserva una cresta",
+      "references": [
+        "I06",
+        "A09",
+        "A10",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Aplicación complementaria: Ajustar parámetros: verosimilitud, mínimos cuadrados y Bayes",
+      "references": []
+    },
+    {
+      "chapter": "c23",
+      "heading": "Ajustar es preguntar qué valores explican mejor los datos",
+      "references": [
+        "A01",
+        "I05",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Por qué aparecen los cuadrados",
+      "references": [
+        "A01",
+        "I05",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Una estimación que puedes hacer a mano",
+      "references": [
+        "I05",
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Lo que añade Bayes",
+      "references": [
+        "A01",
+        "I05",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c23",
+      "heading": "Validar es intentar sorprender al modelo",
+      "references": [
+        "I06",
+        "A01",
+        "I05"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "La pregunta anterior al ajuste",
+      "references": [
+        "I06",
+        "A18"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Desarrollo guiado: demostrar que un parámetro no puede aprenderse de un dato",
+      "references": [
+        "I06",
+        "A01",
+        "A18"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Cómo un transitorio rompe una ambigüedad",
+      "references": [
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Construir un perfil de verdad",
+      "references": [
+        "I06",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Leer la información de Fisher con columnas",
+      "references": [
+        "A27",
+        "I06",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Una simetría que demuestra no identificabilidad",
+      "references": [
+        "I06",
+        "A18",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Identificabilidad global y local",
+      "references": [
+        "A18"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Información local: columnas de sensibilidad y rango",
+      "references": [
+        "I06",
+        "A10",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Perfil de verosimilitud: dejar que los demás parámetros se adapten",
+      "references": [
+        "I06",
+        "A09",
+        "A10"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Diseñar tiempos que separen producción y pérdida",
+      "references": [
+        "A01",
+        "I06",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Criterios de diseño y su objetivo",
+      "references": [
+        "A09",
+        "A10",
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Comparar estructuras sin premiar solo flexibilidad",
+      "references": [
+        "A09",
+        "I06",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Ejercicio resuelto: por qué más réplicas no siempre añaden un parámetro",
+      "references": [
+        "A01",
+        "I06",
+        "A18",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Aplicación complementaria: Identificabilidad, sensibilidad y datos que de verdad informan",
+      "references": []
+    },
+    {
+      "chapter": "c24",
+      "heading": "La pregunta que un ajuste perfecto no responde",
+      "references": [
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Un ejemplo donde ningún ordenador puede separar los parámetros",
+      "references": [
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Sensibilidad: cuánto cambia una predicción",
+      "references": [
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Las sensibilidades pueden confundirse",
+      "references": [
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Perfil de verosimilitud y análisis global",
+      "references": [
+        "I06",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c24",
+      "heading": "Diseñar una comparación informativa",
+      "references": [
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "caso-bacteriano",
+      "heading": "Un caso completo: del anillo regulador a las seis variables",
+      "references": [
+        "D02",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "caso-bacteriano",
+      "heading": "Tabla de elementos y decisiones del modelo dimensional",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "caso-bacteriano",
+      "heading": "Construir el primer balance y repetir la regla con cuidado",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "caso-bacteriano",
+      "heading": "Adimensionalizar sin perder ninguna constante",
+      "references": [
+        "A01",
+        "A02",
+        "D02"
+      ]
+    },
+    {
+      "chapter": "caso-bacteriano",
+      "heading": "De los símbolos a los índices de Python",
+      "references": [
+        "R21",
+        "A01",
+        "R03",
+        "R20",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "caso-bacteriano",
+      "heading": "Un juego dimensional que produce exactamente el mismo modelo",
+      "references": [
+        "A01",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "caso-bacteriano",
+      "heading": "Equilibrio simétrico y origen de la estabilidad",
+      "references": [
+        "A01",
+        "A27"
+      ]
+    },
+    {
+      "chapter": "caso-bacteriano",
+      "heading": "Qué puedes y qué no puedes concluir de las curvas",
+      "references": [
+        "A01",
+        "I04",
+        "D02"
+      ]
+    },
+    {
+      "chapter": "caso-bacteriano",
+      "heading": "Ejercicio con respuesta explicada",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "caso-levadura",
+      "heading": "Dos preguntas distintas en levadura: elegir un estado y adaptarse",
+      "references": [
+        "A25",
+        "A26"
+      ]
+    },
+    {
+      "chapter": "caso-levadura",
+      "heading": "Caso A: qué significa que un activador favorezca su propia producción",
+      "references": [
+        "A01",
+        "A25"
+      ]
+    },
+    {
+      "chapter": "caso-levadura",
+      "heading": "Justificar la reducción a una sola variable",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "caso-levadura",
+      "heading": "Un ejemplo de bistabilidad que se calcula paso a paso",
+      "references": [
+        "A01",
+        "A02",
+        "A07"
+      ]
+    },
+    {
+      "chapter": "caso-levadura",
+      "heading": "De una célula a una población observada",
+      "references": [
+        "A25",
+        "I04",
+        "A09",
+        "A07"
+      ]
+    },
+    {
+      "chapter": "caso-levadura",
+      "heading": "Caso B: construir un control de adaptación como aproximación local",
+      "references": [
+        "A26",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "caso-levadura",
+      "heading": "Derivar la adaptación antes de dibujarla",
+      "references": [
+        "A01",
+        "A04",
+        "A02",
+        "A27"
+      ]
+    },
+    {
+      "chapter": "caso-levadura",
+      "heading": "Encontrar una solución analítica para comprobar el programa",
+      "references": [
+        "A02",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "caso-levadura",
+      "heading": "Programar dos balances sin ocultar sus significados",
+      "references": [
+        "R20",
+        "R05",
+        "A01",
+        "A04"
+      ]
+    },
+    {
+      "chapter": "caso-levadura",
+      "heading": "Qué une estos casos y qué los diferencia",
+      "references": [
+        "A01",
+        "A25",
+        "A26"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "El contexto vegetal modifica estados, parámetros y observación",
+      "references": [
+        "A01",
+        "P10",
+        "P13",
+        "P04"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "Desarrollo guiado: el contexto cambia los balances, no las reglas de cálculo",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "Definir qué varía entre células",
+      "references": [
+        "A09",
+        "A07",
+        "A01",
+        "P03"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "Qué se puede comparar entre organismos",
+      "references": [
+        "A01",
+        "I08",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "Producción que varía con el tiempo y el contexto",
+      "references": [
+        "A01",
+        "P10",
+        "I06",
+        "A18"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "Variación entre lotes, plantas, hojas y células",
+      "references": [
+        "P10",
+        "A09",
+        "A07"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "Un cálculo de pseudorreplicación",
+      "references": [
+        "A09",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "Crecimiento, transporte y regulación en un mismo balance",
+      "references": [
+        "A01",
+        "P04"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "Condiciones ambientales como entradas y como parámetros",
+      "references": [
+        "A01",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "Trasladar un modelo entre contextos",
+      "references": [
+        "A09",
+        "I06",
+        "P13",
+        "A11"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "Ejercicio resuelto: una caída de concentración sin degradación",
+      "references": [
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "Aplicación complementaria: Una planta no es un tubo de ensayo: contexto, tejidos y escalas",
+      "references": []
+    },
+    {
+      "chapter": "c25",
+      "heading": "La pregunta viene antes que la ecuación",
+      "references": [
+        "A01",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "Primero cuenta moléculas; después divide por volumen",
+      "references": [
+        "A01",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "Abrir la puerta a las vecinas",
+      "references": [
+        "A01",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "¿Qué puedes dejar fuera?",
+      "references": [
+        "P10",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "Ejercicio resuelto",
+      "references": [
+        "A01",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c25",
+      "heading": "Cómo llevarlo al ordenador",
+      "references": [
+        "A01",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "Del mecanismo de reconocimiento a una tasa efectiva",
+      "references": [
+        "V01",
+        "P02",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "Leer la lámina M06: una pérdida también puede ser una entrada",
+      "references": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "Desarrollo guiado: de la pérdida de un sensor a una señal de entrada",
+      "references": [
+        "A01",
+        "P02",
+        "V01"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "Derivar la inversión dinámica",
+      "references": [
+        "A01",
+        "A09",
+        "I04",
+        "P01",
+        "P02",
+        "V02",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "Tres niveles de detalle para la misma pregunta",
+      "references": [
+        "A01",
+        "P02",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "La calibración estacionaria y sus supuestos",
+      "references": [
+        "A01",
+        "P02",
+        "V01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "Reconstruir una entrada dinámica: aparece una derivada de datos",
+      "references": [
+        "A01",
+        "I06",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "Referencia ratiométrica y propagación de incertidumbre",
+      "references": [
+        "V02",
+        "I04",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "Leer dos casos de artículos sin mezclar instrumentos",
+      "references": [
+        "P01",
+        "P02",
+        "P03"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "Modelo extendido con un complejo",
+      "references": [
+        "A01",
+        "V01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "Ejercicio resuelto: el error de una calibración demasiado temprana",
+      "references": [
+        "A01",
+        "I06",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "Aplicación complementaria: Auxina y sensores: aprender a interpretar una señal que baja",
+      "references": []
+    },
+    {
+      "chapter": "c26",
+      "heading": "Lo que enseñan tres estudios",
+      "references": [
+        "P01",
+        "P02",
+        "P03",
+        "A01",
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "Entrada, intermediario y salida no significan lo mismo",
+      "references": [
+        "A01",
+        "P01",
+        "P02",
+        "P03",
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "Calibrar significa invertir una relación",
+      "references": [
+        "A01",
+        "P01",
+        "P02",
+        "P03",
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "El sensor tiene memoria de lo que acaba de ocurrir",
+      "references": [
+        "A01",
+        "P01",
+        "P02",
+        "P03",
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "¿Qué corrige una referencia?",
+      "references": [
+        "A01",
+        "P01",
+        "P02",
+        "P03",
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "chapter": "c26",
+      "heading": "Un pequeño programa con una pregunta clara",
+      "references": [
+        "A01",
+        "P01",
+        "P02",
+        "P03",
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Del dominio de expresión a la variable de entrada",
+      "references": [
+        "A01",
+        "P04"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Leer la lámina M07: dónde y cuánto son preguntas distintas",
+      "references": [
+        "P04"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Desarrollo guiado: una puerta lógica en cada posición necesita una ley cuantitativa",
+      "references": [
+        "A01",
+        "P04"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Pasar de una señal continua a una frontera observable",
+      "references": [
+        "A02",
+        "A09",
+        "A01",
+        "I04",
+        "P04"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Una AND analógica en una fila de células",
+      "references": [
+        "A01",
+        "P04"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Derivar una frontera y su incertidumbre",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Movilidad de regulador y movilidad de reportero",
+      "references": [
+        "A01",
+        "P04"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Lógica NOR, NIMPLY y exclusión espacial",
+      "references": [
+        "A01",
+        "P04",
+        "P12"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "De expresión a morfología: una nueva capa causal",
+      "references": [
+        "P04",
+        "P13",
+        "I06",
+        "A01",
+        "P03"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Componer varias puertas: complejidad y márgenes",
+      "references": [
+        "A01",
+        "P12",
+        "P13",
+        "I07",
+        "I08",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Ejercicio resuelto: acumulación de fuga fuera del dominio",
+      "references": [
+        "A01",
+        "I04",
+        "P04"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Aplicación complementaria: Lógica espacial en raíces: de una tabla de verdad a células reales",
+      "references": []
+    },
+    {
+      "chapter": "c27",
+      "heading": "Qué se observó y qué significa",
+      "references": [
+        "P04",
+        "A01",
+        "P13"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Una tabla de verdad es una especificación",
+      "references": [
+        "A01",
+        "P04",
+        "P13"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Un ejemplo muestra por qué importa la escala",
+      "references": [
+        "A01",
+        "P04",
+        "P13"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "El margen es más útil que decir «funciona»",
+      "references": [
+        "A01",
+        "P04",
+        "P13"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Introducir espacio sin complicarlo todo",
+      "references": [
+        "A01",
+        "P04",
+        "P13"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Ejercicio resuelto con incertidumbre",
+      "references": [
+        "A01",
+        "P04",
+        "P13"
+      ]
+    },
+    {
+      "chapter": "c27",
+      "heading": "Del papel al análisis",
+      "references": [
+        "A01",
+        "P04",
+        "P13"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "La memoria depende de qué estado persiste",
+      "references": [
+        "A01",
+        "P05"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "Leer la lámina M08: recuerda el estado correcto",
+      "references": [
+        "P05"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "Desarrollo guiado: una memoria de ADN se modela como cambio de estado",
+      "references": [
+        "A01",
+        "P05"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "Qué observa un ensayo de población",
+      "references": [
+        "A09",
+        "A01",
+        "P05",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "Una célula registra o no registra: variable discreta y fracción de población",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "Fondo de registro y falsas memorias",
+      "references": [
+        "A01",
+        "P05"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "Selección y crecimiento de subpoblaciones",
+      "references": [
+        "A01",
+        "I06",
+        "P05"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "Dos pasos de registro no significan dos pulsos",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "Separar la escritura de la lectura",
+      "references": [
+        "A01",
+        "I04",
+        "A09",
+        "P05"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "Reversibilidad y estabilidad heredada",
+      "references": [
+        "P05",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "Ejercicio resuelto: duración e intensidad pueden ser indistinguibles",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "Aplicación complementaria: Memoria vegetal: un estado que conserva el pasado",
+      "references": []
+    },
+    {
+      "chapter": "c28",
+      "heading": "No todo lo que dura es memoria",
+      "references": [
+        "P05",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "Dos estados y una probabilidad",
+      "references": [
+        "A01",
+        "P05"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "Ejercicio resuelto: cuánto se registra",
+      "references": [
+        "A01",
+        "P05"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "La lectura tarda en contar la historia",
+      "references": [
+        "A01",
+        "P05"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "Una tasa basal pequeña puede importar mucho",
+      "references": [
+        "A01",
+        "P05"
+      ]
+    },
+    {
+      "chapter": "c28",
+      "heading": "¿Puedes recuperar el orden de los estímulos?",
+      "references": [
+        "A01",
+        "P05"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Un reloj natural como investigación de estructura",
+      "references": [
+        "P06",
+        "P07",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Desarrollo guiado: separar fase, período y sincronización con el ambiente",
+      "references": [
+        "A01",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Cómo una fase se vuelve un tiempo de pico",
+      "references": [
+        "A01",
+        "P06",
+        "P07",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Una red con ARN, compartimentos y lazos entrelazados",
+      "references": [
+        "A01",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Luz como entrada y diferencia entre ritmo libre y arrastre",
+      "references": [
+        "A01",
+        "P06"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Derivar una ecuación de fase relativa al ambiente",
+      "references": [
+        "A01",
+        "P06"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Curva de respuesta de fase",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Datos que distinguen lazos alternativos",
+      "references": [
+        "P06",
+        "P07",
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Sensibilidad de período y compensación de temperatura",
+      "references": [
+        "A01",
+        "I06",
+        "A10"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Ejercicio resuelto: una diferencia pequeña que se acumula",
+      "references": [
+        "A01",
+        "P06",
+        "P07",
+        "A15"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Aplicación complementaria: El reloj de Arabidopsis: cómo una predicción cambia un modelo",
+      "references": []
+    },
+    {
+      "chapter": "c29",
+      "heading": "Un caso de ciencia iterativa",
+      "references": [
+        "P06",
+        "P07",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Ritmo no significa automáticamente reloj",
+      "references": [
+        "A01",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Cuatro propiedades diferentes",
+      "references": [
+        "A01",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Ejercicio resuelto: pequeña diferencia, gran desfase",
+      "references": [
+        "A01",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Luz, fase y sincronización",
+      "references": [
+        "A01",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "chapter": "c29",
+      "heading": "Comprobar el programa y el razonamiento",
+      "references": [
+        "A01",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "chapter": "toggle-vegetal",
+      "heading": "Qué aporta el caso de 2025",
+      "references": [
+        "A11",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "toggle-vegetal",
+      "heading": "Desarrollo guiado: utilizar un caso vegetal sin cambiar el significado de las ecuaciones",
+      "references": [
+        "A01",
+        "A11"
+      ]
+    },
+    {
+      "chapter": "toggle-vegetal",
+      "heading": "Interpretar una curva medida",
+      "references": [
+        "A01",
+        "I04",
+        "I06",
+        "A11"
+      ]
+    },
+    {
+      "chapter": "toggle-vegetal",
+      "heading": "Funciones de transferencia como módulos cuantitativos",
+      "references": [
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "toggle-vegetal",
+      "heading": "Una condición local para amplificación por doble represión",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "toggle-vegetal",
+      "heading": "Normalizar sin borrar asimetrías",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "toggle-vegetal",
+      "heading": "Variación entre células y robustez del dispositivo",
+      "references": [
+        "A09",
+        "I06",
+        "A10",
+        "A11",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "toggle-vegetal",
+      "heading": "Un análisis de conmutación con observable separado",
+      "references": [
+        "A01",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "toggle-vegetal",
+      "heading": "Ejercicio resuelto: degradación cambia la condición local",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "toggle-vegetal",
+      "heading": "Cómo estudiar el artículo con este capítulo",
+      "references": [
+        "A11",
+        "A15",
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "cascadas",
+      "heading": "Una red de regulación puede actuar sobre estados de una proteína",
+      "references": [
+        "A01",
+        "A12"
+      ]
+    },
+    {
+      "chapter": "cascadas",
+      "heading": "Desarrollo guiado: construir una red de modificación sin perder enzimas",
+      "references": [
+        "A01",
+        "A16"
+      ]
+    },
+    {
+      "chapter": "cascadas",
+      "heading": "Contar unidades de sustrato y unidades de enzima",
+      "references": [
+        "A01",
+        "A16",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "cascadas",
+      "heading": "De dónde sale la ultrasensibilidad de saturación",
+      "references": [
+        "A13",
+        "A16",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "cascadas",
+      "heading": "Un ciclo de modificación y su conservación",
+      "references": [
+        "A01",
+        "A13"
+      ]
+    },
+    {
+      "chapter": "cascadas",
+      "heading": "Calcular la pendiente del ciclo",
+      "references": [
+        "A01",
+        "A13"
+      ]
+    },
+    {
+      "chapter": "cascadas",
+      "heading": "Cascadas: componer ganancias",
+      "references": [
+        "A01",
+        "A12",
+        "I07"
+      ]
+    },
+    {
+      "chapter": "cascadas",
+      "heading": "Modificación multisito y enzimas compartidas",
+      "references": [
+        "A16",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "cascadas",
+      "heading": "Secuestro estequiométrico como umbral",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "cascadas",
+      "heading": "Redes excitable y oscilatoria no son sinónimos",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "cascadas",
+      "heading": "Ejercicio resuelto: conservación antes que ajuste",
+      "references": [
+        "A01",
+        "A16"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Acoplar un circuito con metabolismo exige decidir qué se predice",
+      "references": [
+        "A01",
+        "R16",
+        "A29",
+        "A30",
+        "A31"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Desarrollo guiado: distinguir balances dinámicos de restricciones de flujo",
+      "references": [
+        "A01",
+        "R16",
+        "R18",
+        "A29"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Una restricción termodinámica no es una velocidad",
+      "references": [
+        "A01",
+        "R19",
+        "D07"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Un estado epigenético también necesita una regla de cambio",
+      "references": [
+        "A01",
+        "A09",
+        "A30",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Control metabólico: la enzima más abundante no controla necesariamente el flujo",
+      "references": [
+        "A01",
+        "A29",
+        "A30",
+        "A31"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Flujos compatibles con estequiometría",
+      "references": [
+        "A01",
+        "R16",
+        "R18",
+        "A29"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Termodinámica y balances cinéticos",
+      "references": [
+        "A01",
+        "R19",
+        "D07"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Memoria epigenética como estados, sin confundirla con concentración",
+      "references": [
+        "A01",
+        "A30",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Evolución de una población de circuitos",
+      "references": [
+        "A01",
+        "I08",
+        "I06",
+        "A31"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Conectar niveles sin sobrecargar la inferencia",
+      "references": [
+        "A01",
+        "I06",
+        "R16",
+        "A29",
+        "A30",
+        "A31"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Ejercicio resuelto: selección que parece apagado",
+      "references": [
+        "A01",
+        "A09",
+        "A31",
+        "I08"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Aplicación complementaria: Más allá de las EDO: energías, metabolismo, epigenética y poblaciones",
+      "references": [
+        "A01",
+        "A30",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "La herramienta cambia cuando cambia la pregunta",
+      "references": [
+        "A01",
+        "A29",
+        "A30",
+        "A31"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Energía y probabilidad de ocupación",
+      "references": [
+        "R19",
+        "A01",
+        "D07"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "De reacciones a restricciones de flujo",
+      "references": [
+        "R16",
+        "A01",
+        "A29",
+        "R18"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Ejercicio de FBA que puedes resolver a mano",
+      "references": [
+        "R18",
+        "A01",
+        "A29",
+        "R16"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Epigenética: estados que cambian la accesibilidad",
+      "references": [
+        "A01",
+        "A30",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Evolución y poblaciones",
+      "references": [
+        "A31",
+        "A01",
+        "I08"
+      ]
+    },
+    {
+      "chapter": "c35",
+      "heading": "Lenguajes y programas en perspectiva",
+      "references": [
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R17",
+        "I13"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Tres tareas diferentes: predecir, reconstruir una red y explicar un mecanismo",
+      "references": [
+        "I10",
+        "I11",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Desarrollo guiado: inferir una ecuación no equivale a identificar su mecanismo",
+      "references": [
+        "A14",
+        "A27",
+        "A18"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Un ejemplo de ambigüedad que puedes reconocer",
+      "references": [
+        "A01",
+        "I06",
+        "A18",
+        "A14"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Separar tres tipos de evidencia",
+      "references": [
+        "I10",
+        "I11",
+        "I12",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Identificar ecuaciones con una biblioteca de términos",
+      "references": [
+        "A14",
+        "I06",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Un término descubierto no es automáticamente una reacción elemental",
+      "references": [
+        "A01",
+        "A14",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Modelos híbridos de mecanismo y aprendizaje",
+      "references": [
+        "A01",
+        "I11",
+        "I10",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Datos de célula única y tiempo",
+      "references": [
+        "I10",
+        "I11",
+        "A09",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Qué aporta y qué no aporta un modelo fundacional",
+      "references": [
+        "I11",
+        "I12",
+        "I06",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Un flujo de trabajo de comparación honesto",
+      "references": [
+        "I10",
+        "I11",
+        "A15",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Ejercicio resuelto: un ajuste perfecto que no identifica dos coeficientes",
+      "references": [
+        "I06",
+        "A14",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Aplicación complementaria: Modelos basados en datos, redes reguladoras e inteligencia artificial",
+      "references": []
+    },
+    {
+      "chapter": "c33",
+      "heading": "Varias preguntas necesitan varias clases de modelo",
+      "references": [
+        "A01",
+        "I10",
+        "I11",
+        "I12"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Qué significa inferir una red",
+      "references": [
+        "I10",
+        "A01",
+        "I11",
+        "I12"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "La exactitud puede engañar",
+      "references": [
+        "A01",
+        "I10",
+        "I11",
+        "I12"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Cómo evitar una victoria artificial",
+      "references": [
+        "A01",
+        "I10",
+        "I11",
+        "I12"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Una lectura crítica de avances recientes",
+      "references": [
+        "I11",
+        "I12",
+        "A01",
+        "I10"
+      ]
+    },
+    {
+      "chapter": "c33",
+      "heading": "Dinámica e híbridos",
+      "references": [
+        "A01",
+        "I10",
+        "I11",
+        "I12"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Una figura reproducible necesita más que un script que se ejecuta",
+      "references": [
+        "A15",
+        "I13",
+        "I14",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Desarrollo guiado: organizar un programa para que pueda revisarse",
+      "references": [
+        "R05",
+        "R20",
+        "A22"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Entender por qué se evita una variable global oculta",
+      "references": [
+        "R20",
+        "A24"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Una prueba debe comprobar una consecuencia, no repetir la función",
+      "references": [
+        "A01",
+        "A17",
+        "A21"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Qué debe viajar con una figura reproducible",
+      "references": [
+        "I13",
+        "I14",
+        "I15",
+        "A01",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Estructura de un proyecto científico pequeño",
+      "references": [
+        "A15",
+        "I15",
+        "A24"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Pruebas con significado matemático",
+      "references": [
+        "A01",
+        "A15",
+        "I02",
+        "I06",
+        "A20"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Versiones, semillas y entorno",
+      "references": [
+        "A21",
+        "A22",
+        "A24",
+        "I02",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Intercambiar modelos y simulaciones",
+      "references": [
+        "I13",
+        "I14",
+        "I15",
+        "A15"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Dibujar una figura que explique el mecanismo y el cálculo",
+      "references": [
+        "A01",
+        "A23",
+        "A15"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Una afirmación y su cadena de evidencia",
+      "references": [
+        "A04",
+        "I09",
+        "A15",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Ejercicio resuelto: dos resultados reproducibles que discrepan",
+      "references": [
+        "A01",
+        "A15"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Aplicación complementaria: Investigación reproducible, formatos abiertos y proyecto final",
+      "references": []
+    },
+    {
+      "chapter": "c34",
+      "heading": "Tu resultado debe sobrevivir a tu memoria",
+      "references": [
+        "A01",
+        "I13",
+        "I14",
+        "I15"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Tres herramientas que resuelven partes diferentes",
+      "references": [
+        "I13",
+        "I14",
+        "I15",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Programar también requiere comprobaciones",
+      "references": [
+        "A01",
+        "I13",
+        "I14",
+        "I15"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Proyecto final: una respuesta inducible observada con retraso",
+      "references": [
+        "A01",
+        "I13",
+        "I14",
+        "I15"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Rúbrica y solución orientativa",
+      "references": [
+        "A01",
+        "I13",
+        "I14",
+        "I15"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Lectura guiada de las 25 prácticas",
+      "references": [
+        "R20",
+        "R21",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 01: Python y tu primera curva",
+      "references": [
+        "A01",
+        "A21",
+        "A23"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 02: ARN y proteína: dos escalas",
+      "references": [
+        "A01",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 03: Regular no equivale a un interruptor",
+      "references": [
+        "A01",
+        "D07"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 04: Dos estados y sus cuencas",
+      "references": [
+        "A01",
+        "D01"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 05: Oscilar y comprobarlo",
+      "references": [
+        "A01",
+        "D02"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 06: Eventos y trayectorias discretas",
+      "references": [
+        "I02",
+        "I03"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 07: Estimar con datos sintéticos explícitos",
+      "references": [
+        "I05",
+        "I06",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 08: Tejido en una cadena de células",
+      "references": [
+        "A01",
+        "P03",
+        "P04"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 09: Distribución de muestreo por Monte Carlo",
+      "references": [
+        "A09",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 10: La fluorescencia llega con retraso",
+      "references": [
+        "I04",
+        "P01"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 11: Unión molecular y raíz físicamente válida",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 12: Ramas estables e inestables de una autoactivación",
+      "references": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 13: Derivar y comprobar el umbral de Goodwin",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 14: Control antitético, perturbación y fuga",
+      "references": [
+        "A04",
+        "I09"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 15: Bloqueo y deriva entre dos osciladores",
+      "references": [
+        "A01",
+        "A05"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 16: Promotor telegráfico: media y varianza",
+      "references": [
+        "A20",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 17: Sensibilidad, tiempo e información",
+      "references": [
+        "A01",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 18: Calibración estática frente a dinámica de auxina",
+      "references": [
+        "A01",
+        "P01",
+        "P02"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 19: Estabilidad homogénea y modos espaciales",
+      "references": [
+        "A01",
+        "D11"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 20: Nueve especies y tres conservaciones",
+      "references": [
+        "A01",
+        "A16"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 21: Dos anillos acoplados: seis proteínas",
+      "references": [
+        "A01",
+        "A06"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 22: Perfil de verosimilitud y diseño temporal",
+      "references": [
+        "I06",
+        "A09",
+        "A10"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 23: De una pendiente a un resultado comprobado",
+      "references": [
+        "A01",
+        "A02",
+        "A27",
+        "R05",
+        "R20",
+        "R21"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 24: Seis EDO bacterianas: escalas y código",
+      "references": [
+        "A01",
+        "D02",
+        "A27",
+        "R05",
+        "R21"
+      ]
+    },
+    {
+      "chapter": "c34",
+      "heading": "Práctica 25: Levadura: dos destinos y una respuesta que se adapta",
+      "references": [
+        "A01",
+        "A02",
+        "A25",
+        "A26",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Leer un artículo como un modelo que se puede poner a prueba",
+      "references": [
+        "A01",
+        "A15",
+        "I13",
+        "I14"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Desarrollo guiado: reconstruir el argumento matemático de un artículo",
+      "references": [
+        "A01",
+        "A15"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Distinguir tres decisiones del autor",
+      "references": [
+        "A01",
+        "A15",
+        "I13",
+        "D02",
+        "A25"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Comparar casos sin forzar que sean el mismo sistema",
+      "references": [
+        "D02",
+        "A25",
+        "A26",
+        "P04",
+        "A15",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Qué se buscó para esta revisión",
+      "references": [
+        "A01",
+        "A03",
+        "A04",
+        "A06",
+        "A11",
+        "P10",
+        "A15"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Cuatro rutas para circuitos de mayor complejidad",
+      "references": [
+        "A03",
+        "A05",
+        "A06",
+        "A04",
+        "I09",
+        "A12",
+        "A13",
+        "A16"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Tres rutas vegetales que no conviene mezclar",
+      "references": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "A11",
+        "P13",
+        "P10",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Fechas y tipos de publicación",
+      "references": [
+        "A06",
+        "A15",
+        "V02"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Evitar tres saltos de interpretación",
+      "references": [
+        "I06",
+        "R19",
+        "P05",
+        "A01",
+        "I10",
+        "I11",
+        "I12"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Construir una ficha de reproducción fiel",
+      "references": [
+        "A15",
+        "I14",
+        "A11",
+        "P10",
+        "A03",
+        "I09"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Ejercicio de lectura resuelto",
+      "references": [
+        "A01",
+        "I06",
+        "A10",
+        "A15"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Aplicación complementaria: Hasta octubre de 2026: avances verificados y preguntas abiertas",
+      "references": []
+    },
+    {
+      "chapter": "c31",
+      "heading": "Qué significa estar actualizado",
+      "references": [
+        "P12",
+        "P13",
+        "P10",
+        "P14",
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Una predicción necesita una prueba que pueda fallar",
+      "references": [
+        "A01",
+        "P12",
+        "P13",
+        "P10",
+        "P14"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Ejercicio resuelto: muchos datos no siempre dan mucha independencia",
+      "references": [
+        "A32",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Qué falta y cómo convertirlo en aprendizaje",
+      "references": [
+        "A01",
+        "P12",
+        "P13",
+        "P10",
+        "P14"
+      ]
+    },
+    {
+      "chapter": "c31",
+      "heading": "Cómo comprobar de dónde sale una explicación",
+      "references": [
+        "A15",
+        "A01",
+        "A29",
+        "A30",
+        "A31",
+        "A32"
+      ]
+    },
+    {
+      "chapter": "c37",
+      "heading": "Un proyecto comienza con una afirmación comprobable",
+      "references": [
+        "A01",
+        "A15",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c37",
+      "heading": "Desarrollo guiado: construir un proyecto que puedas defender con tus palabras",
+      "references": [
+        "A01"
+      ]
+    },
+    {
+      "chapter": "c37",
+      "heading": "Un proyecto mínimo con una conclusión comprobable",
+      "references": [
+        "A01",
+        "I06",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c37",
+      "heading": "Cómo corregir una discrepancia",
+      "references": [
+        "A01",
+        "A17",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c37",
+      "heading": "Proyecto 1: inferir un pulso de entrada desde un sensor",
+      "references": [
+        "A01",
+        "P01",
+        "P02",
+        "V02",
+        "I06",
+        "A09",
+        "V01"
+      ]
+    },
+    {
+      "chapter": "c37",
+      "heading": "Proyecto 2: interruptor vegetal con recurso compartido",
+      "references": [
+        "A01",
+        "I07",
+        "I08",
+        "A11",
+        "I04",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c37",
+      "heading": "Proyecto 3: patrón espacial en un tejido creciente",
+      "references": [
+        "A01",
+        "P04",
+        "I06",
+        "P13"
+      ]
+    },
+    {
+      "chapter": "c37",
+      "heading": "Proyecto 4: adaptación, ruido y capacidad",
+      "references": [
+        "A04",
+        "I09",
+        "A07"
+      ]
+    },
+    {
+      "chapter": "c37",
+      "heading": "Doce problemas adicionales con respuesta desarrollada",
+      "references": [
+        "A01",
+        "I06",
+        "A09",
+        "D10",
+        "D11",
+        "A05",
+        "A10"
+      ]
+    },
+    {
+      "chapter": "c37",
+      "heading": "Rúbrica para evaluar un proyecto",
+      "references": [
+        "A01",
+        "A15",
+        "I06",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "chapter": "c37",
+      "heading": "Ruta de profundización sin garantía artificial de dominio",
+      "references": [
+        "A01",
+        "A15"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "Lenguaje de las ecuaciones y de las reacciones",
+      "references": [
+        "A01",
+        "A02",
+        "I02"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "Guía ampliada: leer símbolos y términos sin adivinarlos",
+      "references": [
+        "A01",
+        "A27",
+        "A02",
+        "A09",
+        "I05",
+        "I02",
+        "A07",
+        "I06",
+        "R05",
+        "R21",
+        "R20",
+        "A24",
+        "I15"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "Lenguaje de la dinámica no lineal",
+      "references": [
+        "A01",
+        "F10",
+        "A02"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "Lenguaje de la probabilidad y la observación",
+      "references": [
+        "A01",
+        "I02",
+        "A07",
+        "A20",
+        "A09",
+        "I04",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "Lenguaje de la inferencia",
+      "references": [
+        "A09",
+        "I06",
+        "A18",
+        "A10",
+        "A01",
+        "A08"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "Lenguaje de circuitos y contexto vegetal",
+      "references": [
+        "I07",
+        "I08",
+        "A04",
+        "I09",
+        "A01",
+        "P04",
+        "P05",
+        "V02"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "Tabla de comprobación rápida",
+      "references": [
+        "A01",
+        "I02",
+        "I06",
+        "P10",
+        "A15",
+        "A02",
+        "A09"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "Cómo consultar una letra sin perder el contexto",
+      "references": [
+        "A01",
+        "A28",
+        "A27"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "Magnitud, unidad y dimensión: tres preguntas diferentes",
+      "references": [
+        "A28",
+        "A01",
+        "I13"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "La ficha que debes escribir antes de simular",
+      "references": [
+        "A01",
+        "A15",
+        "I13",
+        "I04",
+        "A09",
+        "P10",
+        "R05",
+        "A24",
+        "I06",
+        "A18"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "Errores de lectura que conviene aprender a detectar",
+      "references": [
+        "A01",
+        "R05",
+        "A23",
+        "A18"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "Una forma de comprobar si ya puedes defender tu modelo",
+      "references": [
+        "A01",
+        "R05",
+        "I06",
+        "A15",
+        "A18"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "Índice de símbolos por contexto y ecuación",
+      "references": [
+        "A01",
+        "A27",
+        "A28"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "00 · Retomar las ecuaciones diferenciales: del balance a la solución",
+      "references": [
+        "A01",
+        "A02",
+        "R05",
+        "F08",
+        "D07"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "01 · De las reacciones a las EDO: estequiometría, conservación y escalas",
+      "references": [
+        "A01",
+        "A27",
+        "A02",
+        "R03",
+        "I02",
+        "I08",
+        "D08"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "02 · Programar y resolver modelos con Python: algoritmos, precisión y rigidez",
+      "references": [
+        "R05",
+        "A01",
+        "A21",
+        "A22",
+        "R03",
+        "R09",
+        "R20",
+        "R21",
+        "A17",
+        "A02",
+        "R06",
+        "R07",
+        "R08",
+        "A15",
+        "I13",
+        "I14",
+        "R01",
+        "R02",
+        "R04",
+        "R10",
+        "R11"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "03 · Expresión génica completa: ARN, proteína, compartimentos y reporteros",
+      "references": [
+        "A01",
+        "R19",
+        "I06",
+        "A02",
+        "I04",
+        "D04",
+        "R05"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "04 · Derivar la regulación: unión molecular, promotores, Hill y Michaelis–Menten",
+      "references": [
+        "A01",
+        "D07",
+        "I07",
+        "R19",
+        "A02",
+        "I06",
+        "D08",
+        "A12",
+        "A16",
+        "I08"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "05 · Equilibrios y estabilidad: linealización, autovalores y retroalimentación",
+      "references": [
+        "A01",
+        "A02",
+        "D04",
+        "A27",
+        "R03",
+        "F10",
+        "I09"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "06 · Interruptores biestables: plano de fases, cuencas e histéresis",
+      "references": [
+        "A01",
+        "D01",
+        "A27",
+        "A02",
+        "I03",
+        "I06",
+        "I04",
+        "A16"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "07 · Bifurcaciones y continuación: cuándo cambia la conducta del circuito",
+      "references": [
+        "A01",
+        "A02",
+        "R15",
+        "A06"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "08 · Osciladores génicos: Goodwin, represilador y doble retroalimentación",
+      "references": [
+        "A01",
+        "R05",
+        "D02",
+        "D03",
+        "A27",
+        "A02",
+        "A03"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "09 · Lógica dinámica, feedforward, adaptación y procesamiento de señales",
+      "references": [
+        "A01",
+        "D05",
+        "D06",
+        "A02",
+        "P04",
+        "P12",
+        "I06",
+        "I04",
+        "A04",
+        "I09",
+        "P11"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "10 · Retrasos y sistemas híbridos: historia, eventos y conmutación",
+      "references": [
+        "D09",
+        "D12",
+        "A01",
+        "R05",
+        "R20",
+        "A02",
+        "P05"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "11 · Control integral biomolecular: adaptación robusta y sus límites",
+      "references": [
+        "A01",
+        "I09",
+        "A04",
+        "A07",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "12 · Recursos, crecimiento y retroactividad: modelar el circuito dentro de la célula",
+      "references": [
+        "I08",
+        "A01",
+        "I07",
+        "A07",
+        "I06",
+        "I09",
+        "P08",
+        "P09",
+        "P11"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "13 · Circuitos complejos: osciladores acoplados, sincronización y módulos compartidos",
+      "references": [
+        "A01",
+        "A06",
+        "A05",
+        "A02",
+        "R19",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "14 · Espacio y tejidos: transporte, redes celulares y reacción–difusión",
+      "references": [
+        "A01",
+        "D10",
+        "D11",
+        "A27",
+        "R05",
+        "R07",
+        "R08",
+        "P04"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "15 · Modelos estocásticos: probabilidad, ecuación maestra y Gillespie",
+      "references": [
+        "A01",
+        "I02",
+        "R03",
+        "R20",
+        "A07",
+        "I03",
+        "A20",
+        "D09",
+        "A04",
+        "A19",
+        "A09",
+        "I01"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "16 · Ráfagas, momentos y aproximaciones: del promotor al ruido celular",
+      "references": [
+        "A20",
+        "A01",
+        "A07",
+        "I03",
+        "I02",
+        "I04",
+        "A09",
+        "A17"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "17 · Modelos de observación: fluorescencia, maduración, censura y error",
+      "references": [
+        "A01",
+        "I04",
+        "I06",
+        "A09",
+        "I05",
+        "V02",
+        "A07",
+        "A20",
+        "A15",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "18 · Sensibilidad local y global: qué controla las predicciones",
+      "references": [
+        "A01",
+        "A08",
+        "A27",
+        "A09",
+        "I06",
+        "R05",
+        "I05",
+        "A10"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "19 · Inferencia de parámetros: verosimilitud, optimización y Bayes",
+      "references": [
+        "A09",
+        "A01",
+        "I05",
+        "R21",
+        "A27",
+        "I06",
+        "A22",
+        "R03",
+        "R05",
+        "A10",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "20 · Identificabilidad y diseño informativo: qué permiten aprender los datos",
+      "references": [
+        "I06",
+        "A18",
+        "A01",
+        "A09",
+        "A27",
+        "A10",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "21 · Caso bacteriano completo: represilador, seis EDO y código explicado",
+      "references": [
+        "D02",
+        "A01",
+        "A02",
+        "R21",
+        "R03",
+        "R20",
+        "R05",
+        "A27",
+        "I04"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "23 · Modelar plantas: compartimentos, crecimiento, variación y escalas",
+      "references": [
+        "A01",
+        "P10",
+        "P13",
+        "P04",
+        "A09",
+        "A07",
+        "P03",
+        "I08",
+        "I06",
+        "A18",
+        "P06",
+        "P07",
+        "A11"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "24 · Auxina y sensores: del reconocimiento molecular a la inferencia dinámica",
+      "references": [
+        "V01",
+        "P02",
+        "A01",
+        "V02",
+        "A09",
+        "I04",
+        "P01",
+        "I06",
+        "P03"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "25 · Lógica espacial en raíces: de funciones reguladoras a patrones tisulares",
+      "references": [
+        "A01",
+        "P04",
+        "A02",
+        "A09",
+        "I04",
+        "P12",
+        "P13",
+        "I06",
+        "P03",
+        "I07",
+        "I08",
+        "P10"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "26 · Memoria vegetal y contadores: estados de ADN y registros probabilísticos",
+      "references": [
+        "A01",
+        "P05",
+        "A09",
+        "I04",
+        "I06"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "27 · El reloj de Arabidopsis: redes interconectadas, fase y contraste de modelos",
+      "references": [
+        "P06",
+        "P07",
+        "A01",
+        "I06",
+        "A10",
+        "A15"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "28 · Un interruptor genético en plantas: lectura matemática de un caso de 2025",
+      "references": [
+        "A11",
+        "A01",
+        "I04",
+        "I06",
+        "A09",
+        "A10",
+        "P10",
+        "A15"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "30 · Metabolismo, energía, epigenética y evolución: acoplar otros niveles",
+      "references": [
+        "A01",
+        "R16",
+        "R18",
+        "A09",
+        "I06",
+        "I08",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R17",
+        "R19",
+        "A29",
+        "A30",
+        "A31",
+        "D07"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "31 · Redes inferidas, modelos híbridos e inteligencia artificial: utilidad y evidencia",
+      "references": [
+        "I10",
+        "I11",
+        "A01",
+        "A14",
+        "A27",
+        "A18",
+        "I06",
+        "I12",
+        "A09",
+        "P10",
+        "A15"
+      ]
+    },
+    {
+      "chapter": "c36",
+      "heading": "33 · Leer artículos y mantener una bibliografía crítica: avances hasta octubre de 2026",
+      "references": [
+        "A01",
+        "A15",
+        "I13",
+        "I14",
+        "D02",
+        "A25",
+        "A26",
+        "P04",
+        "A03",
+        "A04",
+        "A06",
+        "A11",
+        "P10",
+        "A05",
+        "I09",
+        "A12",
+        "A13",
+        "A16",
+        "P01",
+        "P02",
+        "P05",
+        "P13",
+        "A09",
+        "V02",
+        "I06",
+        "R19",
+        "I10",
+        "I11",
+        "I12",
+        "A10",
+        "P12",
+        "P14",
+        "A32",
+        "A29",
+        "A30",
+        "A31"
+      ]
+    }
+  ],
+  "scope": "Inspección de procedencia y citas de todos los apartados; contraste de metadatos de DOI con Crossref y revisión de pasajes seleccionados con sus fuentes primarias. No es una verificación independiente, frase por frase, de toda la obra."
+}

@@ -757,11 +757,11 @@
     "id": "A06",
     "title": "Intracellularly coupled oscillators for synthetic biology",
     "authors": "Gábor Holló; Jung Hun Park; Rose A. Evard; Yolanda Schaerli",
-    "year": 2025,
+    "year": 2026,
     "doi": "10.1038/s41467-025-67893-0",
     "url": "https://doi.org/10.1038/s41467-025-67893-0",
     "type": "Artículo académico primario",
-    "note": "Artículo teórico primario; texto web consultado, resultados y limitaciones de implementación. Publicado en línea el 21-12-2025; volumen 17 de 2026. No confundir predicciones computacionales con validación experimental. Metadatos DOI verificados el 19-10-2026."
+    "note": "Artículo teórico primario; texto web consultado, resultados y limitaciones de implementación. Publicado en línea el 21-12-2025; volumen 17 de 2026. No confundir predicciones computacionales con validación experimental. Metadatos DOI verificados el 19-10-2026. Volumen 17, artículo 1131 (2026); publicación en línea 21-12-2025 y versión editorial 29-01-2026, según la página de la revista."
   },
   {
     "id": "A07",
@@ -1014,5 +1014,60 @@
     "type": "norma científica internacional y publicación metrológica oficial",
     "verified": true,
     "note": "Consulta del catálogo oficial el 19-10-2026: edición novena, actualización 2026. Apoya la distinción entre magnitud, unidad y dimensión. Las comprobaciones dimensionales y ejemplos de circuitos son desarrollos docentes originales."
+  },
+  {
+    "id": "A29",
+    "title": "What is flux balance analysis?",
+    "authors": "Jeffrey D. Orth; Ines Thiele; Bernhard Ø. Palsson",
+    "year": 2010,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3108565/",
+    "doi": "10.1038/nbt.1614",
+    "type": "artículo metodológico académico, Nature Biotechnology",
+    "verified": true,
+    "note": "Texto de autor en PMC consultado el 19-10-2026: balances estacionarios, restricciones y función objetivo. Los ejemplos numéricos del atlas son ejercicios originales; no son flujos medidos ni reproducciones del modelo del artículo."
+  },
+  {
+    "id": "A30",
+    "title": "Theoretical analysis of epigenetic cell memory by nucleosome modification",
+    "authors": "Ian B. Dodd; Mille A. Micheelsen; Kim Sneppen; Geneviève Thon",
+    "year": 2007,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17512413/",
+    "doi": "10.1016/j.cell.2007.02.053",
+    "type": "artículo de investigación teórica, Cell",
+    "verified": true,
+    "note": "Resumen y metadatos en PubMed consultados el 19-10-2026: modelo estocástico de modificación de nucleosomas en S. pombe; cooperación y reclutamiento no local. El modelo de accesibilidad de dos estados del atlas es una abstracción docente distinta, no una reproducción del artículo."
+  },
+  {
+    "id": "A31",
+    "title": "Evolutionary stable strategies and game dynamics",
+    "authors": "Peter D. Taylor; Leo B. Jonker",
+    "year": 1978,
+    "url": "https://doi.org/10.1016/0025-5564(78)90077-9",
+    "doi": "10.1016/0025-5564(78)90077-9",
+    "type": "artículo matemático, Mathematical Biosciences",
+    "verified": true,
+    "note": "Resumen editorial y metadatos consultados el 19-10-2026: dinámica de frecuencias con éxito reproductivo. La ecuación de dos tipos con tasas constantes se deriva en el atlas a partir de sus balances; no se atribuye al artículo un experimento con circuitos."
+  },
+  {
+    "id": "A32",
+    "title": "The intracluster correlation coefficient in cluster randomisation",
+    "authors": "Sally M. Kerry; J. Martin Bland",
+    "year": 1998,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1113123/",
+    "doi": "10.1136/bmj.316.7142.1455",
+    "type": "artículo metodológico estadístico, BMJ",
+    "verified": true,
+    "note": "Texto en PMC consultado el 19-10-2026: correlación intragrupo y factor de diseño 1+(m−1)ρ. El ejercicio con varias medidas por planta es una aplicación matemática docente bajo grupos de igual tamaño y correlación común, no datos del artículo."
+  },
+  {
+    "id": "A33",
+    "title": "Preparing figures: our specifications",
+    "authors": "Nature Portfolio",
+    "year": 2026,
+    "url": "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/",
+    "doi": null,
+    "type": "guía editorial oficial; año de consulta",
+    "verified": true,
+    "note": "Guía oficial de figuras consultada el 19-10-2026: legibilidad al tamaño final, tipografía y exportación vectorial. Se utiliza como orientación editorial; no respalda afirmaciones biológicas ni implica afiliación con Nature. Los dibujos son originales."
   }
 ]

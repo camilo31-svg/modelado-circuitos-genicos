@@ -46,5 +46,19 @@
     ],
     "work": "Claves contextuales para 202 ecuaciones, índice de símbolos y figuras vectoriales con instantáneas e indicadores verticales integrados.",
     "scope": "Selección y verificación de fuentes primarias; ejemplos, glosario y comprobaciones docentes originales."
+  },
+  "edition_2_3": {
+    "date": "2026-10-19",
+    "references": 100,
+    "doi_metadata_checked": 69,
+    "selected_passages_reviewed": [
+      "c35: balance de flujos con Orth et al. 2010",
+      "c35: memoria epigenética con Dodd et al. 2007, resumen consultado",
+      "c35: dinámica evolutiva con Taylor y Jonker 1978",
+      "c31: efecto de diseño y correlación intragrupo con Kerry y Bland 1998"
+    ],
+    "graphic_guidance": "Nature Portfolio, Preparing figures: our specifications; guía editorial, no evidencia biológica ni afiliación.",
+    "source_audit": "source-audit.json",
+    "limits": "Metadatos, procedencia y pasajes seleccionados; no revisión científica independiente frase por frase."
   }
 }

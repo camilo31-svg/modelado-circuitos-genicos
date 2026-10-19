@@ -103,6 +103,7 @@ def render(body,chapter_id=None):
     # Desigualdades como g<n son texto, no etiquetas HTML. Conservar código y TeX.
     body=re.sub(r'<!-- VISUAL:.*?-->','',body)
     body=re.sub(r'<!-- INDICE_CONTEXTUAL_(?:INICIO|FIN) -->','',body)
+    body=re.sub(r'<!-- AUDITORIA_FUENTES_(?:INICIO|FIN) -->','',body)
     pieces=re.split(r'(```.*?```|\$\$.*?\$\$)',body,flags=re.S)
     body=''.join(piece if i%2 else piece.replace('<','&lt;') for i,piece in enumerate(pieces))
     body=re.sub(r'\$\$\s*\n?(.*?)\n?\s*\$\$',lambda m:eq_replace(m,chapter_id or 'intro'),body,flags=re.S)
@@ -217,7 +218,15 @@ def flow_html(raw):
         elif n=='figure':
             im=el.find('img');cap=el.find('figcaption')
             anchor='<a name="'+el.get('id','')+'"/>'
-            out.append(KeepTogether([image_flow(DOCS/im['src'],maxh=218*mm),Spacer(1,5),Paragraph(anchor+inline(cap),S['CaptionBook'])]))
+            rows=el.select('.figure-row')
+            if rows:
+                for j,row in enumerate(rows):
+                    label=row.find('p',class_='figure-row-label')
+                    items=[Paragraph((anchor if j==0 else '')+inline(label),S['SmallBook']),Spacer(1,5),image_flow(DOCS/row.find('img')['src'],maxh=218*mm)]
+                    out.append(KeepTogether(items))
+                out.append(Paragraph(inline(cap),S['CaptionBook']))
+            else:
+                out.append(KeepTogether([image_flow(DOCS/im['src'],maxh=218*mm),Spacer(1,5),Paragraph(anchor+inline(cap),S['CaptionBook'])]))
             for guide in el.find_all('details'):
                 for child in guide.children:
                     if getattr(child,'name',None)=='p':out.append(Paragraph(inline(child),S['CaptionBook']))
@@ -325,7 +334,7 @@ with zipfile.ZipFile(epub,'w') as z:
     put('OEBPS/nav.xhtml',xhtml('Contenido',navbody))
     ncx='<?xml version="1.0" encoding="UTF-8"?><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1"><head><meta name="dtb:uid" content="'+uid+'"/></head><docTitle><text>Modelado matemático de circuitos génicos</text></docTitle><navMap>'+''.join('<navPoint id="nav'+str(i)+'" playOrder="'+str(i)+'"><navLabel><text>'+html.escape(t)+'</text></navLabel><content src="'+p+'"/></navPoint>' for i,(p,t) in enumerate([('intro.xhtml','Antes de empezar')]+nav+[('references.xhtml','Referencias')],1))+'</navMap></ncx>'
     put('OEBPS/toc.ncx',ncx)
-    image_paths=[cover]+[DOCS/e['path'] for e in equations.values()]+[DOCS/f['png'] for f in figures]
+    image_paths=[cover]+[DOCS/e['path'] for e in equations.values()]+[DOCS/v['png'] for f in figures for v in ((f.get('curve_guide') or {}).get('book_views') or [{'png':f['png']}])]
     for p in dict.fromkeys(image_paths):
         rel=p.relative_to(DOCS).as_posix();put('OEBPS/'+rel,p.read_bytes())
         if p!=cover:manifest.append(('im'+hashlib.md5(rel.encode()).hexdigest(),rel,'image/png',''))

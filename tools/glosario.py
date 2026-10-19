@@ -33,7 +33,7 @@ En una asociación A+B→C con concentraciones a y b, la tasa v=k·a·b tiene un
 
 **Fin de la curva frente a equilibrio.** El último tiempo guardado es una elección numérica. Para defender un equilibrio, comprueba el campo de velocidades y escalas residuales; para un ciclo, persistencia, período y convergencia con el cálculo. Tres instantáneas ayudan a leer una curva, pero no sustituyen revisar su recorrido completo. [A01] [R05]
 
-**Iconos frente a cantidades medidas.** En las figuras integradas, las proteínas dibujadas sugieren abundancia relativa: seis iconos no significan seis moléculas. Los indicadores verticales comparan el valor absoluto con el máximo absoluto de esa misma serie; el número impreso conserva signo y unidad. Dos indicadores llenos de series distintas no prueban igualdad de cantidades. Para una tasa o un error no se inventa una especie molecular. [A01] [A23]
+**Iconos frente a cantidades medidas.** En las figuras integradas, un icono identifica la especie; la cantidad se lee en el número y el indicador. El dibujo no se interpreta como un conteo molecular. Los indicadores verticales comparan el valor absoluto con el máximo absoluto de esa misma serie; el número impreso conserva signo y unidad. Dos indicadores llenos de series distintas no prueban igualdad de cantidades. Para una tasa o un error no se inventa una especie molecular. [A01] [A23]
 
 **Parámetro efectivo frente a mecanismo.** Un exponente de Hill ajustado no demuestra cuántos sitios se unen; una sola tasa de pérdida puede reunir degradación y dilución; una ganancia de detector no es una eficiencia de traducción. La interpretación depende de las hipótesis y del experimento que la distingue de alternativas. [A01] [A18]
 

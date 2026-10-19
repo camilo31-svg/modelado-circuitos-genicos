@@ -28,3 +28,20 @@
 body.dark .symbol-key,body.dark .glossary-card{background:#1d302a;border-color:#3a5548}body.dark .glossary-meta,body.dark .glossary-dialog{background:#172a23}body.dark .glossary-card h2,body.dark .symbol-key summary{color:#a5d0b8}
 @media(max-width:700px){.glossary-grid{grid-template-columns:1fr}.glossary-card{padding:18px}.glossary-dialog{padding:16px}.symbol-key{padding:10px 12px}.glossary-meta{grid-template-columns:1fr}}
 @media print{.symbol-key{break-inside:avoid}.symbol-key>p{display:block}.glossary-card{break-inside:avoid}}
+
+/* El original sigue siendo único; las vistas amplían paneles completos. */
+.figure-viewer-label{font-size:14px;line-height:1.5;color:var(--muted);margin:0 38px 14px 0}
+.figure-view-controls{display:flex;flex-wrap:wrap;gap:8px;position:sticky;top:0;z-index:2;background:var(--paper,#fafaf4);padding:10px 0;border-bottom:1px solid var(--line,#ccd8cf);margin-bottom:18px}
+.figure-view-controls button{font:600 14px/1.4 Arial,sans-serif;padding:9px 14px;border-radius:9px;border:1px solid #b6ccc7;background:#f3f7f4;color:#234b46;cursor:pointer}
+.figure-view-controls button[aria-pressed=true]{background:#205e57;border-color:#205e57;color:white}
+.figure-view-controls button:focus-visible{outline:3px solid #cb8c40;outline-offset:2px}
+.figure-view-window{background:white;border:1px solid #d2dfdd;border-radius:12px;padding:12px}
+#figure-detail .figure-view-image{display:block;width:100%;height:auto;max-height:none;margin:auto}
+#figure-detail .figure-view-image.panel-view{max-width:650px}
+.figure-view-description{font-weight:600;font-size:15px;line-height:1.5;color:var(--green,#205e57)}
+.figure-row{margin:22px 0 30px}.figure-row-label{font:600 14px/1.5 Arial,sans-serif;color:#325c55;border-top:1px solid #c9d9cf;padding-top:14px}
+.prose .figure-row img{width:100%;height:auto}.prose .figure-row button{display:block;width:100%;background:white}
+body.dark .figure-view-controls{background:#1d302a}body.dark .figure-view-controls button{background:#294239;color:#c3e2cf;border-color:#54786a}body.dark .figure-view-controls button[aria-pressed=true]{background:#96cbb1;color:#152c22}
+html:has(#figure-dialog[open]){overflow:hidden}
+.source-audit-link{display:inline-block;max-width:100%;padding:8px 0;font-weight:600}
+@media(max-width:700px){.figure-view-window{padding:3px;border-radius:8px}.figure-view-controls{gap:6px}.figure-view-controls button{font-size:13px;padding:8px 10px}.figure-viewer-label{font-size:13px}#figure-dialog{width:calc(100% - 8px);max-width:none;padding:8px}.figure-viewer .fine{font-size:14px;line-height:1.5}}

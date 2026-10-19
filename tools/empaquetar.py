@@ -15,7 +15,7 @@ for size in [180,192,512]:
 manifest=json.loads((DOCS/'manifest.webmanifest').read_text(encoding='utf8'))
 manifest['icons']=[dict(src=f'assets/icon-{n}.png',sizes=f'{n}x{n}',type='image/png',purpose='any') for n in [192,512]]
 (DOCS/'manifest.webmanifest').write_text(json.dumps(manifest,ensure_ascii=False),encoding='utf8')
-for name in ['crear_figuras.py','crear_figuras_avanzadas.py','crear_figuras_casos.py','crear_figuras_pasos.py','figuras_en_texto.py','ilustracion_molecular.py','lectura_curvas.py','revision4_figuras.py','notacion.py','glosario.py','construir_libro.py','crear_cuadernos.py','crear_practicas_avanzadas.py','crear_casos_detallados.py','ampliar_practicas.py','validar_material.py','empaquetar.py']:
+for name in ['crear_figuras.py','crear_figuras_avanzadas.py','crear_figuras_casos.py','crear_figuras_pasos.py','figuras_en_texto.py','ilustracion_molecular.py','lectura_curvas.py','revision4_figuras.py','revision5_figuras.py','auditar_fuentes.py','notacion.py','glosario.py','construir_libro.py','crear_cuadernos.py','crear_practicas_avanzadas.py','crear_casos_detallados.py','ampliar_practicas.py','validar_material.py','empaquetar.py']:
     src=BASE/'work'/name
     if src.exists() and src.resolve()!=(TOOLS/name).resolve():shutil.copy2(src,TOOLS/name)
 (TOOLS/'requirements-build.txt').write_text('numpy>=2.0,<3\nscipy>=1.14,<2\nmatplotlib>=3.9,<4\nreportlab>=4,<5\npypdf>=5,<7\nmarkdown>=3.7,<4\nbeautifulsoup4>=4.12,<5\npillow>=11,<13\nnbformat>=5,<6\n',encoding='utf8')

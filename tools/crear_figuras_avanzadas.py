@@ -1,6 +1,6 @@
 """Doce figuras científicas originales de cuatro paneles, edición 2.0."""
 from pathlib import Path
-import sys,json,string
+import sys,json,string,os
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
@@ -25,6 +25,8 @@ def protein(ax,x,y,color,label,scale=.28):
 def arrow(ax,a,b,inhibit=False,rad=0,color='#56716b'):
     ax.add_patch(FancyArrowPatch(a,b,arrowstyle='-[' if inhibit else '-|>',mutation_scale=10,lw=1.2,color=color,connectionstyle=f'arc3,rad={rad}'))
 def save(fig,slug,title,chapter,caption,tags,refs):
+    if os.environ.get('ATLAS_FIGURA') and os.environ['ATLAS_FIGURA']!=slug:
+        plt.close(fig);return
     for i,a in enumerate(fig.axes[:4]):
         a.text(-.12,1.10,string.ascii_uppercase[i],transform=a.transAxes,weight='bold',fontsize=12)
         a.tick_params(labelsize=8,width=.6)
@@ -148,7 +150,7 @@ fig,axes=grid();a,b,c,d=axes.flat;kk=np.linspace(0,1.2,301)
 for D in [(1,1),(1,20)]:a.plot(kk,av.dispersion_turing(kk,D=D),label=str(D))
 a.axhline(0,color='gray',lw=.7);a.set(xlabel='Número de onda k',ylabel='Tasa de crecimiento',title='Difusión igual o desigual');a.legend(title='(Du,Dv)')
 ds=np.linspace(1,35,100);ks=np.linspace(0,1.2,100);rates=np.array([av.dispersion_turing(ks,D=(1,q)) for q in ds]);im=b.pcolormesh(ks,ds,rates,shading='auto',cmap='RdBu_r',vmin=-1,vmax=1);b.contour(ks,ds,rates,levels=[0],colors='black',linewidths=.6);b.set(xlabel='Número de onda k',ylabel='Dv/Du',title='Régimen lineal');fig.colorbar(im,ax=b,label='Tasa',shrink=.8)
-space=np.linspace(0,10,101);time=np.linspace(0,20,101);k=np.pi/10;lam=av.dispersion_turing([k])[0];mode=1e-3*np.exp(lam*time[:,None])*np.cos(k*space[None,:]);im=c.pcolormesh(space,time,mode,shading='auto',cmap='RdBu_r');c.set(xlabel='Posición',ylabel='Tiempo',title='Un modo permitido en L=10');fig.colorbar(im,ax=c,label='Perturbación firmada',shrink=.8)
+space=np.linspace(0,10,101);time=np.linspace(0,20,101);k=np.pi/10;lam=av.dispersion_turing([k])[0];mode=1e-3*np.exp(lam*time[:,None])*np.cos(k*space[None,:]);im=c.pcolormesh(space,time,mode,shading='auto',cmap='RdBu_r');c.set(xlabel='Posición',ylabel='Tiempo',title='Modo en L=10: perturbación firmada');fig.colorbar(im,ax=c,shrink=.8)
 d.plot(space,mode[0],label='Inicial');d.plot(space,mode[-1],label='Tiempo 20');d.set(xlabel='Posición',ylabel='Desviación de u',title='Crecimiento lineal, no patrón final');d.legend()
 save(fig,'g09_turing','Estabilidad espacial y selección de modos','c18','Jacobiano J=[1,−2;2,−3], estable sin difusión. A–B analizan autovalores J−k²D. C–D muestran solo una perturbación lineal del modo cos(πx/10), compatible con flujo nulo. Las magnitudes son adimensionales; desviaciones negativas no son concentraciones negativas. No se simula saturación no lineal ni se identifica un patrón vegetal real.',['Turing','difusión','tejido','modos'],['A01','D11'])
 

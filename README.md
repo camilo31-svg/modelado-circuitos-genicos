@@ -1,14 +1,14 @@
 # Modelado matemático de circuitos génicos
 
-**Edición 2.2 — consulta bibliográfica hasta el 19 de octubre de 2026.**
+**Edición 2.3 — consulta bibliográfica hasta el 19 de octubre de 2026.**
 
 Recorrido en español que da por conocidas derivadas e integrales y empieza directamente en ecuaciones diferenciales. Se han retirado las lecciones previas de aritmética, funciones, exponenciales y cálculo elemental. El foco es derivar modelos, entender sus supuestos, analizar dinámica, programar, inferir parámetros y evaluar evidencia, con ejemplos de bacterias, levaduras y plantas. Cada capítulo añade desarrollo guiado de símbolos, unidades, fórmulas y pasos; las prácticas incluyen lectura del código.
 
-- 36 capítulos y unas 100,092 palabras de lecciones e índice, además de leyendas y lecturas por paneles.
-- PDF A4 de 395 páginas y EPUB refluible con las mismas lecciones.
+- 36 capítulos y unas 100,454 palabras de lecciones e índice, además de leyendas y lecturas por paneles.
+- PDF A4 de 402 páginas y EPUB refluible con las mismas lecciones.
 - 69 figuras: 12 láminas moleculares y 57 gráficos y esquemas; 56 reúnen curvas e instantáneas en un mismo PNG/SVG.
 - 25 cuadernos Jupyter y scripts equivalentes; modelos básicos y avanzados.
-- 95 referencias, notas de consulta, BibTeX y mapa de fuentes por sección.
+- 100 referencias académicas u oficiales, notas de consulta, BibTeX y mapa de fuentes por sección.
 - App móvil con categorías, índice interno de capítulo, fuentes, búsqueda de texto y figuras, notas, progreso, simulador y lectura sin conexión.
 
 [Abrir la app](https://camilo31-svg.github.io/modelado-circuitos-genicos/) · [PDF](docs/downloads/modelado-circuitos-genicos.pdf) · [EPUB](docs/downloads/modelado-circuitos-genicos.epub)
@@ -51,6 +51,7 @@ python tools/crear_figuras_avanzadas.py
 python tools/crear_figuras_casos.py
 python tools/crear_figuras_pasos.py
 python tools/construir_libro.py
+python tools/auditar_fuentes.py
 python tools/validar_material.py
 python tools/empaquetar.py
 ```
@@ -81,10 +82,16 @@ Las ecuaciones llevan número y una llamada en la prosa. Cada figura tiene una l
 
 ## Figuras integradas y consulta de símbolos
 
-Las 56 figuras con curvas incluyen 123 paneles de lectura dentro del mismo lienzo: 235 series con inicio, punto intermedio y final. Los iconos moleculares y los indicadores verticales pertenecen al PNG/SVG de la curva. No se distribuyen imágenes de instantáneas separadas. Los valores proceden de las series realmente dibujadas; las escalas de los indicadores son relativas a cada serie, con signo explícito. Los iconos representan abundancia relativa, no conteos. Se distinguen entradas, estados, constantes y cambios deliberados; el último punto no se presenta como equilibrio.
+Las 56 figuras con curvas incluyen 123 paneles de lectura dentro del mismo lienzo: 235 series con inicio, punto intermedio y final. Los iconos moleculares y los indicadores verticales pertenecen al PNG/SVG de la curva. No se distribuyen imágenes de instantáneas separadas. Los valores proceden de las series realmente dibujadas; las escalas de los indicadores son relativas a cada serie, con signo explícito. Un icono identifica la especie; el número y la barra vertical representan su cantidad, con una escala explícita por serie. No se deducen cantidades contando dibujos. Se distinguen entradas, estados, constantes y cambios deliberados; el último punto no se presenta como equilibrio.
 
 Las 202 ecuaciones numeradas tienen claves contextuales con significado, unidad y papel. El glosario contiene 464 entradas (346 símbolos por contexto y 118 conceptos). La app permite abrir la definición desde la fórmula, buscar letras o nombres y filtrar por lección; los libros incorporan el índice al diccionario final con enlaces de retorno. Las fórmulas que aparecen dentro de la prosa se explican en sus párrafos y se apoyan en el índice de la lección. Las claves detalladas verificadas cubren todas las ecuaciones numeradas.
 
-`book/notation.json` conserva cada clave; `book/glossary.json`, las entradas. `tools/notacion.py` define la notación por contexto y su asignación explícita a las 202 ecuaciones. Al añadir ecuaciones se debe revisar esa asignación; la construcción falla si el número o el capítulo no coincide. `tools/revision4_figuras.py` integra las lecturas vectoriales en el lienzo original. El simulador móvil también reúne curva e instantáneas en un solo SVG y explica que sus controles comparan simulaciones distintas.
+`book/notation.json` conserva cada clave; `book/glossary.json`, las entradas. `tools/notacion.py` define la notación por contexto y su asignación explícita a las 202 ecuaciones. Al añadir ecuaciones se debe revisar esa asignación; la construcción falla si el número o el capítulo no coincide. `tools/revision5_figuras.py` integra las lecturas vectoriales en el lienzo original. El simulador móvil también reúne curva e instantáneas en un solo SVG y explica que sus controles comparan simulaciones distintas.
 
 El diccionario añade distinción entre magnitud, unidad y dimensión; consistencia dimensional; una ficha para documentar modelos; errores de interpretación y criterios para defender un resultado. Estas ayudas complementan las prácticas y los proyectos; la formación no equivale a una certificación de dominio experto.
+
+## Revisión de figuras y fuentes de la edición 2.3
+
+Las 56 figuras con curvas se han compuesto con tipografía mínima de 9,5 puntos en el original, más espacio para etiquetas y escalas, un solo icono grande por especie e indicadores verticales con cero explícito. Hay 176 ampliaciones de paneles completos en la app y 88 vistas por filas para PDF y EPUB. Cada ampliación conserva juntos el gráfico y su lectura molecular. Las filas continúan bajo el mismo número de figura para evitar reducir una lámina larga a tamaño ilegible. El simulador también presenta sus tres lecturas en tarjetas verticales. Los tamaños mínimos estimados tras la reducción al PDF se registran en `VERIFICACION.json` y se complementan con inspección visual.
+
+La auditoría de procedencia está en `book/source-audit.json` y se explica en [Fuentes y alcance de la revisión](https://camilo31-svg.github.io/modelado-circuitos-genicos/fuentes.html). Se han contrastado los 69 DOI disponibles y se han revisado pasajes seleccionados frente a publicaciones primarias. Se añadieron fuentes específicas para balance de flujos, memoria epigenética, dinámica evolutiva, correlación intragrupo y legibilidad editorial. No se usan Wikipedia, wikis, blogs ni agregadores divulgativos como fuentes. Las derivaciones, simulaciones y parámetros docentes se identifican como propios y se apoyan en fundamentos citados; no se atribuyen a experimentos publicados. La comprobación de DOI y cobertura de citas no certifica por sí sola cada interpretación de toda la obra.

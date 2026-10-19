@@ -37,7 +37,12 @@ def decorar(raw,chapter_id,figures,label,refs):
             for i,(title,text) in enumerate(readings):
                 guide+='<p><strong>'+html.escape(title)+'.</strong> '+citar(text,refs)+'</p>'
             guide+='</details>'
-        content='<p class="figure-reference">La <a class="local-ref" href="#'+target_id+'">'+html.escape(f_label)+'</a> acompaña este paso: '+html.escape(f['title'])+'.</p><figure id="'+target_id+'" class="figure-in-lesson"><button data-figure="'+f['id']+'" aria-label="Ampliar: '+html.escape(f['title'],quote=True)+'"><img src="'+f['png']+'" alt="'+html.escape(f['alt'],quote=True)+'" loading="lazy"/></button><figcaption><strong>'+html.escape(f_label+'. '+f['title'])+'.</strong> '+citar(f['caption'],refs)+'</figcaption>'+guide+'</figure>'
+        book_views=(f.get('curve_guide') or {}).get('book_views',[])
+        if book_views:
+            images=''.join('<div class="figure-row"><p class="figure-row-label">'+html.escape(f_label)+' · paneles '+', '.join(v['panels'])+' · '+str(i+1)+'/'+str(len(book_views))+'</p><button data-figure="'+f['id']+'" aria-label="Ampliar: '+html.escape(f['title'],quote=True)+'"><img src="'+v['png']+'" alt="'+html.escape(f['title']+'; paneles '+', '.join(v['panels'])+'. Curvas e instantáneas integradas.',quote=True)+'" loading="lazy"/></button></div>' for i,v in enumerate(book_views))
+        else:
+            images='<button data-figure="'+f['id']+'" aria-label="Ampliar: '+html.escape(f['title'],quote=True)+'"><img src="'+f['png']+'" alt="'+html.escape(f['alt'],quote=True)+'" loading="lazy"/></button>'
+        content='<p class="figure-reference">La <a class="local-ref" href="#'+target_id+'">'+html.escape(f_label)+'</a> acompaña este paso: '+html.escape(f['title'])+'.</p><figure id="'+target_id+'" class="figure-in-lesson">'+images+'<figcaption><strong>'+html.escape(f_label+'. '+f['title'])+'.</strong> '+citar(f['caption'],refs)+'</figcaption>'+guide+'</figure>'
         nodes=list(BeautifulSoup(content,'html.parser').contents)
         hint=f.get('after_heading')
         anchor=None;before=False

@@ -29,7 +29,7 @@ La selección bibliográfica se consultó hasta el 19 de octubre de 2026. Incluy
 
 ## Cómo se construye cada explicación
 
-La edición 2.2 utiliza bacterias, levaduras y plantas como ejemplos de métodos generales. Las plantas aportan casos de interés, sin restringir el alcance del recorrido. Cada desarrollo guiado explica estados, parámetros, unidades, origen de las tasas, transformaciones, significado de términos técnicos y comprobaciones. Los casos completos incluyen la traducción a código y el significado de índices, argumentos y salidas. Da por conocidas derivadas e integrales y recupera el uso de EDO, álgebra lineal y probabilidad en su contexto. [A01] [A02] [A27]
+La edición 2.3 utiliza bacterias, levaduras y plantas como ejemplos de métodos generales. Las plantas aportan casos de interés, sin restringir el alcance del recorrido. Cada desarrollo guiado explica estados, parámetros, unidades, origen de las tasas, transformaciones, significado de términos técnicos y comprobaciones. Los casos completos incluyen la traducción a código y el significado de índices, argumentos y salidas. Da por conocidas derivadas e integrales y recupera el uso de EDO, álgebra lineal y probabilidad en su contexto. [A01] [A02] [A27]
 
 Una ecuación experimental y un desarrollo docente se identifican por separado. Los casos bacteriano y de levadura utilizan preguntas de artículos primarios, pero sus simulaciones y constantes docentes no se atribuyen a mediciones publicadas. La explicación de un método se apoya en fuentes matemáticas o documentación oficial; la interpretación biológica, en artículos y evidencia del caso. [D02] [A25] [A26] [R20] [R21]
 
@@ -37,4 +37,10 @@ Una ecuación experimental y un desarrollo docente se identifican por separado. 
 
 Las 202 ecuaciones numeradas incluyen una clave contextual de símbolos con significado, unidad y papel; la app permite abrir esas definiciones sin abandonar la lección. El diccionario final reúne un índice de símbolos por contexto, además de términos de matemáticas y programación. C y T abrevian unidades de concentración y tiempo en las claves generales; los ejemplos concretos conservan sus unidades declaradas. [A01] [A27] [A28]
 
-Las curvas y sus instantáneas se reúnen en una misma figura PNG/SVG: puntos marcados, objetos moleculares o indicadores verticales, coordenadas y condiciones. Los indicadores se normalizan por serie; los iconos sugieren abundancia relativa y no cuentan moléculas. Los valores numéricos y los ejes conservan el significado cuantitativo. [A01] [A23]
+Las curvas y sus instantáneas se reúnen en una misma figura PNG/SVG: puntos marcados, objetos moleculares o indicadores verticales, coordenadas y condiciones. Los indicadores se normalizan por serie; el icono identifica la especie y el indicador muestra el valor; no se cuentan dibujos como moléculas. Los valores numéricos y los ejes conservan el significado cuantitativo. [A01] [A23]
+
+## Fuentes admitidas y figuras legibles
+
+Las fuentes de contenido son artículos académicos, libros universitarios y documentación oficial. No se usan Wikipedia ni sus derivados. Las derivaciones y simulaciones docentes desarrollan métodos citados con supuestos y números explícitos; no se atribuyen a mediciones publicadas. El capítulo sobre lectura de artículos y el informe de procedencia de la app explican cómo comprobar esas distinciones. [A01] [A15]
+
+Las figuras conservan un original completo, pero las láminas largas se presentan por filas completas en el libro para mantener legibles las etiquetas. Cada panel conserva su curva y sus instantáneas juntas. La app añade ampliaciones por panel del mismo original. Los dibujos identifican especies; los indicadores verticales muestran el valor con escala declarada y cero explícito. El criterio de legibilidad se evalúa al tamaño final, siguiendo la orientación editorial de [A33].

@@ -196,10 +196,10 @@ save(fig,'f25_incertidumbre','Parámetros correlacionados y bandas',['c23','c24'
 
 fig,ax=panels();ax[0].axis('off');labels=['Pregunta','Supuestos','Modelo','Comprobación','Datos y ajuste','Predicción nueva']
 for j,lab in enumerate(labels):
-    y=1-j*.17;ax[0].text(.5,y,lab,ha='center',va='center',bbox=dict(boxstyle='round,pad=.4',facecolor='#e5f2f2',edgecolor='#167d9a'))
+    y=.9-j*.145;ax[0].text(.5,y,lab,ha='center',va='center',bbox=dict(boxstyle='round,pad=.4',facecolor='#e5f2f2',edgecolor='#167d9a'))
     if j<5:ax[0].annotate('',(.5,y-.11),(.5,y-.05),arrowprops=dict(arrowstyle='->',color='#444'))
 ax[0].set_title('Un ciclo de razonamiento')
-ax[1].barh(['Datos','Estructura','Parámetros','Algoritmo'],[.8,.9,.5,.3],color=['#167d9a','#d87826','#238674','#8262a3']);ax[1].set(xlabel='Magnitud ilustrativa, sin medida empírica',title='Incertidumbres diferentes',xlim=(0,1))
+ax[1].barh(['Datos','Estructura','Parámetros','Algoritmo'],[.8,.9,.5,.3],color=['#167d9a','#d87826','#238674','#8262a3']);ax[1].set(xlabel='Magnitud ilustrativa\n(sin medida empírica)',title='Incertidumbres diferentes',xlim=(0,1))
 save(fig,'f26_investigar','Del resultado numérico a una conclusión defendible',['c00','c31','c33','c34','c35','c37'],'A: cada predicción debe conectarse con una pregunta, supuestos y pruebas. B: esquema cualitativo de fuentes de incertidumbre; las alturas son arbitrarias y no comparan riesgos reales. Un ajuste excelente no elimina errores de estructura, observación o extrapolación.',['investigación','reproducibilidad','IA','validación'])
 
 catalog=OUT.parent.parent/'figures.json'

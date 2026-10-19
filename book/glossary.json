@@ -13580,7 +13580,11 @@
       "R14",
       "R15",
       "R17",
-      "R19"
+      "R19",
+      "A29",
+      "A30",
+      "A31",
+      "D07"
     ],
     "equations": [
       192,
@@ -13627,7 +13631,11 @@
       "R14",
       "R15",
       "R17",
-      "R19"
+      "R19",
+      "A29",
+      "A30",
+      "A31",
+      "D07"
     ],
     "equations": [
       192
@@ -13662,7 +13670,11 @@
       "R14",
       "R15",
       "R17",
-      "R19"
+      "R19",
+      "A29",
+      "A30",
+      "A31",
+      "D07"
     ],
     "equations": [
       193
@@ -13697,7 +13709,11 @@
       "R14",
       "R15",
       "R17",
-      "R19"
+      "R19",
+      "A29",
+      "A30",
+      "A31",
+      "D07"
     ],
     "equations": [
       193
@@ -13732,7 +13748,11 @@
       "R14",
       "R15",
       "R17",
-      "R19"
+      "R19",
+      "A29",
+      "A30",
+      "A31",
+      "D07"
     ],
     "equations": [
       194
@@ -13767,7 +13787,11 @@
       "R14",
       "R15",
       "R17",
-      "R19"
+      "R19",
+      "A29",
+      "A30",
+      "A31",
+      "D07"
     ],
     "equations": [
       194
@@ -13802,7 +13826,11 @@
       "R14",
       "R15",
       "R17",
-      "R19"
+      "R19",
+      "A29",
+      "A30",
+      "A31",
+      "D07"
     ],
     "equations": [
       195,
@@ -13849,7 +13877,11 @@
       "R14",
       "R15",
       "R17",
-      "R19"
+      "R19",
+      "A29",
+      "A30",
+      "A31",
+      "D07"
     ],
     "equations": [
       195
@@ -13884,7 +13916,11 @@
       "R14",
       "R15",
       "R17",
-      "R19"
+      "R19",
+      "A29",
+      "A30",
+      "A31",
+      "D07"
     ],
     "equations": [
       195,
@@ -13931,7 +13967,11 @@
       "R14",
       "R15",
       "R17",
-      "R19"
+      "R19",
+      "A29",
+      "A30",
+      "A31",
+      "D07"
     ],
     "equations": [
       197
@@ -13966,7 +14006,11 @@
       "R14",
       "R15",
       "R17",
-      "R19"
+      "R19",
+      "A29",
+      "A30",
+      "A31",
+      "D07"
     ],
     "equations": [
       198
@@ -14101,7 +14145,11 @@
       "I12",
       "A10",
       "P12",
-      "P14"
+      "P14",
+      "A32",
+      "A29",
+      "A30",
+      "A31"
     ],
     "equations": [
       201
@@ -14156,7 +14204,11 @@
       "I12",
       "A10",
       "P12",
-      "P14"
+      "P14",
+      "A32",
+      "A29",
+      "A30",
+      "A31"
     ],
     "equations": [
       201
@@ -14211,7 +14263,11 @@
       "I12",
       "A10",
       "P12",
-      "P14"
+      "P14",
+      "A32",
+      "A29",
+      "A30",
+      "A31"
     ],
     "equations": [
       202
@@ -15676,7 +15732,7 @@
     "id": "term-iconos-frente-a-cantidades-medidas-d5fff",
     "kind": "concepto",
     "name": "Iconos frente a cantidades medidas",
-    "meaning": "En las figuras integradas, las proteínas dibujadas sugieren abundancia relativa: seis iconos no significan seis moléculas. Los indicadores verticales comparan el valor absoluto con el máximo absoluto de esa misma serie; el número impreso conserva signo y unidad. Dos indicadores llenos de series distintas no prueban igualdad de cantidades. Para una tasa o un error no se inventa una especie molecular. [A01] [A23]",
+    "meaning": "En las figuras integradas, un icono identifica la especie; la cantidad se lee en el número y el indicador. El dibujo no se interpreta como un conteo molecular. Los indicadores verticales comparan el valor absoluto con el máximo absoluto de esa misma serie; el número impreso conserva signo y unidad. Dos indicadores llenos de series distintas no prueban igualdad de cantidades. Para una tasa o un error no se inventa una especie molecular. [A01] [A23]",
     "chapter": "c36",
     "chapter_title": "Diccionario técnico y tablas de consulta para modelar",
     "refs": [

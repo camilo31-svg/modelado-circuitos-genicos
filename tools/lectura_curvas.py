@@ -8,7 +8,7 @@ import numpy as np
 from matplotlib.colors import to_hex,to_rgb
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch,FancyArrowPatch,Rectangle
-from revision4_figuras import integrar
+from revision5_figuras import integrar
 
 EVENTOS={
  'f01_unidades':'En A aumenta el volumen prescrito V/V₀=exp(0,2t); la cantidad se conserva y la concentración disminuye. La tasa de crecimiento 0,2/h permanece constante.',
@@ -81,7 +81,7 @@ def extraer(fig,key):
             panels.append(panel)
     if not panels:return None
     guide=dict(panels=panels,series_count=total,parameter_behavior=EVENTOS.get(key,'Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.'),caution='Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.')
-    integrar(fig,axes,panels,numero,key,guide['parameter_behavior'])
+    guide.update(integrar(fig,axes,panels,numero,key,guide['parameter_behavior']))
     guide['integrated']=True
     guide['readings']=parrafos(guide)
     return guide

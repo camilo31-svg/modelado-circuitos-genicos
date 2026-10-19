@@ -76,7 +76,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -111,12 +111,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "En A aumenta el volumen prescrito V/V₀=exp(0,2t); la cantidad se conserva y la concentración disminuye. La tasa de crecimiento 0,2/h permanece constante.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Expandir diluye",
+          "png": "assets/paneles/f01_unidades_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Concentración y conteo",
+          "png": "assets/paneles/f01_unidades_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f01_unidades_fila1.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -242,7 +268,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -325,12 +351,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 6,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Decaimiento exponencial",
+          "png": "assets/paneles/f03_exponencial_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "La pendiente revela la tasa",
+          "png": "assets/paneles/f03_exponencial_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f03_exponencial_fila1.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -455,7 +507,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -538,12 +590,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 6,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Tres escalas distintas",
+          "png": "assets/paneles/f04_escalas_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Una curva adimensional",
+          "png": "assets/paneles/f04_escalas_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f04_escalas_fila1.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -622,7 +700,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -657,12 +735,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 2,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Producción y pérdida de ARN",
+          "png": "assets/paneles/f05_gen_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Una segunda etapa añade demora",
+          "png": "assets/paneles/f05_gen_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f05_gen_fila1.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -813,7 +917,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -848,12 +952,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Euler puede inventar oscilaciones",
+          "png": "assets/paneles/f06_numerica_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "La convergencia se comprueba",
+          "png": "assets/paneles/f06_numerica_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f06_numerica_fila1.png",
+          "width_in": 7.9,
+          "height_in": 9.120000000000001
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -980,7 +1110,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -1063,12 +1193,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 6,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "K y n cumplen papeles distintos",
+          "png": "assets/paneles/f07_hill_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Mover el umbral",
+          "png": "assets/paneles/f07_hill_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f07_hill_fila1.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -1172,7 +1328,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -1231,12 +1387,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Comparar a igual salida",
+          "png": "assets/paneles/f08_feedback_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "El equilibrio es una intersección",
+          "png": "assets/paneles/f08_feedback_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f08_feedback_fila1.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -1411,7 +1593,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -1470,12 +1652,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 7,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Nulclinas y trayectorias",
+          "png": "assets/paneles/f09_toggle_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "La historia cambia el estado",
+          "png": "assets/paneles/f09_toggle_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f09_toggle_fila1.png",
+          "width_in": 7.9,
+          "height_in": 10.42
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -1601,7 +1809,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -1636,12 +1844,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Represión cíclica",
+          "png": "assets/paneles/f10_represilador_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Órbita tras el transitorio",
+          "png": "assets/paneles/f10_represilador_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f10_represilador_fila1.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -1768,12 +2002,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "En A la entrada u pasa de 0 a 1 en t=2 h. Cambia esa entrada; las constantes cinéticas permanecen fijas. La rama lenta y la salida son estados que responden después.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Un pulso por dos caminos",
+          "png": "assets/paneles/f11_logica_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "AND idealizada",
+          "png": "assets/paneles/f11_logica_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f11_logica_fila1.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -1897,7 +2157,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -1980,12 +2240,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 6,
       "parameter_behavior": "En A cada curva tiene un retraso fijo distinto (1, 3 o 6 h). En B la entrada cambia de 0 a 1 en t=2 h; las tres constantes de relajación siguen en 2/h.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Un retraso desplaza el inicio",
+          "png": "assets/paneles/f12_retrasos_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Una cadena también suaviza",
+          "png": "assets/paneles/f12_retrasos_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f12_retrasos_fila1.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -2114,12 +2400,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Producción local e intercambio",
+          "png": "assets/paneles/f13_espacio_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "El intercambio ensancha el perfil",
+          "png": "assets/paneles/f13_espacio_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f13_espacio_fila1.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -2241,7 +2553,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -2276,12 +2588,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "La Poisson es discreta",
+          "png": "assets/paneles/f14_probabilidad_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Densidad no es probabilidad puntual",
+          "png": "assets/paneles/f14_probabilidad_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f14_probabilidad_fila1.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -2432,7 +2770,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -2467,12 +2805,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "La media no es una trayectoria",
+          "png": "assets/paneles/f15_ssa_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Ensamble y distribución",
+          "png": "assets/paneles/f15_ssa_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f15_ssa_fila1.png",
+          "width_in": 7.9,
+          "height_in": 9.120000000000001
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -2551,7 +2915,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -2586,12 +2950,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 2,
       "parameter_behavior": "El promotor alterna aleatoriamente entre 0 y 1 y cambia la producción efectiva. Es un estado discreto variable; kon, koff y las tasas declaradas no cambian durante esta realización.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Cambio de estado regulador",
+          "png": "assets/paneles/f16_rafagas_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Ráfagas y memoria temporal",
+          "png": "assets/paneles/f16_rafagas_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f16_rafagas_fila1.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -2695,7 +3085,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -2730,12 +3120,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Lo visible llega después",
+          "png": "assets/paneles/f17_observacion_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Ganancia, fondo y error",
+          "png": "assets/paneles/f17_observacion_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f17_observacion_fila1.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -2814,12 +3230,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 1,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Ajustar una hipótesis",
+          "png": "assets/paneles/f18_ajuste_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Los residuos también hablan",
+          "png": "assets/paneles/f18_ajuste_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f18_ajuste_fila1.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -2895,7 +3337,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -2978,12 +3420,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Un equilibrio deja una cresta",
+          "png": "assets/paneles/f19_identificabilidad_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "El transitorio distingue tasas",
+          "png": "assets/paneles/f19_identificabilidad_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f19_identificabilidad_fila1.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -3064,7 +3532,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -3099,12 +3567,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 2,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Más entrada, menos sensor",
+          "png": "assets/paneles/f20_auxina_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Invertir puede amplificar errores",
+          "png": "assets/paneles/f20_auxina_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f20_auxina_fila1.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -3185,12 +3679,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 1,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Intersecciones espaciales",
+          "png": "assets/paneles/f21_raices_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Una implementación continua",
+          "png": "assets/paneles/f21_raices_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f21_raices_fila1.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -3289,7 +3809,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -3324,12 +3844,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "En A la entrada pasa de 0 a 1 en t=3 h y vuelve a 0 tras t=6 h. La tasa de registro durante la exposición es 0,6/h. La probabilidad acumulada permanece después del pulso.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Registrar una exposición",
+          "png": "assets/paneles/f22_memoria_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "La memoria puede ser probabilística",
+          "png": "assets/paneles/f22_memoria_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f22_memoria_fila1.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -3432,7 +3978,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -3491,12 +4037,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Un período pequeño cambia la fase",
+          "png": "assets/paneles/f23_reloj_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Bloqueo de fase como equilibrio",
+          "png": "assets/paneles/f23_reloj_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f23_reloj_fila1.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -3600,7 +4172,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -3683,12 +4255,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "La carga cambia la relación",
+          "png": "assets/paneles/f24_recursos_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Módulos conectados por el huésped",
+          "png": "assets/paneles/f24_recursos_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f24_recursos_fila1.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -3769,12 +4367,38 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 1,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "El procedimiento tiene variación",
+          "png": "assets/paneles/f25_incertidumbre_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Incertidumbre de la curva media",
+          "png": "assets/paneles/f25_incertidumbre_B.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/f25_incertidumbre_fila1.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -4559,7 +5183,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "C",
@@ -4594,7 +5218,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -4677,12 +5301,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Especies y proceso reversible",
+          "png": "assets/paneles/g01_union_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Convergencia a la raíz física",
+          "png": "assets/paneles/g01_union_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Dos raíces; una admisible",
+          "png": "assets/paneles/g01_union_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Conservaciones diferentes",
+          "png": "assets/paneles/g01_union_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/g01_union_fila1.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/g01_union_fila2.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -4814,7 +5483,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -4897,7 +5566,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "C",
@@ -4956,7 +5625,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -4991,12 +5660,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 9,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Silla-nodo en a=2",
+          "png": "assets/paneles/g02_bifurcacion_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Ceros y signo del campo",
+          "png": "assets/paneles/g02_bifurcacion_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Una frontera entre destinos",
+          "png": "assets/paneles/g02_bifurcacion_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Enlentecimiento junto al pliegue",
+          "png": "assets/paneles/g02_bifurcacion_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/g02_bifurcacion_fila1.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/g02_bifurcacion_fila2.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -5107,7 +5821,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "C",
@@ -5142,7 +5856,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -5177,12 +5891,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Tres etapas y represión final",
+          "png": "assets/paneles/g03_goodwin_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Relajación y oscilación",
+          "png": "assets/paneles/g03_goodwin_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "El umbral simétrico es g=8",
+          "png": "assets/paneles/g03_goodwin_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Pérdida de estabilidad local",
+          "png": "assets/paneles/g03_goodwin_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/g03_goodwin_fila1.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/g03_goodwin_fila2.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -5290,7 +6049,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "C",
@@ -5349,7 +6108,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -5408,12 +6167,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 6,
       "parameter_behavior": "En t=30 h se modifica deliberadamente la pérdida de Y: γ pasa de 1 a 2/h. μ, θ, k y η permanecen constantes. Cada curva tiene una dilución de control δc fija (0 o 0,05/h), distinta entre simulaciones.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Control: actuar, medir y comparar",
+          "png": "assets/paneles/g04_control_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Perturbación de pérdida",
+          "png": "assets/paneles/g04_control_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Estado integrador firmado",
+          "png": "assets/paneles/g04_control_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Identidad con o sin fuga",
+          "png": "assets/paneles/g04_control_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/g04_control_fila1.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/g04_control_fila2.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -5521,7 +6325,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -5628,7 +6432,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "C",
@@ -5663,7 +6467,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -5698,12 +6502,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 8,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Deriva frente a bloqueo",
+          "png": "assets/paneles/g05_fases_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Fase no equivale a amplitud",
+          "png": "assets/paneles/g05_fases_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Equilibrios de fase, K=0,015",
+          "png": "assets/paneles/g05_fases_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Verde: bloqueo posible",
+          "png": "assets/paneles/g05_fases_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/g05_fases_fila1.png",
+          "width_in": 7.9,
+          "height_in": 9.120000000000001
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/g05_fases_fila2.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -5792,7 +6641,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -5827,7 +6676,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "C",
@@ -5862,12 +6711,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "El estado discreto del promotor y el número de ARN fluctúan. Las constantes de conmutación, producción en ON y pérdida se mantienen; los parámetros barridos en otros paneles corresponden a simulaciones diferentes.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Promotor OFF/ON",
+          "png": "assets/paneles/g06_rafagas_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Una realización discreta",
+          "png": "assets/paneles/g06_rafagas_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Igual media; distinta variación",
+          "png": "assets/paneles/g06_rafagas_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "128 estados finales independientes",
+          "png": "assets/paneles/g06_rafagas_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/g06_rafagas_fila1.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/g06_rafagas_fila2.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -5975,7 +6869,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -6034,7 +6928,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "C",
@@ -6069,12 +6963,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "El tiempo cambia la información",
+          "png": "assets/paneles/g07_sensibilidad_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Las unidades son distintas",
+          "png": "assets/paneles/g07_sensibilidad_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Comprobar una derivada numérica",
+          "png": "assets/paneles/g07_sensibilidad_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Incertidumbre conjunta correlacionada",
+          "png": "assets/paneles/g07_sensibilidad_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/g07_sensibilidad_fila1.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/g07_sensibilidad_fila2.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -6160,7 +7099,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -6219,7 +7158,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "C",
@@ -6254,12 +7193,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "La pérdida tiene transitorio",
+          "png": "assets/paneles/g08_sensor_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Misma señal, dos inferencias",
+          "png": "assets/paneles/g08_sensor_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Derivar amplifica ruido",
+          "png": "assets/paneles/g08_sensor_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Error de la inversión estática",
+          "png": "assets/paneles/g08_sensor_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/g08_sensor_fila1.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/g08_sensor_fila2.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -6367,7 +7351,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -6426,12 +7410,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Difusión igual o desigual",
+          "png": "assets/paneles/g09_turing_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Régimen lineal",
+          "png": "assets/paneles/g09_turing_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Modo en L=10: perturbación firmada",
+          "png": "assets/paneles/g09_turing_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Crecimiento lineal, no patrón final",
+          "png": "assets/paneles/g09_turing_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/g09_turing_fila1.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/g09_turing_fila2.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -6561,7 +7590,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "C",
@@ -6644,7 +7673,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -6703,12 +7732,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 8,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Tres estados de modificación",
+          "png": "assets/paneles/g10_fosforilacion_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Conversión con enzimas compartidas",
+          "png": "assets/paneles/g10_fosforilacion_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Comprobar las conservaciones",
+          "png": "assets/paneles/g10_fosforilacion_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Ciclo simple: ultrasensibilidad",
+          "png": "assets/paneles/g10_fosforilacion_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/g10_fosforilacion_fila1.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/g10_fosforilacion_fila2.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -6816,7 +7890,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "C",
@@ -6851,12 +7925,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Dos módulos y dos enlaces cruzados",
+          "png": "assets/paneles/g11_seis_genes_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Dos señales dentro de seis estados",
+          "png": "assets/paneles/g11_seis_genes_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Proyección tras el transitorio",
+          "png": "assets/paneles/g11_seis_genes_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "El estado completo importa",
+          "png": "assets/paneles/g11_seis_genes_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/g11_seis_genes_fila1.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/g11_seis_genes_fila2.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -6961,7 +8080,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -7044,7 +8163,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "C",
@@ -7127,7 +8246,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -7162,12 +8281,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 9,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Perfil con δ reoptimizada",
+          "png": "assets/paneles/g12_perfiles_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Compensación de parámetros",
+          "png": "assets/paneles/g12_perfiles_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Igual equilibrio; otro transitorio",
+          "png": "assets/paneles/g12_perfiles_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Error al observar solo equilibrio",
+          "png": "assets/paneles/g12_perfiles_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/g12_perfiles_fila1.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/g12_perfiles_fila2.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -7306,7 +8470,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "C",
@@ -7365,12 +8529,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Cada gen necesita ARN y proteína",
+          "png": "assets/paneles/h01_bacteria_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Tres señales, seis balances",
+          "png": "assets/paneles/h01_bacteria_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Mismo mecanismo, otras unidades",
+          "png": "assets/paneles/h01_bacteria_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Cada columna mueve un estado",
+          "png": "assets/paneles/h01_bacteria_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/h01_bacteria_fila1.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/h01_bacteria_fila2.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -7477,7 +8686,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -7536,7 +8745,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "C",
@@ -7595,7 +8804,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -7678,12 +8887,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 9,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Tres intersecciones, dos destinos",
+          "png": "assets/paneles/h02_levadura_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "El estado inicial elige la cuenca",
+          "png": "assets/paneles/h02_levadura_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Otro mecanismo: adaptación",
+          "png": "assets/paneles/h02_levadura_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Perder memoria deja error",
+          "png": "assets/paneles/h02_levadura_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/h02_levadura_fila1.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/h02_levadura_fila2.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -7775,7 +9029,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "B",
@@ -7810,7 +9064,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -7845,12 +9099,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Balance con solución conocida",
+          "png": "assets/paneles/h03_codigo_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "Menor paso, menor discrepancia",
+          "png": "assets/paneles/h03_codigo_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Derivar cada salida por entrada",
+          "png": "assets/paneles/h03_codigo_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Demasiado pequeño también falla",
+          "png": "assets/paneles/h03_codigo_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/h03_codigo_fila1.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/h03_codigo_fila2.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -7982,7 +9281,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -8041,12 +9340,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q01_balance_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q01_balance_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "El mismo destino, otros inicios",
+          "png": "assets/paneles/q01_balance_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "La intersección fija x*",
+          "png": "assets/paneles/q01_balance_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q01_balance_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q01_balance_fila2.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -8152,7 +9496,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -8211,12 +9555,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q02_dos_etapas_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q02_dos_etapas_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Dos escalas que se conectan",
+          "png": "assets/paneles/q02_dos_etapas_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "La pendiente inicial es cero",
+          "png": "assets/paneles/q02_dos_etapas_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q02_dos_etapas_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q02_dos_etapas_fila2.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -8322,7 +9711,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -8405,12 +9794,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q03_promotor_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q03_promotor_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Las dos fracciones suman uno",
+          "png": "assets/paneles/q03_promotor_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Pendiente y umbral son distintos",
+          "png": "assets/paneles/q03_promotor_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q03_promotor_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q03_promotor_fila2.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -8515,12 +9949,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 2,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q04_jacobiano_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q04_jacobiano_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Columnas: entrada que se mueve",
+          "png": "assets/paneles/q04_jacobiano_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Una perturbación puede transmitirse",
+          "png": "assets/paneles/q04_jacobiano_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q04_jacobiano_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q04_jacobiano_fila2.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -8621,7 +10100,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -8680,12 +10159,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q05_interruptor_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q05_interruptor_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Las intersecciones son equilibrios",
+          "png": "assets/paneles/q05_interruptor_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Dos inicios, dos destinos",
+          "png": "assets/paneles/q05_interruptor_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q05_interruptor_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q05_interruptor_fila2.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -8814,7 +10338,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -8897,12 +10421,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 6,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q06_pliegue_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q06_pliegue_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Los ceros cambian al mover a",
+          "png": "assets/paneles/q06_pliegue_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Parámetro y tiempo no son el mismo eje",
+          "png": "assets/paneles/q06_pliegue_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q06_pliegue_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q06_pliegue_fila2.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -8984,7 +10553,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -9043,12 +10612,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q07_integral_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q07_integral_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "El equilibrio fija una referencia",
+          "png": "assets/paneles/q07_integral_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Una identidad que se puede comprobar",
+          "png": "assets/paneles/q07_integral_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q07_integral_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q07_integral_fila2.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -9130,7 +10744,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -9165,12 +10779,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 2,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q08_espera_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q08_espera_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Ejemplo con tasa total 4/h",
+          "png": "assets/paneles/q08_espera_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Un uniforme se convierte en tiempo",
+          "png": "assets/paneles/q08_espera_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q08_espera_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q08_espera_fila2.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -9252,7 +10911,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -9311,12 +10970,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q09_promotor_ruido_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q09_promotor_ruido_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "La misma fracción ON, otro ruido",
+          "png": "assets/paneles/q09_promotor_ruido_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "La persistencia del promotor importa",
+          "png": "assets/paneles/q09_promotor_ruido_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q09_promotor_ruido_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q09_promotor_ruido_fila2.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -9423,7 +11127,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -9458,12 +11162,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q10_medida_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q10_medida_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Total y señal no son idénticos",
+          "png": "assets/paneles/q10_medida_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "La comparación usa las unidades medidas",
+          "png": "assets/paneles/q10_medida_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q10_medida_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q10_medida_fila2.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -9545,7 +11294,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -9580,12 +11329,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 2,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q11_ajuste_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q11_ajuste_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Cada segmento es un residuo",
+          "png": "assets/paneles/q11_ajuste_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Un objetivo condicionado a los supuestos",
+          "png": "assets/paneles/q11_ajuste_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q11_ajuste_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q11_ajuste_fila2.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -9714,7 +11508,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -9749,12 +11543,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q12_identificabilidad_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q12_identificabilidad_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "La misma altura no implica la misma rapidez",
+          "png": "assets/paneles/q12_identificabilidad_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "Todas estas parejas predicen 20 nM",
+          "png": "assets/paneles/q12_identificabilidad_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q12_identificabilidad_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q12_identificabilidad_fila2.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -9859,7 +11698,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -9918,12 +11757,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q13_transporte_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q13_transporte_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "Volúmenes distintos cambian las pendientes",
+          "png": "assets/paneles/q13_transporte_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "La cantidad se conserva; la suma simple no",
+          "png": "assets/paneles/q13_transporte_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q13_transporte_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q13_transporte_fila2.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -10053,7 +11937,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -10088,12 +11972,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q14_enzima_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q14_enzima_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "La tasa se aproxima a una capacidad",
+          "png": "assets/paneles/q14_enzima_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "La aproximación omite una relajación",
+          "png": "assets/paneles/q14_enzima_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q14_enzima_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q14_enzima_fila2.png",
+          "width_in": 7.9,
+          "height_in": 7.82
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -10199,7 +12128,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -10234,12 +12163,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "La entrada se fija a u=1 desde el inicio mostrado. Las constantes permanecen en uno; cambian los estados y y z y, por ello, los flujos que dependen de ellos.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q15_dos_vias_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q15_dos_vias_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "La compensación llega después",
+          "png": "assets/paneles/q15_dos_vias_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "La diferencia forma un pulso",
+          "png": "assets/paneles/q15_dos_vias_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q15_dos_vias_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q15_dos_vias_fila2.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -10322,7 +12296,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -10381,12 +12355,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Desde t=0 la entrada A se mantiene en 5. s=1, γ₀=0,1 y k=0,02 permanecen constantes. Cambia el sensor S; la estimación estática varía porque omite su pendiente.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Qué representa el balance",
+          "png": "assets/paneles/q16_sensor_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "De dónde sale la relación",
+          "png": "assets/paneles/q16_sensor_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "La salida todavía está cambiando",
+          "png": "assets/paneles/q16_sensor_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "La pendiente explica la diferencia",
+          "png": "assets/paneles/q16_sensor_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q16_sensor_fila1.png",
+          "width_in": 7.9,
+          "height_in": 3.4
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q16_sensor_fila2.png",
+          "width_in": 7.9,
+          "height_in": 6.52
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [
@@ -10472,7 +12491,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "C",
@@ -10507,7 +12526,7 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         },
         {
           "panel": "D",
@@ -10542,12 +12561,57 @@
             }
           ],
           "integrated": true,
-          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
+          "visual_layout": "curva e instantáneas en el mismo panel; indicadores verticales con cero"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "En t=5 h cambia la entrada represora R de 1 a 10 nM. La capacidad smax=12 nM/h, K=5 nM, n=2 y δ=0,3/h permanecen constantes. Cambia la tasa efectiva s(R) y después cambia la concentración de enzima E.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "layout_warnings": [],
+      "panel_views": [
+        {
+          "panel": "A",
+          "title": "Tres momentos del mismo mecanismo",
+          "png": "assets/paneles/q17_represion_A.png"
+        },
+        {
+          "panel": "B",
+          "title": "La condición externa sube en 5 h",
+          "png": "assets/paneles/q17_represion_B.png"
+        },
+        {
+          "panel": "C",
+          "title": "La producción baja; smax sigue fija",
+          "png": "assets/paneles/q17_represion_C.png"
+        },
+        {
+          "panel": "D",
+          "title": "La enzima responde de forma gradual",
+          "png": "assets/paneles/q17_represion_D.png"
+        }
+      ],
+      "book_views": [
+        {
+          "panels": [
+            "A",
+            "B"
+          ],
+          "png": "assets/paneles/q17_represion_fila1.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        },
+        {
+          "panels": [
+            "C",
+            "D"
+          ],
+          "png": "assets/paneles/q17_represion_fila2.png",
+          "width_in": 7.9,
+          "height_in": 5.22
+        }
+      ],
+      "minimum_font_pt": 9.5,
+      "design": "2.3 · paneles completos legibles",
       "integrated": true,
       "readings": [
         [

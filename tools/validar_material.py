@@ -75,7 +75,7 @@ for plate in plates:
     assert hashlib.sha256(path.read_bytes()).hexdigest()==plate['sha256']
     assert plate.get('panels') and plate.get('limitation')
 report['laminas']=dict(count=len(plates),style='Ilustración científica plana con sombreado limitado',files_and_hashes_valid=True,caption_and_panel_guide=True)
-report['app_pruebas_ui']={'edicion':'2.2','estado':'pendiente de registrar tras probar la interfaz'}
+report['app_pruebas_ui']={'edicion':'2.3','estado':'pendiente de registrar tras probar la interfaz'}
 import nbformat
 notebooks=list((ROOT/'python'/'cuadernos').glob('*.ipynb'))
 for notebook in notebooks:nbformat.validate(nbformat.read(notebook,as_version=4))
@@ -136,6 +136,15 @@ for f in guides:
             for pt in curve['points']:
                 assert math.isfinite(pt['x']) and math.isfinite(pt['y'])
                 assert curve['minimum']-1e-10<=pt['y']<=curve['maximum']+1e-10
+for f in guides:
+    g=f['curve_guide'];assert g['minimum_font_pt']>=9.5
+    assert g.get('panel_views') and g.get('book_views'),f['id']
+    assert not g.get('layout_warnings'),(f['id'],g['layout_warnings'])
+    for view in g['panel_views']+g['book_views']:assert (ROOT/'docs'/view['png']).is_file()
+    for view in g['book_views']:
+        scale=min(172/(view['width_in']*25.4),218/(view['height_in']*25.4))
+        assert g['minimum_font_pt']*scale>=7.7,(f['id'],g['minimum_font_pt']*scale)
+report['legibilidad_figuras']={'vistas_de_panel':sum(len(f['curve_guide']['panel_views']) for f in guides),'filas_para_libros':sum(len(f['curve_guide']['book_views']) for f in guides),'tipografia_minima_original_pt':9.5,'minimo_estimado_impreso_pt':7.7,'curvas_y_dibujos_juntos':True,'sin_colisiones_detectadas_entre_anotaciones':True,'nota':'Comprobación geométrica de anotaciones y tamaño; complementada con inspección visual.'}
 q17=next(f for f in figures if f['id']=='q17_represion')['curve_guide']
 rp,sp,ep=[p['series'][0] for p in q17['panels']]
 assert rp['points'][0]['y']==1 and rp['points'][-1]['y']==10
@@ -162,6 +171,7 @@ index=BeautifulSoup(next(c for c in web if c['id']=='c36')['html'],'html.parser'
 assert all(index.find(id=g['id']) for g in glossary if g['kind']=='símbolo')
 report['glosario']={'ecuaciones_con_clave':len(notation),'simbolos_contextuales':sum(g['kind']=='símbolo' for g in glossary),'conceptos':sum(g['kind']=='concepto' for g in glossary),'significado_unidad_papel_y_destino_verificados':True,'nota':'Claves revisadas por contexto para todas las ecuaciones numeradas; el índice conserva variantes de una misma letra.'}
 (ROOT/'book'/'source-map.json').write_text(json.dumps(sections,ensure_ascii=False,indent=2),encoding='utf8')
+audit=json.loads((ROOT/'book/source-audit.json').read_text(encoding='utf8'));assert not audit['disallowed_sources_found'];assert len(audit['references'])==len(refs);assert all(r['primary_publisher_or_official_host'] and r.get('metadata_checked') is not False for r in audit['references']);report['auditoria_fuentes']={'referencias':len(refs),'doi_contrastados':sum(r.get('metadata_checked') is True for r in audit['references']),'sin_fuentes_no_admitidas':True,'alcance':audit['scope']}
 report['cobertura_bibliografica']={'secciones_con_fuentes':len(sections),'referencias':len(refs),'ids_validos':True,'nota':'Cobertura formal de secciones y figuras; no sustituye revisión independiente de cada interpretación.'}
 (ROOT/'VERIFICACION.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')
 print('Scripts:',len(logs),'EPUB:',report['epub'],'PDF:',report['pdf'])

@@ -3351,7 +3351,10 @@
     "section": "Acoplar un circuito con metabolismo exige decidir qué se predice",
     "references": [
       "A01",
-      "R16"
+      "R16",
+      "A29",
+      "A30",
+      "A31"
     ]
   },
   {
@@ -3362,7 +3365,12 @@
       "A01",
       "R16",
       "R18",
-      "A09"
+      "A29",
+      "R19",
+      "D07",
+      "A09",
+      "A30",
+      "I06"
     ]
   },
   {
@@ -3370,7 +3378,10 @@
     "number": "30",
     "section": "Control metabólico: la enzima más abundante no controla necesariamente el flujo",
     "references": [
-      "A01"
+      "A01",
+      "A29",
+      "A30",
+      "A31"
     ]
   },
   {
@@ -3380,7 +3391,8 @@
     "references": [
       "A01",
       "R16",
-      "R18"
+      "R18",
+      "A29"
     ]
   },
   {
@@ -3388,7 +3400,9 @@
     "number": "30",
     "section": "Termodinámica y balances cinéticos",
     "references": [
-      "A01"
+      "A01",
+      "R19",
+      "D07"
     ]
   },
   {
@@ -3397,6 +3411,7 @@
     "section": "Memoria epigenética como estados, sin confundirla con concentración",
     "references": [
       "A01",
+      "A30",
       "I06"
     ]
   },
@@ -3407,7 +3422,8 @@
     "references": [
       "A01",
       "I08",
-      "I06"
+      "I06",
+      "A31"
     ]
   },
   {
@@ -3417,7 +3433,10 @@
     "references": [
       "A01",
       "I06",
-      "R16"
+      "R16",
+      "A29",
+      "A30",
+      "A31"
     ]
   },
   {
@@ -3426,7 +3445,9 @@
     "section": "Ejercicio resuelto: selección que parece apagado",
     "references": [
       "A01",
-      "A09"
+      "A09",
+      "A31",
+      "I08"
     ]
   },
   {
@@ -3435,14 +3456,21 @@
     "section": "Aplicación complementaria: Más allá de las EDO: energías, metabolismo, epigenética y poblaciones",
     "references": [
       "A01",
+      "A30",
+      "I06",
+      "A29",
+      "A31",
+      "R19",
+      "D07",
+      "R16",
+      "R18",
+      "I08",
       "R12",
       "R13",
       "R14",
       "R15",
-      "R16",
       "R17",
-      "R18",
-      "R19"
+      "I13"
     ]
   },
   {
@@ -3933,7 +3961,21 @@
       "P13",
       "P10",
       "P14",
-      "A01"
+      "A01",
+      "A32"
+    ]
+  },
+  {
+    "chapter": "c31",
+    "number": "33",
+    "section": "Cómo comprobar de dónde sale una explicación",
+    "references": [
+      "A15",
+      "A01",
+      "A29",
+      "A30",
+      "A31",
+      "A32"
     ]
   },
   {
@@ -4284,6 +4326,9 @@
       "R13",
       "R14",
       "R17",
+      "A29",
+      "A30",
+      "A31",
       "I10",
       "I11",
       "A14",
@@ -4291,7 +4336,8 @@
       "A25",
       "A26",
       "A13",
-      "P14"
+      "P14",
+      "A32"
     ]
   }
 ]

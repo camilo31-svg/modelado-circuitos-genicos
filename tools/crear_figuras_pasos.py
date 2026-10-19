@@ -1,6 +1,6 @@
 """Dieciséis secuencias gráficas: reacción, paso matemático y consecuencia."""
 from pathlib import Path
-import sys,json,string
+import sys,json,string,os
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
@@ -41,7 +41,9 @@ def molecular(ax,kind='linear'):
         arrow(ax,(3.1,1.15),(3.1,.55),'δP');pieces(ax,3.1,.32)
         if kind=='hill':
             protein(ax,.58,2.45,'R',C[2]);arrow(ax,(.58,2.2),(.58,1.7),'represión',bar=True)
-        elif kind=='auto':arrow(ax,(3.1,1.8),(.5,1.8),'autoactivación',rad=.52,color=C[2])
+        elif kind=='auto':
+            arrow(ax,(3.1,1.8),(.5,1.8),rad=.52,color=C[2])
+            ax.text(1.8,2.72,'autoactivación',ha='center',fontsize=9.5,color=C[2])
         else:ax.text(2.1,2.4,'Producción y pérdida se cuentan por separado',ha='center',fontsize=8)
     elif kind=='binding':
         protein(ax,.45,1.6,'A');ax.text(.92,1.6,'+',ha='center',va='center');protein(ax,1.35,1.6,'B',C[1]);protein(ax,3.25,1.6,'AB',C[3],.36)
@@ -87,6 +89,8 @@ def integrate(fun,initial,t,args=()):
     assert sol.success,sol.message
     return sol.y
 def save(fig,key,title,chapter,hint,caption,refs,tags):
+    if os.environ.get('ATLAS_FIGURA') and key!=os.environ['ATLAS_FIGURA']:
+        plt.close(fig);return
     # Los rótulos A/B se incluyen en los títulos para mantener sitio a los esquemas.
     for i,ax in enumerate(fig.axes[:4]):
         if i>=2:ax.set_title(string.ascii_uppercase[i]+' · '+ax.get_title())
@@ -254,7 +258,7 @@ for ax,yy,left,right in [(b,R,'R=1 nM','R=10 nM'),(c,s,'s≈11,54 nM/h','s=2,4 n
     ax.axvline(5,color='#778b84',lw=.7,ls=':')
     ax.annotate(left,(t[0],yy[0]),xytext=(2,yy[0]+(2 if ax is not d else -8)),fontsize=7,arrowprops=dict(arrowstyle='->',lw=.6,color='#45695f'))
     ax.annotate(right,(t[-1],yy[-1]),xytext=(11,6 if ax is b else yy[-1]+(3 if ax is not d else 9)),fontsize=7,arrowprops=dict(arrowstyle='->',lw=.6,color='#45695f'))
-d.text(8,32,'δ=0,3/h permanece fija\nE∞=2,4/0,3=8 nM',fontsize=7,color='#345e53')
+d.text(8,40,'δ=0,3/h permanece fija\nE∞=2,4/0,3=8 nM',fontsize=9.5,color='#345e53')
 assert abs(e0-s0/.3)<1e-12 and abs(E[100]-e0)<1e-12
 assert abs(E[-1]-(8+(e0-8)*np.exp(-6)))<1e-12
 save(fig,'q17_represion','Inicio, cambio y final: una enzima bajo represión','edo','Leer el inicio, el recorrido y el final','Modelo reducido E′=s(R)−δE, s(R)=smax/[1+(R/K)ⁿ]. smax=12 nM/h, K=5 nM, n=2, δ=0,3/h. Se resume la producción de enzima sin un estado explícito de ARN. Inicialmente R=1 nM y E está en su equilibrio de 38,46 nM. En t=5 h R sube a 10 nM, la producción pasa de 11,54 a 2,4 nM/h y E no salta: se relaja hacia 8 nM. A las 25 h E≈8,076 nM; ese final dibujado aún no es el límite exacto. La pérdida δE también disminuye al disminuir E, aunque δ sea constante.',['A01','A02','D07'],['inicio','final','represión','enzima','condición inicial','entrada','parámetro constante','cambio temporal'])

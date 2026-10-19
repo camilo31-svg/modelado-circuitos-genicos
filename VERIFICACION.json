@@ -178,12 +178,13 @@
   ],
   "epub": {
     "xml_files_valid": 42,
-    "internal_links_valid": 2437,
-    "manifest_items": 313,
-    "note": "Validación estructural XML y vínculos; no es una certificación EPUBCheck externa."
+    "internal_links_valid": 2469,
+    "manifest_items": 345,
+    "note": "Validación estructural XML y vínculos; no es una certificación EPUBCheck externa.",
+    "sha256": "185c9057ebfc57cd39367069919f2c11de67fe42a96ee3d26e42890afb6c9ea6"
   },
   "pdf": {
-    "pages": 395,
+    "pages": 402,
     "searchable_text": true,
     "embedded_fonts": true,
     "fuentes_utilizadas_incrustadas": {
@@ -195,25 +196,41 @@
       "/AAAAAA+Georgia-Bold": true,
       "/AAAAAA+Georgia-Italic": true
     },
-    "empty_pages": []
+    "empty_pages": [],
+    "sha256": "aaaa70097002e821c12e83fdb02344f53eec73cad739358f6ecdd0594358386f"
   },
   "scope": "Pruebas analíticas, conservación, SSA, estabilidad, sensibilidad y estimación; scripts de prácticas; estructura EPUB y PDF. Revisión experta independiente completa pendiente.",
   "revision_visual": {
-    "estado": "realizada para figuras y páginas representativas",
-    "paginas_renderizadas": 395,
-    "hojas_contacto_generadas": 17,
-    "figuras_cuantitativas_revisadas_en_contactos": 57,
-    "paginas_ampliadas_revisadas": [
+    "estado": "completada para esta edición",
+    "edicion": "2.3",
+    "paginas": 402,
+    "vistas_generales_pdf": 402,
+    "paginas_a_110_dpi": [
+      1,
+      2,
+      3,
       7,
+      10,
+      11,
+      18,
       19,
-      71,
-      72,
-      83,
-      358,
-      360,
-      395
+      93,
+      166,
+      167,
+      174,
+      175,
+      254,
+      255,
+      258,
+      353,
+      401,
+      402
     ],
-    "observaciones": "Una imagen por figura; instantáneas e indicadores verticales integrados; fórmulas y claves juntas; tablas, referencias y enlaces legibles sin recortes observados en las páginas revisadas. No constituye revisión científica independiente de todo el texto."
+    "contactos_figuras": 101,
+    "hojas_contactos_figuras": 17,
+    "figuras_originales_inspeccionadas": 69,
+    "correcciones": "Tamaño de letra, iconos legibles, columnas con escalas de color, etiquetas categóricas largas, ARN/ribosoma, anotaciones de represión y flujo de razonamiento.",
+    "alcance": "Revisión de composición y legibilidad; no equivale a revisión científica independiente de toda la obra."
   },
   "laminas": {
     "count": 12,
@@ -222,25 +239,30 @@
     "caption_and_panel_guide": true
   },
   "app_pruebas_ui": {
-    "edicion": "2.2",
-    "estado": "comprobada en navegador local",
-    "ancho_movil": 390,
-    "alto_movil": 844,
-    "pruebas": [
-      "consulta modal desde símbolo δ y retorno a ecuación (5)",
-      "filtro de k por capítulo con unidades de asociación, disociación y catálisis distintas",
-      "búsqueda delta por nombre: 21 entradas",
-      "figura 69 abre un solo elemento de imagen, sin instantáneas externas",
-      "simulador SVG único con curva e instantáneas; x0=80 produce descenso y retirada 32→8,16 u.a./h",
-      "sin desbordamiento horizontal del contenido comprobado en móvil",
-      "sin errores de consola observados",
-      "400 recursos descargados; servidor HTTP detenido y comprobado inaccesible; recarga, búsqueda propensión y figura 69 completa desde caché"
-    ]
+    "edicion": "2.3",
+    "estado": "pruebas locales superadas",
+    "movil": "390 × 844; panel D de figura 69 a 341 px de ancho y sin desbordamiento horizontal",
+    "visor": "Paneles individuales y lámina completa; curva y dibujos juntos",
+    "simulador": "Tarjetas verticales; alfa 8 → 8,5 actualiza equilibrio 20 → 21,25",
+    "fuentes": "100 entradas; enlace a informe de procedencia comprobado",
+    "offline": {
+      "recursos": 668,
+      "descarga_completa": true,
+      "servidor_apagado": true,
+      "recarga_inicio": true,
+      "paneles_no_visitados_previamente": [
+        "q14_enzima_A",
+        "q14_enzima_D"
+      ],
+      "informe_fuentes": true
+    },
+    "consola_sin_errores_antes_de_desconexion": true,
+    "publicacion": "pendiente de comprobar tras despliegue"
   },
   "notebooks_validos": 25,
   "pruebas_modelos": {
     "exit_code": 0,
-    "output": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 1.127s\n\nOK\n"
+    "output": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 1.313s\n\nOK\n"
   },
   "referencias_cruzadas": {
     "ecuaciones_numeradas": 202,
@@ -250,8 +272,8 @@
     "figuras_colocadas_en_el_desarrollo": true
   },
   "cobertura_bibliografica": {
-    "secciones_con_fuentes": 415,
-    "referencias": 95,
+    "secciones_con_fuentes": 416,
+    "referencias": 100,
     "ids_validos": true,
     "nota": "Cobertura formal de secciones y figuras; no sustituye revisión independiente de cada interpretación."
   },
@@ -273,5 +295,21 @@
     "significado_unidad_papel_y_destino_verificados": true,
     "nota": "Claves revisadas por contexto para todas las ecuaciones numeradas; el índice conserva variantes de una misma letra."
   },
-  "edicion": "2.2"
+  "edicion": "2.2",
+  "legibilidad_figuras": {
+    "vistas_de_panel": 176,
+    "filas_para_libros": 88,
+    "tipografia_minima_original_pt": 9.5,
+    "minimo_estimado_impreso_pt": 7.7,
+    "curvas_y_dibujos_juntos": true,
+    "sin_colisiones_detectadas_entre_anotaciones": true,
+    "nota": "Comprobación geométrica de anotaciones y tamaño; complementada con inspección visual."
+  },
+  "auditoria_fuentes": {
+    "referencias": 100,
+    "doi_contrastados": 69,
+    "sin_fuentes_no_admitidas": true,
+    "alcance": "Inspección de procedencia y citas de todos los apartados; contraste de metadatos de DOI con Crossref y revisión de pasajes seleccionados con sus fuentes primarias. No es una verificación independiente, frase por frase, de toda la obra.",
+    "nota": "Sin Wikipedia ni wikis como fuentes. Cobertura y metadatos comprobados; pasajes seleccionados contrastados con fuentes primarias."
+  }
 }
