@@ -1,14 +1,14 @@
 # Modelado matemático de circuitos génicos
 
-**Edición 2.1 — consulta bibliográfica hasta el 19 de octubre de 2026.**
+**Edición 2.2 — consulta bibliográfica hasta el 19 de octubre de 2026.**
 
 Recorrido en español que da por conocidas derivadas e integrales y empieza directamente en ecuaciones diferenciales. Se han retirado las lecciones previas de aritmética, funciones, exponenciales y cálculo elemental. El foco es derivar modelos, entender sus supuestos, analizar dinámica, programar, inferir parámetros y evaluar evidencia, con ejemplos de bacterias, levaduras y plantas. Cada capítulo añade desarrollo guiado de símbolos, unidades, fórmulas y pasos; las prácticas incluyen lectura del código.
 
-- 36 capítulos y unas 87,432 palabras de lecciones, además de leyendas y lecturas por paneles.
-- PDF de 446 páginas y EPUB refluible con las mismas lecciones.
-- 69 figuras: 12 láminas moleculares y 57 gráficos y esquemas. Las 20 nuevas de esta revisión conectan reacción, pasos matemáticos y curvas.
+- 36 capítulos y unas 100,092 palabras de lecciones e índice, además de leyendas y lecturas por paneles.
+- PDF A4 de 395 páginas y EPUB refluible con las mismas lecciones.
+- 69 figuras: 12 láminas moleculares y 57 gráficos y esquemas; 56 reúnen curvas e instantáneas en un mismo PNG/SVG.
 - 25 cuadernos Jupyter y scripts equivalentes; modelos básicos y avanzados.
-- 94 referencias utilizadas, notas de consulta, BibTeX y mapa de fuentes por sección.
+- 95 referencias, notas de consulta, BibTeX y mapa de fuentes por sección.
 - App móvil con categorías, índice interno de capítulo, fuentes, búsqueda de texto y figuras, notas, progreso, simulador y lectura sin conexión.
 
 [Abrir la app](https://camilo31-svg.github.io/modelado-circuitos-genicos/) · [PDF](docs/downloads/modelado-circuitos-genicos.pdf) · [EPUB](docs/downloads/modelado-circuitos-genicos.epub)
@@ -79,6 +79,12 @@ Los dos casos completos definen cada estado y tasa, derivan normalización y est
 
 Las ecuaciones llevan número y una llamada en la prosa. Cada figura tiene una llamada y un destino junto al paso que acompaña. La app conserva esos saltos sin abandonar la lección; PDF y EPUB incluyen enlaces internos. `tools/figuras_en_texto.py` aplica la misma colocación en los tres formatos. Las secuencias visuales nuevas de `tools/crear_figuras_pasos.py` reúnen mecanismo, fórmula y curva; el campo `after_heading` permite asociarlas a un apartado concreto.
 
-## Lecturas visuales de las curvas
+## Figuras integradas y consulta de símbolos
 
-Las 56 figuras con curvas incluyen 123 lecturas gráficas complementarias para 235 series: inicio, punto intermedio y final, con los mismos colores y valores que el gráfico. Los iconos muestran abundancia relativa; las magnitudes abstractas usan barras. No representan conteos moleculares. `tools/lectura_curvas.py` extrae las coordenadas dibujadas y genera los PNG/SVG, con indicación de ejes temporales, constantes, entradas y cambios deliberados. Los valores redondeados no convierten el último punto en un equilibrio. Las lecturas gráficas pueden ampliarse desde la app.
+Las 56 figuras con curvas incluyen 123 paneles de lectura dentro del mismo lienzo: 235 series con inicio, punto intermedio y final. Los iconos moleculares y los indicadores verticales pertenecen al PNG/SVG de la curva. No se distribuyen imágenes de instantáneas separadas. Los valores proceden de las series realmente dibujadas; las escalas de los indicadores son relativas a cada serie, con signo explícito. Los iconos representan abundancia relativa, no conteos. Se distinguen entradas, estados, constantes y cambios deliberados; el último punto no se presenta como equilibrio.
+
+Las 202 ecuaciones numeradas tienen claves contextuales con significado, unidad y papel. El glosario contiene 464 entradas (346 símbolos por contexto y 118 conceptos). La app permite abrir la definición desde la fórmula, buscar letras o nombres y filtrar por lección; los libros incorporan el índice al diccionario final con enlaces de retorno. Las fórmulas que aparecen dentro de la prosa se explican en sus párrafos y se apoyan en el índice de la lección. Las claves detalladas verificadas cubren todas las ecuaciones numeradas.
+
+`book/notation.json` conserva cada clave; `book/glossary.json`, las entradas. `tools/notacion.py` define la notación por contexto y su asignación explícita a las 202 ecuaciones. Al añadir ecuaciones se debe revisar esa asignación; la construcción falla si el número o el capítulo no coincide. `tools/revision4_figuras.py` integra las lecturas vectoriales en el lienzo original. El simulador móvil también reúne curva e instantáneas en un solo SVG y explica que sus controles comparan simulaciones distintas.
+
+El diccionario añade distinción entre magnitud, unidad y dimensión; consistencia dimensional; una ficha para documentar modelos; errores de interpretación y criterios para defender un resultado. Estas ayudas complementan las prácticas y los proyectos; la formación no equivale a una certificación de dominio experto.

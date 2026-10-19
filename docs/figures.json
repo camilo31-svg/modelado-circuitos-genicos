@@ -75,9 +75,8 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/f01_unidades_A.png",
-          "visual_svg": "assets/curvas/f01_unidades_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Valor relativo (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -111,14 +110,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f01_unidades_B.png",
-          "visual_svg": "assets/curvas/f01_unidades_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Moléculas a 1 nM. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "En A aumenta el volumen prescrito V/V₀=exp(0,2t); la cantidad se conserva y la concentración disminuye. La tasa de crecimiento 0,2/h permanece constante.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -242,9 +241,8 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/f03_exponencial_A.png",
-          "visual_svg": "assets/curvas/f03_exponencial_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Fracción restante. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -326,14 +324,14 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/f03_exponencial_B.png",
-          "visual_svg": "assets/curvas/f03_exponencial_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Fracción (escala log). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 6,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -456,9 +454,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f04_escalas_A.png",
-          "visual_svg": "assets/curvas/f04_escalas_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Concentración (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -540,14 +537,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f04_escalas_B.png",
-          "visual_svg": "assets/curvas/f04_escalas_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. x / (alfa/delta). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 6,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -624,9 +621,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f05_gen_A.png",
-          "visual_svg": "assets/curvas/f05_gen_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. ARN (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -660,14 +656,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f05_gen_B.png",
-          "visual_svg": "assets/curvas/f05_gen_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Proteína (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 2,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -816,9 +812,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/f06_numerica_A.png",
-          "visual_svg": "assets/curvas/f06_numerica_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Estado (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -852,14 +847,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f06_numerica_B.png",
-          "visual_svg": "assets/curvas/f06_numerica_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Error absoluto en t=2 h. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -984,9 +979,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f07_hill_A.png",
-          "visual_svg": "assets/curvas/f07_hill_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Fracción activada. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -1068,14 +1062,14 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/f07_hill_B.png",
-          "visual_svg": "assets/curvas/f07_hill_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Fracción no reprimida. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 6,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -1177,9 +1171,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f08_feedback_A.png",
-          "visual_svg": "assets/curvas/f08_feedback_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Fracción de su equilibrio. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -1237,14 +1230,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f08_feedback_B.png",
-          "visual_svg": "assets/curvas/f08_feedback_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Tasa (u.a./h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -1417,9 +1410,8 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/f09_toggle_A.png",
-          "visual_svg": "assets/curvas/f09_toggle_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. z. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -1477,14 +1469,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/f09_toggle_B.png",
-          "visual_svg": "assets/curvas/f09_toggle_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. x (adimensional). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 7,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -1608,9 +1600,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/f10_represilador_A.png",
-          "visual_svg": "assets/curvas/f10_represilador_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Concentración / K. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -1644,14 +1635,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/f10_represilador_B.png",
-          "visual_svg": "assets/curvas/f10_represilador_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. x2 / K. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -1776,14 +1767,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/f11_logica_A.png",
-          "visual_svg": "assets/curvas/f11_logica_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Señal (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "En A la entrada u pasa de 0 a 1 en t=2 h. Cambia esa entrada; las constantes cinéticas permanecen fijas. La rama lenta y la salida son estados que responden después.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -1905,9 +1896,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f12_retrasos_A.png",
-          "visual_svg": "assets/curvas/f12_retrasos_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Respuesta (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -1989,14 +1979,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f12_retrasos_B.png",
-          "visual_svg": "assets/curvas/f12_retrasos_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Señal normalizada. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 6,
       "parameter_behavior": "En A cada curva tiene un retraso fijo distinto (1, 3 o 6 h). En B la entrada cambia de 0 a 1 en t=2 h; las tres constantes de relajación siguen en 2/h.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -2123,14 +2113,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/f13_espacio_B.png",
-          "visual_svg": "assets/curvas/f13_espacio_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Concentración (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -2250,9 +2240,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/f14_probabilidad_A.png",
-          "visual_svg": "assets/curvas/f14_probabilidad_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Probabilidad. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -2286,14 +2275,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/f14_probabilidad_B.png",
-          "visual_svg": "assets/curvas/f14_probabilidad_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Densidad. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -2442,9 +2431,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f15_ssa_A.png",
-          "visual_svg": "assets/curvas/f15_ssa_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Moléculas. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -2478,14 +2466,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/f15_ssa_B.png",
-          "visual_svg": "assets/curvas/f15_ssa_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Probabilidad. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -2562,9 +2550,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/f16_rafagas_A.png",
-          "visual_svg": "assets/curvas/f16_rafagas_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Promotor 0/1. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -2598,14 +2585,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/f16_rafagas_B.png",
-          "visual_svg": "assets/curvas/f16_rafagas_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Moléculas. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 2,
       "parameter_behavior": "El promotor alterna aleatoriamente entre 0 y 1 y cambia la producción efectiva. Es un estado discreto variable; kon, koff y las tasas declaradas no cambian durante esta realización.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -2707,9 +2694,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f17_observacion_A.png",
-          "visual_svg": "assets/curvas/f17_observacion_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Concentración (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -2743,14 +2729,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f17_observacion_B.png",
-          "visual_svg": "assets/curvas/f17_observacion_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Señal / estado (unidades propias). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -2827,14 +2813,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f18_ajuste_A.png",
-          "visual_svg": "assets/curvas/f18_ajuste_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Concentración (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 1,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -2908,9 +2894,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f19_identificabilidad_A.png",
-          "visual_svg": "assets/curvas/f19_identificabilidad_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. delta (1/h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -2992,14 +2977,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f19_identificabilidad_B.png",
-          "visual_svg": "assets/curvas/f19_identificabilidad_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Concentración (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -3078,9 +3063,8 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/f20_auxina_A.png",
-          "visual_svg": "assets/curvas/f20_auxina_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Sensor / basal. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -3114,14 +3098,14 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/f20_auxina_B.png",
-          "visual_svg": "assets/curvas/f20_auxina_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Entrada inferida (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 2,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -3200,14 +3184,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/f21_raices_B.png",
-          "visual_svg": "assets/curvas/f21_raices_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Salida normalizada. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 1,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -3304,9 +3288,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f22_memoria_A.png",
-          "visual_svg": "assets/curvas/f22_memoria_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Entrada / probabilidad. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -3340,14 +3323,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f22_memoria_B.png",
-          "visual_svg": "assets/curvas/f22_memoria_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Fracción esperada registrada. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "En A la entrada pasa de 0 a 1 en t=3 h y vuelve a 0 tras t=6 h. La tasa de registro durante la exposición es 0,6/h. La probabilidad acumulada permanece después del pulso.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -3448,9 +3431,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/f23_reloj_A.png",
-          "visual_svg": "assets/curvas/f23_reloj_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Señal centrada (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -3508,14 +3490,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/f23_reloj_B.png",
-          "visual_svg": "assets/curvas/f23_reloj_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Tasa de fase (rad/h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -3617,9 +3599,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f24_recursos_A.png",
-          "visual_svg": "assets/curvas/f24_recursos_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Salida relativa. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -3701,14 +3682,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f24_recursos_B.png",
-          "visual_svg": "assets/curvas/f24_recursos_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Fracción de recurso para A. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -3787,14 +3768,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/f25_incertidumbre_B.png",
-          "visual_svg": "assets/curvas/f25_incertidumbre_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Concentración (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 1,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -4577,9 +4558,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/g01_union_B.png",
-          "visual_svg": "assets/curvas/g01_union_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Complejo (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "C",
@@ -4613,9 +4593,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/g01_union_C.png",
-          "visual_svg": "assets/curvas/g01_union_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. dc/dt (nM/h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -4697,14 +4676,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/g01_union_D.png",
-          "visual_svg": "assets/curvas/g01_union_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Concentración (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -4834,9 +4813,8 @@
               "trend": "se mantiene"
             }
           ],
-          "visual_png": "assets/curvas/g02_bifurcacion_A.png",
-          "visual_svg": "assets/curvas/g02_bifurcacion_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Equilibrio x*. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -4918,9 +4896,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/g02_bifurcacion_B.png",
-          "visual_svg": "assets/curvas/g02_bifurcacion_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. dx/dτ. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "C",
@@ -4978,9 +4955,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/g02_bifurcacion_C.png",
-          "visual_svg": "assets/curvas/g02_bifurcacion_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Estado x. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -5014,14 +4990,14 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/g02_bifurcacion_D.png",
-          "visual_svg": "assets/curvas/g02_bifurcacion_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Tiempo local de relajación. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 9,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -5130,9 +5106,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/g03_goodwin_B.png",
-          "visual_svg": "assets/curvas/g03_goodwin_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Estado x. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "C",
@@ -5166,9 +5141,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/g03_goodwin_C.png",
-          "visual_svg": "assets/curvas/g03_goodwin_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Ganancia local g. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -5202,14 +5176,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/g03_goodwin_D.png",
-          "visual_svg": "assets/curvas/g03_goodwin_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Parte real crítica. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -5315,9 +5289,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/g04_control_B.png",
-          "visual_svg": "assets/curvas/g04_control_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Salida Y (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "C",
@@ -5375,9 +5348,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/g04_control_C.png",
-          "visual_svg": "assets/curvas/g04_control_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Z₁−Z₂ (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -5435,14 +5407,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/g04_control_D.png",
-          "visual_svg": "assets/curvas/g04_control_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. d(Z₁−Z₂)/dt (nM/h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 6,
       "parameter_behavior": "En t=30 h se modifica deliberadamente la pérdida de Y: γ pasa de 1 a 2/h. μ, θ, k y η permanecen constantes. Cada curva tiene una dilución de control δc fija (0 o 0,05/h), distinta entre simulaciones.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -5548,9 +5520,8 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/g05_fases_A.png",
-          "visual_svg": "assets/curvas/g05_fases_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Fase relativa (rad). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -5656,9 +5627,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/g05_fases_B.png",
-          "visual_svg": "assets/curvas/g05_fases_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Salida sinusoidal (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "C",
@@ -5692,9 +5662,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/g05_fases_C.png",
-          "visual_svg": "assets/curvas/g05_fases_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. dψ/dt (rad/h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -5728,14 +5697,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/g05_fases_D.png",
-          "visual_svg": "assets/curvas/g05_fases_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. |Δω| (1/h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 8,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -5822,9 +5791,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/g06_rafagas_A.png",
-          "visual_svg": "assets/curvas/g06_rafagas_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Estado G. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -5858,9 +5826,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/g06_rafagas_B.png",
-          "visual_svg": "assets/curvas/g06_rafagas_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. ARN (moléculas). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "C",
@@ -5894,14 +5861,14 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/g06_rafagas_C.png",
-          "visual_svg": "assets/curvas/g06_rafagas_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Factor de Fano. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "El estado discreto del promotor y el número de ARN fluctúan. Las constantes de conmutación, producción en ON y pérdida se mantienen; los parámetros barridos en otros paneles corresponden a simulaciones diferentes.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -6007,9 +5974,8 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/g07_sensibilidad_A.png",
-          "visual_svg": "assets/curvas/g07_sensibilidad_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Elasticidad. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -6067,9 +6033,8 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/g07_sensibilidad_B.png",
-          "visual_svg": "assets/curvas/g07_sensibilidad_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Sensibilidad dimensional. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "C",
@@ -6103,14 +6068,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/g07_sensibilidad_C.png",
-          "visual_svg": "assets/curvas/g07_sensibilidad_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Error máximo (nM·h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -6194,9 +6159,8 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/g08_sensor_A.png",
-          "visual_svg": "assets/curvas/g08_sensor_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Sensor S (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -6254,9 +6218,8 @@
               "trend": "se mantiene"
             }
           ],
-          "visual_png": "assets/curvas/g08_sensor_B.png",
-          "visual_svg": "assets/curvas/g08_sensor_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Entrada (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "C",
@@ -6290,14 +6253,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/g08_sensor_C.png",
-          "visual_svg": "assets/curvas/g08_sensor_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Entrada estimada (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -6403,9 +6366,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/g09_turing_A.png",
-          "visual_svg": "assets/curvas/g09_turing_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Tasa de crecimiento. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -6463,14 +6425,14 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/g09_turing_D.png",
-          "visual_svg": "assets/curvas/g09_turing_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Desviación de u. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -6598,9 +6560,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/g10_fosforilacion_B.png",
-          "visual_svg": "assets/curvas/g10_fosforilacion_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Cantidad (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "C",
@@ -6682,9 +6643,8 @@
               "trend": "se mantiene"
             }
           ],
-          "visual_png": "assets/curvas/g10_fosforilacion_C.png",
-          "visual_svg": "assets/curvas/g10_fosforilacion_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Cantidad total. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -6742,14 +6702,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/g10_fosforilacion_D.png",
-          "visual_svg": "assets/curvas/g10_fosforilacion_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Fracción activa. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 8,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -6855,9 +6815,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/g11_seis_genes_B.png",
-          "visual_svg": "assets/curvas/g11_seis_genes_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Proteína (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "C",
@@ -6891,14 +6850,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/g11_seis_genes_C.png",
-          "visual_svg": "assets/curvas/g11_seis_genes_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Y₁ (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -7001,9 +6960,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/g12_perfiles_A.png",
-          "visual_svg": "assets/curvas/g12_perfiles_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Δχ². Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -7085,9 +7043,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/g12_perfiles_B.png",
-          "visual_svg": "assets/curvas/g12_perfiles_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. δ ajustada (1/h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "C",
@@ -7169,9 +7126,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/g12_perfiles_C.png",
-          "visual_svg": "assets/curvas/g12_perfiles_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Estado (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -7205,14 +7161,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/g12_perfiles_D.png",
-          "visual_svg": "assets/curvas/g12_perfiles_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. δ (1/h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 9,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -7349,9 +7305,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/h01_bacteria_B.png",
-          "visual_svg": "assets/curvas/h01_bacteria_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Proteína / K. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "C",
@@ -7409,14 +7364,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/h01_bacteria_C.png",
-          "visual_svg": "assets/curvas/h01_bacteria_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. p0 = P0 / K. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -7521,9 +7476,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/h02_levadura_A.png",
-          "visual_svg": "assets/curvas/h02_levadura_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. Tasa normalizada. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -7581,9 +7535,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/h02_levadura_B.png",
-          "visual_svg": "assets/curvas/h02_levadura_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Activador x. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "C",
@@ -7641,9 +7594,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/h02_levadura_C.png",
-          "visual_svg": "assets/curvas/h02_levadura_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Estado normalizado. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -7725,14 +7677,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/h02_levadura_D.png",
-          "visual_svg": "assets/curvas/h02_levadura_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Desviación h. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 9,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -7822,9 +7774,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/h03_codigo_A.png",
-          "visual_svg": "assets/curvas/h03_codigo_A.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel A. x (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "B",
@@ -7858,9 +7809,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/h03_codigo_B.png",
-          "visual_svg": "assets/curvas/h03_codigo_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Error máximo (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -7894,14 +7844,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/h03_codigo_D.png",
-          "visual_svg": "assets/curvas/h03_codigo_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Error máximo de derivadas. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -8031,9 +7981,8 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/q01_balance_C.png",
-          "visual_svg": "assets/curvas/q01_balance_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Concentración (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -8091,14 +8040,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q01_balance_D.png",
-          "visual_svg": "assets/curvas/q01_balance_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Tasa (nM/h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -8202,9 +8151,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q02_dos_etapas_C.png",
-          "visual_svg": "assets/curvas/q02_dos_etapas_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Concentración (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -8262,14 +8210,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q02_dos_etapas_D.png",
-          "visual_svg": "assets/curvas/q02_dos_etapas_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Proteína (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -8373,9 +8321,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q03_promotor_C.png",
-          "visual_svg": "assets/curvas/q03_promotor_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Fracción de promotores. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -8457,14 +8404,14 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/q03_promotor_D.png",
-          "visual_svg": "assets/curvas/q03_promotor_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Producción de ARN (nM/h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 5,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -8567,14 +8514,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/q04_jacobiano_D.png",
-          "visual_svg": "assets/curvas/q04_jacobiano_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Perturbación (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 2,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -8673,9 +8620,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q05_interruptor_C.png",
-          "visual_svg": "assets/curvas/q05_interruptor_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. y. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -8733,14 +8679,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q05_interruptor_D.png",
-          "visual_svg": "assets/curvas/q05_interruptor_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Represor x. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -8867,9 +8813,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/q06_pliegue_C.png",
-          "visual_svg": "assets/curvas/q06_pliegue_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. x′. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -8951,14 +8896,14 @@
               "trend": "se mantiene"
             }
           ],
-          "visual_png": "assets/curvas/q06_pliegue_D.png",
-          "visual_svg": "assets/curvas/q06_pliegue_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Equilibrio x*. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 6,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -9038,9 +8983,8 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/q07_integral_C.png",
-          "visual_svg": "assets/curvas/q07_integral_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. y (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -9098,14 +9042,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/q07_integral_D.png",
-          "visual_svg": "assets/curvas/q07_integral_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Tasa (nM/h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -9185,9 +9129,8 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/q08_espera_C.png",
-          "visual_svg": "assets/curvas/q08_espera_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Probabilidad sin evento. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -9221,14 +9164,14 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/q08_espera_D.png",
-          "visual_svg": "assets/curvas/q08_espera_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Espera τ (h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 2,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -9308,9 +9251,8 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/q09_promotor_ruido_C.png",
-          "visual_svg": "assets/curvas/q09_promotor_ruido_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Factor de Fano. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -9368,14 +9310,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q09_promotor_ruido_D.png",
-          "visual_svg": "assets/curvas/q09_promotor_ruido_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Probabilidad ON. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -9480,9 +9422,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q10_medida_C.png",
-          "visual_svg": "assets/curvas/q10_medida_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Proteína (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -9516,14 +9457,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q10_medida_D.png",
-          "visual_svg": "assets/curvas/q10_medida_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Intensidad (u.a.). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -9603,9 +9544,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q11_ajuste_C.png",
-          "visual_svg": "assets/curvas/q11_ajuste_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Concentración (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -9639,14 +9579,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/q11_ajuste_D.png",
-          "visual_svg": "assets/curvas/q11_ajuste_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Suma de residuos². Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 2,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -9773,9 +9713,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q12_identificabilidad_C.png",
-          "visual_svg": "assets/curvas/q12_identificabilidad_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Estado (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -9809,14 +9748,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q12_identificabilidad_D.png",
-          "visual_svg": "assets/curvas/q12_identificabilidad_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. δ (1/h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -9919,9 +9858,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q13_transporte_C.png",
-          "visual_svg": "assets/curvas/q13_transporte_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Concentración (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -9979,14 +9917,14 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/q13_transporte_D.png",
-          "visual_svg": "assets/curvas/q13_transporte_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Cantidad o suma indicada. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -10114,9 +10052,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q14_enzima_C.png",
-          "visual_svg": "assets/curvas/q14_enzima_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Tasa (nM/h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -10150,14 +10087,14 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q14_enzima_D.png",
-          "visual_svg": "assets/curvas/q14_enzima_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Complejo ES (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 4,
       "parameter_behavior": "Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -10261,9 +10198,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q15_dos_vias_C.png",
-          "visual_svg": "assets/curvas/q15_dos_vias_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Contribución normalizada. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -10297,14 +10233,14 @@
               "trend": "cambia de sentido; los extremos no describen todo el recorrido"
             }
           ],
-          "visual_png": "assets/curvas/q15_dos_vias_D.png",
-          "visual_svg": "assets/curvas/q15_dos_vias_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Desviación z. Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "La entrada se fija a u=1 desde el inicio mostrado. Las constantes permanecen en uno; cambian los estados y y z y, por ello, los flujos que dependen de ellos.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -10385,9 +10321,8 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/q16_sensor_C.png",
-          "visual_svg": "assets/curvas/q16_sensor_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Sensor S (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -10445,14 +10380,14 @@
               "trend": "se mantiene"
             }
           ],
-          "visual_png": "assets/curvas/q16_sensor_D.png",
-          "visual_svg": "assets/curvas/q16_sensor_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Entrada A (escala docente). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "Desde t=0 la entrada A se mantiene en 5. s=1, γ₀=0,1 y k=0,02 permanecen constantes. Cambia el sensor S; la estimación estática varía porque omite su pendiente.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",
@@ -10536,9 +10471,8 @@
               "trend": "aumenta"
             }
           ],
-          "visual_png": "assets/curvas/q17_represion_B.png",
-          "visual_svg": "assets/curvas/q17_represion_B.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel B. Represor R (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "C",
@@ -10572,9 +10506,8 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/q17_represion_C.png",
-          "visual_svg": "assets/curvas/q17_represion_C.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel C. Producción (nM/h). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         },
         {
           "panel": "D",
@@ -10608,14 +10541,14 @@
               "trend": "disminuye"
             }
           ],
-          "visual_png": "assets/curvas/q17_represion_D.png",
-          "visual_svg": "assets/curvas/q17_represion_D.svg",
-          "visual_alt": "Lectura gráfica con tres instantáneas del panel D. Enzima E (nM). Los iconos indican abundancia relativa, no conteos moleculares."
+          "integrated": true,
+          "visual_layout": "misma figura; franja bajo el panel; indicadores verticales"
         }
       ],
       "series_count": 3,
       "parameter_behavior": "En t=5 h cambia la entrada represora R de 1 a 10 nM. La capacidad smax=12 nM/h, K=5 nM, n=2 y δ=0,3/h permanecen constantes. Cambia la tasa efectiva s(R) y después cambia la concentración de enzima E.",
       "caution": "Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.",
+      "integrated": true,
       "readings": [
         [
           "Condiciones y parámetros",

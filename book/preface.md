@@ -29,6 +29,12 @@ La selección bibliográfica se consultó hasta el 19 de octubre de 2026. Incluy
 
 ## Cómo se construye cada explicación
 
-La edición 2.1 utiliza bacterias, levaduras y plantas como ejemplos de métodos generales. Las plantas aportan casos de interés, sin restringir el alcance del recorrido. Cada desarrollo guiado explica estados, parámetros, unidades, origen de las tasas, transformaciones, significado de términos técnicos y comprobaciones. Los casos completos incluyen la traducción a código y el significado de índices, argumentos y salidas. Da por conocidas derivadas e integrales y recupera el uso de EDO, álgebra lineal y probabilidad en su contexto. [A01] [A02] [A27]
+La edición 2.2 utiliza bacterias, levaduras y plantas como ejemplos de métodos generales. Las plantas aportan casos de interés, sin restringir el alcance del recorrido. Cada desarrollo guiado explica estados, parámetros, unidades, origen de las tasas, transformaciones, significado de términos técnicos y comprobaciones. Los casos completos incluyen la traducción a código y el significado de índices, argumentos y salidas. Da por conocidas derivadas e integrales y recupera el uso de EDO, álgebra lineal y probabilidad en su contexto. [A01] [A02] [A27]
 
 Una ecuación experimental y un desarrollo docente se identifican por separado. Los casos bacteriano y de levadura utilizan preguntas de artículos primarios, pero sus simulaciones y constantes docentes no se atribuyen a mediciones publicadas. La explicación de un método se apoya en fuentes matemáticas o documentación oficial; la interpretación biológica, en artículos y evidencia del caso. [D02] [A25] [A26] [R20] [R21]
+
+## Consulta junto a la fórmula y dentro de la figura
+
+Las 202 ecuaciones numeradas incluyen una clave contextual de símbolos con significado, unidad y papel; la app permite abrir esas definiciones sin abandonar la lección. El diccionario final reúne un índice de símbolos por contexto, además de términos de matemáticas y programación. C y T abrevian unidades de concentración y tiempo en las claves generales; los ejemplos concretos conservan sus unidades declaradas. [A01] [A27] [A28]
+
+Las curvas y sus instantáneas se reúnen en una misma figura PNG/SVG: puntos marcados, objetos moleculares o indicadores verticales, coordenadas y condiciones. Los indicadores se normalizan por serie; los iconos sugieren abundancia relativa y no cuentan moléculas. Los valores numéricos y los ejes conservan el significado cuantitativo. [A01] [A23]

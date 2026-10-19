@@ -20,6 +20,7 @@ with zipfile.ZipFile(epub) as z:
     assert z.infolist()[0].filename=='mimetype'
     assert z.infolist()[0].compress_type==zipfile.ZIP_STORED
     names=set(z.namelist());xmlcount=0;internal=0
+    all_ids={name:{el['id'] for el in BeautifulSoup(z.read(name),'html.parser').find_all(id=True)} for name in names if name.endswith('.xhtml')}
     for name in names:
         if name.endswith(('.xhtml','.xml','.opf','.ncx')):
             ET.fromstring(z.read(name));xmlcount+=1
@@ -34,6 +35,9 @@ with zipfile.ZipFile(epub) as z:
                     ref=el.get(attr,'').split('#')[0]
                     if ref and not re.match(r'^https?://',ref):
                         assert 'OEBPS/'+ref in names,(name,ref)
+                        if '#' in el.get(attr,'') and ref.endswith('.xhtml'):
+                            fragment=el[attr].split('#',1)[1]
+                            assert fragment in all_ids['OEBPS/'+ref],(name,el[attr])
                         internal+=1
     opf=ET.fromstring(z.read('OEBPS/content.opf'));ns={'o':'http://www.idpf.org/2007/opf'}
     items=opf.findall('o:manifest/o:item',ns);ids={x.attrib['id'] for x in items}
@@ -71,7 +75,7 @@ for plate in plates:
     assert hashlib.sha256(path.read_bytes()).hexdigest()==plate['sha256']
     assert plate.get('panels') and plate.get('limitation')
 report['laminas']=dict(count=len(plates),style='Ilustración científica plana con sombreado limitado',files_and_hashes_valid=True,caption_and_panel_guide=True)
-report['app_pruebas_ui']={'edicion':'2.1','estado':'pendiente de registrar tras probar la interfaz'}
+report['app_pruebas_ui']={'edicion':'2.2','estado':'pendiente de registrar tras probar la interfaz'}
 import nbformat
 notebooks=list((ROOT/'python'/'cuadernos').glob('*.ipynb'))
 for notebook in notebooks:nbformat.validate(nbformat.read(notebook,as_version=4))
@@ -125,8 +129,8 @@ for f in guides:
     assert g['series_count']==sum(len(p['series']) for p in g['panels'])
     for panel in g['panels']:
         assert panel['x_label'] and panel['y_label']
-        assert (ROOT/'docs'/panel['visual_png']).is_file()
-        assert (ROOT/'docs'/panel['visual_svg']).is_file()
+        assert panel['integrated'] and 'verticales' in panel['visual_layout']
+        assert 'visual_png' not in panel and 'visual_svg' not in panel
         for curve in panel['series']:
             assert len(curve['points'])==3
             for pt in curve['points']:
@@ -138,7 +142,25 @@ assert rp['points'][0]['y']==1 and rp['points'][-1]['y']==10
 assert abs(sp['points'][-1]['y']-2.4)<1e-10
 assert abs(ep['points'][0]['y']-12/1.04/.3)<1e-10
 assert abs(ep['points'][-1]['y']-(8+(12/1.04/.3-8)*math.exp(-6)))<1e-10
-report['lectura_curvas']={'figuras_con_lectura_numerica':len(guides),'graficos_de_instantaneas':sum(len(f['curve_guide']['panels']) for f in guides),'series':sum(f['curve_guide']['series_count'] for f in guides),'puntos_por_serie':3,'valores_finitos_y_rangos_validos':True,'represion_por_tramos_contrastada_con_solucion_analitica':True,'estados_entradas_y_constantes_distinguidos':True}
+report['lectura_curvas']={'figuras_con_lectura_numerica':len(guides),'paneles_con_instantaneas_integradas':sum(len(f['curve_guide']['panels']) for f in guides),'series':sum(f['curve_guide']['series_count'] for f in guides),'puntos_por_serie':3,'una_sola_imagen_por_figura':all(f['curve_guide']['integrated'] for f in guides),'indicadores_verticales':True,'valores_finitos_y_rangos_validos':True,'represion_por_tramos_contrastada_con_solucion_analitica':True,'estados_entradas_y_constantes_distinguidos':True}
+notation=json.loads((ROOT/'book/notation.json').read_text(encoding='utf8'))
+glossary=json.loads((ROOT/'book/glossary.json').read_text(encoding='utf8'))
+assert len(notation)==len(equations)==202
+assert len(glossary)==len({g['id'] for g in glossary})
+lookup={g['id']:g for g in glossary}
+for key,f in notation.items():
+    assert f['number']==equations[key]['number']
+    assert f['symbols']
+    for symbol in f['symbols']:
+        assert symbol['id'] in lookup
+        assert all(symbol.get(k) for k in ['symbol','meaning','units','role'])
+    soup=BeautifulSoup(next(c for c in web if c['id']==f['chapter'])['html'],'html.parser')
+    eq=soup.find(id=f['anchor']);assert eq is not None
+    assert len(eq.select('.symbol-key .symbol-lookup'))==len(f['symbols'])
+    assert all(not img['src'].startswith('assets/curvas/') for img in soup.find_all('img'))
+index=BeautifulSoup(next(c for c in web if c['id']=='c36')['html'],'html.parser')
+assert all(index.find(id=g['id']) for g in glossary if g['kind']=='símbolo')
+report['glosario']={'ecuaciones_con_clave':len(notation),'simbolos_contextuales':sum(g['kind']=='símbolo' for g in glossary),'conceptos':sum(g['kind']=='concepto' for g in glossary),'significado_unidad_papel_y_destino_verificados':True,'nota':'Claves revisadas por contexto para todas las ecuaciones numeradas; el índice conserva variantes de una misma letra.'}
 (ROOT/'book'/'source-map.json').write_text(json.dumps(sections,ensure_ascii=False,indent=2),encoding='utf8')
 report['cobertura_bibliografica']={'secciones_con_fuentes':len(sections),'referencias':len(refs),'ids_validos':True,'nota':'Cobertura formal de secciones y figuras; no sustituye revisión independiente de cada interpretación.'}
 (ROOT/'VERIFICACION.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')

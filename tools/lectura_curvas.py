@@ -8,7 +8,7 @@ import numpy as np
 from matplotlib.colors import to_hex,to_rgb
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch,FancyArrowPatch,Rectangle
-import ilustracion_molecular as art
+from revision4_figuras import integrar
 
 EVENTOS={
  'f01_unidades':'En A aumenta el volumen prescrito V/V₀=exp(0,2t); la cantidad se conserva y la concentración disminuye. La tasa de crecimiento 0,2/h permanece constante.',
@@ -41,51 +41,6 @@ def nombre_color(color):
     if h<.70:return 'azul'
     if h<.85:return 'violeta'
     return 'rosa'
-
-def crear_grafiquito(key,panel):
-    """Tres instantáneas por serie, con cantidades relativas y valores exactos."""
-    base=Path(__file__).resolve().parents[1];root=base/'outputs/atlas-circuitos-genicos'
-    if not root.exists():root=base
-    out=root/'docs/assets/curvas';out.mkdir(parents=True,exist_ok=True)
-    rows=panel['series'];n=len(rows)
-    fig,axes=plt.subplots(n+1,1,figsize=(7.4,1.05+.87*n),height_ratios=[.7]+[1]*n,layout='constrained')
-    header=axes[0];header.axis('off')
-    header.text(.005,.88,'Panel '+panel['panel']+' · '+panel['title'],fontsize=9,weight='bold',color='#244e49',va='top')
-    label='Momentos del recorrido' if panel['temporal'] else 'Puntos del eje horizontal: no son momentos sucesivos'
-    header.text(.005,.40,label,fontsize=8,color='#4a6d62')
-    for x,title in [(3.3,'● Inicio'),(6.2,'■ Intermedio'),(9.1,'◆ Final mostrado')]:header.text(x/10,.02,title,ha='center',fontsize=8,weight='bold',color='#315e54')
-    name=limpio(panel['y_label'])
-    molecular=any(word in name for word in ['arn','proteina','enzima','moleculas','concentracion','complejo','sensor','represor','abundancia'])
-    for ax,row in zip(axes[1:],rows):
-        ax.axis('off');ax.set(xlim=(0,10),ylim=(0,1.15));color=row['color']
-        ax.text(.02,.76,'\n'.join(textwrap.wrap(row['label'],24)),ha='left',va='center',fontsize=8,color=color,weight='bold')
-        ax.text(.02,.26,nombre_color(color),fontsize=7,color='#5a756b')
-        scale=max(abs(row['minimum']),abs(row['maximum']),1e-15)
-        for xpos,point in zip([3.3,6.2,9.1],row['points']):
-            val=point['y'];ratio=abs(val)/scale;is_molecular=molecular and row['minimum']>=-1e-10
-            ax.add_patch(FancyBboxPatch((xpos-.78,.40),1.56,.64,boxstyle='round,pad=.03,rounding_size=.1',facecolor='#f2f6f0',edgecolor='#b7cec2',lw=.7))
-            if is_molecular:
-                count=int(np.ceil(ratio*8-1e-10)) if ratio>1e-10 else 0
-                for j in range(count):
-                    px=xpos-.53+(j%4)*.35;py=.86-(j//4)*.29
-                    if 'arn' in name:art.rna(ax,px-.10,py,'',width=.23)
-                    else:art.protein(ax,px,py,color,'',scale=.105)
-                if count==0:ax.text(xpos,.72,'vacío / cero',ha='center',fontsize=7,color='#7a9184')
-            else:
-                # Una probabilidad, error, fase o tasa se representa por una escala;
-                # nunca se inventan moléculas negativas ni identidades químicas.
-                ax.plot([xpos-.57,xpos+.57],[.66,.66],color='#b9cbbf',lw=1)
-                ax.add_patch(Rectangle((xpos-.57,.59),1.14*ratio,.15,facecolor=color,alpha=.8))
-                if val<0:ax.text(xpos,.85,'valor negativo',ha='center',fontsize=6.5,color='#9b5046')
-            ax.text(xpos,.18,'x='+numero(point['x'])+'\ny='+numero(val),ha='center',va='center',fontsize=8.8,color='#244e49')
-        for x in [4.55,7.45]:ax.add_patch(FancyArrowPatch((x,.71),(x+.38,.71),arrowstyle='-|>',mutation_scale=8,color='#819e8c',lw=.9))
-    note='Iconos: abundancia relativa, sin contar moléculas. Barras: magnitudes abstractas, tasas o valores con signo. x e y conservan las unidades de los ejes.'
-    fig.text(.5,-.015,note,ha='center',fontsize=6.5,color='#4d6b60')
-    slug=key+'_'+panel['panel']
-    for ext in ['png','svg']:fig.savefig(out/(slug+'.'+ext),dpi=200,bbox_inches='tight')
-    plt.close(fig)
-    panel['visual_png']='assets/curvas/'+slug+'.png';panel['visual_svg']='assets/curvas/'+slug+'.svg'
-    panel['visual_alt']='Lectura gráfica con tres instantáneas del panel '+panel['panel']+'. '+panel['y_label']+'. Los iconos indican abundancia relativa, no conteos moleculares.'
 
 def extraer(fig,key):
     panels=[];total=0
@@ -122,13 +77,12 @@ def extraer(fig,key):
                 ax.plot([x[i]],[y[i]],marker=marker,ms=3.8,mew=.6,mec='white',mfc=color,ls='none',zorder=20,clip_on=True)
         if series:
             total+=len(series)
-            panel=dict(panel=string.ascii_uppercase[ai],title=ax.get_title(),x_label=xlabel,y_label=ylabel,temporal=temporal,series=series)
-            crear_grafiquito(key,panel)
+            panel=dict(axis_index=ai,panel=string.ascii_uppercase[ai],title=ax.get_title(),x_label=xlabel,y_label=ylabel,temporal=temporal,series=series)
             panels.append(panel)
-    if panels:
-        fig.text(.5,-.025,'● primer punto   ■ punto intermedio   ◆ último punto · valores y condiciones bajo la figura',ha='center',fontsize=6.7,color='#355c55')
     if not panels:return None
     guide=dict(panels=panels,series_count=total,parameter_behavior=EVENTOS.get(key,'Las constantes se mantienen durante cada simulación. Cuando distintas curvas comparan valores de un parámetro, ese valor cambia entre simulaciones; no está variando a lo largo de una misma trayectoria.'),caution='Los valores se extraen de los puntos dibujados y están redondeados a cuatro cifras significativas. El último punto es el final del intervalo mostrado: no demuestra equilibrio. En ejes que no representan tiempo, el orden de puntos no es una evolución temporal.')
+    integrar(fig,axes,panels,numero,key,guide['parameter_behavior'])
+    guide['integrated']=True
     guide['readings']=parrafos(guide)
     return guide
 

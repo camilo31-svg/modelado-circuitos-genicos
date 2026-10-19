@@ -1,13 +1,15 @@
 {
   "chapters": 36,
-  "words": 87432,
+  "words": 100092,
+  "glossary": 464,
+  "contextual_symbols": 346,
   "figures": 69,
   "mechanisms": 12,
   "equations": 202,
   "unique_equations": 202,
-  "references": 94,
+  "references": 95,
   "notebooks": 25,
-  "edition": "2.1",
+  "edition": "2.2",
   "review_date": "2026-10-19",
   "parts": [
     "I · Ecuaciones diferenciales y construcción del modelo",
@@ -25,5 +27,5 @@
     "c19": "c20",
     "c30": "c32"
   },
-  "pages": 446
+  "pages": 395
 }

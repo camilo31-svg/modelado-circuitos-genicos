@@ -33,11 +33,8 @@ def decorar(raw,chapter_id,figures,label,refs):
             guide='<details class="panel-guide"><summary>Leer la lámina por paneles</summary>'+''.join('<p><strong>'+html.escape(p['label']+' · '+p['title'])+'.</strong> '+citar(p['text'],refs)+'</p>' for p in f.get('panels',[]))+'<p>'+citar(f.get('limitation',''),refs)+'</p></details>'
         if f.get('curve_guide'):
             readings=parrafos(f['curve_guide']);panels=f['curve_guide']['panels']
-            guide+='<details class="curve-guide" open><summary>Inicio, recorrido y final: lectura con grafiquitos</summary>'
+            guide+='<details class="curve-guide"><summary>Valores y condiciones de la figura integrada</summary>'
             for i,(title,text) in enumerate(readings):
-                if 1<=i<=len(panels) and panels[i-1].get('visual_png'):
-                    p=panels[i-1]
-                    guide+='<a class="curve-visual" href="'+p['visual_png']+'" target="_blank" rel="noopener" aria-label="Ampliar lectura gráfica del panel '+p['panel']+'"><img src="'+p['visual_png']+'" alt="'+html.escape(p['visual_alt'],quote=True)+'" loading="lazy"/></a>'
                 guide+='<p><strong>'+html.escape(title)+'.</strong> '+citar(text,refs)+'</p>'
             guide+='</details>'
         content='<p class="figure-reference">La <a class="local-ref" href="#'+target_id+'">'+html.escape(f_label)+'</a> acompaña este paso: '+html.escape(f['title'])+'.</p><figure id="'+target_id+'" class="figure-in-lesson"><button data-figure="'+f['id']+'" aria-label="Ampliar: '+html.escape(f['title'],quote=True)+'"><img src="'+f['png']+'" alt="'+html.escape(f['alt'],quote=True)+'" loading="lazy"/></button><figcaption><strong>'+html.escape(f_label+'. '+f['title'])+'.</strong> '+citar(f['caption'],refs)+'</figcaption>'+guide+'</figure>'

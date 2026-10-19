@@ -178,34 +178,42 @@
   ],
   "epub": {
     "xml_files_valid": 42,
-    "internal_links_valid": 615,
-    "manifest_items": 436,
+    "internal_links_valid": 2437,
+    "manifest_items": 313,
     "note": "Validación estructural XML y vínculos; no es una certificación EPUBCheck externa."
   },
   "pdf": {
-    "pages": 446,
+    "pages": 395,
     "searchable_text": true,
     "embedded_fonts": true,
     "fuentes_utilizadas_incrustadas": {
-      "/AAAAAA+Arial-BoldMT": true,
       "/AAAAAA+Georgia": true,
+      "/AAAAAA+Arial-BoldMT": true,
       "/AAAAAA+ArialMT": true,
       "/AAAAAA+DejaVuSans": true,
       "/AAAAAA+Consolas": true,
       "/AAAAAA+Georgia-Bold": true,
       "/AAAAAA+Georgia-Italic": true
     },
-    "empty_pages": [],
-    "sha256": "1eb6b1afea7678625f975f64df79c4e68d8816f4984a321b545e3d4f803d072d"
+    "empty_pages": []
   },
   "scope": "Pruebas analíticas, conservación, SSA, estabilidad, sensibilidad y estimación; scripts de prácticas; estructura EPUB y PDF. Revisión experta independiente completa pendiente.",
   "revision_visual": {
-    "estado": "revisada",
-    "paginas": 446,
-    "fecha": "2026-10-19",
-    "metodo": "446 páginas finales renderizadas con Poppler a PNG y revisadas en 19 hojas de contacto. Páginas 21, 22, 292 y 296 ampliadas a 140 dpi para comprobar figuras, instantáneas, tabla de símbolos y código. Las dieciséis secuencias iniciales se revisaron también en cuatro hojas de figuras; se revisó el ejemplo añadido de represión a resolución completa.",
-    "resultado": "Sin cortes ni solapamientos materiales observados. Texto, ecuaciones, llamadas, leyendas e instantáneas legibles al ampliar.",
-    "limite": "Revisión visual y verificaciones docentes; no arbitraje académico independiente."
+    "estado": "realizada para figuras y páginas representativas",
+    "paginas_renderizadas": 395,
+    "hojas_contacto_generadas": 17,
+    "figuras_cuantitativas_revisadas_en_contactos": 57,
+    "paginas_ampliadas_revisadas": [
+      7,
+      19,
+      71,
+      72,
+      83,
+      358,
+      360,
+      395
+    ],
+    "observaciones": "Una imagen por figura; instantáneas e indicadores verticales integrados; fórmulas y claves juntas; tablas, referencias y enlaces legibles sin recortes observados en las páginas revisadas. No constituye revisión científica independiente de todo el texto."
   },
   "laminas": {
     "count": 12,
@@ -214,29 +222,25 @@
     "caption_and_panel_guide": true
   },
   "app_pruebas_ui": {
-    "edicion": "2.1",
-    "estado": "verificada en navegador",
-    "viewport": {
-      "width": 390,
-      "height": 844
-    },
-    "navegacion": "Casos bacterianos y de levadura accesibles; índice interno con 14 apartados en EDO y salto al nuevo apartado comprobados.",
-    "referencias": "Saltos a ecuación y figura comprobados sin abandonar la ruta de capítulo.",
-    "busqueda": "ocupacion sin tilde devuelve lecciones, fuentes y figura 55; enzima encuentra figura 69.",
-    "practicas": {
-      "cuadernos": 25,
-      "scripts": 25,
-      "guia_desplegable": "Lectura del código de práctica 25 abierta y comprobada."
-    },
-    "lecturas_graficas": "Visor de represión con tres PNG de instantáneas; lecturas de figura 55 y figura 66 comprobadas.",
-    "movil": "Sin desbordamiento horizontal observado en lección, prácticas y visores; imágenes cargadas.",
-    "offline": "Descarga de 645 recursos completada; servidor local detenido; app recargada, búsqueda y figura de Michaelis–Menten con dos lecturas gráficas no visitadas antes disponibles.",
-    "alcance": "Recorridos representativos, no auditoría de accesibilidad completa ni ensayo en todos los dispositivos."
+    "edicion": "2.2",
+    "estado": "comprobada en navegador local",
+    "ancho_movil": 390,
+    "alto_movil": 844,
+    "pruebas": [
+      "consulta modal desde símbolo δ y retorno a ecuación (5)",
+      "filtro de k por capítulo con unidades de asociación, disociación y catálisis distintas",
+      "búsqueda delta por nombre: 21 entradas",
+      "figura 69 abre un solo elemento de imagen, sin instantáneas externas",
+      "simulador SVG único con curva e instantáneas; x0=80 produce descenso y retirada 32→8,16 u.a./h",
+      "sin desbordamiento horizontal del contenido comprobado en móvil",
+      "sin errores de consola observados",
+      "400 recursos descargados; servidor HTTP detenido y comprobado inaccesible; recarga, búsqueda propensión y figura 69 completa desde caché"
+    ]
   },
   "notebooks_validos": 25,
   "pruebas_modelos": {
     "exit_code": 0,
-    "output": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 1.332s\n\nOK\n"
+    "output": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 1.127s\n\nOK\n"
   },
   "referencias_cruzadas": {
     "ecuaciones_numeradas": 202,
@@ -246,18 +250,28 @@
     "figuras_colocadas_en_el_desarrollo": true
   },
   "cobertura_bibliografica": {
-    "secciones_con_fuentes": 409,
-    "referencias": 94,
+    "secciones_con_fuentes": 415,
+    "referencias": 95,
     "ids_validos": true,
     "nota": "Cobertura formal de secciones y figuras; no sustituye revisión independiente de cada interpretación."
   },
   "lectura_curvas": {
     "figuras_con_lectura_numerica": 56,
-    "graficos_de_instantaneas": 123,
+    "paneles_con_instantaneas_integradas": 123,
     "series": 235,
     "puntos_por_serie": 3,
+    "una_sola_imagen_por_figura": true,
+    "indicadores_verticales": true,
     "valores_finitos_y_rangos_validos": true,
     "represion_por_tramos_contrastada_con_solucion_analitica": true,
     "estados_entradas_y_constantes_distinguidos": true
-  }
+  },
+  "glosario": {
+    "ecuaciones_con_clave": 202,
+    "simbolos_contextuales": 346,
+    "conceptos": 118,
+    "significado_unidad_papel_y_destino_verificados": true,
+    "nota": "Claves revisadas por contexto para todas las ecuaciones numeradas; el índice conserva variantes de una misma letra."
+  },
+  "edicion": "2.2"
 }

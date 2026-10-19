@@ -37,5 +37,14 @@
       "https://numpy.org/doc/stable/user/basics.indexing.html"
     ],
     "source_model_note": "Represilador: Box 1 contrastado en copia académica de Caltech. Levadura: texto de dos artículos primarios en PMC. Las ecuaciones y números nuevos del atlas son desarrollos docentes identificados como tales."
+  },
+  "revision_2_2": {
+    "date": "2026-10-19",
+    "verified_primary_sources": [
+      "https://www.bipm.org/en/publications/si-brochure",
+      "https://sbml.org/documents/specifications/level-3/version-2/core/"
+    ],
+    "work": "Claves contextuales para 202 ecuaciones, índice de símbolos y figuras vectoriales con instantáneas e indicadores verticales integrados.",
+    "scope": "Selección y verificación de fuentes primarias; ejemplos, glosario y comprobaciones docentes originales."
   }
 }

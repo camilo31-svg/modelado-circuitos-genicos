@@ -1003,5 +1003,16 @@
     "url": "https://numpy.org/doc/stable/user/basics.indexing.html",
     "type": "Documentación oficial de NumPy",
     "note": "Documentación consultada el 19-10-2026 sobre ejes, índices, slices y selección mediante arrays. Explicaciones docentes originales; las formas de salida de EDO se contrastan con SciPy R05."
+  },
+  {
+    "id": "A28",
+    "title": "The International System of Units (SI), 9th edition, actualización de 2026",
+    "authors": "Bureau International des Poids et Mesures",
+    "year": 2026,
+    "url": "https://www.bipm.org/en/publications/si-brochure",
+    "doi": "10.59161/AUEZ1291",
+    "type": "norma científica internacional y publicación metrológica oficial",
+    "verified": true,
+    "note": "Consulta del catálogo oficial el 19-10-2026: edición novena, actualización 2026. Apoya la distinción entre magnitud, unidad y dimensión. Las comprobaciones dimensionales y ejemplos de circuitos son desarrollos docentes originales."
   }
 ]

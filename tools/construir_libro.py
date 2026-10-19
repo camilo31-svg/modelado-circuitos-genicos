@@ -3,6 +3,8 @@ from pathlib import Path
 import re,json,hashlib,html,zipfile,shutil,textwrap,uuid,datetime,sys
 import markdown
 from figuras_en_texto import decorar
+from notacion import preparar,clave_html
+import glosario
 from lectura_curvas import parrafos as lectura_de_curvas
 from bs4 import BeautifulSoup, NavigableString
 import numpy as np
@@ -69,6 +71,12 @@ for visual in visuals:
 refs_by_id={r['id']:r for r in refs}
 for chapter in chapters:
     assert set(re.findall(r'\[([A-Z]\d{2})\]',chapter['body'])) <= set(refs_by_id),chapter['id']
+notation,symbol_index=preparar(chapters)
+glosario.actualizar(chapters,symbol_index,notation)
+glossary=glosario.entradas(chapters,symbol_index,notation)
+(DATA/'notation.json').write_text(json.dumps(notation,ensure_ascii=False,indent=2),encoding='utf8')
+(DATA/'glossary.json').write_text(json.dumps(glossary,ensure_ascii=False,indent=2),encoding='utf8')
+(DOCS/'glossary.json').write_text(json.dumps(glossary,ensure_ascii=False),encoding='utf8')
 (DATA/'chapters.json').write_text(json.dumps(chapters,ensure_ascii=False,indent=2),encoding='utf8')
 (DATA/'references.json').write_text(json.dumps(refs,ensure_ascii=False,indent=2),encoding='utf8')
 figures=json.loads((DOCS/'figures.json').read_text(encoding='utf8'))
@@ -90,16 +98,18 @@ def eq_replace(m,chapter_id="intro"):
     if not path.exists():
         math_to_image('$'+tex+'$',str(path),dpi=220,color='#17373d')
     equations.setdefault(key,dict(tex=tex,path='assets/equations/'+path.name,number=len(equations)+1))
-    return '\n\n<div class="equation" id="eq-'+chapter_id+'-'+key+'" data-equation-number="'+str(equations[key]['number'])+'"><img src="assets/equations/'+path.name+'" alt="'+html.escape(tex,quote=True)+'" /></div>\n\n'
+    return '\n\n<div class="equation" id="eq-'+chapter_id+'-'+key+'" data-equation-number="'+str(equations[key]['number'])+'"><img src="assets/equations/'+path.name+'" alt="'+html.escape(tex,quote=True)+'" />'+clave_html(key,notation)+'</div>\n\n'
 def render(body,chapter_id=None):
     # Desigualdades como g<n son texto, no etiquetas HTML. Conservar código y TeX.
     body=re.sub(r'<!-- VISUAL:.*?-->','',body)
+    body=re.sub(r'<!-- INDICE_CONTEXTUAL_(?:INICIO|FIN) -->','',body)
     pieces=re.split(r'(```.*?```|\$\$.*?\$\$)',body,flags=re.S)
     body=''.join(piece if i%2 else piece.replace('<','&lt;') for i,piece in enumerate(pieces))
-    body=re.sub(r'\$\$\s*\n?(.*?)\n?\s*\$\$',eq_replace,body,flags=re.S)
+    body=re.sub(r'\$\$\s*\n?(.*?)\n?\s*\$\$',lambda m:eq_replace(m,chapter_id or 'intro'),body,flags=re.S)
     result=markdown.markdown(body,extensions=['fenced_code','tables','sane_lists'])
     result=re.sub(r'<!-- VISUAL:.*?-->','',result)
     result=re.sub(r'\[([A-Z]\d{2})\]',lambda m:'<a class="citation" href="'+html.escape(refs_by_id[m[1]]['url'],quote=True)+'" target="_blank" rel="noopener">['+m[1]+']</a>',result)
+    if chapter_id=='c36':result=glosario.anclar(result,symbol_index,notation)
     return decorar(result,chapter_id,figures,figure_label,refs_by_id) if chapter_id else result
 
 app_chapters=[]
@@ -115,7 +125,7 @@ for c in chapters:
 (DOCS/'references.json').write_text(json.dumps(refs,ensure_ascii=False),encoding='utf8')
 (DATA/'equations.json').write_text(json.dumps(equations,ensure_ascii=False,indent=2),encoding='utf8')
 words=sum(len(c['body'].split()) for c in chapters)
-stats=dict(chapters=len(chapters),words=words,figures=len(figures),mechanisms=len(visuals),equations=sum(len(re.findall(r'\$\$',c['body']))//2 for c in chapters),unique_equations=len(equations),references=len(refs),notebooks=len(list((ROOT/'python'/'cuadernos').glob('*.ipynb'))),edition=EDITION_CONFIG.get('edition','1.1' if visuals else '1.0'),review_date=EDITION_CONFIG.get('review_date','2026-10-18'),parts=PARTS,first_chapter=chapters[0]['id'],chapter_aliases=EDITION_CONFIG.get('chapter_aliases',{}))
+stats=dict(chapters=len(chapters),words=words,glossary=len(glossary),contextual_symbols=len(symbol_index),figures=len(figures),mechanisms=len(visuals),equations=sum(len(re.findall(r'\$\$',c['body']))//2 for c in chapters),unique_equations=len(equations),references=len(refs),notebooks=len(list((ROOT/'python'/'cuadernos').glob('*.ipynb'))),edition=EDITION_CONFIG.get('edition','1.1' if visuals else '1.0'),review_date=EDITION_CONFIG.get('review_date','2026-10-18'),parts=PARTS,first_chapter=chapters[0]['id'],chapter_aliases=EDITION_CONFIG.get('chapter_aliases',{}))
 (DOCS/'meta.json').write_text(json.dumps(stats,ensure_ascii=False,indent=2),encoding='utf8')
 
 # Una portada original reutilizable en EPUB y en el repositorio.
@@ -157,7 +167,7 @@ S.add(ParagraphStyle(name='CaptionBook',parent=S['SmallBook'],fontSize=8.3,leadi
 S.add(ParagraphStyle(name='ObjectiveBook',fontName='Sans',fontSize=9.5,leading=13,spaceAfter=5,textColor=HexColor('#25685d'),leftIndent=10))
 S.add(ParagraphStyle(name='QuoteBook',parent=S['TextBook'],fontName='Body-Italic',leftIndent=14,borderColor=HexColor('#b5d0c5'),borderPadding=7,borderWidth=.5))
 S.add(ParagraphStyle(name='CodeBook',fontName='Mono',fontSize=7.1,leading=10,spaceBefore=5,spaceAfter=10,leftIndent=7,backColor=HexColor('#f0f3f2'),borderPadding=7))
-W,H=180*mm,250*mm;M=19*mm;CONTENT=W-2*M
+W,H=210*mm,297*mm;M=19*mm;CONTENT=W-2*M
 def inline(node):
     if isinstance(node,NavigableString):return pdf_text(str(node))
     name=node.name
@@ -165,7 +175,11 @@ def inline(node):
     if name in ['b','strong']:return '<b>'+inner+'</b>'
     if name in ['i','em']:return '<i>'+inner+'</i>'
     if name=='code':return '<font name="Mono" size="8.7">'+inner+'</font>'
-    if name=='a':return '<a href="'+html.escape(node.get('href',''),quote=True)+'" color="#167d7c">'+inner+'</a>'
+    if name=='a':
+        dest=node.get('href','')
+        if '.xhtml#' in dest:dest='#'+dest.split('#',1)[1]
+        anchor='<a name="'+node['id']+'"/>' if node.get('id') else ''
+        return anchor+'<a href="'+html.escape(dest,quote=True)+'" color="#167d7c">'+inner+'</a>'
     if name=='br':return '<br/>'
     if name=='sup':return '<super>'+inner+'</super>'
     if name=='sub':return '<sub>'+inner+'</sub>'
@@ -203,7 +217,7 @@ def flow_html(raw):
         elif n=='figure':
             im=el.find('img');cap=el.find('figcaption')
             anchor='<a name="'+el.get('id','')+'"/>'
-            out.append(KeepTogether([image_flow(DOCS/im['src'],maxh=112*mm),Spacer(1,5),Paragraph(anchor+inline(cap),S['CaptionBook'])]))
+            out.append(KeepTogether([image_flow(DOCS/im['src'],maxh=218*mm),Spacer(1,5),Paragraph(anchor+inline(cap),S['CaptionBook'])]))
             for guide in el.find_all('details'):
                 for child in guide.children:
                     if getattr(child,'name',None)=='p':out.append(Paragraph(inline(child),S['CaptionBook']))
@@ -214,6 +228,8 @@ def flow_html(raw):
             anchor='<a name="'+el.get('id','')+'"/>'
             items=[image_flow(DOCS/el.find('img')['src']),Spacer(1,3)]
             items.append(Paragraph(anchor+inline(label),S['SmallBook']))
+            for reminder in el.select('.symbol-key > p'):
+                items.append(Paragraph(inline(reminder),S['SmallBook']))
             out.append(KeepTogether(items))
         elif n=='div' and el.find('img'):
             for im in el.find_all('img'):out.extend([image_flow(DOCS/im['src']),Spacer(1,7)])
@@ -261,7 +277,7 @@ story.extend([toc,PageBreak()]);used_figs=set()
 if visuals:
     story.extend([Paragraph('Cómo leer las láminas moleculares',S['ChapterBook']),Paragraph('Las láminas M01–M12 conectan las reacciones con el modelo. Una forma lobulada representa una proteína; una doble hélice representa ADN; una hebra flexible representa ARN. Son ilustraciones conceptuales planas, generadas con una herramienta de imágenes y revisadas para comprobar relaciones y etiquetas. Las formas no son estructuras atomísticas ni están a escala.',S['TextBook']),Paragraph('Lee primero los objetos y después las conexiones. Una flecha de producción indica aparición de una especie; no significa que el molde de ADN o ARN se consuma. Una barra perpendicular indica inhibición. Dos flechas opuestas representan procesos reversibles. Una flecha entre compartimentos indica transporte. El recambio elimina moléculas de la especie contada, aunque su materia continúe en otros productos.',S['TextBook']),Paragraph('Cada lámina tiene una lectura por paneles, una limitación y una conexión con las ecuaciones. Los gráficos cuantitativos existentes complementan estos mecanismos: muestran la respuesta temporal, las distribuciones o la relación entre entradas y salidas. Las curvas esquemáticas dentro de las láminas son cualitativas y no son datos medidos.',S['TextBook']),Paragraph('En el móvil, abre la figura y usa la vista de alta resolución para inspeccionar etiquetas. El repositorio guarda también los textos de los prompts y la procedencia de cada imagen. Las figuras son originales y no reutilizan activos de BioRender ni figuras de revistas.',S['TextBook']),PageBreak()])
 for c,app in zip(chapters,app_chapters):
-    story.extend([Paragraph(pdf_text(c['part']),S['SmallBook']),Paragraph(c['number']+' · '+pdf_text(c['title']),S['ChapterBook'])])
+    story.extend([Paragraph(pdf_text(c['part']),S['SmallBook']),Paragraph('<a name="chapter-'+c['id']+'"/>'+c['number']+' · '+pdf_text(c['title']),S['ChapterBook'])])
     for ob in c['objectives']:story.append(Paragraph('• '+pdf_text(ob),S['ObjectiveBook']))
     story.append(Spacer(1,8))
     story+=flow_html(app['html'])
@@ -282,7 +298,7 @@ if '--epub-only' not in sys.argv:book.multiBuild(story)
 
 # EPUB3 refluible: imágenes locales, navegación y capítulos semánticos.
 epub=DOWNLOADS/'modelado-circuitos-genicos.epub'
-epub_css='''body{font-family:serif;line-height:1.6;margin:5%;color:#203936}h1,h2,h3{font-family:sans-serif;color:#205d51;line-height:1.25}h1{font-size:1.8em}p{margin:.7em 0}img{max-width:100%;height:auto}.equation{text-align:center;overflow:auto;margin:1em 0}.equation img{max-height:5em;width:auto;vertical-align:middle}figure{margin:1.2em 0}figcaption{font-size:.85em;line-height:1.45}pre{white-space:pre-wrap;font-size:.8em;padding:.8em;background:#edf1ed}code{font-family:monospace}table{border-collapse:collapse;width:100%;font-size:.85em}td,th{border-bottom:1px solid #bbc9c1;padding:.4em;vertical-align:top}a{color:#236b60}.part{font-family:sans-serif;font-size:.85em;color:#6b7a70}'''
+epub_css='''.symbol-key{font-size:.85em;text-align:left;background:#f1f5ef;padding:.7em;margin:.8em 0}.symbol-key p{margin:.4em 0}.symbol-unit{color:#4c6357}body{font-family:serif;line-height:1.6;margin:5%;color:#203936}h1,h2,h3{font-family:sans-serif;color:#205d51;line-height:1.25}h1{font-size:1.8em}p{margin:.7em 0}img{max-width:100%;height:auto}.equation{text-align:center;overflow:auto;margin:1em 0}.equation img{max-height:5em;width:auto;vertical-align:middle}figure{margin:1.2em 0}figcaption{font-size:.85em;line-height:1.45}pre{white-space:pre-wrap;font-size:.8em;padding:.8em;background:#edf1ed}code{font-family:monospace}table{border-collapse:collapse;width:100%;font-size:.85em}td,th{border-bottom:1px solid #bbc9c1;padding:.4em;vertical-align:top}a{color:#236b60}.part{font-family:sans-serif;font-size:.85em;color:#6b7a70}'''
 def xhtml(title,body):
     soup=BeautifulSoup(body,'html.parser')
     for button in soup.select('button[data-figure]'):button.unwrap()
@@ -299,7 +315,7 @@ with zipfile.ZipFile(epub,'w') as z:
     put('OEBPS/intro.xhtml',xhtml('Antes de empezar','<img src="assets/cover.png" alt="Portada del Atlas"/><h1>Antes de empezar</h1>'+render((DATA/'preface.md').read_text(encoding='utf8'))))
     seen=set()
     for c in app_chapters:
-        prefix='<p class="part">'+html.escape(c['part'])+'</p><h1>'+c['number']+' · '+html.escape(c['title'])+'</h1><ul>'+''.join('<li>'+html.escape(o)+'</li>' for o in c['objectives'])+'</ul>'
+        prefix='<p class="part">'+html.escape(c['part'])+'</p><h1 id="chapter-'+c['id']+'">'+c['number']+' · '+html.escape(c['title'])+'</h1><ul>'+''.join('<li>'+html.escape(o)+'</li>' for o in c['objectives'])+'</ul>'
         body=prefix+c['html']
         put('OEBPS/'+c['id']+'.xhtml',xhtml(c['title'],body));manifest.append((c['id'],c['id']+'.xhtml','application/xhtml+xml',''));spine.append(c['id']);nav.append((c['id']+'.xhtml',c['number']+' · '+c['title']))
     refbody='<h1>Referencias y trazabilidad</h1>'
@@ -309,7 +325,7 @@ with zipfile.ZipFile(epub,'w') as z:
     put('OEBPS/nav.xhtml',xhtml('Contenido',navbody))
     ncx='<?xml version="1.0" encoding="UTF-8"?><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1"><head><meta name="dtb:uid" content="'+uid+'"/></head><docTitle><text>Modelado matemático de circuitos génicos</text></docTitle><navMap>'+''.join('<navPoint id="nav'+str(i)+'" playOrder="'+str(i)+'"><navLabel><text>'+html.escape(t)+'</text></navLabel><content src="'+p+'"/></navPoint>' for i,(p,t) in enumerate([('intro.xhtml','Antes de empezar')]+nav+[('references.xhtml','Referencias')],1))+'</navMap></ncx>'
     put('OEBPS/toc.ncx',ncx)
-    image_paths=[cover]+[DOCS/e['path'] for e in equations.values()]+[DOCS/f['png'] for f in figures]+[DOCS/p['visual_png'] for f in figures if f.get('curve_guide') for p in f['curve_guide']['panels'] if p.get('visual_png')]
+    image_paths=[cover]+[DOCS/e['path'] for e in equations.values()]+[DOCS/f['png'] for f in figures]
     for p in dict.fromkeys(image_paths):
         rel=p.relative_to(DOCS).as_posix();put('OEBPS/'+rel,p.read_bytes())
         if p!=cover:manifest.append(('im'+hashlib.md5(rel.encode()).hexdigest(),rel,'image/png',''))

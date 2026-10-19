@@ -22,16 +22,17 @@
   <div class="shell">
     <aside id="sidebar" aria-label="Navegación del atlas">
       <p class="eyebrow">TU CUADERNO DE CAMPO</p>
-      <nav class="primary-nav"><a href="#/inicio" data-nav="inicio">⌂ <span>Vista general</span></a><a href="#/ruta" data-nav="ruta">≋ <span>Ruta de aprendizaje</span></a><a href="#/figuras" data-nav="figuras">▧ <span>Atlas de figuras</span></a><a href="#/practicas" data-nav="practicas">⌘ <span>Prácticas en Python</span></a><a href="#/simulador" data-nav="simulador">↝ <span>Explorar un modelo</span></a><a href="#/bibliografia" data-nav="bibliografia">↗ <span>Fuentes y artículos</span></a><a href="#/notas" data-nav="notas">▤ <span>Mis notas</span></a></nav>
+      <nav class="primary-nav"><a href="#/inicio" data-nav="inicio">⌂ <span>Vista general</span></a><a href="#/ruta" data-nav="ruta">≋ <span>Ruta de aprendizaje</span></a><a href="#/figuras" data-nav="figuras">▧ <span>Atlas de figuras</span></a><a href="#/practicas" data-nav="practicas">⌘ <span>Prácticas en Python</span></a><a href="#/simulador" data-nav="simulador">↝ <span>Explorar un modelo</span></a><a href="#/glosario" data-nav="glosario">ƒ <span>Glosario y símbolos</span></a><a href="#/bibliografia" data-nav="bibliografia">↗ <span>Fuentes y artículos</span></a><a href="#/notas" data-nav="notas">▤ <span>Mis notas</span></a></nav>
       <div class="sidebar-progress"><div><span>Tu avance de lectura</span><strong id="progress-label">0 / 36</strong></div><progress id="progress" value="0" max="36"></progress><small>Guardado en este dispositivo</small></div>
       <div id="chapter-nav" class="chapter-nav"></div>
       <div class="offline-box"><span class="eyebrow">LLEVA EL ATLAS CONTIGO</span><p>Lecciones y figuras, también sin conexión.</p><button class="button small secondary" id="offline">Descargar para leer sin conexión</button><p id="offline-status" class="fine" role="status"></p></div>
-      <p class="sidebar-foot">Edición 2.1 · octubre de 2026<br/><a href="https://github.com/camilo31-svg/modelado-circuitos-genicos" target="_blank" rel="noopener">Código y materiales ↗</a></p>
+      <p class="sidebar-foot">Edición 2.2 · octubre de 2026<br/><a href="https://github.com/camilo31-svg/modelado-circuitos-genicos" target="_blank" rel="noopener">Código y materiales ↗</a></p>
     </aside>
     <main id="main" tabindex="-1"><div class="loading">Abriendo el atlas…</div></main>
   </div>
   <nav class="bottom-nav" aria-label="Accesos móviles"><a href="#/inicio">⌂<span>Inicio</span></a><a href="#/ruta">≋<span>Aprender</span></a><a href="#/figuras">▧<span>Figuras</span></a><a href="#/buscar">⌕<span>Buscar</span></a></nav>
   <dialog id="figure-dialog" aria-label="Figura ampliada"><button class="dialog-close icon-button" aria-label="Cerrar figura">✕</button><div id="figure-detail"></div></dialog>
+  <dialog id="glossary-dialog" class="glossary-dialog" aria-label="Definición del símbolo"><button class="dialog-close icon-button" aria-label="Cerrar definición">✕</button><div id="glossary-detail"></div></dialog>
   <div id="toast" role="status" aria-live="polite"></div>
   <noscript>Activa JavaScript para usar la app, o descarga <a href="downloads/modelado-circuitos-genicos.pdf">el libro PDF</a> y <a href="downloads/modelado-circuitos-genicos.epub">el EPUB</a>.</noscript>
   <script src="app.js" defer></script>
