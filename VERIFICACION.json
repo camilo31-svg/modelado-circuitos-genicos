@@ -246,18 +246,17 @@
     "simulador": "Tarjetas verticales; alfa 8 → 8,5 actualiza equilibrio 20 → 21,25",
     "fuentes": "100 entradas; enlace a informe de procedencia comprobado",
     "offline": {
-      "recursos": 668,
+      "recursos": 665,
       "descarga_completa": true,
       "servidor_apagado": true,
       "recarga_inicio": true,
       "paneles_no_visitados_previamente": [
-        "q14_enzima_A",
         "q14_enzima_D"
       ],
       "informe_fuentes": true
     },
     "consola_sin_errores_antes_de_desconexion": true,
-    "publicacion": "pendiente de comprobar tras despliegue"
+    "publicacion": "El despliegue y los hashes públicos se comprueban en el informe de entrega separado."
   },
   "notebooks_validos": 25,
   "pruebas_modelos": {

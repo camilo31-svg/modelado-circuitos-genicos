@@ -211,6 +211,8 @@ if (ROOT/'book'/'edition.json').exists():
     for ext in ['png','svg']:
         removed=OUT/('f02_calculo.'+ext)
         if removed.exists():removed.unlink()
+    for removed in (ROOT/'docs/assets/paneles').glob('f02_calculo_*.png'):
+        removed.unlink()
 for f in META:
     f['kind']='model'
     if f['id'] in known:
